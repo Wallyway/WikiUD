@@ -1,5 +1,8 @@
 import app from "./app.js"
+import connectDB from "./db.js";
 
+
+connectDB();
 
 app.get("/app", (req, res) => {
     res.json({ message: "Hola desde el servidor!" });
