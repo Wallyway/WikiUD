@@ -38,10 +38,11 @@ To install the required packages, run the following command:
 
 ```sh
 npm install express morgan mongoose amqplib
-
+```
 ### MongoDB
 
 Ensure MongoDB is installed and running. You can start MongoDB with the following command:
 
 ```sh
 mongod --dbpath <path_to_your_db_directory>
+```
