@@ -36,4 +36,5 @@ function consumeMessages(queue) {
     });
 }
 
+
 export default consumeMessages;
