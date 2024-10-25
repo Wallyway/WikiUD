@@ -1,4 +1,4 @@
-import publishMessage from './publisher.js';
+import publishMessage from '../publisher.js';
 
 const queue = 'helloQueue';
 const message = 'Hello from the publisher!';
