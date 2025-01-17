@@ -1,11 +1,19 @@
 import mongoose from 'mongoose';
 
-const userSchema = new mongoose.Schema({
+const teacherSchema = new mongoose.Schema({
     _id:{
         type: String,
         required: true
     },
-    username: {
+    image: {
+        data: Buffer,
+        contentType: String 
+    },
+    signature: {
+        type: String,
+        required: true
+    },
+    name: {
         type: String,
         required: true
     },
@@ -15,15 +23,10 @@ const userSchema = new mongoose.Schema({
         unique: true,
         lowercase: true,
     },
-    password:{
-        type: String,
-        required: true,
-        minlength: 6
-    },
     createdAt: {
         type: Date,
         default: Date.now
     }
 });
 
-export default mongoose.model('user', userSchema);
+export default mongoose.model('Teacher', teacherSchema);
