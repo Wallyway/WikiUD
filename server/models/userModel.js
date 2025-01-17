@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const RegisterSchema = new mongoose.Schema({
+const userSchema = new mongoose.Schema({
     _id:{
         type: String,
         required: true
@@ -26,4 +26,4 @@ const RegisterSchema = new mongoose.Schema({
     }
 });
 
-export default mongoose.model('Register', RegisterSchema);
+export default mongoose.model('user', userSchema);
