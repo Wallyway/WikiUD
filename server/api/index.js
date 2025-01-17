@@ -6,8 +6,23 @@ import authRegister from "../api/routes/auth/registerRouter.js";
 import authLogin from "../api/routes/auth/loginRouter.js";
 import routerApi from './routes/index.js';
 
+
+/**
+ * @constant {number} PORT - The port number for the server to listen on.
+ * Falls back to 3000 if process.env.PORT is not defined.
+ */
+/**
+ * @constant {number} PORT
+ * @description Port number for server configuration. Uses the environment variable PORT if available, 
+ * otherwise defaults to 3000. This allows for flexible deployment where the port can be set via 
+ * environment variables in production while maintaining a default for development.
+ */
+
+
     // Initialize Express
 const app = express();
+
+
 const PORT = process.env.PORT || 3000;
 
     // Connect to MongoDB
@@ -30,16 +45,5 @@ app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
 
-// const registerUser = async (id,username, email, password) => {  //TODO: It will be implemented in the future (It works)
-//     try {
-//       const user = new User({id, username, email, password });
-//       await user.save();
-//       console.log('User registered:', user);
-//     } catch (error) {
-//       console.error('Registration failed:', error.message);
-//     }
-//   };
-  
-//   registerUser( '1424365356334432','John Doe', 'john.doe@example.com', 'password123');
 
 export default app;
