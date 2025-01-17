@@ -1,5 +1,5 @@
 import express from 'express';
-import {login} from '../../controllers/auth/authController.js'; //Middleware de autenticación
+import {login} from '../../controllers/auth/authLoginController.js'; //Middleware de autenticación
 
 const router = express.Router();   //Gestor de rutas
 
