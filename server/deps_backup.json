@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "name": "server",
+  "dependencies": {
+    "bcrypt": {
+      "version": "5.1.1",
+      "resolved": "https://registry.npmjs.org/bcrypt/-/bcrypt-5.1.1.tgz",
+      "overridden": false
+    },
+    "dotenv": {
+      "version": "16.4.7",
+      "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.4.7.tgz",
+      "overridden": false
+    },
+    "express": {
+      "version": "4.21.2",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.21.2.tgz",
+      "overridden": false
+    },
+    "mongoose": {
+      "version": "8.9.5",
+      "resolved": "https://registry.npmjs.org/mongoose/-/mongoose-8.9.5.tgz",
+      "overridden": false
+    },
+    "morgan": {
+      "version": "1.10.0",
+      "resolved": "https://registry.npmjs.org/morgan/-/morgan-1.10.0.tgz",
+      "overridden": false
+    },
+    "nodemon": {
+      "version": "3.1.7",
+      "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-3.1.7.tgz",
+      "overridden": false
+    }
+  }
+}

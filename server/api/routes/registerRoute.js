@@ -5,13 +5,18 @@ const service = new RegisterService();    //Instancia de la clase RegisterServic
 
 // =============== POST
 
-router.post('/', (req,res)=>{                 //Crear un usuario
-    const {id} = req.params
-    const body = req.body
+router.post('/', (req,res)=>{                 //FIXME: Check this deeply (Not finished)
+  try {
+    const body = req.body;
     res.status(201).json({
-      message: 'User Created',
-      data: body,
-      id,
-    })
-  })       
+        message: 'User Created',
+        data: body
+    });
+  } catch (error) {
+    res.status(500).json({
+        message: 'Error creating user',
+        error: error.message
+    });
+  }
+})       
 
