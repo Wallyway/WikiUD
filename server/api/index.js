@@ -15,8 +15,8 @@ connectDB();
 
     // Middleware
 app.use(morgan('dev'));
-app.use(authRegister,authLogin)
 app.use(express.json());
+app.use(authRegister,authLogin)
 
 
 routerApi(app);
