@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const MessageSchema = new mongoose.Schema({
     _id:{
-        type: int,
+        type: String,
         required: true
     },
     content: {

@@ -12,7 +12,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "amqplib": "^0.10.4",
     "express": "^4.21.1",
     "mongoose": "^8.7.2",
     "morgan": "^1.10.0"
