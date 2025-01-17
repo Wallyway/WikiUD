@@ -2,21 +2,26 @@ import express from 'express';
 import morgan from 'morgan';
 // import cors from 'cors';
 import connectDB from "../application/database/mongodb.js";
-import User from "./models/userModel.js";
+import authRegister from "../api/routes/auth/registerRouter.js";
+import authLogin from "../api/routes/auth/loginRouter.js";
+import routerApi from './routes/index.js';
 
-// Initialize Express
+    // Initialize Express
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Connect to MongoDB
+    // Connect to MongoDB
 connectDB();
 
-// Middleware
+    // Middleware
 app.use(morgan('dev'));
-// app.use(cors());
+app.use(authRegister,authLogin)
 app.use(express.json());
 
-// Routes
+
+routerApi(app);
+
+    // Routes
 app.get("/api", (req, res) => {
     res.send("Hola desde el servidor!");
 });

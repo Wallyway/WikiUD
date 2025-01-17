@@ -2,19 +2,21 @@ import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
 
 const userSchema = new mongoose.Schema({
-    id:{
-        type: String,
-        required: true
-    },
+    // id:{
+    //     type: String,
+    //     required: true
+    // },
     username: {
         type: String,
-        required: true
+        required: true,
+        trim:true,
     },
     email:{
         type: String,
         required: true,
         unique: true,
         lowercase: true,
+        trim:true,
     },
     password:{
         type: String,
