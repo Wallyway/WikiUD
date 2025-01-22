@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-
-dotenv.config();
+dotenv.config();        // Load environment variables from a .env file into process.env
 
 /**
  * Asynchronously connects to the MongoDB database using the connection URI
