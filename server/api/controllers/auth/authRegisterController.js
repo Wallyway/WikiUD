@@ -1,6 +1,6 @@
-import User from '../../models/userModel.js';
-import bcrypt from 'bcrypt';
-import { createAccessToken } from '../../libs/jwt.js';
+import User from "../../models/userModel.js";
+import bcrypt from "bcrypt";
+import { createAccessToken } from "../../libs/jwt.js";
 
 /**
  * Registers a new user.
@@ -25,29 +25,28 @@ import { createAccessToken } from '../../libs/jwt.js';
  * 8. Logs an error message if registration fails.
  */
 
-export const register = async (req, res) =>  {
-    const {email,password, username} = req.body;
-    try {
-        const passwordHash = await bcrypt.hash(password, 10)  
+export const register = async (req, res) => {
+  const { email, password, username } = req.body;
+  try {
+    const passwordHash = await bcrypt.hash(password, 10);
 
-        const newUSer = new User({
-            username,
-            email,
-            password:passwordHash
-        })
+    const newUSer = new User({
+      username,
+      email,
+      password: passwordHash,
+    });
 
-        const userSaved = await newUSer.save();        
-        const token = await createAccessToken({id:userSaved._id})     
-        res.cookie('token', token)                      
-        res.json({
-            id: userSaved._id,                          
-            username: userSaved.username,
-            email: userSaved.email,
-            createdAt: userSaved.createdAt,
-            updatedAt: userSaved.updatedAt
-        })   
-
-    } catch (error) {
-        res.status(500).json({message: error.message});
-    }
-}
+    const userSaved = await newUSer.save();
+    const token = await createAccessToken({ id: userSaved._id });
+    res.cookie("token", token);
+    res.json({
+      id: userSaved._id,
+      username: userSaved.username,
+      email: userSaved.email,
+      createdAt: userSaved.createdAt,
+      updatedAt: userSaved.updatedAt,
+    });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};

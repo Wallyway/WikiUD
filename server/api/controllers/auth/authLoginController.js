@@ -1,1 +1,1 @@
-export const login = (req, res) => res.send('Login')
+export const login = (req, res) => res.send("Login");
