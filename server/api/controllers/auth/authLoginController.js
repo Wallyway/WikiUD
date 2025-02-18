@@ -26,3 +26,12 @@ export const login = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+
+export const logout = async (req, res) => {
+  res.cookie("token", "", {
+    httpOnly: true, //Para que no se pueda acceder a la cookie desde el navegador
+    expires: new Date(0), //Para que la cookie expire
+    secure: true, //Para que solo se pueda acceder a la cookie mediante HTTPS
+    sameSite: "none", //Para que la cookie se pueda enviar a través de un dominio diferente
+  });
+};

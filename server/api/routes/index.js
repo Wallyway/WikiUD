@@ -18,6 +18,7 @@ function routerApi(app) {
 
   router.use("/register", registerRouter);
   router.use("/login", loginRouter);
+  router.use("/logout", loginRouter);
   // router.use('/teachers', teachersRouter);
   // router.use('/users', usersRouter);
   // router.use('/career', coursesRouter);
