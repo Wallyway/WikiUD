@@ -5,6 +5,12 @@ import { auth, provider } from './Firebase'
 const Login = () => {
     const handleLogin = async() => {
         const loginResponse = await signInWithPopup(auth, provider)
+        const user = loginResponse.user
+        const userData = {
+            name: user.displayName,
+            email: user.email,
+            avatar: user.photoURL,
+        }
         console.log(loginResponse)
     }
   return (
