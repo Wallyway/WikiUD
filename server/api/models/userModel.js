@@ -26,15 +26,11 @@ const userSchema = new mongoose.Schema(
       lowercase: true,
       trim: true,
     },
-    password: {
+    avatar: {
       type: String,
-      required: true,
-      // minlength: 6  //FIXME: Comment due to dev purpose
     },
   },
-  {
-    timestamps: true,
-  }
+  { timestamps: true }
 );
 
 export default mongoose.model("User", userSchema);
