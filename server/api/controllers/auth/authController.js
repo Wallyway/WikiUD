@@ -3,11 +3,11 @@ import jwt from "jsonwebtoken";
 
 export const Login = async (req, res) => {
   try {
-    const { name, email, avatar } = req.body;
+    const { username, email, avatar } = req.body;
     let user = await User.findOne({ email });
     if (!user) {
       const newUser = new User({
-        name,
+        username,
         email,
         avatar,
       });
@@ -20,7 +20,7 @@ export const Login = async (req, res) => {
 
     res.cookie("access_token", token, {
       httpOnly: true,
-      expires: new Date() + 9999,
+      expires: new Date(Date.now() + 9999 * 24 * 60 * 60 * 1000),
     });
 
     res.status(200).json({

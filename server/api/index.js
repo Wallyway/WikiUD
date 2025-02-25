@@ -2,7 +2,6 @@ import express from "express";
 import morgan from "morgan";
 import cors from "cors";
 import connectDB from "./database/mongodb.js";
-import authRouter from "./routes/auth/authRouter.js";
 import routerApi from "./routes/index.js";
 
 /**

@@ -7,7 +7,7 @@ import { getUser, Login } from "../controllers/auth/authController.js";
  * @param {Object} app - The Express application instance.
  *
  * @description
- * This function initializes the API routes under the '/api/v1' path. It currently includes routes for user registration and login.
+ * This function initializes the API routes under the '/api/v1' path. It currently includes routes for login.
  * Additional routes for teachers, users, career, subjects, comments, and rating are commented out and can be enabled as needed.
  */
 
@@ -16,7 +16,7 @@ function routerApi(app) {
   app.use("/api/v1", router); //Para poder manejar varias versiones de un endpoint
 
   // router.use("/register", registerRouter);
-  router.use("/login", Login);
+  router.use("/auth/login", Login);
   router.use("get-user", getUser);
   // router.use('/teachers', teachersRouter);
   // router.use('/users', usersRouter);
