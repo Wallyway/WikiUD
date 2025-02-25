@@ -2,8 +2,7 @@ import express from "express";
 import morgan from "morgan";
 import cors from "cors";
 import connectDB from "./database/mongodb.js";
-import authRegister from "../api/routes/auth/registerRouter.js";
-import authLogin from "../api/routes/auth/loginRouter.js";
+import authRouter from "./routes/auth/authRouter.js";
 import routerApi from "./routes/index.js";
 
 /**
@@ -34,8 +33,8 @@ app.use(
     credentials: true,
   })
 );
-app.use(authRegister, authLogin);
 
+// app.use("/api/v1/auth", authRouter);
 routerApi(app);
 
 // Routes

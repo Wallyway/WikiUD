@@ -1,6 +1,5 @@
 import express from "express";
-import registerRouter from "./auth/registerRouter.js";
-import loginRouter from "./auth/loginRouter.js";
+import { getUser, Login } from "../controllers/auth/authController.js";
 
 /**
  * Sets up the API routes for the application.
@@ -16,9 +15,9 @@ function routerApi(app) {
   const router = express.Router();
   app.use("/api/v1", router); //Para poder manejar varias versiones de un endpoint
 
-  router.use("/register", registerRouter);
-  router.use("/login", loginRouter);
-  router.use("/logout", loginRouter);
+  // router.use("/register", registerRouter);
+  router.use("/login", Login);
+  router.use("get-user", getUser);
   // router.use('/teachers', teachersRouter);
   // router.use('/users', usersRouter);
   // router.use('/career', coursesRouter);
