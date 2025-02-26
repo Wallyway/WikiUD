@@ -15,7 +15,6 @@ function routerApi(app) {
   const router = express.Router();
   app.use("/api/v1", router); //Para poder manejar varias versiones de un endpoint
 
-  // router.use("/register", registerRouter);
   router.use("/auth/login", Login);
   router.use("get-user", getUser);
   // router.use('/teachers', teachersRouter);
