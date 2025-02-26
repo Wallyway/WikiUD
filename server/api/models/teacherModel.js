@@ -1,19 +1,11 @@
 import mongoose from "mongoose";
 
 const teacherSchema = new mongoose.Schema({
-  _id: {
+  name: {
     type: String,
     required: true,
-  },
-  image: {
-    data: Buffer,
-    contentType: String,
   },
   signature: {
-    type: String,
-    required: true,
-  },
-  name: {
     type: String,
     required: true,
   },
@@ -22,6 +14,10 @@ const teacherSchema = new mongoose.Schema({
     required: true,
     unique: true,
     lowercase: true,
+  },
+  image: {
+    data: Buffer,
+    contentType: String,
   },
   createdAt: {
     type: Date,
