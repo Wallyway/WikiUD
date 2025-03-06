@@ -45,7 +45,7 @@ import userImage2 from '../public/file (2).svg';
 const people = [
   {
     id: 1,
-    name: "Sebatian wallis",
+    name: "Sebastian Wallis",
     designation: "Estudiante Ing. Sistemas",
     image:userImage1,
   },

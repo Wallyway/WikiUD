@@ -112,7 +112,7 @@ function DashboardPage() {
   const [specialQuote, setspecialQuote] = useState([]);
 
   // useEffect(() => {
-    const handleCheckout = async () => {
+    /*const handleCheckout = async () => {
       // Call your API endpoint to create a checkout session
       const res = await fetch('/api/checkout', {
         method: 'POST',
@@ -132,7 +132,7 @@ function DashboardPage() {
       }
   
       
-    };
+    };*/
   
   const getQuotes = async () => {
     const response = await axios.get(`/api/scrapper?tag=${tag}`);
@@ -149,7 +149,7 @@ function DashboardPage() {
           </Label>
           <Input
             id="tag"
-            placeholder="Inspirational..."
+            placeholder="Busca a tu profesor..."
             type="text"
             autoCapitalize="none"
             autoCorrect="off"
