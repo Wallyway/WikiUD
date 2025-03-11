@@ -20,39 +20,39 @@ import { ModeToggle } from "./toggle";
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Alert Dialog",
+    title: "Grupo de investigacion",
     href: "/docs/primitives/alert-dialog",
     description:
-      "A modal dialog that interrupts the user with important content and expects a response.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    title: "Hover Card",
+    title: "Grupo de investigacion",
     href: "/docs/primitives/hover-card",
     description:
-      "For sighted users to preview content available behind a link.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    title: "Progress",
+    title: "Grupo de investigacion",
     href: "/docs/primitives/progress",
     description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    title: "Scroll-area",
+    title: "Grupo de investigacion",
     href: "/docs/primitives/scroll-area",
-    description: "Visually or semantically separates content.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    title: "Tabs",
+    title: "Grupo de investigacion",
     href: "/docs/primitives/tabs",
     description:
-      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    title: "Tooltip",
+    title: "Grupo de investigacion",
     href: "/docs/primitives/tooltip",
     description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
 ];
 
@@ -64,18 +64,18 @@ export function LoggedInNav() {
   return (
     <div className="mr-4 md:flex">
       <Link href="/dashboard" className="lg:mr-6 sm:mr-0 flex items-center gap-2">
-        <Icons.logo className="h-6 w-6 lg:block md:block" />
-        <span className="font-bold lg:block md:block">QuotesAI</span>
+        <Icons.logoud className="h-10 w-9 hidden lg:block md:block" />
+        <span className="font-bold lg:block md:block">WikiUD</span>
         <Badge className="hidden lg:block md:block">Beta</Badge>
 
         
         
       </Link>
     
-      {/* <NavigationMenu className="hidden lg:block">
+      <NavigationMenu className="hidden lg:block">
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-transparent">Getting started</NavigationMenuTrigger>
+            <NavigationMenuTrigger className="bg-transparent">Grupos de trabajo</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                 <li className="row-span-3">
@@ -84,31 +84,30 @@ export function LoggedInNav() {
                       className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                       href="/"
                     >
-                      <Icons.logo className="h-6 w-6" />
+                      <Icons.logoud className="h-10 w-9" />
                       <div className="mb-2 mt-4 text-lg font-medium">
-                        shadcn/ui
+                        ¿Qué son?
                       </div>
                       <p className="text-sm leading-tight text-muted-foreground">
-                        Beautifully designed components built with Radix UI and
-                        Tailwind CSS.
+                        Son creditos obligatorios para los estudiantes de Ingenieria de sistemas
                       </p>
                     </a>
                   </NavigationMenuLink>
                 </li>
-                <ListItem href="/docs" title="Introduction">
-                  Re-usable components built using Radix UI and Tailwind CSS.
+                <ListItem href="https://www.facebook.com/GrupoLinuxUD/?locale=es_LA" title="GLUD" target="_blank">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </ListItem>
-                <ListItem href="/docs/installation" title="Installation">
-                  How to install dependencies and structure your app.
+                <ListItem href="https://www.instagram.com/gisac.acmud/" title="GISAC" target="_blank">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </ListItem>
-                <ListItem href="/docs/primitives/typography" title="Typography">
-                  Styles for headings, paragraphs, lists...etc
+                <ListItem href="https://www.facebook.com/ACMUD/?locale=es_LA" title="ACM" target="_blank">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </ListItem>
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-transparent">Components</NavigationMenuTrigger>
+            <NavigationMenuTrigger className="bg-transparent">Grupos de investigacion</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                 {components.map((component) => (
@@ -123,15 +122,15 @@ export function LoggedInNav() {
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
-          <NavigationMenuItem>
+          {/* <NavigationMenuItem>
             <Link href="/pricing" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Pricing
               </NavigationMenuLink>
             </Link>
-          </NavigationMenuItem>
+          </NavigationMenuItem> */}
         </NavigationMenuList>
-      </NavigationMenu> */}
+      </NavigationMenu>
       
     </div>
     

@@ -49,12 +49,6 @@ const people = [
     designation: "Estudiante Ing. Sistemas",
     image:userImage1,
   },
-  {
-    id: 2,
-    name: "Johan Barrios",
-    designation: "Estudiante Ing. Sistemas",
-    image:userImage2,
-  },
   
 ];
  
