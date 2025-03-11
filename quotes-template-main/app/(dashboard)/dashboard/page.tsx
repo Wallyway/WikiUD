@@ -106,10 +106,9 @@ import {
 } from "@/components/ui/card";
 
 function DashboardPage() {
-  const [hasPaid, setHasPaid] = useState(false);
   const [tag, setTag] = useState("");
-  const [quotes, setQuotes] = useState([]);
-  const [specialQuote, setspecialQuote] = useState([]);
+  const [teachers, setTeachers] = useState([]);
+  const [specialTeacher, setSpecialTeacher] = useState([]);
 
   // useEffect(() => {
     /*const handleCheckout = async () => {
@@ -134,10 +133,10 @@ function DashboardPage() {
       
     };*/
   
-  const getQuotes = async () => {
+  const getTeachers = async () => {
     const response = await axios.get(`/api/scrapper?tag=${tag}`);
-    setQuotes(response.data.quotes);
-    setspecialQuote(response.data.specialQuote);
+    setTeachers(response.data.quotes);
+    setSpecialTeacher(response.data.specialQuote);
   };
 
   return (
@@ -145,11 +144,11 @@ function DashboardPage() {
       <div className="grid gap-2">
         <div className="grid">
           <Label className="sr-only" htmlFor="Mood">
-            Enter your Mood 👇🏻
+            Enter your  👇🏻
           </Label>
           <Input
             id="tag"
-            placeholder="Busca a tu profesor..."
+            placeholder="¿Qué profesor buscas?"
             type="text"
             autoCapitalize="none"
             autoCorrect="off"
@@ -158,28 +157,28 @@ function DashboardPage() {
             onChange={(e) => setTag(e.target.value)}
           />
         </div>
-        <Button onClick={getQuotes}>Get Today&apos;s Quotes</Button>
+        <Button onClick={getTeachers}>Buscar a tu profesor</Button>
       </div>
 
-      {/* Special Quote */}
+
       <div className="grid justify-center mx-auto items-center w-8/12">
         <Card>
           <CardHeader>
-            <CardTitle>{specialQuote}</CardTitle>
+            <CardTitle>{specialTeacher}</CardTitle>
             <CardDescription>
-              <a href="https://www.goodreads.com/quotes/tag/inspirational">Today&apos;s Special Quote for you</a>
+              <a href="https://www.goodreads.com/quotes/tag/inspirational"></a>
             </CardDescription>
           </CardHeader>
         </Card>
       </div>
 
       <div className="md:grid md:grid-cols-2 md:gap-3 lg:grid lg:grid-cols-3 lg:gap-4 relative justify-center mx-auto">
-        {quotes.map((quote, index) => (
+        {teachers.map((teacher, index) => (
           <Card key={index} className="w-[350px]">
             <CardHeader>
-              <CardTitle>{quote}</CardTitle>
+              <CardTitle>{teacher}</CardTitle>
               <CardDescription>
-                <a href="https://www.goodreads.com/quotes/tag/inspirational">Visit this website for daily quotes</a>
+                <a href="https://www.goodreads.com/quotes/tag/inspirational">WikiUD</a>
               </CardDescription>
             </CardHeader>
           </Card>
