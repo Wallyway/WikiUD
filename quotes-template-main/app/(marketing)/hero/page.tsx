@@ -63,12 +63,12 @@ function HeroPage() {
        
         <div className="relative rounded-xl mx-auto justify-center flex flex-col items-center lg:max-w-[1000px] overflow-hidden md:overflow-auto lg:overflow-auto">
       <img
-        src="/darkoutput.png"
+        src="/darkoutput2.png"
         alt="Hero Image"
         className="hidden lg:max-w-[1000px]  rounded-[inherit] border object-contain shadow-lg dark:block overflow-hidden md:overflow-auto lg:overflow-auto"
       />
       <img
-        src="/lightoutput.png"
+        src="/lightoutput2.png"
         alt="Hero Image"
         className="block lg:max-w-[1000px]  rounded-[inherit] border object-contain shadow-lg dark:hidden overflow-hidden md:overflow-auto lg:overflow-auto"
       />
