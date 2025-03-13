@@ -8,16 +8,8 @@ import { Icons } from "@/components/icons"
 import { UserAuthForm } from "@/components/user-auth-form"
 // import type { Metadata } from "next";  
 
-// import { useRouter } from 'next/navigation';
-// export const metadata: Metadata = {
-//   title: "Login",
-//   description: "Login to your account",
-// }
 
 export default function LoginPage() {
-  // const router = useRouter();
-// Force refresh the page
-  // router.refresh();
   
   return (
     
@@ -41,9 +33,6 @@ export default function LoginPage() {
           <h1 className="text-2xl font-semibold tracking-tight">
             Bienvenido a WikiUD
           </h1>
-          {/* <p className="text-sm text-muted-foreground">
-            Enter your email to sign in to your account
-          </p> */}
         </div>
         <UserAuthForm />
         <p className="px-8 text-center text-sm text-muted-foreground">
