@@ -110,33 +110,11 @@ function DashboardPage() {
   const [teachers, setTeachers] = useState([]);
   const [specialTeacher, setSpecialTeacher] = useState([]);
 
-  // useEffect(() => {
-    /*const handleCheckout = async () => {
-      // Call your API endpoint to create a checkout session
-      const res = await fetch('/api/checkout', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
-  
-      const { url } = await res.json();
-  
-      // Redirect to Stripe Checkout
-      if (url) {
-        window.location.href = url;
-      } else {
-        // Handle error (e.g., display a message)
-        console.error('Failed to start the checkout process.');
-      }
-  
-      
-    };*/
   
   const getTeachers = async () => {
     const response = await axios.get(`/api/scrapper?tag=${tag}`);
     setTeachers(response.data.quotes);
-    setSpecialTeacher(response.data.specialQuote);
+    setSpecialTeacher(response.data.specialTeacher);
   };
 
   return (
