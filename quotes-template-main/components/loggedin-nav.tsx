@@ -63,15 +63,13 @@ export function LoggedInNav() {
 
   return (
     <div className="mr-4 md:flex">
-      <Link href="/dashboard" className="lg:mr-6 sm:mr-0 flex items-center gap-2">
+      <Link
+        href="/dashboard"
+        className="lg:mr-6 sm:mr-0 flex items-center gap-2">
         <Icons.logoud className="h-10 w-9 hidden lg:block md:block" />
         <span className="font-bold lg:block md:block">WikiUD</span>
         <Badge className="hidden lg:block md:block">Beta</Badge>
-
-        
-        
       </Link>
-    
       <NavigationMenu className="hidden lg:block">
         <NavigationMenuList>
           <NavigationMenuItem>
@@ -95,9 +93,6 @@ export function LoggedInNav() {
                   </NavigationMenuLink>
                 </li>
                 <ListItem href="https://www.facebook.com/GrupoLinuxUD/?locale=es_LA" title="GLUD" target="_blank">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </ListItem>
-                <ListItem href="https://www.instagram.com/gisac.acmud/" title="GISAC" target="_blank">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </ListItem>
                 <ListItem href="https://www.facebook.com/ACMUD/?locale=es_LA" title="ACM" target="_blank">
@@ -131,9 +126,7 @@ export function LoggedInNav() {
           </NavigationMenuItem> */}
         </NavigationMenuList>
       </NavigationMenu>
-      
     </div>
-    
   );
 }
 

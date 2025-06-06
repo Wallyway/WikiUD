@@ -3,7 +3,7 @@ import { getMongoClient } from '@/lib/db'
 
 // Function to remove accents from text
 function removeAccents(str: string) {
-    return str.normalize('NFD').replace(/[̀-ͯ]/g, '')
+    return str.normalize('NFD').replace(/[̀-ͯ]/g, '');
 }
 
 export async function GET(request: Request) {

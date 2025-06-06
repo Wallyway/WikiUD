@@ -60,7 +60,9 @@ export function MainNav() {
 
   return (
     <div className="mr-4 md:flex">
-      <Link href="/" className="lg:mr-6 sm:mr-0 flex items-center gap-2">
+      <Link
+        href="/"
+        className="lg:mr-6 sm:mr-0 flex items-center gap-2">
         <Icons.logoud className="h-10 w-9 hidden lg:block md:block" />
         <span className="font-bold hidden lg:block md:block">WikiUD</span>
         <Badge className="hidden lg:block md:block">Beta</Badge>
@@ -100,15 +102,11 @@ export function MainNav() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/#features" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Features
-              </NavigationMenuLink>
+            <Link href="/#features" className={navigationMenuTriggerStyle()}>
+              Features
             </Link>
-            <Link href="/pricing" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Donar
-              </NavigationMenuLink>
+            <Link href="/pricing" className={navigationMenuTriggerStyle()}>
+              Donar
             </Link>
           </NavigationMenuItem>
           {/* <NavigationMenuItem>

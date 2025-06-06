@@ -86,7 +86,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
           <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
         ) : (
           //   <Icons.gitHub className="mr-2 h-4 w-4" />
-          <Icons.microsoft className="mr-2 h-4 w-4" />
+          (<Icons.microsoft className="mr-2 h-4 w-4" />)
         )}{" "}
         Microsoft
       </Button>
