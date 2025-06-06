@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
 import { AuroraText } from "@/components/magicui/aurora-text";
+import { ChevronUp } from "lucide-react";
 
 interface Teacher {
   _id: string;
@@ -32,6 +33,7 @@ function DashboardPage() {
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
   const [loading, setLoading] = useState(false);
+  const [showScrollTop, setShowScrollTop] = useState(false);
   const limit = 9; // Define the limit here
 
   // Reset state when tag or facultyTag changes
@@ -41,6 +43,23 @@ function DashboardPage() {
     setTeachers([]);
     setHasMore(true);
   }, [tag, facultyTag]);
+
+  // Add scroll handler for back to top button
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 300);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   // Fetch teachers based on tag, facultyTag and page
   useEffect(() => {
@@ -119,7 +138,7 @@ function DashboardPage() {
 
   return (
     <div className="min-h-screen w-full flex flex-col">
-      <div className="sticky top-0 z-10 bg-background/80 backdrop-blur-sm py-6">
+      <div className="z-10 bg-background/80 backdrop-blur-sm py-6">
         <h1 className="text-4xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
           Busca a tu <AuroraText>Profe</AuroraText>
         </h1>
@@ -182,6 +201,18 @@ function DashboardPage() {
           </div>
         </div>
       </div>
+      
+      {/* Back to top button */}
+      <button
+        onClick={scrollToTop}
+        className={cn(
+          "fixed bottom-8 left-1/2 -translate-x-1/2 p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-lg transition-all duration-300 hover:bg-background/90",
+          showScrollTop ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"
+        )}
+        aria-label="Back to top"
+      >
+        <ChevronUp className="h-6 w-6" />
+      </button>
     </div>
   );
 }
