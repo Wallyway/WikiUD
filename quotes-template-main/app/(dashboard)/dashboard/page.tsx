@@ -6,14 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import dynamic from "next/dynamic";
 import { AuroraText } from "@/components/magicui/aurora-text";
 
@@ -130,63 +122,65 @@ function DashboardPage() {
       <h1 className="text-4xl font-bold tracking-tighter mt-10 md:text-6xl lg:text-7xl text-center">
         Busca a tu <AuroraText>Profe</AuroraText>
       </h1>
-      <div className={cn("grid gap-6 mt-10 mb-10 justify-center w-max mx-auto")}>
-        <div className="flex gap-1">
-          <div className="grid flex-1">
-            <Label className="sr-only" htmlFor="tag">
-              ¿Qué profesor buscas?
-            </Label>
-            <Input
-              id="tag"
-              placeholder="Nombre"
-              type="text"
-              autoCapitalize="none"
-              autoCorrect="off"
-              required
-              value={tag}
-              onChange={(e) => setTag(e.target.value)}
-            />
-          </div>
-
-          <div className="grid flex-1">
-            <Label className="sr-only" htmlFor="facultyTag">
-              Facultad
-            </Label>
-            <Input
-              id="facultyTag"
-              placeholder="Facultad"
-              type="text"
-              autoCapitalize="none"
-              autoCorrect="off"
-              required
-              value={facultyTag}
-              onChange={(e) => setFacultyTag(e.target.value)}
-            />
-          </div>
+    <div className={cn("grid gap-6 mt-10 mb-10 justify-center w-max mx-auto")}>
+      <div className="flex gap-1">
+        <div className="grid flex-1">
+          <Label className="sr-only" htmlFor="tag">
+            ¿Qué profesor buscas?
+          </Label>
+          <Input
+            id="tag"
+            placeholder="Nombre"
+            type="text"
+            autoCapitalize="none"
+            autoCorrect="off"
+            required
+            value={tag}
+            onChange={(e) => setTag(e.target.value)}
+          />
         </div>
 
-        {/* Card Section (always ProjectStatusCard) */}
-        <div className="flex flex-col gap-4 w-full max-w-full mx-auto">
-          {teachers.map((teacher) => (
-            <ProjectStatusCard
-              key={teacher._id}
-              title={teacher.name}
-              progress={Math.round((teacher.rating / 5) * 100)}
-              dueDate={teacher.degree}
-              faculty={teacher.faculty}
-              contributors={[]}
-              tasks={[
-                { title: teacher.subject, completed: true },
-              ]}
-              githubStars={teacher.reviews}
-              openIssues={0}
-            />
-          ))}
-          {loading && teachers.length > 0 && <div className="text-center">Cargando...</div>} {/* Show loading only if some teachers are already loaded */}
-          {!loading && !hasMore && teachers.length > 0 && <div className="text-center">No hay más profesores.</div>} {/* Message when no more teachers */}
+        <div className="grid flex-1">
+          <Label className="sr-only" htmlFor="facultyTag">
+            Facultad
+          </Label>
+          <Input
+            id="facultyTag"
+            placeholder="Facultad"
+            type="text"
+            autoCapitalize="none"
+            autoCorrect="off"
+            required
+            value={facultyTag}
+            onChange={(e) => setFacultyTag(e.target.value)}
+          />
         </div>
       </div>
+
+      {/* Card Section (always ProjectStatusCard) */}
+      <div className="flex flex-col gap-4 w-full max-w-full mx-auto">
+        {teachers.map((teacher) => (
+          <ProjectStatusCard
+            key={teacher._id}
+            title={teacher.name}
+            progress={Math.round((teacher.rating / 5) * 100)}
+            dueDate={teacher.degree}
+            faculty={teacher.faculty}
+            contributors={[]}
+            tasks={[
+              { title: teacher.subject, completed: true },
+            ]}
+            githubStars={teacher.reviews}
+            openIssues={0}
+          />
+        ))}
+        {loading && teachers.length > 0 && <div className="text-center">Cargando...</div>} {/* Show loading only if some teachers are already loaded */}
+        {!loading && !hasMore && teachers.length > 0 && <div className="text-center">No hay más profesores.</div>} {/* Message when no more teachers */}
+      </div>
     </div>
+  </div>
+      
+    
   );
 }
 
