@@ -23,7 +23,6 @@ export default async function DashboardLayout({
   children, 
 }: DashboardLayoutProps) {
   const user = await getCurrentUser()
-  const session = await getAuthSession();
 
   if (!user) {
     return notFound()
