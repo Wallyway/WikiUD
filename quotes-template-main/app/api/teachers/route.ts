@@ -3,7 +3,7 @@ import { getMongoClient } from '@/lib/db'
 
 // Function to remove accents from text
 function removeAccents(str: string) {
-    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    return str.normalize('NFD').replace(/[̀-ͯ]/g, '')
 }
 
 export async function GET(request: Request) {
@@ -20,42 +20,33 @@ export async function GET(request: Request) {
         const client = await getMongoClient()
         const db = client.db()
 
-        // Get all teachers and filter in memory for better accent handling
-        const allTeachers = await db.collection("teachers").find({}).toArray()
+        // Construct the query object based on search parameters
+        const query: any = {}
 
-        // Filter teachers based on name and/or faculty (case-insensitive and accent-insensitive)
-        const filteredTeachers = allTeachers.filter(teacher => {
-            const teacherNameNoAccents = removeAccents(teacher.name.toLowerCase())
-            const teacherFacultyNoAccents = removeAccents(teacher.faculty.toLowerCase())
-            const searchNameNoAccents = removeAccents(name.toLowerCase())
-            const searchFacultyNoAccents = removeAccents(faculty.toLowerCase())
+        if (name.trim()) {
+            // Apply removeAccents to the search term and use regex for case-insensitive matching
+            query.name = { $regex: removeAccents(name), $options: 'i' }
+        }
 
-            // If both name and faculty are empty, return all teachers
-            if (!name.trim() && !faculty.trim()) {
-                return true
-            }
+        if (faculty.trim()) {
+            // Apply removeAccents to the search term and use regex for case-insensitive matching
+            query.faculty = { $regex: removeAccents(faculty), $options: 'i' }
+        }
 
-            // If only name is provided, check name
-            if (name.trim() && !faculty.trim()) {
-                return teacherNameNoAccents.includes(searchNameNoAccents)
-            }
+        // If both name and faculty are provided, MongoDB's find with multiple fields acts as AND
+        // If only one is provided, the query object will contain only that field's condition
+        // If neither is provided, the query object is empty {}, fetching all documents
 
-            // If only faculty is provided, check faculty
-            if (!name.trim() && faculty.trim()) {
-                return teacherFacultyNoAccents.includes(searchFacultyNoAccents)
-            }
+        // Fetch and paginate teachers directly from the database
+        const teachers = await db.collection("teachers")
+            .find(query)
+            .skip(skip)
+            .limit(limit)
+            .toArray()
 
-            // If both are provided, check both
-            return teacherNameNoAccents.includes(searchNameNoAccents) &&
-                teacherFacultyNoAccents.includes(searchFacultyNoAccents)
-        })
+        console.log('Found teachers (DB query):', teachers.length)
 
-        // Paginate
-        const paginatedTeachers = filteredTeachers.slice(skip, skip + limit)
-
-        console.log('Found teachers:', paginatedTeachers.length)
-
-        return NextResponse.json({ teachers: paginatedTeachers })
+        return NextResponse.json({ teachers: teachers })
     } catch (error) {
         console.error('Error fetching teachers:', error)
         return NextResponse.json(
