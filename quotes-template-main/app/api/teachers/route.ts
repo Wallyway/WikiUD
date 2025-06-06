@@ -10,11 +10,12 @@ export async function GET(request: Request) {
     try {
         const { searchParams } = new URL(request.url)
         const name = searchParams.get('name') || ''
+        const faculty = searchParams.get('faculty') || ''
         const page = parseInt(searchParams.get('page') || '1', 10)
         const limit = parseInt(searchParams.get('limit') || '9', 10)
         const skip = (page - 1) * limit
 
-        console.log('Search term:', name)
+        console.log('Search terms:', { name, faculty })
 
         const client = await getMongoClient()
         const db = client.db()
@@ -22,14 +23,32 @@ export async function GET(request: Request) {
         // Get all teachers and filter in memory for better accent handling
         const allTeachers = await db.collection("teachers").find({}).toArray()
 
-        // Filter teachers based on name (case-insensitive and accent-insensitive)
-        const filteredTeachers = name.trim()
-            ? allTeachers.filter(teacher => {
-                const teacherNameNoAccents = removeAccents(teacher.name.toLowerCase())
-                const searchNameNoAccents = removeAccents(name.toLowerCase())
+        // Filter teachers based on name and/or faculty (case-insensitive and accent-insensitive)
+        const filteredTeachers = allTeachers.filter(teacher => {
+            const teacherNameNoAccents = removeAccents(teacher.name.toLowerCase())
+            const teacherFacultyNoAccents = removeAccents(teacher.faculty.toLowerCase())
+            const searchNameNoAccents = removeAccents(name.toLowerCase())
+            const searchFacultyNoAccents = removeAccents(faculty.toLowerCase())
+
+            // If both name and faculty are empty, return all teachers
+            if (!name.trim() && !faculty.trim()) {
+                return true
+            }
+
+            // If only name is provided, check name
+            if (name.trim() && !faculty.trim()) {
                 return teacherNameNoAccents.includes(searchNameNoAccents)
-            })
-            : allTeachers
+            }
+
+            // If only faculty is provided, check faculty
+            if (!name.trim() && faculty.trim()) {
+                return teacherFacultyNoAccents.includes(searchFacultyNoAccents)
+            }
+
+            // If both are provided, check both
+            return teacherNameNoAccents.includes(searchNameNoAccents) &&
+                teacherFacultyNoAccents.includes(searchFacultyNoAccents)
+        })
 
         // Paginate
         const paginatedTeachers = filteredTeachers.slice(skip, skip + limit)

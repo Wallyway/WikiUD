@@ -34,24 +34,25 @@ const ProjectStatusCard = dynamic(
 
 function DashboardPage() {
   const [tag, setTag] = useState("");
+  const [facultyTag, setFacultyTag] = useState("");
   const [teachers, setTeachers] = useState<Teacher[]>([]);
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
   const [loading, setLoading] = useState(false);
   const limit = 9; // Define the limit here
 
-  // Reset state when tag changes
+  // Reset state when tag or facultyTag changes
   useEffect(() => {
-    console.log('Tag changed:', tag);
+    console.log('Search terms changed:', { tag, facultyTag });
     setPage(1);
     setTeachers([]);
     setHasMore(true);
-  }, [tag]);
+  }, [tag, facultyTag]);
 
-  // Fetch teachers based on tag and page
+  // Fetch teachers based on tag, facultyTag and page
   useEffect(() => {
     const fetchTeachers = async () => {
-      console.log('Attempting to fetch:', { page, tag, loading, hasMore });
+      console.log('Attempting to fetch:', { page, tag, facultyTag, loading, hasMore });
 
       // Prevent fetching if already loading
       if (loading) {
@@ -66,9 +67,9 @@ function DashboardPage() {
       }
 
       setLoading(true); // Set loading to true
-      console.log('Fetching page:', page, 'with tag:', tag);
+      console.log('Fetching page:', page, 'with terms:', { tag, facultyTag });
       try {
-        const response = await axios.get(`/api/teachers?name=${encodeURIComponent(tag)}&page=${page}&limit=${limit}`);
+        const response = await axios.get(`/api/teachers?name=${encodeURIComponent(tag)}&faculty=${encodeURIComponent(facultyTag)}&page=${page}&limit=${limit}`);
         const newTeachers = response.data.teachers;
         console.log('Search results for page', page, ':', newTeachers.length, 'teachers');
 
@@ -77,7 +78,7 @@ function DashboardPage() {
           console.log('No more teachers found. hasMore set to false.');
         } else {
           // Append new teachers if not the first page, otherwise set directly
-          // When tag changes, page becomes 1 and we replace the list
+          // When search terms change, page becomes 1 and we replace the list
           setTeachers(prev => page === 1 ? newTeachers : [...prev, ...newTeachers]);
 
           // If we received less than the limit, there might not be more pages
@@ -99,10 +100,10 @@ function DashboardPage() {
       }
     };
 
-    // Fetch data when tag or page changes
+    // Fetch data when tag, facultyTag or page changes
     fetchTeachers();
 
-  }, [tag, page]); // Dependencies are tag and page.
+  }, [tag, facultyTag, page]); // Dependencies are tag, facultyTag and page.
 
   // Infinite scroll effect
   useEffect(() => {
@@ -125,20 +126,36 @@ function DashboardPage() {
 
   return (
     <div className={cn("grid gap-6 my-2 justify-center w-max mx-auto")}>
-      <div className="grid gap-2">
-        <div className="grid">
-          <Label className="sr-only" htmlFor="Mood">
-            Enter your 👇🏻
+      <div className="flex gap-4">
+        <div className="grid flex-1">
+          <Label className="sr-only" htmlFor="tag">
+            ¿Qué profesor buscas?
           </Label>
           <Input
             id="tag"
-            placeholder="¿Qué profesor buscas?"
+            placeholder="Nombre"
             type="text"
             autoCapitalize="none"
             autoCorrect="off"
             required
             value={tag}
             onChange={(e) => setTag(e.target.value)}
+          />
+        </div>
+
+        <div className="grid flex-1">
+          <Label className="sr-only" htmlFor="facultyTag">
+            Facultad
+          </Label>
+          <Input
+            id="facultyTag"
+            placeholder="Facultad"
+            type="text"
+            autoCapitalize="none"
+            autoCorrect="off"
+            required
+            value={facultyTag}
+            onChange={(e) => setFacultyTag(e.target.value)}
           />
         </div>
       </div>
