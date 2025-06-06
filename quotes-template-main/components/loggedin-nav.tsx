@@ -20,36 +20,36 @@ import { ModeToggle } from "./toggle";
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Grupo de investigacion",
+    title: "Grupo de investigación 1",
     href: "/docs/primitives/alert-dialog",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    title: "Grupo de investigacion",
+    title: "Grupo de investigación 2",
     href: "/docs/primitives/hover-card",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    title: "Grupo de investigacion",
+    title: "Grupo de investigación 3",
     href: "/docs/primitives/progress",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    title: "Grupo de investigacion",
+    title: "Grupo de investigación 4",
     href: "/docs/primitives/scroll-area",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    title: "Grupo de investigacion",
+    title: "Grupo de investigación 5",
     href: "/docs/primitives/tabs",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    title: "Grupo de investigacion",
+    title: "Grupo de investigación 6",
     href: "/docs/primitives/tooltip",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
@@ -96,6 +96,9 @@ export function LoggedInNav() {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </ListItem>
                 <ListItem href="https://www.facebook.com/ACMUD/?locale=es_LA" title="ACM" target="_blank">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </ListItem>
+                <ListItem href="https://www.facebook.com/ACMUD/?locale=es_LA" title="GISAC" target="_blank">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </ListItem>
               </ul>

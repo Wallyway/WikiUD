@@ -22,7 +22,7 @@ export const AuroraText = memo(
       })`,
       WebkitBackgroundClip: "text",
       WebkitTextFillColor: "transparent",
-      animationDuration: `${8 / speed}s`,
+      animationDuration: `${5 / speed}s`,
     };
 
     return (

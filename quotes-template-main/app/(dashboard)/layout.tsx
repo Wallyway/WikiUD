@@ -16,6 +16,7 @@ import { ModeToggle } from "@/components/toggle"
 
 {/* @ts-ignore */}
 
+export const dynamic = 'force-dynamic'
 interface DashboardLayoutProps {
   children?: React.ReactNode
 }
