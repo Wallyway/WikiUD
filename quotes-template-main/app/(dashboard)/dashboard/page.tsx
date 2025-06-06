@@ -148,7 +148,7 @@ function DashboardPage() {
           <div className="flex gap-1">
             <div className="grid flex-1">
               <Label className="sr-only" htmlFor="tag">
-                ¿Qué profesor buscas?
+                Nombre
               </Label>
               <Input
                 id="tag"
