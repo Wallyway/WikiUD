@@ -5,7 +5,7 @@ import AzureADProvider from "next-auth/providers/azure-ad"
 import { nanoid } from 'nanoid'
 
 export const authOptions: NextAuthOptions = {
-  adapter: MongoDBAdapter(getMongoClient()), 
+  adapter: MongoDBAdapter(getMongoClient()),
   session: {
     strategy: 'jwt',
   },
@@ -16,7 +16,6 @@ export const authOptions: NextAuthOptions = {
     AzureADProvider({
       clientId: process.env.MICROSOFT_CLIENT_ID!,
       clientSecret: process.env.MICROSOFT_CLIENT_SECRET!,
-      
     }),
   ],
   callbacks: {
@@ -63,7 +62,7 @@ export const authOptions: NextAuthOptions = {
         username: dbUser.username,
       }
     },
-    
+
     redirect() {
       return '/dashboard'
     },

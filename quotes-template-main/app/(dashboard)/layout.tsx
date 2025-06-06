@@ -7,11 +7,12 @@ import { MainNav } from "@/components/main-nav"
 
 import { SiteFooter } from "@/components/site-footer"
 import { UserAccountNav } from "@/components/user-account-nav"
-import { getAuthSession } from "@/lib/auth"
+import { authOptions, getAuthSession } from "@/lib/auth"
 import Link from "@/node_modules/next/link"
 import { buttonVariants } from "@/components/ui/button"
 import { LoggedInNav } from "@/components/loggedin-nav"
 import { ModeToggle } from "@/components/toggle"
+
 
 {/* @ts-ignore */}
 
