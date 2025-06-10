@@ -89,9 +89,11 @@ function DashboardPage() {
           setHasMore(false); // No more data received, set hasMore to false
           console.log('No more teachers found. hasMore set to false.');
         } else {
-          // Append new teachers if not the first page, otherwise set directly
-          // When search terms change, page becomes 1 and we replace the list
-          setTeachers(prev => page === 1 ? newTeachers : [...prev, ...newTeachers]);
+          setTeachers(prev => {
+            const existingIds = new Set(prev.map((teacher: Teacher) => teacher._id));
+            const uniqueNewTeachers = newTeachers.filter((teacher: Teacher) => !existingIds.has(teacher._id));
+            return page === 1 ? newTeachers : [...prev, ...uniqueNewTeachers];
+          });
 
           // If we received less than the limit, there might not be more pages
           if (newTeachers.length < limit) {
