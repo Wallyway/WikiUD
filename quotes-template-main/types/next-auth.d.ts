@@ -18,3 +18,10 @@ declare module 'next-auth' {
     }
   }
 }
+
+export interface AuthService {
+  getSession(): Promise<Session | null>
+  handleJWT(token: JWT, user: User): Promise<JWT>
+  handleSession(token: JWT, session: Session): Promise<Session>
+  generateUsername(): string
+}

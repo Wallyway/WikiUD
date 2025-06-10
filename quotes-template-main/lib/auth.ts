@@ -1,8 +1,11 @@
-import { getMongoClient } from '../lib/db'
+import { getMongoClient } from './db'
 import { MongoDBAdapter } from '@next-auth/mongodb-adapter'
-import { NextAuthOptions, getServerSession } from 'next-auth'
+import { NextAuthOptions } from 'next-auth'
 import AzureADProvider from "next-auth/providers/azure-ad"
-import { nanoid } from 'nanoid'
+import { AuthServiceImpl } from './services/auth.service'
+import { getServerSession } from 'next-auth'
+
+const authService = new AuthServiceImpl()
 
 export const authOptions: NextAuthOptions = {
   adapter: MongoDBAdapter(getMongoClient()),
@@ -20,47 +23,11 @@ export const authOptions: NextAuthOptions = {
   ],
   callbacks: {
     async session({ token, session }) {
-      if (token) {
-        session.user.id = token.id
-        session.user.name = token.name
-        session.user.email = token.email
-        session.user.image = token.picture
-        session.user.username = token.username
-      }
-      return session
+      return authService.handleSession(token, session)
     },
 
     async jwt({ token, user }) {
-      const client = await getMongoClient()
-      const db = client.db()
-
-      // Find user by email
-      const dbUser = await db.collection("users").findOne({ email: token.email })
-
-      if (!dbUser) {
-        token.id = user!.id
-        return token
-      }
-
-      if (!dbUser.username) {
-        // Generate a new username if not present
-        const newUsername = nanoid(10)
-
-        await db.collection("users").updateOne(
-          { _id: dbUser._id },
-          { $set: { username: newUsername } }
-        )
-
-        dbUser.username = newUsername
-      }
-
-      return {
-        id: dbUser._id.toString(),
-        name: dbUser.name,
-        email: dbUser.email,
-        picture: dbUser.image,
-        username: dbUser.username,
-      }
+      return authService.handleJWT(token, user)
     },
 
     redirect() {
