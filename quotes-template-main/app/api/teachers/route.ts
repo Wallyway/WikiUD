@@ -1,10 +1,6 @@
 import { NextResponse } from 'next/server'
 import { getMongoClient } from '@/lib/db'
-
-// Function to remove accents from text
-function removeAccents(str: string) {
-    return str.normalize('NFD').replace(/[̀-ͯ]/g, '');
-}
+import { buildAccentInsensitiveRegex } from '../../../lib/string-utils'
 
 export async function GET(request: Request) {
     try {
@@ -24,13 +20,13 @@ export async function GET(request: Request) {
         const query: any = {}
 
         if (name.trim()) {
-            // Apply removeAccents to the search term and use regex for case-insensitive matching
-            query.name = { $regex: removeAccents(name), $options: 'i' }
+            // Use the new function to build an accent-insensitive regex
+            query.name = { $regex: buildAccentInsensitiveRegex(name), $options: 'i' }
         }
 
         if (faculty.trim()) {
-            // Apply removeAccents to the search term and use regex for case-insensitive matching
-            query.faculty = { $regex: removeAccents(faculty), $options: 'i' }
+            // Use the new function to build an accent-insensitive regex
+            query.faculty = { $regex: buildAccentInsensitiveRegex(faculty), $options: 'i' }
         }
 
         // If both name and faculty are provided, MongoDB's find with multiple fields acts as AND
