@@ -1,26 +1,22 @@
 import { getMongoClient } from './db'
-import { MongoDBAdapter } from '@next-auth/mongodb-adapter'
-import { NextAuthOptions } from 'next-auth'
-import AzureADProvider from "next-auth/providers/azure-ad"
+import { MongoDBAdapter } from '@auth/mongodb-adapter'
+import NextAuth from "next-auth"
+import MicrosoftEntraID from "next-auth/providers/microsoft-entra-id"
 import { AuthServiceImpl } from './services/auth.service'
-import { getServerSession } from 'next-auth'
+
+import authConfig from "../auth.config"
 
 const authService = new AuthServiceImpl()
 
-export const authOptions: NextAuthOptions = {
+export const { auth, handlers } = NextAuth({
   adapter: MongoDBAdapter(getMongoClient()),
   session: {
     strategy: 'jwt',
   },
+  ...authConfig,
   pages: {
     signIn: '/login',
   },
-  providers: [
-    AzureADProvider({
-      clientId: process.env.MICROSOFT_CLIENT_ID!,
-      clientSecret: process.env.MICROSOFT_CLIENT_SECRET!,
-    }),
-  ],
   callbacks: {
     async session({ token, session }) {
       return authService.handleSession(token, session)
@@ -33,7 +29,6 @@ export const authOptions: NextAuthOptions = {
     redirect() {
       return '/dashboard'
     },
-  },
-}
 
-export const getAuthSession = () => getServerSession(authOptions)
+  },
+})

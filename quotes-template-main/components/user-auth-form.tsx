@@ -32,7 +32,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
 
     try {
       // throw new Error()
-      await signIn('azure-ad')
+      await signIn('microsoft-entra-id')
     } catch(error) {
       toast({
       // Toast Notification

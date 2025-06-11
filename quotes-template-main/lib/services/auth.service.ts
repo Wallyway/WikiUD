@@ -1,8 +1,7 @@
 import { getMongoClient } from '../db'
 import { nanoid } from 'nanoid'
 import { AuthService } from '@/types/next-auth'
-import { getServerSession } from 'next-auth'
-import { authOptions } from '../auth'
+import { auth } from "@/lib/auth"
 import { Session, User } from 'next-auth'
 import { JWT } from 'next-auth/jwt'
 
@@ -13,7 +12,7 @@ export class AuthServiceImpl implements AuthService {
     }
 
     async getSession(): Promise<Session | null> {
-        return getServerSession(authOptions)
+        return auth()
     }
 
     async handleJWT(token: JWT, user: User): Promise<JWT> {
@@ -21,7 +20,9 @@ export class AuthServiceImpl implements AuthService {
         const dbUser = await db.collection("users").findOne({ email: token.email })
 
         if (!dbUser) {
-            token.id = user.id
+            if (user.id) {
+                token.id = user.id
+            }
             return token
         }
 

@@ -11,7 +11,9 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@next-auth/mongodb-adapter": "^1.1.3",
+    "@auth/core": "^0.39.1",
+    "@auth/mongodb-adapter": "3.9.1",
+    "@auth/nextjs": "0.0.0-380f8d56",
     "@prisma/client": "5.10.2",
     "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-dialog": "^1.1.14",
@@ -32,12 +34,12 @@
     "google": "link:@next/font/google",
     "lucide-react": "^0.330.0",
     "micro": "^10.0.1",
-    "mongodb": "6.13.1",
+    "mongodb": "6.17.0",
     "mongodb-adapter": "^0.0.4",
     "motion": "^12.4.7",
     "nanoid": "^5.0.6",
     "next": "15.3.3",
-    "next-auth": "^4.24.6",
+    "next-auth": "5.0.0-beta.28",
     "next-headers": "^0.0.5",
     "next-themes": "^0.2.1",
     "radix-ui": "^1.0.1",
@@ -47,6 +49,7 @@
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
     "types": "link:next-themes/dist/types",
+    "util": "^0.12.5",
     "vaul": "^0.9.0",
     "zod": "^3.22.4"
   },
