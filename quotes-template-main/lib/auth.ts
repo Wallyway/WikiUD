@@ -1,9 +1,7 @@
 import { getMongoClient } from './db'
 import { MongoDBAdapter } from '@auth/mongodb-adapter'
 import NextAuth from "next-auth"
-import MicrosoftEntraID from "next-auth/providers/microsoft-entra-id"
 import { AuthServiceImpl } from './services/auth.service'
-
 import authConfig from "../auth.config"
 
 const authService = new AuthServiceImpl()
