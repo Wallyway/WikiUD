@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { ChevronUp } from "lucide-react";
+import { TeacherCardSkeleton } from "@/components/ui/teacher-card-skeleton";
 
 interface Teacher {
   _id: string;
@@ -23,7 +24,7 @@ interface Teacher {
 
 const ProjectStatusCard = dynamic(
   () => import("@/components/prismui/expandable-card").then(mod => mod.ProjectStatusCard),
-  { loading: () => <div>Loading...</div> }
+  { ssr: false }
 );
 
 function DashboardPage() {
@@ -140,13 +141,11 @@ function DashboardPage() {
 
   return (
     <div className="min-h-screen w-full flex flex-col">
-      <div className="z-10 bg-background/80 backdrop-blur-sm py-6">
+      <div className="flex-1 px-4">
         <h1 className="text-4xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
           Busca a tu <AuroraText>Profe</AuroraText>
         </h1>
-      </div>
-      <div className="flex-1 px-4">
-        <div className={cn("grid gap-6 mt-3 mb-10 justify-center w-max mx-auto")}>
+        <div className={cn("grid gap-6 mt-6 mb-10 justify-center w-max mx-auto")}>
           <div className="flex gap-1">
             <div className="grid flex-1">
               <Label className="sr-only" htmlFor="tag">
@@ -198,8 +197,9 @@ function DashboardPage() {
                 openIssues={0}
               />
             ))}
-            {loading && teachers.length > 0 && <div className="text-center">Cargando...</div>} {/* Show loading only if some teachers are already loaded */}
-            {!loading && !hasMore && teachers.length > 0 && <div className="text-center">No hay más profesores.</div>} {/* Message when no more teachers */}
+            {loading && <TeacherCardSkeleton count={limit} />}
+            {!loading && !hasMore && teachers.length === 0 && <div className="text-center">Sin resultados</div>} {/* Message when no teachers found after initial load */}
+            {!loading && !hasMore && teachers.length > 0 && <div className="text-center">No hay más profesores.</div>} {/* Message when no more teachers after some have loaded */}
           </div>
         </div>
       </div>

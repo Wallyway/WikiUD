@@ -1,18 +1,11 @@
 // "use client";
 import { notFound } from "next/navigation"
-
-
 import { getCurrentUser } from "@/lib/session"
-import { MainNav } from "@/components/main-nav"
-
 import { SiteFooter } from "@/components/site-footer"
 import { UserAccountNav } from "@/components/user-account-nav"
-import { authOptions, getAuthSession } from "@/lib/auth"
-import Link from "@/node_modules/next/link"
-import { buttonVariants } from "@/components/ui/button"
 import { LoggedInNav } from "@/components/loggedin-nav"
 import { ModeToggle } from "@/components/toggle"
-
+import { BGPattern } from "@/components/ui/bg-pattern"
 
 {/* @ts-ignore */}
 
@@ -50,8 +43,8 @@ export default async function DashboardLayout({
         </div>
        
       </header>
-     
         <main className="flex w-full flex-1 flex-col justify-center">
+          <BGPattern mask="fade-edges" size={32} fill="hsl(var(--muted))" />
           {children}
         </main>
       {/* </div> */}

@@ -40,8 +40,8 @@ const features = [
   },
   {
     Icon: BookmarkIcon,
-    name: "Guarda tus referencias",
-    description: "Todos queremos recordar a los mejores profesores.",
+    name: "Grupos de trabajo e investigación",
+    description: "Escoge tu favorito",
     href: "/login",
     cta: "Learn more",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
