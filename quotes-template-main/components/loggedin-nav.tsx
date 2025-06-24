@@ -18,47 +18,55 @@ import { Badge } from "./ui/badge";
 import { ModeToggle } from "./toggle";
 
 
-const components: { title: string; href: string; description: string }[] = [
-  {
-    title: "Grupo de investigación 1",
-    href: "/docs/primitives/alert-dialog",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-  },
-  {
-    title: "Grupo de investigación 2",
-    href: "/docs/primitives/hover-card",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-  },
-  {
-    title: "Grupo de investigación 3",
-    href: "/docs/primitives/progress",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-  },
-  {
-    title: "Grupo de investigación 4",
-    href: "/docs/primitives/scroll-area",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-  },
-  {
-    title: "Grupo de investigación 5",
-    href: "/docs/primitives/tabs",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-  },
-  {
-    title: "Grupo de investigación 6",
-    href: "/docs/primitives/tooltip",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-  },
-];
+const components: {
+  title: string; href: string; description: string; target?: string;
+  rel?: string;
+}[] = [
+    {
+      title: "ARQUISOFT",
+      href: "http://arquisoft.udistrital.edu.co/",
+      target: "_blank",
+      description:
+        "Ciencias de la Computación | Ingenieria de Software",
+      rel: "noopener noreferrer",
+    },
+    {
+      title: "GCEM",
+      href: "/docs/primitives/hover-card",
+      description:
+        "Alta tensión | Calidad de potencia",
+    },
+    {
+      title: "GIIRA",
+      href: "/docs/primitives/progress",
+      description:
+        "Analítica Visual | Ciencias de los Datos",
+    },
+    {
+      title: "LIFAE",
+      href: "https://comunidad.udistrital.edu.co/lifae/",
+      description: "Microrredes Electricas |  Investigación en alternativas electrónicas de Energía",
+      rel: "noopener noreferrer",
+      target: "_blank",
+    },
+    {
+      title: "LAMIC",
+      href: "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000879",
+      description:
+        "Automática | Inteligencia Computacional | Microelectrónica",
+    },
+    {
+      title: "Encontrar mas :)",
+      href: "https://facingenieria.udistrital.edu.co/mcic-investigacion/index.php/investigacion/grupos",
+      description: "¡Continua buscando tu grupo de trabajo favorito!",
+      rel: "noopener noreferrer",
+      target: "_blank",
+    },
+  ];
 
 export function LoggedInNav() {
 
-  
+
 
 
   return (
@@ -113,6 +121,8 @@ export function LoggedInNav() {
                     key={component.title}
                     title={component.title}
                     href={component.href}
+                    target={component.target}
+                    rel={component.rel}
                   >
                     {component.description}
                   </ListItem>

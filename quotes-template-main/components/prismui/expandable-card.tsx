@@ -196,7 +196,7 @@ export function ProjectStatusCard({
                       <div className="space-y-2">
                         <Button className="w-full">
                           <MessageSquare className="h-4 w-4 mr-2" />
-                          View Discussion
+                          Comentarios
                         </Button>
                       </div>
                     </motion.div>

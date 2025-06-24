@@ -19,21 +19,21 @@ function HeroPage() {
             className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium"
             target="_blank"
           > */}
-           
-        
-            <ShineBorder
-      className="text-center capitalize bg-muted px-4 py-1.5 text-lg font-medium absolute"
-      color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
-    >
-     Introduciendo WikiUD ✨
-      </ShineBorder>
-  
+
+
+          <ShineBorder
+            className="text-center capitalize bg-muted px-4 py-1.5 text-lg font-medium absolute"
+            color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+          >
+            Introduciendo WikiUD ✨
+          </ShineBorder>
+
           {/* </Link> */}
-         
+
           <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl mt-20">
-            
-         Referencias de tus profesores en un solo lugar
-     
+
+            Referencias de tus profesores en un solo lugar
+
           </h1>
           <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
             WikiUD es una herramienta para que los estudiantes puedan compartir sus referencias y recomendaciones de sus profesores.
@@ -44,51 +44,51 @@ function HeroPage() {
             </Link>
             <a
               href="/#features"
-              
+
               className={cn(buttonVariants({ variant: "outline", size: "lg" }), "mt-sm-2")}
             >
               Explorar 👇🏻
             </a>
-            
+
           </div>
-          
-          
+
+
         </div>
         <Companies />
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center sm:mb-10 lg:mb-20 md:sm-20">
           <p className="font-heading leading-normal text-muted-foreground sm:text-xs sm:leading-8 pl-4 -mt-6">
-              CREADORES
+            CREADORES
           </p>
         </div>
-       
+
         <div className="relative rounded-xl mx-auto justify-center flex flex-col items-center lg:max-w-[1000px] overflow-hidden md:overflow-auto lg:overflow-auto">
-      <img
-        src="/darkoutput2.png"
-        alt="Hero Image"
-        className="hidden lg:max-w-[1000px]  rounded-[inherit] border object-contain shadow-lg dark:block overflow-hidden md:overflow-auto lg:overflow-auto"
-      />
-      <img
-        src="/lightoutput2.png"
-        alt="Hero Image"
-        className="block lg:max-w-[1000px]  rounded-[inherit] border object-contain shadow-lg dark:hidden overflow-hidden md:overflow-auto lg:overflow-auto"
-      />
- 
-      <BorderBeam size={250}/>
-    </div>
+          <img
+            src="/dark.webp"
+            alt="Hero Image"
+            className="hidden lg:max-w-[1000px]  rounded-[inherit] border object-contain shadow-lg dark:block overflow-hidden md:overflow-auto lg:overflow-auto"
+          />
+          <img
+            src="/light.webp"
+            alt="Hero Image"
+            className="block lg:max-w-[1000px]  rounded-[inherit] border object-contain shadow-lg dark:hidden overflow-hidden md:overflow-auto lg:overflow-auto"
+          />
+
+          <BorderBeam size={250} />
+        </div>
       </section>
 
-      
-      
+
+
       <section
         id="features"
         className="container space-y-6 bg-slate-50 py-8 dark:bg-transparent md:py-12 lg:py-10"
       >
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-        <h3 className="text-center text-sm font-semibold text-gray-500 pb-2">
-              FEATURES
-            </h3>         
+          <h3 className="text-center text-sm font-semibold text-gray-500 pb-2">
+            FEATURES
+          </h3>
         </div>
-        <BentoDemo />        
+        <BentoDemo />
       </section>
       <section id="open-source" className="container py-8 md:py-12 lg:py-24">
         <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
@@ -99,7 +99,7 @@ function HeroPage() {
             Pruebalo Ahora - {" "}
             <a
               href="/login"
-             
+
               className="underline underline-offset-4"
             >
               Comenzar

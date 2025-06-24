@@ -102,9 +102,19 @@ export function MainNav() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/#features" className={navigationMenuTriggerStyle()}>
+            <a
+              href="#features"
+              className={navigationMenuTriggerStyle()}
+              onClick={e => {
+                e.preventDefault();
+                const el = document.getElementById("features");
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
               Features
-            </Link>
+            </a>
             <Link href="/pricing" className={navigationMenuTriggerStyle()}>
               Donar
             </Link>

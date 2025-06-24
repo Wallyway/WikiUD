@@ -8,7 +8,7 @@
 //     "Uber",
 //     "Spotify",
 //   ];
-  
+
 //   export function Companies() {
 //     return (
 //       <section id="companies">
@@ -47,11 +47,10 @@ const people = [
     id: 1,
     name: "Sebastian Wallis",
     designation: "Estudiante Ing. Sistemas",
-    image:userImage1,
+    image: userImage1,
   },
-  
 ];
- 
+
 export function Companies() {
   return (
     <div className="flex flex-row items-center justify-center mb-10 w-full">

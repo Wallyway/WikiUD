@@ -12,25 +12,15 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <Icons.logo className="h-6 w-6" />
           <p className="text-center text-xs leading-loose md:text-left">
-            Design by{" "}
-            <a
-              href="https://twitter.com/kathanmehtaa"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              kathan
-            </a>
-            
             <a
               href="https://vercel.com"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
             >
-            
+
             </a>
-            . Component Credits to {" "}
+            Component Credits to {" "}
             <a
               href="https://twitter.com/shadcn"
               target="_blank"
@@ -52,7 +42,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
           </p>
         </div>
         {/* <ModeToggle /> */}
-        
+
       </div>
     </footer>
   )
