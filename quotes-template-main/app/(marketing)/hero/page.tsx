@@ -61,18 +61,22 @@ function HeroPage() {
           </p>
         </div>
 
-        <div className="relative rounded-xl mx-auto justify-center flex flex-col items-center lg:max-w-[1000px] overflow-hidden md:overflow-auto lg:overflow-auto">
-          <img
-            src="/dark.webp"
-            alt="Hero Image"
-            className="hidden lg:max-w-[1000px]  rounded-[inherit] border object-contain shadow-lg dark:block overflow-hidden md:overflow-auto lg:overflow-auto"
+        <div className="relative rounded-xl mx-auto justify-center flex flex-col items-center lg:max-w-[950px] overflow-hidden">
+          <video
+            src="/video/showcase.webm"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="hidden w-full max-w-full h-auto rounded-[inherit] border object-contain shadow-lg dark:block"
+            style={{ aspectRatio: '16/9' }}
           />
           <img
             src="/light.webp"
             alt="Hero Image"
-            className="block lg:max-w-[1000px]  rounded-[inherit] border object-contain shadow-lg dark:hidden overflow-hidden md:overflow-auto lg:overflow-auto"
+            className="block w-full max-w-full h-auto lg:max-w-[1000px] rounded-[inherit] border object-contain shadow-lg dark:hidden"
+            style={{ aspectRatio: '16/9' }}
           />
-
           <BorderBeam size={250} />
         </div>
       </section>

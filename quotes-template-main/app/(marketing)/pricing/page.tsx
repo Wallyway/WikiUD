@@ -29,9 +29,9 @@ export default function PricingPage() {
   //     console.error('Failed to start the checkout process.');
   //   }
 
-    
+
   // };
-  
+
   return (
     <section className="container flex flex-col  gap-6 py-8 md:max-w-[64rem] md:py-12 lg:py-24">
       <div className="mx-auto flex w-full flex-col gap-4 md:max-w-[58rem]">
@@ -71,16 +71,18 @@ export default function PricingPage() {
         </div>
         <div className="flex flex-col gap-4 text-center">
           <div>
-            <h4 className="text-7xl font-bold">$19</h4>
-            <p className="text-sm font-medium text-muted-foreground">
-              Billed Monthly
-            </p>
+            <h4 className="text-1xl font-bold">Nequi</h4>
+            <img
+              src="/qr.webp"
+              alt="QR para donar"
+              className="mx-auto mt-4 w-32 h-32 object-contain rounded-lg border shadow"
+            />
           </div>
           {/* <Link href="#" onClick={handleCheckout}> */}
-            {/* Get Started */}
-            {/* <ShinyButton text="Get Started"/> */}
+          {/* Get Started */}
+          {/* <ShinyButton text="Get Started"/> */}
           {/* </Link> */}
-         
+
         </div>
       </div>
       <div className="mx-auto flex w-full max-w-[58rem] flex-col gap-4">
