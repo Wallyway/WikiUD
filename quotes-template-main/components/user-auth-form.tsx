@@ -10,9 +10,8 @@ import { Label } from "@/components/ui/label";
 import { ThemeProvider } from "@/components/theme-provider";
 import { signIn } from 'next-auth/react';
 import { useToast } from "@/hooks/use-toast";
-import { title } from "process";
 
-interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> { }
+interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> { className?: string; }
 
 export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
   const [isLoading, setIsLoading] = React.useState<boolean>(false);
