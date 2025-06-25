@@ -12,11 +12,11 @@ import { signIn } from 'next-auth/react';
 import { useToast } from "@/hooks/use-toast";
 import { title } from "process";
 
-interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
+interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> { }
 
 export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
   const [isLoading, setIsLoading] = React.useState<boolean>(false);
-  const {toast} = useToast()
+  const { toast } = useToast()
 
   async function onSubmit(event: React.SyntheticEvent) {
     event.preventDefault();
@@ -24,7 +24,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
 
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 8000);
   }
 
   const loginwithMicrosoft = async () => {
@@ -33,13 +33,13 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
     try {
       // throw new Error()
       await signIn('microsoft-entra-id')
-    } catch(error) {
+    } catch (error) {
       toast({
-      // Toast Notification
-      title: 'There was a problem.',
-      description:  'There was an error Logging in with Microsoft',
-      variant: 'destructive',
-    })
+        // Toast Notification
+        title: 'There was a problem.',
+        description: 'There was an error Logging in with Microsoft',
+        variant: 'destructive',
+      })
     } finally {
       setIsLoading(false)
     }
