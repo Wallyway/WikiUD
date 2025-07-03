@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils"
-import { Avatar, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 
 export interface TestimonialAuthor {
     name: string
@@ -16,6 +16,20 @@ export interface TestimonialCardProps {
     onMouseLeave?: React.MouseEventHandler<HTMLDivElement>
     rating?: number // de 1 a 5
     date?: string // fecha opcional
+}
+
+function stringToColor(str: string) {
+    // Simple hash to pick a color from a palette
+    const colors = [
+        "bg-red-500", "bg-green-500", "bg-blue-500", "bg-yellow-500",
+        "bg-pink-500", "bg-purple-500", "bg-indigo-500", "bg-teal-500",
+        "bg-orange-500", "bg-cyan-500"
+    ];
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    return colors[Math.abs(hash) % colors.length];
 }
 
 export function TestimonialCard({
@@ -65,15 +79,21 @@ export function TestimonialCard({
                 >
                     <div className="flex items-center gap-3">
                         <Avatar className="h-12 w-12">
-                            <AvatarImage src={author.avatar} alt={author.name} />
+                            {author.avatar ? (
+                                <AvatarImage src={author.avatar} alt={author.name} />
+                            ) : (
+                                <AvatarFallback className={stringToColor(author.name)}>
+                                    {author.name[0]}
+                                </AvatarFallback>
+                            )}
                         </Avatar>
                         <div className="flex flex-col items-start">
                             <h3 className="text-md font-semibold leading-none">
                                 {author.name}
                             </h3>
-                            <p className="text-sm text-muted-foreground">
+                            {/* <p className="text-sm text-muted-foreground">
                                 {author.handle}
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                     <p className="sm:text-md mt-4 text-sm text-muted-foreground">
@@ -101,15 +121,21 @@ export function TestimonialCard({
         >
             <div className="flex items-center gap-3">
                 <Avatar className="h-12 w-12">
-                    <AvatarImage src={author.avatar} alt={author.name} />
+                    {author.avatar ? (
+                        <AvatarImage src={author.avatar} alt={author.name} />
+                    ) : (
+                        <AvatarFallback className={stringToColor(author.name)}>
+                            {author.name[0]}
+                        </AvatarFallback>
+                    )}
                 </Avatar>
                 <div className="flex flex-col items-start">
                     <h3 className="text-md font-semibold leading-none">
                         {author.name}
                     </h3>
-                    <p className="text-sm text-muted-foreground">
+                    {/* <p className="text-sm text-muted-foreground">
                         {author.handle}
-                    </p>
+                    </p> */}
                 </div>
             </div>
             <p className="sm:text-md mt-4 text-sm text-muted-foreground">

@@ -17,7 +17,7 @@ import { SiteFooter } from "@/components/site-footer";
 import MobileNav from "@/components/mobile-nav";
 import { Toaster } from "@/components/ui/toaster";
 import { getCurrentUser } from "@/lib/session";
-import { getAuthSession } from "@/lib/auth";
+import { SessionProvider } from 'next-auth/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,45 +38,47 @@ export default function RootLayout({
           "relative flex min-h-screen w-full flex-col justify-center scroll-smooth bg-background font-sans antialiased",
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {/* <div className="flex min-h-screen flex-col">
-            <header className="h-16 container sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-              <div className="flex h-16 items-center justify-between py-6 w-full">
-              <MobileNav />
-                <MainNav />
-                <nav>
-                  <div className="md:flex">
-                    <div className="flex gap-4">
-                      <ModeToggle />
-                      <Link
-                        href="/login"
-                        className={cn(
-                          buttonVariants({ variant: "secondary", size: "sm" }),
-                          "px-4"
-                        )}
-                      >
-                        Get Started
-                      </Link>
+        <SessionProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {/* <div className="flex min-h-screen flex-col">
+              <header className="h-16 container sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+                <div className="flex h-16 items-center justify-between py-6 w-full">
+                <MobileNav />
+                  <MainNav />
+                  <nav>
+                    <div className="md:flex">
+                      <div className="flex gap-4">
+                        <ModeToggle />
+                        <Link
+                          href="/login"
+                          className={cn(
+                            buttonVariants({ variant: "secondary", size: "sm" }),
+                            "px-4"
+                          )}
+                        >
+                          Get Started
+                        </Link>
+                      </div>
                     </div>
-                  </div>
-                </nav>
-              </div>
-            </header> */}
-          {/* <HeroPage /> */}
+                  </nav>
+                </div>
+              </header> */}
+            {/* <HeroPage /> */}
 
-          <main className="flex-1">{children}</main>
-          <Analytics />
-          <SpeedInsights />
-          {/* </div>
-           
-          <SiteFooter /> */}
-          <Toaster />
-        </ThemeProvider>
+            <main className="flex-1">{children}</main>
+            <Analytics />
+            <SpeedInsights />
+            {/* </div>
+             
+            <SiteFooter /> */}
+            <Toaster />
+          </ThemeProvider>
+        </SessionProvider>
       </body>
     </html>
   );

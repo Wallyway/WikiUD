@@ -7,8 +7,10 @@ import { Button } from "@/components/ui/button";
 
 const TRANSITION = {
     type: "spring",
-    bounce: 0.1,
-    duration: 0.4,
+    bounce: 0.22,
+    duration: 0.55,
+    stiffness: 180,
+    damping: 18
 };
 
 interface PopoverContextType {
@@ -142,9 +144,9 @@ export function PopoverContent({
                             className
                         )}
                         style={position === 'center' ? undefined : undefined}
-                        initial={{ opacity: 0, scale: 0.9, y: -8 }}
-                        animate={{ opacity: 1, scale: 1, y: 0 }}
-                        exit={{ opacity: 0, scale: 0.9, y: -8 }}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0, transition: { type: "tween", duration: 0.5, ease: "easeInOut" } }}
                     >
                         {children}
                     </motion.div>

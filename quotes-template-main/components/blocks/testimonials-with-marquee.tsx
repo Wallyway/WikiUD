@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils"
 import { TestimonialCard, TestimonialAuthor } from "@/components/ui/testimonial-card"
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { motion } from "framer-motion";
 
 interface TestimonialsSectionProps {
     title: string
@@ -11,15 +12,18 @@ interface TestimonialsSectionProps {
         href?: string
         rating: number
         date: string
+        _id?: string
     }>
     className?: string
+    // highlightedCommentId?: string
 }
 
 export function TestimonialsSection({
     title,
     description,
     testimonials,
-    className
+    className,
+    // highlightedCommentId
 }: TestimonialsSectionProps) {
     const [isPaused, setIsPaused] = useState(false);
     const shouldAnimate = testimonials.length > 1;
@@ -30,6 +34,14 @@ export function TestimonialsSection({
     const minCarouselWidth = 1200;
     const repeatCount = testimonials.length > 0 ? Math.ceil(minCarouselWidth / (testimonials.length * cardWidth)) + 1 : 1;
     const loopTestimonials = Array.from({ length: repeatCount }, () => testimonials).flat();
+
+    // --- NUEVO: velocidad constante ---
+    const baseSpeed = 80; // px por segundo
+    const totalWidth = cardWidth * loopTestimonials.length;
+    const duration = totalWidth / baseSpeed; // segundos
+    // --- ---
+
+    // Sin lógica de highlight ni scroll
 
     return (
         <section className={cn(
@@ -55,20 +67,27 @@ export function TestimonialsSection({
                         <div
                             className={cn(
                                 "flex shrink-0 justify-around [gap:var(--gap)] flex-row",
-                                shouldAnimate && "animate-marquee",
                                 isPaused && shouldAnimate && "paused"
                             )}
+                            style={shouldAnimate ? {
+                                animation: `marquee ${duration}s linear infinite`,
+                                animationPlayState: isPaused ? "paused" : "running"
+                            } : undefined}
                         >
-                            {loopTestimonials.map((testimonial, i) => (
-                                <TestimonialCard
-                                    key={i}
-                                    {...testimonial}
-                                    rating={testimonial.rating}
-                                    date={testimonial.date}
-                                    onMouseEnter={() => setIsPaused(true)}
-                                    onMouseLeave={() => setIsPaused(false)}
-                                />
-                            ))}
+                            {loopTestimonials.map((testimonial, i) => {
+                                const key = testimonial._id ? `${testimonial._id}-${i}` : i;
+                                return (
+                                    <div key={key}>
+                                        <TestimonialCard
+                                            {...testimonial}
+                                            rating={testimonial.rating}
+                                            date={testimonial.date}
+                                            onMouseEnter={() => setIsPaused(true)}
+                                            onMouseLeave={() => setIsPaused(false)}
+                                        />
+                                    </div>
+                                );
+                            })}
                         </div>
                     </div>
 

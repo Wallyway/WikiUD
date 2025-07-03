@@ -56,6 +56,7 @@ import {
 } from "@/components/prismui/popover";
 import { Slider } from "@/components/ui/slider-number-flow";
 import NumberFlow from '@number-flow/react';
+import { useSession } from 'next-auth/react';
 
 interface ProjectStatusCardProps {
   id: string;
@@ -199,16 +200,16 @@ export function ProjectStatusCard({
                               <Tooltip>
                                 <TooltipTrigger asChild>
                                   <Avatar className="border-2 border-white">
-                                    <AvatarImage
-                                      src={
-                                        contributor.image ||
-                                        `/placeholder.svg?height=32&width=32&text=${contributor.name[0]}`
-                                      }
-                                      alt={contributor.name}
-                                    />
-                                    <AvatarFallback>
-                                      {contributor.name[0]}
-                                    </AvatarFallback>
+                                    {contributor.image ? (
+                                      <AvatarImage
+                                        src={contributor.image}
+                                        alt={contributor.name}
+                                      />
+                                    ) : (
+                                      <AvatarFallback className={stringToColor(contributor.name)}>
+                                        {contributor.name[0]}
+                                      </AvatarFallback>
+                                    )}
                                   </Avatar>
                                 </TooltipTrigger>
 
@@ -256,7 +257,7 @@ export function ProjectStatusCard({
                                   Comenta ✏️
                                 </PopoverTrigger>
                                 <PopoverContent className="h-[250px] w-[550px]">
-                                  <PopoverFormWithSlider />
+                                  <PopoverFormWithSlider teacherId={id} onCommentAdded={() => { /* TODO: refresh comments here */ }} />
                                 </PopoverContent>
                               </PopoverRoot>
                             </ModalFooter>
@@ -437,6 +438,11 @@ const CommentsModal = ({ teacherId }: { teacherId: string }) => {
       .finally(() => setLoading(false));
   }, [teacherId]);
 
+  // Función para agregar comentario
+  const handleCommentAdded = (newComment: any) => {
+    setComments(prev => [...prev, newComment]);
+  };
+
   return (
     <div>
       <TestimonialsSection
@@ -489,12 +495,81 @@ function CommentTextareaWithCounter({ maxLength }: { maxLength: number }) {
   );
 }
 
-// Popover form with slider next to Enviar button (accepts decimals)
-function PopoverFormWithSlider() {
-  const { note, setNote } = usePopoverContext();
-  const [sliderValue, setSliderValue] = useState([3]); // Default to 3 UPS
+interface PopoverFormWithSliderProps {
+  teacherId: string;
+  onCommentAdded: (comment: any) => void;
+}
+
+function Spinner() {
   return (
-    <PopoverForm onSubmit={() => console.log("Comentario enviado:", note, "UPS:", sliderValue[0])}>
+    <svg className="animate-spin h-5 w-5 mr-2 text-white inline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+    </svg>
+  );
+}
+
+function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSliderProps) {
+  const { note, setNote, closePopover } = usePopoverContext();
+  const [sliderValue, setSliderValue] = useState([3]);
+  const { data: session, status } = useSession();
+  const [submitting, setSubmitting] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [showConfirm, setShowConfirm] = useState(false);
+  const isLoggedIn = status === 'authenticated' && session?.user;
+
+  async function sendComment() {
+    if (!session) return;
+    setSubmitting(true);
+    setSent(false);
+    const author = {
+      name: session.user.name || '',
+      handle: session.user.username || session.user.email || '',
+      avatar: session.user.image || '',
+    };
+    const payload = {
+      teacherId,
+      author,
+      text: note,
+      rating: sliderValue[0],
+      date: new Date().toISOString().slice(0, 10),
+    };
+    const res = await fetch('/api/comments', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    setSubmitting(false);
+    if (res.ok) {
+      setNote('');
+      setSliderValue([3]);
+      setSent(true);
+      const newComment = await res.json();
+      onCommentAdded(newComment.comment || payload); // preferir el comentario con _id
+      setTimeout(() => {
+        setSent(false);
+        closePopover();
+      }, 800);
+    }
+  }
+
+  function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!isLoggedIn) return;
+    setShowConfirm(true);
+  }
+
+  function handleConfirmSend() {
+    setShowConfirm(false);
+    sendComment();
+  }
+
+  function handleCancelSend() {
+    setShowConfirm(false);
+  }
+
+  return (
+    <form className="flex h-full flex-col" onSubmit={handleSubmit}>
       <PopoverLabel>Agrega un comentario</PopoverLabel>
       <CommentTextareaWithCounter maxLength={200} />
       <PopoverFooterComp>
@@ -524,8 +599,63 @@ function PopoverFormWithSlider() {
             <span className="text-lg ml-1">🆙</span>
           </div>
         </div>
-        <PopoverSubmitButton className="ml-2" disabled={!note.trim()}>Enviar</PopoverSubmitButton>
+        <PopoverSubmitButton className="ml-2" disabled={!note.trim() || !isLoggedIn || submitting || sent}>
+          {submitting ? <Spinner /> : sent ? 'Enviado' : 'Enviar'}
+        </PopoverSubmitButton>
       </PopoverFooterComp>
-    </PopoverForm>
+      <AnimatePresence>
+        {showConfirm && (
+          <motion.div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/40"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.div
+              className="bg-background border border-border rounded-xl shadow-xl p-8 flex flex-col items-start gap-4 min-w-[380px] max-w-[90vw] font-sans"
+              initial={{ scale: 0.92, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.92, opacity: 0 }}
+              transition={{ type: "spring", stiffness: 260, damping: 22 }}
+            >
+              <div className="text-lg font-bold text-foreground">¿Estás absolutamente seguro?</div>
+              <div className="text-sm text-muted-foreground">
+                Esta acción no se puede deshacer. Tu comentario será enviado y no podrás modificarlo después.
+              </div>
+              <div className="flex gap-3 mt-2 self-end">
+                <button
+                  type="button"
+                  className="px-4 py-2 rounded-md border border-border bg-transparent text-foreground font-semibold hover:bg-muted transition"
+                  onClick={handleCancelSend}
+                >
+                  Cancelar
+                </button>
+                <button
+                  type="button"
+                  className="px-4 py-2 rounded-md bg-green-600 text-white font-semibold hover:bg-green-700 transition"
+                  onClick={handleConfirmSend}
+                >
+                  Seguro
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </form>
   );
+}
+
+// Agregar función para color aleatorio consistente
+function stringToColor(str: string) {
+  const colors = [
+    "bg-red-500", "bg-green-500", "bg-blue-500", "bg-yellow-500",
+    "bg-pink-500", "bg-purple-500", "bg-indigo-500", "bg-teal-500",
+    "bg-orange-500", "bg-cyan-500"
+  ];
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  return colors[Math.abs(hash) % colors.length];
 }
