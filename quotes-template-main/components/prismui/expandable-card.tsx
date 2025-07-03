@@ -450,7 +450,7 @@ const CommentsModal = ({ teacherId }: { teacherId: string }) => {
         testimonials={comments}
         className="max-w-xl w-full mx-auto"
       />
-      <div className="py-10 flex w-full flex justify-center gap-x-3">
+      <div className="py-10 w-full flex justify-center gap-x-3">
         <div className="flex  items-center justify-center">
           <MicIcon className="mr-1 text-neutral-700 dark:text-neutral-300 h-4 w-4" />
           <span className="text-neutral-700 dark:text-neutral-300 text-sm">
