@@ -36,7 +36,7 @@ export function TestimonialsSection({
     const loopTestimonials = Array.from({ length: repeatCount }, () => testimonials).flat();
 
     // --- NUEVO: velocidad constante ---
-    const baseSpeed = 80; // px por segundo
+    const baseSpeed = 190; // px por segundo
     const totalWidth = cardWidth * loopTestimonials.length;
     const duration = totalWidth / baseSpeed; // segundos
     // --- ---
