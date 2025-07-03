@@ -33,7 +33,12 @@ export class TeacherServiceImpl implements TeacherService {
         return teachers.map(teacher => ({
             _id: teacher._id.toString(),
             name: teacher.name,
-            faculty: teacher.faculty
+            faculty: teacher.faculty,
+            degree: teacher.degree,
+            subject: teacher.subject,
+            email: teacher.email,
+            rating: teacher.rating,
+            reviews: teacher.reviews
         }))
     }
 } 

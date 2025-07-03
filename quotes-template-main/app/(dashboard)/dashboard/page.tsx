@@ -36,6 +36,7 @@ function DashboardPage() {
   const [loading, setLoading] = useState(false);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const limit = 9; // Define the limit here
+  const [commentsByTeacher, setCommentsByTeacher] = useState<Record<string, any[]>>({});
 
   // Reset state when tag or facultyTag changes
   useEffect(() => {
@@ -98,12 +99,12 @@ function DashboardPage() {
 
           // If we received less than the limit, there might not be more pages
           if (newTeachers.length < limit) {
-             setHasMore(false);
-             console.log('Fewer than limit received. hasMore set to false.');
+            setHasMore(false);
+            console.log('Fewer than limit received. hasMore set to false.');
           } else {
-             // If we received exactly the limit, assume there might be more
-             // This prevents prematurely setting hasMore to false if there's another full page
-             setHasMore(true);
+            // If we received exactly the limit, assume there might be more
+            // This prevents prematurely setting hasMore to false if there's another full page
+            setHasMore(true);
           }
         }
       } catch (error) {
@@ -138,6 +139,29 @@ function DashboardPage() {
     // Clean up the event listener when the component unmounts or dependencies change
     return () => window.removeEventListener('scroll', handleScroll);
   }, [hasMore, loading]); // Include dependencies hasMore and loading to ensure handler re-creates when these change
+
+  // Fetch comments for all teachers when teachers change
+  useEffect(() => {
+    async function fetchComments() {
+      const newCommentsByTeacher: Record<string, any[]> = {};
+      await Promise.all(
+        teachers.map(async (teacher) => {
+          try {
+            const res = await axios.get(`/api/comments?teacherId=${teacher._id}`);
+            newCommentsByTeacher[teacher._id] = res.data.comments || [];
+          } catch (e) {
+            newCommentsByTeacher[teacher._id] = [];
+          }
+        })
+      );
+      setCommentsByTeacher(newCommentsByTeacher);
+    }
+    if (teachers.length > 0) {
+      fetchComments();
+    } else {
+      setCommentsByTeacher({});
+    }
+  }, [teachers]);
 
   return (
     <div className="min-h-screen w-full flex flex-col">
@@ -182,28 +206,38 @@ function DashboardPage() {
 
           {/* Card Section (always ProjectStatusCard) */}
           <div className="flex flex-col gap-4 w-full max-w-full mx-auto">
-            {teachers.map((teacher) => (
-              <ProjectStatusCard
-                key={teacher._id}
-                title={teacher.name}
-                progress={Math.round((teacher.rating / 5) * 100)}
-                dueDate={teacher.degree}
-                faculty={teacher.faculty}
-                contributors={[]}
-                tasks={[
-                  { title: teacher.subject, completed: true },
-                ]}
-                githubStars={teacher.reviews}
-                openIssues={0}
-              />
-            ))}
+            {teachers.map((teacher) => {
+              // Get last 3 comments for this teacher
+              const comments = commentsByTeacher[teacher._id] || [];
+              const last3 = comments.slice(-3).reverse();
+              const contributors = last3.map((c: any) => ({
+                name: c.author?.name || "-",
+                image: c.author?.avatar || undefined,
+              }));
+              return (
+                <ProjectStatusCard
+                  key={teacher._id}
+                  id={teacher._id}
+                  title={teacher.name}
+                  progress={Math.round((teacher.rating / 5) * 100)}
+                  dueDate={teacher.degree}
+                  faculty={teacher.faculty}
+                  contributors={contributors}
+                  tasks={[
+                    { title: teacher.subject, completed: true },
+                  ]}
+                  githubStars={teacher.reviews}
+                  openIssues={teacher.reviews}
+                />
+              );
+            })}
             {loading && <TeacherCardSkeleton count={limit} />}
             {!loading && !hasMore && teachers.length === 0 && <div className="text-center">Sin resultados</div>} {/* Message when no teachers found after initial load */}
             {!loading && !hasMore && teachers.length > 0 && <div className="text-center">No hay más profesores.</div>} {/* Message when no more teachers after some have loaded */}
           </div>
         </div>
       </div>
-      
+
       {/* Back to top button */}
       <button
         onClick={scrollToTop}
