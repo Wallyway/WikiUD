@@ -257,7 +257,14 @@ export function ProjectStatusCard({
                                   Comenta ✏️
                                 </PopoverTrigger>
                                 <PopoverContent className="h-[250px] w-[550px]">
-                                  <PopoverFormWithSlider teacherId={id} onCommentAdded={() => { /* TODO: refresh comments here */ }} />
+                                  <PopoverFormWithSlider teacherId={id} onCommentAdded={(newComment) => {
+                                    console.log('ProjectStatusCard: Dispatching commentAdded event', { comment: newComment, teacherId: id });
+                                    // This will be handled by the CommentsModal through a ref or context
+                                    // For now, we'll use a custom event to communicate
+                                    window.dispatchEvent(new CustomEvent('commentAdded', {
+                                      detail: { comment: newComment, teacherId: id }
+                                    }));
+                                  }} />
                                 </PopoverContent>
                               </PopoverRoot>
                             </ModalFooter>
@@ -429,19 +436,53 @@ const CancelModalButton = () => {
 const CommentsModal = ({ teacherId }: { teacherId: string }) => {
   const [comments, setComments] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
+  const [highlightedCommentId, setHighlightedCommentId] = useState<string | undefined>();
+  const [shinyCommentId, setShinyCommentId] = useState<string | undefined>();
+  const { data: session } = useSession();
+
+  // Fetch comments and optionally highlight the last by current user
+  const refreshComments = async (highlightLastByUser = false) => {
+    setLoading(true);
+    const res = await fetch(`/api/comments?teacherId=${teacherId}`);
+    const data = await res.json();
+    setComments(data.comments || []);
+    setLoading(false);
+    if (highlightLastByUser && session?.user) {
+      // Find last comment by current user
+      const userEmail = session.user.email;
+      const userName = session.user.name;
+      const userUsername = session.user.username;
+      const lastUserComment = (data.comments || []).slice().reverse().find((c: any) =>
+        c.author?.email === userEmail ||
+        c.author?.handle === userUsername ||
+        c.author?.name === userName
+      );
+      if (lastUserComment && lastUserComment._id) {
+        setHighlightedCommentId(lastUserComment._id);
+        setShinyCommentId(lastUserComment._id);
+        setTimeout(() => setHighlightedCommentId(undefined), 3000);
+      }
+    }
+  };
 
   useEffect(() => {
-    setLoading(true);
-    fetch(`/api/comments?teacherId=${teacherId}`)
-      .then(res => res.json())
-      .then(data => setComments(data.comments || []))
-      .finally(() => setLoading(false));
+    refreshComments();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [teacherId]);
 
-  // Función para agregar comentario
-  const handleCommentAdded = (newComment: any) => {
-    setComments(prev => [...prev, newComment]);
-  };
+  // Listen for new comments from the popover form
+  useEffect(() => {
+    const handleCommentAdded = (event: CustomEvent) => {
+      if (event.detail.teacherId === teacherId) {
+        refreshComments(true);
+      }
+    };
+    window.addEventListener('commentAdded', handleCommentAdded as EventListener);
+    return () => {
+      window.removeEventListener('commentAdded', handleCommentAdded as EventListener);
+      setShinyCommentId(undefined); // clear shiny when modal is closed
+    };
+  }, [teacherId, session]);
 
   return (
     <div>
@@ -449,6 +490,8 @@ const CommentsModal = ({ teacherId }: { teacherId: string }) => {
         title="Comentarios"
         testimonials={comments}
         className="max-w-xl w-full mx-auto"
+        highlightedCommentId={highlightedCommentId}
+        shinyCommentId={shinyCommentId}
       />
       <div className="py-10 w-full flex justify-center gap-x-3">
         <div className="flex  items-center justify-center">
@@ -534,6 +577,7 @@ function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSli
       rating: sliderValue[0],
       date: new Date().toISOString().slice(0, 10),
     };
+    console.log('PopoverFormWithSlider: Sending comment', payload);
     const res = await fetch('/api/comments', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -545,6 +589,7 @@ function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSli
       setSliderValue([3]);
       setSent(true);
       const newComment = await res.json();
+      console.log('PopoverFormWithSlider: Comment sent successfully', newComment);
       onCommentAdded(newComment.comment || payload); // preferir el comentario con _id
       setTimeout(() => {
         setSent(false);

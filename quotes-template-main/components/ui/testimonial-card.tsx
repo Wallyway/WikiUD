@@ -16,6 +16,8 @@ export interface TestimonialCardProps {
     onMouseLeave?: React.MouseEventHandler<HTMLDivElement>
     rating?: number // de 1 a 5
     date?: string // fecha opcional
+    isHighlighted?: boolean // nuevo prop para destacar comentarios
+    isShiny?: boolean // shiny border for new comment
 }
 
 function stringToColor(str: string) {
@@ -40,7 +42,9 @@ export function TestimonialCard({
     onMouseEnter,
     onMouseLeave,
     rating,
-    date
+    date,
+    isHighlighted,
+    isShiny
 }: TestimonialCardProps) {
     function TestimonialFooter({ rating, date }: { rating?: number, date?: string }) {
         return (
@@ -61,21 +65,29 @@ export function TestimonialCard({
             </div>
         );
     }
+
+    const cardClassName = cn(
+        "group flex flex-col flex-1",
+        "bg-gradient-to-b from-muted/50 to-muted/10",
+        "px-6 py-4 text-start",
+        "hover:from-muted/60 hover:to-muted/20",
+        "min-w-[260px] max-w-[340px] min-h-[290px]",
+        "transition-all duration-500",
+        "rounded-lg",
+        isShiny ? ["overflow-hidden", "relative", "shiny-border-pseudo"] : "border-t",
+        isHighlighted && [
+            "animate-highlight-bounce",
+            "z-10"
+        ],
+        className
+    );
+
     if (href) {
         return (
             <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                 <a
                     href={href}
-                    className={cn(
-                        "group flex flex-col flex-1 rounded-lg border-t",
-                        "bg-gradient-to-b from-muted/50 to-muted/10",
-                        "px-6 py-4 text-start",
-                        "hover:from-muted/60 hover:to-muted/20",
-                        "min-w-[260px] max-w-[340px] min-h-[290px]",
-                        "transition-colors duration-300",
-                        "mx-4",
-                        className
-                    )}
+                    className={cardClassName}
                 >
                     <div className="flex items-center gap-3">
                         <Avatar className="h-12 w-12">
@@ -106,16 +118,7 @@ export function TestimonialCard({
     }
     return (
         <div
-            className={cn(
-                "group flex flex-col flex-1 rounded-lg border-t",
-                "bg-gradient-to-b from-muted/50 to-muted/10",
-                "px-6 py-4 text-start",
-                "hover:from-muted/60 hover:to-muted/20",
-                "min-w-[260px] max-w-[340px] min-h-[290px]",
-                "transition-colors duration-300",
-                "mx-4",
-                className
-            )}
+            className={cardClassName}
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
         >

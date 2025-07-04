@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils"
 import { TestimonialCard, TestimonialAuthor } from "@/components/ui/testimonial-card"
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import { motion } from "framer-motion";
 
 interface TestimonialsSectionProps {
@@ -15,7 +15,8 @@ interface TestimonialsSectionProps {
         _id?: string
     }>
     className?: string
-    // highlightedCommentId?: string
+    highlightedCommentId?: string
+    shinyCommentId?: string
 }
 
 export function TestimonialsSection({
@@ -23,25 +24,99 @@ export function TestimonialsSection({
     description,
     testimonials,
     className,
-    // highlightedCommentId
+    highlightedCommentId,
+    shinyCommentId
 }: TestimonialsSectionProps) {
     const [isPaused, setIsPaused] = useState(false);
+    const [isHighlighting, setIsHighlighting] = useState(false);
+    const carouselRef = useRef<HTMLDivElement>(null);
+    const innerRef = useRef<HTMLDivElement>(null);
+    const animationRef = useRef<number>();
+    const scrollPositionRef = useRef(0);
     const shouldAnimate = testimonials.length > 1;
 
-    // Calcular cuántas veces repetir el array para llenar el carrusel
-    // Suponiendo cada tarjeta ~350px y carrusel ~1200px
+    // Card dimensions
     const cardWidth = 350;
-    const minCarouselWidth = 1200;
-    const repeatCount = testimonials.length > 0 ? Math.ceil(minCarouselWidth / (testimonials.length * cardWidth)) + 1 : 1;
+    const cardGap = 16; // gap between cards
+    const totalCardWidth = cardWidth + cardGap;
+
+    // Create a loop of testimonials for seamless scrolling
+    const repeatCount = testimonials.length > 0 ? Math.ceil(3) : 1; // Repeat 3 times
     const loopTestimonials = Array.from({ length: repeatCount }, () => testimonials).flat();
 
-    // --- NUEVO: velocidad constante ---
-    const baseSpeed = 190; // px por segundo
-    const totalWidth = cardWidth * loopTestimonials.length;
-    const duration = totalWidth / baseSpeed; // segundos
-    // --- ---
+    // Animation speed (pixels per second)
+    const animationSpeed = 50;
 
-    // Sin lógica de highlight ni scroll
+    // Animation loop
+    const animate = useCallback(() => {
+        if (!shouldAnimate || isPaused || isHighlighting) {
+            animationRef.current = requestAnimationFrame(animate);
+            return;
+        }
+        scrollPositionRef.current += (animationSpeed / 60); // 60fps
+        const maxScroll = totalCardWidth * testimonials.length;
+        if (scrollPositionRef.current >= maxScroll) {
+            scrollPositionRef.current = 0;
+        }
+        if (innerRef.current) {
+            innerRef.current.style.transform = `translateX(-${scrollPositionRef.current}px)`;
+        }
+        animationRef.current = requestAnimationFrame(animate);
+    }, [shouldAnimate, isPaused, isHighlighting, totalCardWidth, testimonials.length, animationSpeed]);
+
+    // Start animation
+    useEffect(() => {
+        if (shouldAnimate) {
+            animationRef.current = requestAnimationFrame(animate);
+        }
+        return () => {
+            if (animationRef.current) {
+                cancelAnimationFrame(animationRef.current);
+            }
+        };
+    }, [animate, shouldAnimate]);
+
+    // Highlight logic
+    useEffect(() => {
+        if (highlightedCommentId && carouselRef.current && innerRef.current) {
+            setIsHighlighting(true);
+            setIsPaused(true);
+            // Find the highlighted comment in the original testimonials array
+            const highlightedIndex = testimonials.findIndex(
+                testimonial => testimonial._id === highlightedCommentId
+            );
+            if (highlightedIndex !== -1) {
+                // Calculate the position to center the highlighted comment
+                const containerWidth = carouselRef.current.offsetWidth;
+                const cardPosition = highlightedIndex * totalCardWidth;
+                const centerOffset = (containerWidth - cardWidth) / 2;
+                const targetPosition = Math.max(0, cardPosition - centerOffset);
+                const startPosition = scrollPositionRef.current;
+                const endPosition = targetPosition;
+                const duration = 400; // 0.4 second (faster)
+                const startTime = Date.now();
+                const animateScroll = () => {
+                    const elapsed = Date.now() - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const easeOut = 1 - Math.pow(1 - progress, 3);
+                    const currentPosition = startPosition + (endPosition - startPosition) * easeOut;
+                    scrollPositionRef.current = currentPosition;
+                    if (innerRef.current) {
+                        innerRef.current.style.transform = `translateX(-${currentPosition}px)`;
+                    }
+                    if (progress < 1) {
+                        requestAnimationFrame(animateScroll);
+                    } else {
+                        setTimeout(() => {
+                            setIsHighlighting(false);
+                            setIsPaused(false);
+                        }, 2000);
+                    }
+                };
+                animateScroll();
+            }
+        }
+    }, [highlightedCommentId, testimonials, cardWidth, totalCardWidth]);
 
     return (
         <section className={cn(
@@ -61,29 +136,39 @@ export function TestimonialsSection({
                         </p>
                     )}
                 </div>
-
                 <div className="relative flex flex-col items-center justify-center overflow-hidden">
-                    <div className="flex overflow-hidden p-1 [--gap:0rem] [gap:var(--gap)] flex-row max-w-[90vw] mx-auto">
+                    {isHighlighting && (
+                        <motion.div
+                            initial={{ opacity: 0, y: -10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -10 }}
+                            className="absolute top-2 left-1/2 transform -translate-x-1/2 z-10 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-medium shadow-lg"
+                        >
+                            ✨ Nuevo comentario destacado
+                        </motion.div>
+                    )}
+                    <div
+                        ref={carouselRef}
+                        className="flex overflow-hidden p-1 max-w-[90vw] mx-auto"
+                    >
                         <div
-                            className={cn(
-                                "flex shrink-0 justify-around [gap:var(--gap)] flex-row",
-                                isPaused && shouldAnimate && "paused"
-                            )}
-                            style={shouldAnimate ? {
-                                animation: `marquee ${duration}s linear infinite`,
-                                animationPlayState: isPaused ? "paused" : "running"
-                            } : undefined}
+                            ref={innerRef}
+                            className="flex shrink-0 gap-4 flex-row"
                         >
                             {loopTestimonials.map((testimonial, i) => {
                                 const key = testimonial._id ? `${testimonial._id}-${i}` : i;
+                                const isHighlighted = testimonial._id === highlightedCommentId && isHighlighting;
+                                const isShiny = testimonial._id === shinyCommentId;
                                 return (
-                                    <div key={key}>
+                                    <div key={key} style={{ width: cardWidth, flexShrink: 0 }}>
                                         <TestimonialCard
                                             {...testimonial}
                                             rating={testimonial.rating}
                                             date={testimonial.date}
-                                            onMouseEnter={() => setIsPaused(true)}
-                                            onMouseLeave={() => setIsPaused(false)}
+                                            onMouseEnter={() => !isHighlighting && setIsPaused(true)}
+                                            onMouseLeave={() => !isHighlighting && setIsPaused(false)}
+                                            isHighlighted={isHighlighted}
+                                            isShiny={isShiny}
                                         />
                                     </div>
                                 );
