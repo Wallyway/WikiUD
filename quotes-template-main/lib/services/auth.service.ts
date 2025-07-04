@@ -1,7 +1,6 @@
 import { getMongoClient } from '../db'
 import { nanoid } from 'nanoid'
 import { AuthService } from '@/types/next-auth'
-import { auth } from "@/lib/auth"
 import { Session, User } from 'next-auth'
 import { JWT } from 'next-auth/jwt'
 
@@ -26,7 +25,8 @@ export class AuthServiceImpl implements AuthService {
      * @returns Promise resolving to the current Session object or null if no session exists
      */
     async getSession(): Promise<Session | null> {
-        return auth()
+        // This will be handled by the auth callback, not directly here
+        return null
     }
 
     /**
@@ -43,10 +43,24 @@ export class AuthServiceImpl implements AuthService {
         const dbUser = await db.collection("users").findOne({ email: token.email })
 
         if (!dbUser) {
-            if (user.id) {
-                token.id = user.id
+            // Create new user if they don't exist
+            const newUser = {
+                email: token.email,
+                name: token.name,
+                image: token.picture,
+                username: this.generateUsername(),
+                createdAt: new Date(),
             }
-            return token
+
+            const result = await db.collection("users").insertOne(newUser)
+
+            return {
+                id: result.insertedId.toString(),
+                name: newUser.name,
+                email: newUser.email,
+                picture: newUser.image,
+                username: newUser.username,
+            }
         }
 
         if (!dbUser.username) {
@@ -68,13 +82,31 @@ export class AuthServiceImpl implements AuthService {
     }
 
     /**
+     * Updates the session object with user information from the database user.
+     * 
+     * @param user - The database user object containing user information
+     * @param session - The current session object to update
+     * @returns Promise resolving to the updated Session object
+     */
+    async handleSession(user: any, session: Session): Promise<Session> {
+        if (user) {
+            session.user.id = user.id
+            session.user.name = user.name
+            session.user.email = user.email
+            session.user.image = user.image
+            session.user.username = user.username
+        }
+        return session
+    }
+
+    /**
      * Updates the session object with user information from the JWT token.
      * 
      * @param token - The JWT token containing user information
      * @param session - The current session object to update
      * @returns Promise resolving to the updated Session object
      */
-    async handleSession(token: JWT, session: Session): Promise<Session> {
+    async handleSessionWithToken(token: JWT, session: Session): Promise<Session> {
         if (token) {
             session.user.id = token.id
             session.user.name = token.name

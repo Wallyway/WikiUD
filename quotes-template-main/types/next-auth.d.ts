@@ -35,7 +35,13 @@ declare module 'next-auth' {
   * @returns Promise resolving to the processed JWT token
   * 
   * ---> @function handleSession
-  * Processes and updates the session with token data.
+  * Processes and updates the session with database user data.
+  * @param user - The database user object containing user information
+  * @param session - The current session object to update
+  * @returns Promise resolving to the updated Session object
+  * 
+  * ---> @function handleSessionWithToken
+  * Processes and updates the session with JWT token data.
   * @param token - The JWT token containing user information
   * @param session - The current session object to update
   * @returns Promise resolving to the updated Session object
@@ -47,6 +53,7 @@ declare module 'next-auth' {
 export interface AuthService {
   getSession(): Promise<Session | null>
   handleJWT(token: JWT, user: User): Promise<JWT>
-  handleSession(token: JWT, session: Session): Promise<Session>
+  handleSession(user: any, session: Session): Promise<Session>
+  handleSessionWithToken(token: JWT, session: Session): Promise<Session>
   generateUsername(): string
 }

@@ -6,7 +6,7 @@ import authConfig from "../auth.config"
 
 const authService = new AuthServiceImpl()
 
-export const { auth, handlers } = NextAuth({
+export const { auth, handlers, signIn, signOut } = NextAuth({
   adapter: MongoDBAdapter(getMongoClient()),
   session: {
     strategy: 'jwt',
@@ -17,7 +17,7 @@ export const { auth, handlers } = NextAuth({
   },
   callbacks: {
     async session({ token, session }) {
-      return authService.handleSession(token, session)
+      return authService.handleSessionWithToken(token, session)
     },
 
     async jwt({ token, user }) {
