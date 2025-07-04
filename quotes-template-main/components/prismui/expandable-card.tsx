@@ -259,7 +259,6 @@ export function ProjectStatusCard({
                                 </PopoverTrigger>
                                 <PopoverContent className="h-[250px] w-[550px]">
                                   <PopoverFormWithSlider teacherId={id} onCommentAdded={(newComment) => {
-                                    console.log('ProjectStatusCard: Dispatching commentAdded event', { comment: newComment, teacherId: id });
                                     // This will be handled by the CommentsModal through a ref or context
                                     // For now, we'll use a custom event to communicate
                                     window.dispatchEvent(new CustomEvent('commentAdded', {

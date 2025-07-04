@@ -130,13 +130,11 @@ export function LoggedInNav() {
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
-          {/* <NavigationMenuItem>
-            <Link href="/pricing" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Pricing
-              </NavigationMenuLink>
+          <NavigationMenuItem>
+            <Link href="/exams" className="bg-transparent block px-4 py-2">
+              Parciales
             </Link>
-          </NavigationMenuItem> */}
+          </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
     </div>

@@ -41,7 +41,6 @@ function DashboardPage() {
 
   // Reset state when tag or facultyTag changes
   useEffect(() => {
-    console.log('Search terms changed:', { tag, facultyTag });
     setPage(1);
     setTeachers([]);
     setHasMore(true);
@@ -67,30 +66,21 @@ function DashboardPage() {
   // Fetch teachers based on tag, facultyTag and page
   useEffect(() => {
     const fetchTeachers = async () => {
-      console.log('Attempting to fetch:', { page, tag, facultyTag, loading, hasMore });
-
-      // Prevent fetching if already loading
       if (loading) {
-        console.log('Fetch prevented: currently loading.');
         return;
       }
 
-      // Prevent fetching if no more data and not on the first page
       if (!hasMore && page > 1) {
-        console.log('Fetch prevented: no more data and not on page 1.');
         return;
       }
 
       setLoading(true); // Set loading to true
-      console.log('Fetching page:', page, 'with terms:', { tag, facultyTag });
       try {
         const response = await axios.get(`/api/teachers?name=${encodeURIComponent(tag)}&faculty=${encodeURIComponent(facultyTag)}&page=${page}&limit=${limit}`);
         const newTeachers = response.data.teachers;
-        console.log('Search results for page', page, ':', newTeachers.length, 'teachers');
 
         if (newTeachers.length === 0) {
           setHasMore(false); // No more data received, set hasMore to false
-          console.log('No more teachers found. hasMore set to false.');
         } else {
           setTeachers(prev => {
             const existingIds = new Set(prev.map((teacher: Teacher) => teacher._id));
@@ -101,7 +91,6 @@ function DashboardPage() {
           // If we received less than the limit, there might not be more pages
           if (newTeachers.length < limit) {
             setHasMore(false);
-            console.log('Fewer than limit received. hasMore set to false.');
           } else {
             // If we received exactly the limit, assume there might be more
             // This prevents prematurely setting hasMore to false if there's another full page
@@ -109,11 +98,9 @@ function DashboardPage() {
           }
         }
       } catch (error) {
-        console.error('Error fetching teachers:', error);
         setHasMore(false); // Assume no more data on error
       } finally {
         setLoading(false); // Set loading to false
-        console.log('Fetch completed. loading set to false.');
       }
     };
 
@@ -131,7 +118,6 @@ function DashboardPage() {
 
       // Trigger loading next page if near bottom, there's more data, and not currently loading
       if (isNearBottom && hasMore && !loading) {
-        console.log('Scrolled near bottom. Loading next page...', { hasMore, loading });
         setPage(prevPage => prevPage + 1);
       }
     };
@@ -274,5 +260,4 @@ function DashboardPage() {
     </div>
   );
 }
-
 export default DashboardPage;

@@ -17,17 +17,14 @@ export async function GET(request: Request) {
             return NextResponse.json(JSON.parse(cached));
         }
 
-        console.log('Search terms:', { name, faculty })
-
         const teacherService = new TeacherServiceImpl()
         const teachers = await teacherService.searchTeachers({ name, faculty, page, limit })
 
-        console.log('Found teachers (DB query):', teachers.length)
+        // Responde al usuario inmediatamente
+        const response = { teachers };
+        redis.set(cacheKey, JSON.stringify(response), "EX", 60);
 
-        // Guarda en caché por 60 segundos
-        await redis.set(cacheKey, JSON.stringify({ teachers }), "EX", 60);
-
-        return NextResponse.json({ teachers: teachers })
+        return NextResponse.json(response)
     } catch (error) {
         console.error('Error fetching teachers:', error)
         return NextResponse.json(
