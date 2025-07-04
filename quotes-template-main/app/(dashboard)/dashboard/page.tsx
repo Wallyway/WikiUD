@@ -10,6 +10,7 @@ import dynamic from "next/dynamic";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { ChevronUp } from "lucide-react";
 import { TeacherCardSkeleton } from "@/components/ui/teacher-card-skeleton";
+import { AnimatePresence, motion } from "framer-motion";
 
 interface Teacher {
   _id: string;
@@ -205,33 +206,54 @@ function DashboardPage() {
           </div>
 
           {/* Card Section (always ProjectStatusCard) */}
-          <div className="flex flex-col gap-4 w-full max-w-full mx-auto">
-            {teachers.map((teacher) => {
-              // Get last 3 comments for this teacher
-              const comments = commentsByTeacher[teacher._id] || [];
-              const last3 = comments.slice(-3).reverse();
-              const contributors = last3.map((c: any) => ({
-                name: c.author?.name || "-",
-                image: c.author?.avatar || undefined,
-              }));
-              return (
-                <ProjectStatusCard
-                  key={teacher._id}
-                  id={teacher._id}
-                  title={teacher.name}
-                  progress={Math.round((teacher.rating / 5) * 100)}
-                  dueDate={teacher.degree}
-                  faculty={teacher.faculty}
-                  contributors={contributors}
-                  tasks={[
-                    { title: teacher.subject, completed: true },
-                  ]}
-                  githubStars={teacher.reviews}
-                  openIssues={teacher.reviews}
-                />
-              );
-            })}
-            {loading && <TeacherCardSkeleton count={limit} />}
+          <div className="flex flex-col gap-6 w-full max-w-full mx-auto">
+            <AnimatePresence mode="wait">
+              {loading ? (
+                <motion.div
+                  key="skeleton"
+                  initial={{ opacity: 0, y: 40 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -40 }}
+                  transition={{ duration: 0.6, ease: "easeInOut" }}
+                >
+                  <TeacherCardSkeleton count={limit} />
+                </motion.div>
+              ) : (
+                <motion.div
+                  key="cards"
+                  initial={{ opacity: 0, y: 40 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -40 }}
+                  transition={{ duration: 0.6, ease: "easeInOut" }}
+                >
+                  {teachers.map((teacher) => {
+                    // Get last 3 comments for this teacher
+                    const comments = commentsByTeacher[teacher._id] || [];
+                    const last3 = comments.slice(-3).reverse();
+                    const contributors = last3.map((c: any) => ({
+                      name: c.author?.name || "-",
+                      image: c.author?.avatar || undefined,
+                    }));
+                    return (
+                      <ProjectStatusCard
+                        key={teacher._id}
+                        id={teacher._id}
+                        title={teacher.name}
+                        progress={Math.round((teacher.rating / 5) * 100)}
+                        dueDate={teacher.degree}
+                        faculty={teacher.faculty}
+                        contributors={contributors}
+                        tasks={[
+                          { title: teacher.subject, completed: true },
+                        ]}
+                        githubStars={teacher.reviews}
+                        openIssues={teacher.reviews}
+                      />
+                    );
+                  })}
+                </motion.div>
+              )}
+            </AnimatePresence>
             {!loading && !hasMore && teachers.length === 0 && <div className="text-center">Sin resultados</div>} {/* Message when no teachers found after initial load */}
             {!loading && !hasMore && teachers.length > 0 && <div className="text-center">No hay más profesores.</div>} {/* Message when no more teachers after some have loaded */}
           </div>

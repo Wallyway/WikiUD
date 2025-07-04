@@ -148,3 +148,35 @@ export function TestimonialCard({
         </div>
     );
 }
+
+export function TestimonialCardSkeleton({ count = 2 }: { count?: number }) {
+    return (
+        <div className="flex gap-4">
+            {Array.from({ length: count }).map((_, i) => (
+                <div
+                    key={i}
+                    className={cn(
+                        "flex flex-col flex-1 min-w-[260px] max-w-[340px] min-h-[290px] bg-gradient-to-b from-muted/50 to-muted/10 px-6 py-4 rounded-lg border-t animate-pulse"
+                    )}
+                >
+                    <div className="flex items-center gap-3 mb-4">
+                        <div className="h-12 w-12 rounded-full bg-gray-300 dark:bg-gray-700" />
+                        <div className="flex flex-col items-start gap-2">
+                            <div className="h-4 w-24 bg-gray-300 dark:bg-gray-700 rounded" />
+                        </div>
+                    </div>
+                    <div className="mt-2 mb-4">
+                        <div className="h-4 w-5/6 bg-gray-300 dark:bg-gray-700 rounded mb-2" />
+                        <div className="h-4 w-4/6 bg-gray-300 dark:bg-gray-700 rounded mb-2" />
+                        <div className="h-4 w-3/6 bg-gray-300 dark:bg-gray-700 rounded" />
+                    </div>
+                    <div className="mt-auto pt-3 border-t flex items-center gap-2">
+                        <div className="h-5 w-5 bg-gray-300 dark:bg-gray-700 rounded-full" />
+                        <div className="h-4 w-12 bg-gray-300 dark:bg-gray-700 rounded" />
+                        <div className="h-4 w-10 bg-gray-300 dark:bg-gray-700 rounded ml-2" />
+                    </div>
+                </div>
+            ))}
+        </div>
+    );
+}

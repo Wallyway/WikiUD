@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { getMongoClient } from '@/lib/db';
 import { ObjectId } from 'mongodb';
+import redis from '@/lib/redis'
 
 export async function GET(request: Request) {
     try {
@@ -10,16 +11,27 @@ export async function GET(request: Request) {
             return NextResponse.json({ error: 'Missing teacherId' }, { status: 400 });
         }
 
+        // Clave única para el caché
+        const cacheKey = `comments:${teacherId}`;
+        const cached = await redis.get(cacheKey);
+        if (cached) {
+            return NextResponse.json(JSON.parse(cached));
+        }
+
         const client = await getMongoClient();
         const db = client.db();
         const comments = await db.collection('comments').find({ teacherId: new ObjectId(teacherId) }).toArray();
 
-        return NextResponse.json({ comments });
+        // Responde al usuario inmediatamente
+        const response = { comments };
+        // Actualiza el caché en segundo plano (no bloquea la respuesta)
+        redis.set(cacheKey, JSON.stringify(response), "EX", 60);
+
+        return NextResponse.json(response);
     } catch (error) {
         console.error('Error fetching comments:', error);
         return NextResponse.json({ error: 'Failed to fetch comments' }, { status: 500 });
     }
-
 }
 
 export async function POST(request: Request) {

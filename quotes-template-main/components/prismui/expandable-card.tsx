@@ -57,6 +57,7 @@ import {
 import { Slider } from "@/components/ui/slider-number-flow";
 import NumberFlow from '@number-flow/react';
 import { useSession } from 'next-auth/react';
+import { TestimonialCardSkeleton } from "@/components/ui/testimonial-card";
 
 interface ProjectStatusCardProps {
   id: string;
@@ -118,7 +119,7 @@ export function ProjectStatusCard({
 
   return (
     <Card
-      className="w-96 cursor-pointer transition-all duration-300 hover:shadow-lg shadow-none"
+      className="w-96 cursor-pointer transition-all duration-300 hover:shadow-lg shadow-none mb-6"
       onClick={toggleExpand}
     >
       <MagicCard
@@ -486,13 +487,37 @@ const CommentsModal = ({ teacherId }: { teacherId: string }) => {
 
   return (
     <div>
-      <TestimonialsSection
-        title="Comentarios"
-        testimonials={comments}
-        className="max-w-xl w-full mx-auto"
-        highlightedCommentId={highlightedCommentId}
-        shinyCommentId={shinyCommentId}
-      />
+      <AnimatePresence mode="wait">
+        {(loading && comments.length === 0) ? (
+          <motion.div
+            key="skeleton"
+            className="max-w-xl w-full mx-auto flex justify-center"
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -40 }}
+            transition={{ duration: 0.6, ease: "easeInOut" }}
+          >
+            <TestimonialCardSkeleton count={2} />
+          </motion.div>
+        ) : (
+          <motion.div
+            key="carrusel"
+            className="max-w-xl w-full mx-auto"
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -40 }}
+            transition={{ duration: 0.6, ease: "easeInOut" }}
+          >
+            <TestimonialsSection
+              title="Comentarios"
+              testimonials={comments}
+              className="max-w-xl w-full mx-auto"
+              highlightedCommentId={highlightedCommentId}
+              shinyCommentId={shinyCommentId}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
       <div className="py-10 w-full flex justify-center gap-x-3">
         <div className="flex  items-center justify-center">
           <MicIcon className="mr-1 text-neutral-700 dark:text-neutral-300 h-4 w-4" />
@@ -513,7 +538,6 @@ const CommentsModal = ({ teacherId }: { teacherId: string }) => {
           </span>
         </div>
       </div>
-      {loading && <div className="text-center text-sm text-gray-400">Cargando comentarios...</div>}
     </div>
   );
 };
