@@ -58,6 +58,17 @@ export async function POST(request: Request) {
         };
         await db.collection('comments').insertOne(comment);
 
+        // Invalidar cache de comentarios para este profesor
+        const cacheKey = `comments:${teacherId}`;
+        await redis.del(cacheKey);
+
+        // Invalidar cache de profesores para que se actualicen las estadísticas
+        const teacherCachePattern = `teachers:*`;
+        const teacherCacheKeys = await redis.keys(teacherCachePattern);
+        if (teacherCacheKeys.length > 0) {
+            await redis.del(...teacherCacheKeys);
+        }
+
         // Optionally, update teacher's rating and reviews count
         const comments = await db.collection('comments').find({ teacherId: new ObjectId(teacherId) }).toArray();
         const reviews = comments.length;

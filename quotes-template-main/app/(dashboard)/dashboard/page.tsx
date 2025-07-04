@@ -150,6 +150,16 @@ function DashboardPage() {
     }
   }, [teachers]);
 
+  useEffect(() => {
+    const handleCommentAdded = () => {
+      // Solo reiniciar la paginación y hasMore, no limpiar profesores
+      setPage(1);
+      setHasMore(true);
+    };
+    window.addEventListener('commentAdded', handleCommentAdded);
+    return () => window.removeEventListener('commentAdded', handleCommentAdded);
+  }, []);
+
   return (
     <div className="min-h-screen w-full flex flex-col">
       <div className="flex-1 px-4">
@@ -226,7 +236,7 @@ function DashboardPage() {
                         id={teacher._id}
                         title={teacher.name}
                         progress={Math.round((teacher.rating / 5) * 100)}
-                        dueDate={teacher.degree}
+                        dueDate={teacher.email}
                         faculty={teacher.faculty}
                         contributors={contributors}
                         tasks={[

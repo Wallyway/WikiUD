@@ -41,8 +41,11 @@ export function TestimonialsSection({
     const totalCardWidth = cardWidth + cardGap;
 
     // Create a loop of testimonials for seamless scrolling
-    const repeatCount = testimonials.length > 0 ? Math.ceil(3) : 1; // Repeat 3 times
-    const loopTestimonials = Array.from({ length: repeatCount }, () => testimonials).flat();
+    let loopTestimonials: typeof testimonials = testimonials;
+    if (testimonials.length > 3) {
+        const repeatCount = Math.ceil(3);
+        loopTestimonials = Array.from({ length: repeatCount }, () => testimonials).flat();
+    }
 
     // Animation speed (pixels per second)
     const animationSpeed = 50;
