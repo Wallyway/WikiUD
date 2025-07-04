@@ -139,7 +139,7 @@ export function PopoverContent({
                         layoutId={`popover-${uniqueId}`}
                         className={cn(
                             position === 'center'
-                                ? "absolute z-50 min-w-[200px] overflow-hidden rounded-lg border border-border bg-background shadow-lg outline-none right-20/2 bottom-6"
+                                ? "fixed left-1/2 top-1/2 -translate-x-1/2 translate-y-20 z-50 w-full max-w-sm sm:max-w-lg md:max-w-xl mx-0 sm:mx-0 overflow-hidden rounded-lg border border-border bg-background shadow-lg outline-none"
                                 : "absolute z-50 min-w-[200px] overflow-hidden rounded-lg border border-border bg-background shadow-lg outline-none right-1/2 bottom-6",
                             className
                         )}
