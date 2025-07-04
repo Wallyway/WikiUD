@@ -131,8 +131,8 @@ export function LoggedInNav() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/exams" className="bg-transparent block px-4 py-2">
-              Parciales
+            <Link href="/exams" className="bg-transparent block">
+              <NavigationMenuTrigger>Parciales</NavigationMenuTrigger>
             </Link>
           </NavigationMenuItem>
         </NavigationMenuList>
