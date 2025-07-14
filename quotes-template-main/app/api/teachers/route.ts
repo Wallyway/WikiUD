@@ -4,6 +4,8 @@ import { TeacherService } from '@/types/teacher'
 import redis from '@/lib/redis'
 import { getMongoClient } from '@/lib/db'
 import { ObjectId } from 'mongodb'
+import getServerSession from 'next-auth';
+import authOptions from '@/auth.config';
 
 const teacherService: TeacherService = new TeacherServiceImpl()
 
@@ -24,31 +26,25 @@ export async function GET(request: Request) {
 
         const teachers = await teacherService.searchTeachers({ name, faculty, page, limit })
 
-        // Calcular estadísticas en tiempo real para cada profesor
         const client = await getMongoClient();
         const db = client.db();
 
-        const teachersWithRealTimeStats = await Promise.all(
+        const teachersWithLastComments = await Promise.all(
             teachers.map(async (teacher) => {
-                const comments = await db.collection('comments').find({
-                    teacherId: new ObjectId(teacher._id)
-                }).toArray();
-
-                const reviews = comments.length;
-                const avgRating = reviews
-                    ? parseFloat((comments.reduce((a, c) => a + (c.rating || 0), 0) / reviews).toFixed(2))
-                    : 0;
-
+                const lastComments = await db.collection('comments')
+                    .find({ teacherId: new ObjectId(teacher._id) })
+                    .sort({ date: -1 })
+                    .limit(3)
+                    .toArray();
                 return {
                     ...teacher,
-                    rating: avgRating,
-                    reviews
+                    lastComments
                 };
             })
         );
 
         // Responde al usuario inmediatamente
-        const response = { teachers: teachersWithRealTimeStats };
+        const response = { teachers: teachersWithLastComments };
         // Actualiza el caché en segundo plano (no bloquea la respuesta)
         redis.set(cacheKey, JSON.stringify(response), "EX", 60);
 
@@ -62,44 +58,100 @@ export async function GET(request: Request) {
     }
 }
 
+export async function POST(request: Request) {
+    try {
+        const body = await request.json();
+        const { name, faculty, degree, subject, email } = body;
+        if (!name || !faculty || !degree || !subject || !email) {
+            return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
+        }
+        const client = await getMongoClient();
+        const db = client.db();
+        const result = await db.collection('teachers').insertOne({ name, faculty, degree, subject, email });
+        // Invalidar cache de profesores
+        const teacherCachePattern = `teachers:*`;
+        const teacherCacheKeys = await redis.keys(teacherCachePattern);
+        if (teacherCacheKeys.length > 0) {
+            await redis.del(...teacherCacheKeys);
+        }
+        return NextResponse.json({ success: true, insertedId: result.insertedId });
+    } catch (error) {
+        return NextResponse.json({ error: 'Failed to create teacher' }, { status: 500 });
+    }
+}
+
 export async function PUT(request: Request) {
     try {
         const { searchParams } = new URL(request.url);
         const action = searchParams.get('action');
-
         if (action === 'recalculate-stats') {
             const client = await getMongoClient();
             const db = client.db();
-
             // Obtener todos los profesores
             const teachers = await db.collection('teachers').find({}).toArray();
-
             // Para cada profesor, recalcular estadísticas
             for (const teacher of teachers) {
                 const comments = await db.collection('comments').find({
                     teacherId: teacher._id
                 }).toArray();
-
                 const reviews = comments.length;
                 const avgRating = reviews
                     ? parseFloat((comments.reduce((a, c) => a + (c.rating || 0), 0) / reviews).toFixed(2))
                     : 0;
-
                 await db.collection('teachers').updateOne(
                     { _id: teacher._id },
                     { $set: { rating: avgRating, reviews } }
                 );
             }
-
             return NextResponse.json({
                 success: true,
                 message: `Recalculated stats for ${teachers.length} teachers`
             });
         }
-
-        return NextResponse.json({ error: 'Invalid action' }, { status: 400 });
+        // Edición normal
+        const id = searchParams.get('id');
+        if (!id) {
+            return NextResponse.json({ error: 'Missing id' }, { status: 400 });
+        }
+        const body = await request.json();
+        const client = await getMongoClient();
+        const db = client.db();
+        const updateFields = { ...body };
+        delete updateFields._id;
+        const result = await db.collection('teachers').updateOne(
+            { _id: new ObjectId(id) },
+            { $set: updateFields }
+        );
+        // Invalidar cache de profesores
+        const teacherCachePattern = `teachers:*`;
+        const teacherCacheKeys = await redis.keys(teacherCachePattern);
+        if (teacherCacheKeys.length > 0) {
+            await redis.del(...teacherCacheKeys);
+        }
+        return NextResponse.json({ success: true, modifiedCount: result.modifiedCount });
     } catch (error) {
-        console.error('Error recalculating teacher stats:', error);
-        return NextResponse.json({ error: 'Failed to recalculate stats' }, { status: 500 });
+        return NextResponse.json({ error: 'Failed to update teacher' }, { status: 500 });
+    }
+}
+
+export async function DELETE(request: Request) {
+    try {
+        const { searchParams } = new URL(request.url);
+        const id = searchParams.get('id');
+        if (!id) {
+            return NextResponse.json({ error: 'Missing id' }, { status: 400 });
+        }
+        const client = await getMongoClient();
+        const db = client.db();
+        const result = await db.collection('teachers').deleteOne({ _id: new ObjectId(id) });
+        // Invalidar cache de profesores
+        const teacherCachePattern = `teachers:*`;
+        const teacherCacheKeys = await redis.keys(teacherCachePattern);
+        if (teacherCacheKeys.length > 0) {
+            await redis.del(...teacherCacheKeys);
+        }
+        return NextResponse.json({ success: true, deletedCount: result.deletedCount });
+    } catch (error) {
+        return NextResponse.json({ error: 'Failed to delete teacher' }, { status: 500 });
     }
 } 

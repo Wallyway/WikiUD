@@ -21,6 +21,7 @@ interface Teacher {
   email: string;
   rating: number;
   reviews: number;
+  lastComments?: any[];
 }
 
 const ProjectStatusCard = dynamic(
@@ -223,9 +224,8 @@ function DashboardPage() {
                   transition={{ duration: 0.6, ease: "easeInOut" }}
                 >
                   {teachers.map((teacher) => {
-                    // Get last 3 comments for this teacher
-                    const comments = commentsByTeacher[teacher._id] || [];
-                    const last3 = comments.slice(-3).reverse();
+                    // Usar los últimos 3 comentarios directamente del objeto teacher
+                    const last3 = (teacher.lastComments || []).slice(0, 3);
                     const contributors = last3.map((c: any) => ({
                       name: c.author?.name || "-",
                       image: c.author?.avatar || undefined,
