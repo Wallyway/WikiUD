@@ -153,6 +153,18 @@ export function TestimonialsSection({
                     <div
                         ref={carouselRef}
                         className="flex overflow-hidden p-1 max-w-[90vw] mx-auto"
+                        onMouseEnter={() => setIsPaused(true)}
+                        onMouseLeave={() => setIsPaused(false)}
+                        onWheel={e => {
+                            if (testimonials.length > 1 && innerRef.current) {
+                                e.preventDefault();
+                                scrollPositionRef.current += e.deltaY;
+                                const maxScroll = totalCardWidth * testimonials.length;
+                                if (scrollPositionRef.current < 0) scrollPositionRef.current = 0;
+                                if (scrollPositionRef.current > maxScroll) scrollPositionRef.current = maxScroll;
+                                innerRef.current.style.transform = `translateX(-${scrollPositionRef.current}px)`;
+                            }
+                        }}
                     >
                         <div
                             ref={innerRef}
