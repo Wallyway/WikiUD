@@ -64,6 +64,13 @@ const components: {
     },
   ];
 
+const examSubjects = [
+  { title: "Cálculo Diferencial", href: "/exams/calculo-diferencial", description: "Exámenes y recursos de Cálculo Diferencial" },
+  { title: "Cálculo Integral", href: "/exams/calculo-integral", description: "Exámenes y recursos de Cálculo Integral" },
+  { title: "Multivariado", href: "/exams/multivariado", description: "Exámenes y recursos de Cálculo Multivariado" },
+  { title: "Ecuaciones Diferenciales", href: "/exams/ecuaciones-diferenciales", description: "Exámenes y recursos de Ecuaciones Diferenciales" },
+];
+
 export function LoggedInNav() {
 
 
@@ -131,9 +138,21 @@ export function LoggedInNav() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/exams" className="bg-transparent block">
-              <NavigationMenuTrigger>Parciales</NavigationMenuTrigger>
-            </Link>
+            <NavigationMenuTrigger className="bg-transparent">Parciales Conjuntos</NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <ul className="grid w-[400px] gap-4 p-4 md:w-[500px] md:grid-cols-2 lg:w-[500px] justify-center">
+                {examSubjects.map((subject) => (
+                  <ListItem
+                    key={subject.title}
+                    title={subject.title}
+                    href={subject.href}
+                    className="rounded-lg p-4 border border-neutral-700 shadow-md bg-background/80 hover:bg-accent hover:text-accent-foreground transition-colors text-center min-h-[90px] flex flex-col items-center justify-center"
+                  >
+
+                  </ListItem>
+                ))}
+              </ul>
+            </NavigationMenuContent>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
