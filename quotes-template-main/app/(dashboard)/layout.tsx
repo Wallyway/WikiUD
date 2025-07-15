@@ -7,15 +7,15 @@ import { LoggedInNav } from "@/components/loggedin-nav"
 import { ModeToggle } from "@/components/toggle"
 import { BGPattern } from "@/components/ui/bg-pattern"
 
-{/* @ts-ignore */}
+{/* @ts-ignore */ }
 
 export const dynamic = 'force-dynamic'
 interface DashboardLayoutProps {
   children?: React.ReactNode
 }
 
-export default async function DashboardLayout({ 
-  children, 
+export default async function DashboardLayout({
+  children,
 }: DashboardLayoutProps) {
   const user = await getCurrentUser()
 
@@ -24,32 +24,32 @@ export default async function DashboardLayout({
   }
 
   return (
-    <div className="flex min-h-screen flex-col space-y-6">
-      
+    <div className="flex min-h-screen flex-col">
+
       <header className="sticky top-0 z-40 border-b bg-background">
         <div className="container flex h-16 items-center py-4 justify-between">
-          <LoggedInNav/>
+          <LoggedInNav />
           <div className="flex items-center gap-4 mx-2">
-          <ModeToggle />
-          <UserAccountNav
-            user={{
-              name: user.name,
-              image: user.image,
-              email: user.email,
-            }}
-          />
-          
-            </div>
+            <ModeToggle />
+            <UserAccountNav
+              user={{
+                name: user.name,
+                image: user.image,
+                email: user.email,
+              }}
+            />
+
+          </div>
         </div>
-       
+
       </header>
-        <main className="flex w-full flex-1 flex-col justify-center">
-          <BGPattern mask="fade-edges" size={32} fill="hsl(var(--muted))" />
-          {children}
-        </main>
+      <main className="flex w-full flex-1 flex-col justify-center">
+        <BGPattern mask="fade-edges" size={32} fill="hsl(var(--muted))" />
+        {children}
+      </main>
       {/* </div> */}
       <SiteFooter className="border-t" />
-  
-      </div>
+
+    </div>
   )
 }

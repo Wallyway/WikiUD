@@ -164,7 +164,7 @@ function DashboardPage() {
   return (
     <div className="min-h-screen w-full flex flex-col">
       <div className="flex-1 px-4">
-        <h1 className="text-4xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
+        <h1 className="mt-16 text-4xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
           Busca a tu <AuroraText>Profe</AuroraText>
         </h1>
         <div className={cn("grid gap-6 mt-6 mb-10 justify-center w-max mx-auto")}>
