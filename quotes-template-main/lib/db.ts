@@ -35,6 +35,12 @@ if (process.env.NODE_ENV === "development") {
 export async function getMongoClient() {
   try {
     await client.connect()
+    const db = client.db();
+    // Crea el índice TTL para comentarios (si no existe)
+    await db.collection('comments').createIndex(
+      { date: 1 },
+      { expireAfterSeconds: 157680000 }
+    );
   } catch (e) {
     // Already connected
   }

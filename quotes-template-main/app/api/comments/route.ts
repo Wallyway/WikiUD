@@ -54,7 +54,7 @@ export async function POST(request: Request) {
             author: { ...author, handle: cleanHandle },
             text,
             rating,
-            date,
+            date: new Date(date), // Asegura que sea tipo Date
         };
         await db.collection('comments').insertOne(comment);
 
