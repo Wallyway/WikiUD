@@ -1,15 +1,14 @@
+import { LampContainer } from "@/components/ui/lamp";
+
 export default function ExamsLayout({ children }: { children: React.ReactNode }) {
     return (
-        <div className="min-h-screen relative bg-black text-white overflow-hidden">
-            {/* Gradiente etéreo */}
-            <div
-                className="pointer-events-none absolute inset-0 z-0"
-                aria-hidden="true"
-                style={{
-                    background: "radial-gradient(ellipse at 50% 30%, rgba(80,80,120,0.18) 0%, rgba(0,0,0,0.95) 70%)"
-                }}
-            />
-            <div className="relative z-10">
+        <div className="min-h-screen relative bg-slate-950 text-white overflow-hidden">
+            {/* Lamp background absoluto */}
+            <div className="absolute inset-0 w-full h-full z-0">
+                <LampContainer>{null}</LampContainer>
+            </div>
+            {/* Contenido principal encima de la lámpara */}
+            <div className="relative z-10 flex flex-col items-center">
                 {children}
             </div>
         </div>
