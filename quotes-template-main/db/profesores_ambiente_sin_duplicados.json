@@ -1,0 +1,3176 @@
+[
+  {
+    "name": "BUSTOS VELASCO VIVIAN ANDREA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "CALCULO DIFERENCIAL",
+    "email": "vbustosv@udistrital.edu.co"
+  },
+  {
+    "name": "PRIETO GARZON PEDRO EMILIO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FISICA I: MECANICA NEWTONIANA",
+    "email": "pprietog@udistrital.edu.co"
+  },
+  {
+    "name": "POLANIA CERINZA YOLY TATIANA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "CALCULO INTEGRAL",
+    "email": "ypolaniac@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS LUIS ALBERTO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "lvargasa@udistrital.edu.co"
+  },
+  {
+    "name": "LEON BERNATE DIANA ROCIO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "dleonb@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA MORENO HECTOR FULVIO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ESTADISTICA DESCRIPTIVA",
+    "email": "hacostam@udistrital.edu.co"
+  },
+  {
+    "name": "PAZOS ALVAREZ ALFONSO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FUNDAMENTOS DE ECOLOGIA",
+    "email": "apazosa@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ RODRIGUEZ CARLOS",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "cdiazr@udistrital.edu.co"
+  },
+  {
+    "name": "ROZO ALVAREZ CARLOS YESID",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "METODOLOGIA DE LA INVESTIGACION",
+    "email": "crozoa@udistrital.edu.co"
+  },
+  {
+    "name": "GIL MOLINA MARTIN ANTONIO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FUNDAMENTOS DE QUIMICA",
+    "email": "mgilm@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN MEDINA BEATRIZ HELENA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FUNDAMENTOS DE QUIMICA, QUIMICA AMBIENTAL",
+    "email": "bguzmanm@udistrital.edu.co"
+  },
+  {
+    "name": "MESA MEJIA ALFONSO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ADMINISTRACION GENERAL",
+    "email": "mmesam@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO VALENCIA DIANA MARIA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ADMINISTRACION GENERAL, INTRODUCCION A LA ADMINISTRACION AMBIENTAL",
+    "email": "dcastrov@udistrital.edu.co"
+  },
+  {
+    "name": "ANZOLA ALVAREZ GABRIEL ALFONSO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "INTRODUCCION A LA ADMINISTRACION AMBIENTAL",
+    "email": "ganzolaa@udistrital.edu.co"
+  },
+  {
+    "name": "IBAGON BARRERO EDWIN EDUARDO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "CONTABILIDAD",
+    "email": "eibagonb@udistrital.edu.co"
+  },
+  {
+    "name": "BARRETO REYES DIANA CAROLINA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "SOCIEDAD Y AMBIENTE",
+    "email": "dbarretor@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO GOMEZ JOSE GERMAN",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "MICROECONOMIA",
+    "email": "jforerog@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO GOMEZ CLAUDIA PATRICIA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "MICROECONOMIA",
+    "email": "cforerog@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ BUSTAMANTE FABIO MAURICIO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "MACROECONOMIA",
+    "email": "framirezb@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON SANCHEZ EDGAR ALFREDO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "MACROECONOMIA",
+    "email": "echacons@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ CORTES ALVARO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "CONTAMINACION ATMOSFERICA Y RUIDO",
+    "email": "arodriguezc@udistrital.edu.co"
+  },
+  {
+    "name": "PINILLA RIVERA MARIBEL",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "mpinillar@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ RODRIGUEZ DIANA MARCELA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ADMINISTRACION PUBLICA AMBIENTAL",
+    "email": "drodriguezr@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS MARIN NELSON JAVIER",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "PROCESOS DE INTERVENCION URBANO REGIONAL",
+    "email": "nvargasm@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ RODRIGUEZ JOSE ANTONIO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "POLITICA Y LEGISLACION AMBIENTAL",
+    "email": "jrodriguezr@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON CARRILLO ROSA ELVIRA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "BIOLOGIA AMBIENTAL",
+    "email": "rpinzonc@udistrital.edu.co"
+  },
+  {
+    "name": "CARDENAS GONZALEZ EDGAR ENRIQUE",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "BIOLOGIA AMBIENTAL",
+    "email": "ecardenasg@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS CARMONA WILLIAM",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "SEMINARIO PROYECTO INTEGRADOR",
+    "email": "wrojasc@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON VARGAS ALEXANDER",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "SEMINARIO PROYECTO INTEGRADOR",
+    "email": "achaconv@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS LOZANO HECTOR JULIO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "SEMINARIO PROYECTO INTEGRADOR",
+    "email": "hrojasl@udistrital.edu.co"
+  },
+  {
+    "name": "ORTIZ MONROY CARLOS JULIO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ECONOMIA Y AMBIENTE",
+    "email": "cortizm@udistrital.edu.co"
+  },
+  {
+    "name": "CALA PRIETO NELLY",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ECONOMIA Y AMBIENTE",
+    "email": "ncalap@udistrital.edu.co"
+  },
+  {
+    "name": "HERRERA BARBOSA CARLOS ALBERTO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "MUESTREO Y ANALISIS AMBIENTAL",
+    "email": "cherrerab@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ GUERRERO MIGUEL ANDRES",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "SISTEMAS DE INFORMACION GEOGRAFICA APLICADA A LA GESTION AMBIENTAL",
+    "email": "mramirezg@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ MORALES ELIANA ANDREA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "MERCADEO AMBIENTAL",
+    "email": "ediazm@udistrital.edu.co"
+  },
+  {
+    "name": "VELANDIA VEGA LUZ ANGELA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "EVALUACION DE IMPACTO AMBIENTAL",
+    "email": "lvelandiav@udistrital.edu.co"
+  },
+  {
+    "name": "BERNAL RUBIANO CLAUDIA ROJAS",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "cbernalr@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ DIAZ JOSE ALEXANDER",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "jsanchezd@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS LOZANO EDWIN ADRIAN",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "GESTION DEL RIESGO",
+    "email": "erojasl@udistrital.edu.co"
+  },
+  {
+    "name": "MEDINA CLAVIJO HERNAN",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "SEMINARIO DE GRADO",
+    "email": "hmedinac@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON ACOSTA JULIO ROBERTO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "DERECHO URBANO Y AMBIENTAL",
+    "email": "jpinzona@udistrital.edu.co"
+  },
+  {
+    "name": "AGUIRRE MORALES MARIA TERESA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "GESTION AMBIENTAL EMPRESARIAL",
+    "email": "maguirrem@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ GOMEZ JOSE ELIECER",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "GESTION PUBLICA",
+    "email": "jgomezg@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ VIVAS WILLIAM",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "PLANIFICACION AMBIENTAL",
+    "email": "wmartinezv@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ SALAS ANGELA MILENA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "PLANIFICACION AMBIENTAL",
+    "email": "arodriguezs@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ RAMIREZ JULIO CESAR",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "NEGOCIOS VERDES",
+    "email": "jjimenezr@udistrital.edu.co"
+  },
+  {
+    "name": "CARRANZA PEREZ ALVARO JOSE",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "SISTEMAS DE GESTION AMBIENTAL",
+    "email": "acarranzap@udistrital.edu.co"
+  },
+  {
+    "name": "CORONADO PINZON ELIZABETH",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "ecoronadop@udistrital.edu.co"
+  },
+  {
+    "name": "CANTOR GARCIA NELSON",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "DIBUJO TOPOGRAFICO",
+    "email": "ncantorg@udistrital.edu.co"
+  },
+  {
+    "name": "ORTIZ ACOSTA WILLIAM MAURICIO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "SANEAMIENTO AMBIENTAL I",
+    "email": "wortiza@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA REINA LUIS CARLOS",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "HIDRAULICA I",
+    "email": "lacostar@udistrital.edu.co"
+  },
+  {
+    "name": "NIETO ACOSTA CESAR AUGUSTO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "MECANICA DE SUELOS",
+    "email": "cnietoa@udistrital.edu.co"
+  },
+  {
+    "name": "PINEDA ROJAS CLAUDIA ELENA",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "DIBUJO DE INGENIERIA, MECANICA DE SUELOS",
+    "email": "cpinedar@udistrital.edu.co"
+  },
+  {
+    "name": "VELANDIA VEGA LUZ ANGELA",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "lvelandiav@udistrital.edu.co"
+  },
+  {
+    "name": "ARBELAEZ SALAZAR GUSTAVO ADOLFO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "TRATAMIENTO DE AGUAS RESIDUALES",
+    "email": "garbelaezs@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO RODRIGUEZ JAIME",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "INSTALACIONES SANITARIAS Y DISEÑO HIDRAULICO",
+    "email": "jcastror@udistrital.edu.co"
+  },
+  {
+    "name": "HERRERA BARBOSA CARLOS ALBERTO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "LABORATORIO DE AGUAS",
+    "email": "cherrerab@udistrital.edu.co"
+  },
+  {
+    "name": "MORALES CHACON RICARDO ARMANDO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "RESIDUOS SOLIDOS",
+    "email": "rmoralesc@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS CARMONA WILLIAM",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "TRABAJO DE GRADO",
+    "email": "wrojasc@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON VARGAS ALEXANDER",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "TRABAJO DE GRADO",
+    "email": "achaconv@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN MEDINA BEATRIZ HELENA",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "QUIMICA AMBIENTAL",
+    "email": "bguzmanm@udistrital.edu.co"
+  },
+  {
+    "name": "BENAVIDES MORENO JAVIER ALFONSO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "TOXICOLOGIA AMBIENTAL",
+    "email": "jbenavidesm@udistrital.edu.co"
+  },
+  {
+    "name": "MONTEALEGRE PABON EDGAR",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "INTRODUCCION A LA TOPOGRAFIA",
+    "email": "emontealegrep@udistrital.edu.co"
+  },
+  {
+    "name": "TORO RAMIREZ WILLIAM ALFONSO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "INTRODUCCION A LA TOPOGRAFIA",
+    "email": "wtoroR@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ BUSTAMANTE FABIO MAURICIO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "MACROECONOMIA",
+    "email": "framirezb@udistrital.edu.co"
+  },
+  {
+    "name": "AREVALO ROZO NESTOR ADOLFO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "GEOMORFOLOGIA",
+    "email": "narevalor@udistrital.edu.co"
+  },
+  {
+    "name": "PINEDA ROJAS CLAUDIA ELENA",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "DIBUJO DE INGENIERIA",
+    "email": "cpinedar@udistrital.edu.co"
+  },
+  {
+    "name": "MORALES CHACON RICARDO ARMANDO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "RESIDUOS SOLIDOS",
+    "email": "rmoralesc@udistrital.edu.co"
+  },
+  {
+    "name": "BENAVIDES MORENO JAVIER ALFONSO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "TOXICOLOGIA AMBIENTAL",
+    "email": "jbenavidesm@udistrital.edu.co"
+  },
+  {
+    "name": "MONTEALEGRE PABON EDGAR",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "INTRODUCCION A LA TOPOGRAFIA",
+    "email": "emontealegrep@udistrital.edu.co"
+  },
+  {
+    "name": "TORO RAMIREZ WILLIAM ALFONSO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "INTRODUCCION A LA TOPOGRAFIA",
+    "email": "wtoroR@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ BUSTAMANTE FABIO MAURICIO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "MACROECONOMIA",
+    "email": "framirezb@udistrital.edu.co"
+  },
+  {
+    "name": "AREVALO ROZO NESTOR ADOLFO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "GEOMORFOLOGIA",
+    "email": "narevalor@udistrital.edu.co"
+  },
+  {
+    "name": "CANTOR GARCIA NELSON",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "DIBUJO TOPOGRAFICO",
+    "email": "ncantorg@udistrital.edu.co"
+  },
+  {
+    "name": "ORTIZ ACOSTA WILLIAM MAURICIO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "SANEAMIENTO AMBIENTAL I",
+    "email": "wortiza@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA REINA LUIS CARLOS",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "HIDRAULICA I",
+    "email": "lacostar@udistrital.edu.co"
+  },
+  {
+    "name": "NIETO ACOSTA CESAR AUGUSTO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "MECANICA DE SUELOS",
+    "email": "cnietoa@udistrital.edu.co"
+  },
+  {
+    "name": "VELANDIA VEGA LUZ ANGELA",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "lvelandiav@udistrital.edu.co"
+  },
+  {
+    "name": "ARBELAEZ SALAZAR GUSTAVO ADOLFO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "TRATAMIENTO DE AGUAS RESIDUALES",
+    "email": "garbelaezs@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO RODRIGUEZ JAIME",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "INSTALACIONES SANITARIAS Y DISEÑO HIDRAULICO",
+    "email": "jcastror@udistrital.edu.co"
+  },
+  {
+    "name": "HERRERA BARBOSA CARLOS ALBERTO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "LABORATORIO DE AGUAS",
+    "email": "cherrerab@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS CARMONA WILLIAM",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "TRABAJO DE GRADO",
+    "email": "wrojasc@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON VARGAS ALEXANDER",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "TRABAJO DE GRADO",
+    "email": "achaconv@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN MEDINA BEATRIZ HELENA",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "QUIMICA AMBIENTAL",
+    "email": "bguzmanm@udistrital.edu.co"
+  },
+  {
+    "name": "CARDENAS GONZALEZ EDGAR ENRIQUE",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "BIOLOGIA AMBIENTAL",
+    "email": "ecardenasg@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ RODRIGUEZ DIANA MARCELA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ADMINISTRACION PUBLICA AMBIENTAL",
+    "email": "drodriguezr@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS MARIN NELSON JAVIER",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "PROCESOS DE INTERVENCION URBANO REGIONAL",
+    "email": "nvargasm@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ RODRIGUEZ JOSE ANTONIO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "POLITICA Y LEGISLACION AMBIENTAL",
+    "email": "jrodriguezr@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON CARRILLO ROSA ELVIRA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "BIOLOGIA AMBIENTAL",
+    "email": "rpinzonc@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS CARMONA WILLIAM",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "SEMINARIO PROYECTO INTEGRADOR",
+    "email": "wrojasc@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON VARGAS ALEXANDER",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "SEMINARIO PROYECTO INTEGRADOR",
+    "email": "achaconv@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS LOZANO HECTOR JULIO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "SEMINARIO PROYECTO INTEGRADOR",
+    "email": "hrojasl@udistrital.edu.co"
+  },
+  {
+    "name": "ORTIZ MONROY CARLOS JULIO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ECONOMIA Y AMBIENTE",
+    "email": "cortizm@udistrital.edu.co"
+  },
+  {
+    "name": "CALA PRIETO NELLY",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ECONOMIA Y AMBIENTE",
+    "email": "ncalap@udistrital.edu.co"
+  },
+  {
+    "name": "HERRERA BARBOSA CARLOS ALBERTO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "MUESTREO Y ANALISIS AMBIENTAL",
+    "email": "cherrerab@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ GUERRERO MIGUEL ANDRES",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "SISTEMAS DE INFORMACION GEOGRAFICA APLICADA A LA GESTION AMBIENTAL",
+    "email": "mramirezg@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ MORALES ELIANA ANDREA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "MERCADEO AMBIENTAL",
+    "email": "ediazm@udistrital.edu.co"
+  },
+  {
+    "name": "VELANDIA VEGA LUZ ANGELA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "EVALUACION DE IMPACTO AMBIENTAL",
+    "email": "lvelandiav@udistrital.edu.co"
+  },
+  {
+    "name": "BERNAL RUBIANO CLAUDIA ROJAS",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "cbernalr@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ DIAZ JOSE ALEXANDER",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "jsanchezd@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS LOZANO EDWIN ADRIAN",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "GESTION DEL RIESGO",
+    "email": "erojasl@udistrital.edu.co"
+  },
+  {
+    "name": "MEDINA CLAVIJO HERNAN",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "SEMINARIO DE GRADO",
+    "email": "hmedinac@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON ACOSTA JULIO ROBERTO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "DERECHO URBANO Y AMBIENTAL",
+    "email": "jpinzona@udistrital.edu.co"
+  },
+  {
+    "name": "AGUIRRE MORALES MARIA TERESA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "GESTION AMBIENTAL EMPRESARIAL",
+    "email": "maguirrem@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ GOMEZ JOSE ELIECER",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "GESTION PUBLICA",
+    "email": "jgomezg@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ VIVAS WILLIAM",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "PLANIFICACION AMBIENTAL",
+    "email": "wmartinezv@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ SALAS ANGELA MILENA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "PLANIFICACION AMBIENTAL",
+    "email": "arodriguezs@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ RAMIREZ JULIO CESAR",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "NEGOCIOS VERDES",
+    "email": "jjimenezr@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA MORENO HECTOR FULVIO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "INVESTIGACION OPERATIVA",
+    "email": "hacostam@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN MEDINA BEATRIZ HELENA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "TOXICOLOGIA AMBIENTAL",
+    "email": "bguzmanm@udistrital.edu.co"
+  },
+  {
+    "name": "CARRANZA PEREZ ALVARO JOSE",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "SISTEMAS DE GESTION AMBIENTAL",
+    "email": "acarranzap@udistrital.edu.co"
+  },
+  {
+    "name": "CORONADO PINZON ELIZABETH",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "ecoronadop@udistrital.edu.co"
+  },
+  {
+    "name": "CANTOR GARCIA NELSON",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "DIBUJO TOPOGRAFICO",
+    "email": "ncantorg@udistrital.edu.co"
+  },
+  {
+    "name": "ORTIZ ACOSTA WILLIAM MAURICIO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "SANEAMIENTO AMBIENTAL I",
+    "email": "wortiza@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA REINA LUIS CARLOS",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "HIDRAULICA I",
+    "email": "lacostar@udistrital.edu.co"
+  },
+  {
+    "name": "NIETO ACOSTA CESAR AUGUSTO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "MECANICA DE SUELOS",
+    "email": "cnietoa@udistrital.edu.co"
+  },
+  {
+    "name": "PINEDA ROJAS CLAUDIA ELENA",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "DIBUJO DE INGENIERIA, MECANICA DE SUELOS",
+    "email": "cpinedar@udistrital.edu.co"
+  },
+  {
+    "name": "VELANDIA VEGA LUZ ANGELA",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "lvelandiav@udistrital.edu.co"
+  },
+  {
+    "name": "ARBELAEZ SALAZAR GUSTAVO ADOLFO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "TRATAMIENTO DE AGUAS RESIDUALES",
+    "email": "garbelaezs@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO RODRIGUEZ JAIME",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "INSTALACIONES SANITARIAS Y DISEÑO HIDRAULICO",
+    "email": "jcastror@udistrital.edu.co"
+  },
+  {
+    "name": "HERRERA BARBOSA CARLOS ALBERTO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "LABORATORIO DE AGUAS",
+    "email": "cherrerab@udistrital.edu.co"
+  },
+  {
+    "name": "MORALES CHACON RICARDO ARMANDO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "RESIDUOS SOLIDOS",
+    "email": "rmoralesc@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS CARMONA WILLIAM",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "TRABAJO DE GRADO",
+    "email": "wrojasc@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON VARGAS ALEXANDER",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "TRABAJO DE GRADO",
+    "email": "achaconv@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN MEDINA BEATRIZ HELENA",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "QUIMICA AMBIENTAL",
+    "email": "bguzmanm@udistrital.edu.co"
+  },
+  {
+    "name": "BENAVIDES MORENO JAVIER ALFONSO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "TOXICOLOGIA AMBIENTAL",
+    "email": "jbenavidesm@udistrital.edu.co"
+  },
+  {
+    "name": "MONTEALEGRE PABON EDGAR",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "INTRODUCCION A LA TOPOGRAFIA",
+    "email": "emontealegrep@udistrital.edu.co"
+  },
+  {
+    "name": "TORO RAMIREZ WILLIAM ALFONSO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "INTRODUCCION A LA TOPOGRAFIA",
+    "email": "wtoroR@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ BUSTAMANTE FABIO MAURICIO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "MACROECONOMIA",
+    "email": "framirezb@udistrital.edu.co"
+  },
+  {
+    "name": "AREVALO ROZO NESTOR ADOLFO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "GEOMORFOLOGIA",
+    "email": "narevalor@udistrital.edu.co"
+  },
+  {
+    "name": "PINEDA ROJAS CLAUDIA ELENA",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "DIBUJO DE INGENIERIA, MECANICA DE SUELOS",
+    "email": "cpinedar@udistrital.edu.co"
+  },
+  {
+    "name": "MORALES CHACON RICARDO ARMANDO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "RESIDUOS SOLIDOS",
+    "email": "rmoralesc@udistrital.edu.co"
+  },
+  {
+    "name": "BENAVIDES MORENO JAVIER ALFONSO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "TOXICOLOGIA AMBIENTAL",
+    "email": "jbenavidesm@udistrital.edu.co"
+  },
+  {
+    "name": "MONTEALEGRE PABON EDGAR",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "INTRODUCCION A LA TOPOGRAFIA",
+    "email": "emontealegrep@udistrital.edu.co"
+  },
+  {
+    "name": "TORO RAMIREZ WILLIAM ALFONSO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "INTRODUCCION A LA TOPOGRAFIA",
+    "email": "wtoroR@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ BUSTAMANTE FABIO MAURICIO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "MACROECONOMIA",
+    "email": "framirezb@udistrital.edu.co"
+  },
+  {
+    "name": "AREVALO ROZO NESTOR ADOLFO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "GEOMORFOLOGIA",
+    "email": "narevalor@udistrital.edu.co"
+  },
+  {
+    "name": "CANTOR GARCIA NELSON",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "DIBUJO TOPOGRAFICO",
+    "email": "ncantorg@udistrital.edu.co"
+  },
+  {
+    "name": "ORTIZ ACOSTA WILLIAM MAURICIO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "SANEAMIENTO AMBIENTAL I",
+    "email": "wortiza@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA REINA LUIS CARLOS",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "HIDRAULICA I",
+    "email": "lacostar@udistrital.edu.co"
+  },
+  {
+    "name": "NIETO ACOSTA CESAR AUGUSTO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "MECANICA DE SUELOS",
+    "email": "cnietoa@udistrital.edu.co"
+  },
+  {
+    "name": "VELANDIA VEGA LUZ ANGELA",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "lvelandiav@udistrital.edu.co"
+  },
+  {
+    "name": "ARBELAEZ SALAZAR GUSTAVO ADOLFO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "TRATAMIENTO DE AGUAS RESIDUALES",
+    "email": "garbelaezs@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO RODRIGUEZ JAIME",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "INSTALACIONES SANITARIAS Y DISEÑO HIDRAULICO",
+    "email": "jcastror@udistrital.edu.co"
+  },
+  {
+    "name": "HERRERA BARBOSA CARLOS ALBERTO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "LABORATORIO DE AGUAS",
+    "email": "cherrerab@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS CARMONA WILLIAM",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "TRABAJO DE GRADO",
+    "email": "wrojasc@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON VARGAS ALEXANDER",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "TRABAJO DE GRADO",
+    "email": "achaconv@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN MEDINA BEATRIZ HELENA",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "QUIMICA AMBIENTAL",
+    "email": "bguzmanm@udistrital.edu.co"
+  },
+  {
+    "name": "SANDOVAL ROMERO HERNAN ALBERTO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "CONTABILIDAD GENERAL",
+    "email": "hsandovalr@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ ABELLO JAIRO MIGUEL",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ADMINISTRACION PUBLICA AMBIENTAL",
+    "email": "jmartineza@udistrital.edu.co"
+  },
+  {
+    "name": "CARDENAS MONASALVA ILEANA ROMEA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FACTORES DE RIESGO AMBIENTAL EN SALUD PUBLICA",
+    "email": "icardenasm@udistrital.edu.co"
+  },
+  {
+    "name": "ESCOBAR RIVERA RUTH MARLENY",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "rescobarr@udistrital.edu.co"
+  },
+  {
+    "name": "MOLINA VALBUENA DARIO FERNANDO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FINANZAS PUBLICAS",
+    "email": "dmolinav@udistrital.edu.co"
+  },
+  {
+    "name": "ZAMORA VELANDIA ALEXANDER",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "azamoraV@udistrital.edu.co"
+  },
+  {
+    "name": "ARBELAEZ SALAZAR GUSTAVO ADOLFO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "TRATAMIENTO DE AGUAS RESIDUALES",
+    "email": "garbelaezs@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ PACHON RAUL",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ELECTIVA CIENCIAS SOCIALES",
+    "email": "rlopezp@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MURCIA JORGE LUIS",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "jgonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "CALLEJAS CUERVO LUIS GABRIEL",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "lcallejasC@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ MEDINA LUIS HERNANDO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "llopezm@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ ACEVEDO LUIS CARLOS",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ADMINISTRACION GENERAL",
+    "email": "lsancheza@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ CORTES ALVARO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "SALUD Y NUTRICION",
+    "email": "arodriguezc@udistrital.edu.co"
+  },
+  {
+    "name": "MORENO ORJUELA JUAN CARLOS",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "DEPORTE FORMATIVO Y JUVENIL",
+    "email": "jmorenoo@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS ACOSTA ANDRES FELIPE",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "DEPORTE FORMATIVO Y JUVENIL",
+    "email": "avargasa@udistrital.edu.co"
+  },
+  {
+    "name": "ALVAREZ MENDOZA LUIS ALBERTO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "DEPORTE FORMATIVO Y JUVENIL",
+    "email": "lalvarezm@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA VARGAS MAURICIO ANDRES",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "FUNDAMENTOS DE LA ACTIVIDAD FISICA Y EL DEPORTE",
+    "email": "macostav@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS CARMONA WILLIAM",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "wrojasc@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO GOMEZ JOSE GERMAN",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "MICROECONOMIA",
+    "email": "jforerog@udistrital.edu.co"
+  },
+  {
+    "name": "CARREÑO CARREÑO ALVARO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "CONSTITUCION POLITICA Y DERECHO LABORAL",
+    "email": "acarreñoc@udistrital.edu.co"
+  },
+  {
+    "name": "CUELLAR MORENO CARLOS ANDRES",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "MACROECONOMIA Y POLITICA ECONOMICA",
+    "email": "ccuellarm@udistrital.edu.co"
+  },
+  {
+    "name": "PINILLA RIVERA MARIBEL",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "mpinillar@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MURCIA JORGE LUIS",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "jgonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "CALLEJAS CUERVO LUIS GABRIEL",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "lcallejasC@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ MEDINA LUIS HERNANDO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "llopezm@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ ABELLO JAIRO MIGUEL",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ADMINISTRACION PUBLICA AMBIENTAL",
+    "email": "jmartineza@udistrital.edu.co"
+  },
+  {
+    "name": "CARDENAS MONASALVA ILEANA ROMEA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "FACTORES DE RIESGO AMBIENTAL EN SALUD PUBLICA",
+    "email": "icardenasm@udistrital.edu.co"
+  },
+  {
+    "name": "ESCOBAR RIVERA RUTH MARLENY",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "rescobarr@udistrital.edu.co"
+  },
+  {
+    "name": "ZAMORA VELANDIA ALEXANDER",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "azamoraV@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ PACHON RAUL",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ELECTIVA CIENCIAS SOCIALES",
+    "email": "rlopezp@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MURCIA JORGE LUIS",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "jgonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "CALLEJAS CUERVO LUIS GABRIEL",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "lcallejasC@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ MEDINA LUIS HERNANDO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "llopezm@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON SANCHEZ EDGAR ALFREDO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "MACROECONOMIA",
+    "email": "echacons@udistrital.edu.co"
+  },
+  {
+    "name": "BLANCO NUÑEZ JOSE LUIS",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "jblancon@udistrital.edu.co"
+  },
+  {
+    "name": "LEON BELTRAN EDUARDO AIZAMAK",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "MACROECONOMIA Y POLITICA ECONOMICA",
+    "email": "lleonb@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON ACOSTA JULIO ROBERTO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "CONSTITUCION Y ECOLOGIA",
+    "email": "jpinzona@udistrital.edu.co"
+  },
+  {
+    "name": "CORONADO PINZON ELIZABETH",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "ecoronadop@udistrital.edu.co"
+  },
+  {
+    "name": "ESCOBAR RIVERA RUTH MARLENY",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "rescobarr@udistrital.edu.co"
+  },
+  {
+    "name": "ZAMORA VELANDIA ALEXANDER",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "azamoraV@udistrital.edu.co"
+  },
+  {
+    "name": "HERRERA BARBOSA CARLOS ALBERTO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "SISTEMAS DE GESTION AMBIENTAL",
+    "email": "cherrerab@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ GOMEZ JOSE ELIECER",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "GESTION PUBLICA",
+    "email": "jgomezg@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ SALAS ANGELA MILENA",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "PLANIFICACION AMBIENTAL",
+    "email": "arodriguezs@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA MORENO HECTOR FULVIO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "INVESTIGACION OPERATIVA",
+    "email": "hacostam@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN MEDINA BEATRIZ HELENA",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "QUIMICA AMBIENTAL",
+    "email": "bguzmanm@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS MARIN NELSON JAVIER",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "PROCESOS DE INTERVENCION URBANO REGIONAL",
+    "email": "nvargasm@udistrital.edu.co"
+  },
+  {
+    "name": "ARBELAEZ SALAZAR GUSTAVO ADOLFO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "TRATAMIENTO DE AGUAS RESIDUALES",
+    "email": "garbelaezs@udistrital.edu.co"
+  },
+  {
+    "name": "MEDINA CLAVIJO HERNAN",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "SEMINARIO DE GRADO",
+    "email": "hmedinac@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ PACHON RAUL",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "ELECTIVA CIENCIAS SOCIALES",
+    "email": "rlopezp@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MURCIA JORGE LUIS",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "jgonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "CALLEJAS CUERVO LUIS GABRIEL",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "lcallejasC@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ MEDINA LUIS HERNANDO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "llopezm@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON SANCHEZ EDGAR ALFREDO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "MACROECONOMIA",
+    "email": "echacons@udistrital.edu.co"
+  },
+  {
+    "name": "LEON BELTRAN EDUARDO AIZAMAK",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "MACROECONOMIA Y POLITICA ECONOMICA",
+    "email": "lleonb@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO GOMEZ JOSE GERMAN",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "MICROECONOMIA",
+    "email": "jforerog@udistrital.edu.co"
+  },
+  {
+    "name": "ESCOBAR RIVERA RUTH MARLENY",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "rescobarr@udistrital.edu.co"
+  },
+  {
+    "name": "ZAMORA VELANDIA ALEXANDER",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "azamoraV@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ GOMEZ JOSE ELIECER",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "GESTION PUBLICA",
+    "email": "jgomezg@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ VIVAS WILLIAM",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "PLANIFICACION AMBIENTAL",
+    "email": "wmartinezv@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ SALAS ANGELA MILENA",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "PLANIFICACION AMBIENTAL",
+    "email": "arodriguezs@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA MORENO HECTOR FULVIO",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "INVESTIGACION OPERATIVA",
+    "email": "hacostam@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ RAMIREZ JULIO CESAR",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "jjimenezr@udistrital.edu.co"
+  },
+  {
+    "name": "CARDENAS MONASALVA ILEANA ROMEA",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "FACTORES DE RIESGO AMBIENTAL EN SALUD PUBLICA",
+    "email": "icardenasm@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON SANCHEZ EDGAR ALFREDO",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "MACROECONOMIA",
+    "email": "echacons@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ PACHON RAUL",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "ELECTIVA CIENCIAS SOCIALES",
+    "email": "rlopezp@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MURCIA JORGE LUIS",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "jgonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "CALLEJAS CUERVO LUIS GABRIEL",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "lcallejasC@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ MEDINA LUIS HERNANDO",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "llopezm@udistrital.edu.co"
+  },
+  {
+    "name": "LEON BELTRAN EDUARDO AIZAMAK",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "MACROECONOMIA Y POLITICA ECONOMICA",
+    "email": "lleonb@udistrital.edu.co"
+  },
+  {
+    "name": "DUARTE GUSTAVO ADOLFO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "FISICO-QUIMICA",
+    "email": "gduarteg@udistrital.edu.co"
+  },
+  {
+    "name": "MARTIN CALVO JEISSON FABIAN",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "FISICA ONDULATORIA",
+    "email": "jmartinc@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON SANCHEZ EDGAR ALFREDO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "MACROECONOMIA",
+    "email": "echacons@udistrital.edu.co"
+  },
+  {
+    "name": "LEON BELTRAN EDUARDO AIZAMAK",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "MACROECONOMIA Y POLITICA ECONOMICA",
+    "email": "lleonb@udistrital.edu.co"
+  },
+  {
+    "name": "AGUIRRE MORALES MARIA TERESA",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "GESTION AMBIENTAL EMPRESARIAL",
+    "email": "maguirrem@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ GOMEZ JOSE ELIECER",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "GESTION PUBLICA",
+    "email": "jgomezg@udistrital.edu.co"
+  },
+  {
+    "name": "ESCOBAR RIVERA RUTH MARLENY",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "rescobarr@udistrital.edu.co"
+  },
+  {
+    "name": "ZAMORA VELANDIA ALEXANDER",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "azamoraV@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA MORENO HECTOR FULVIO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "INVESTIGACION OPERATIVA",
+    "email": "hacostam@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ RAMIREZ JULIO CESAR",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "jjimenezr@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ ABELLO JAIRO MIGUEL",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "ADMINISTRACION PUBLICA AMBIENTAL",
+    "email": "jmartineza@udistrital.edu.co"
+  },
+  {
+    "name": "CARDENAS MONASALVA ILEANA ROMEA",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "FACTORES DE RIESGO AMBIENTAL EN SALUD PUBLICA",
+    "email": "icardenasm@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO GOMEZ JOSE GERMAN",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "MICROECONOMIA",
+    "email": "jforerog@udistrital.edu.co"
+  },
+  {
+    "name": "BLANCO NUÑEZ JOSE LUIS",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "jblancon@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ PACHON RAUL",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "ELECTIVA CIENCIAS SOCIALES",
+    "email": "rlopezp@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MURCIA JORGE LUIS",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "jgonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "CALLEJAS CUERVO LUIS GABRIEL",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "lcallejasC@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ MEDINA LUIS HERNANDO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "llopezm@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS MARIN NELSON JAVIER",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "PROCESOS DE INTERVENCION URBANO REGIONAL",
+    "email": "nvargasm@udistrital.edu.co"
+  },
+  {
+    "name": "MEDINA CLAVIJO HERNAN",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "SEMINARIO DE GRADO",
+    "email": "hmedinac@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON ACOSTA JULIO ROBERTO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "CONSTITUCION Y ECOLOGIA",
+    "email": "jpinzona@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA MORENO HECTOR FULVIO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "INVESTIGACION OPERATIVA",
+    "email": "hacostam@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO GOMEZ JOSE GERMAN",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "MICROECONOMIA",
+    "email": "jforerog@udistrital.edu.co"
+  },
+  {
+    "name": "ESCOBAR RIVERA RUTH MARLENY",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "rescobarr@udistrital.edu.co"
+  },
+  {
+    "name": "ZAMORA VELANDIA ALEXANDER",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "azamoraV@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON SANCHEZ EDGAR ALFREDO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "MACROECONOMIA",
+    "email": "echacons@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ PACHON RAUL",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "ELECTIVA CIENCIAS SOCIALES",
+    "email": "rlopezp@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MURCIA JORGE LUIS",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "jgonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "CALLEJAS CUERVO LUIS GABRIEL",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "lcallejasC@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ MEDINA LUIS HERNANDO",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "llopezm@udistrital.edu.co"
+  },
+  {
+    "name": "LEON BELTRAN EDUARDO AIZAMAK",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "MACROECONOMIA Y POLITICA ECONOMICA",
+    "email": "lleonb@udistrital.edu.co"
+  },
+  {
+    "name": "BLANCO NUÑEZ JOSE LUIS",
+    "faculty": "TEC. DE TOPOGRAFIA",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "jblancon@udistrital.edu.co"
+  },
+  {
+    "name": "MUÑOZ ROJAS JAIME RODRIGO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ECONOMIA AMBIENTAL",
+    "email": "jmuñozr@udistrital.edu.co"
+  },
+  {
+    "name": "MEJIA DE ALBA MARTHA ISABEL",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "AUDITORIAS AMBIENTALES",
+    "email": "mmejiaD@udistrital.edu.co"
+  },
+  {
+    "name": "CASTELLANOS PABON JUAN MANUEL",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "GESTION DEL RIESGO",
+    "email": "jcastellanosP@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA VANEGAS FREDY ALBEIRO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "SISTEMAS INTEGRADOS DE GESTION",
+    "email": "fgarciav@udistrital.edu.co"
+  },
+  {
+    "name": "GIRALDO JARAMILLO FABIO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "SISTEMAS INTEGRADOS DE GESTION",
+    "email": "fgiraldaj@udistrital.edu.co"
+  },
+  {
+    "name": "LEON BELTRAN EDUARDO AIZAMAK",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "MACROECONOMIA Y POLITICA ECONOMICA",
+    "email": "lleonb@udistrital.edu.co"
+  },
+  {
+    "name": "DUARTE GUSTAVO ADOLFO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FISICO-QUIMICA",
+    "email": "gduarteg@udistrital.edu.co"
+  },
+  {
+    "name": "BLANCO NUÑEZ JOSE LUIS",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "jblancon@udistrital.edu.co"
+  },
+  {
+    "name": "CARREÑO CARREÑO ALVARO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "CONSTITUCION POLITICA Y DERECHO LABORAL",
+    "email": "acarreñoc@udistrital.edu.co"
+  },
+  {
+    "name": "MUÑOZ ROJAS JAIME RODRIGO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ECONOMIA AMBIENTAL",
+    "email": "jmuñozr@udistrital.edu.co"
+  },
+  {
+    "name": "MEJIA DE ALBA MARTHA ISABEL",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "AUDITORIAS AMBIENTALES",
+    "email": "mmejiaD@udistrital.edu.co"
+  },
+  {
+    "name": "CASTELLANOS PABON JUAN MANUEL",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "GESTION DEL RIESGO",
+    "email": "jcastellanosP@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA VANEGAS FREDY ALBEIRO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "SISTEMAS INTEGRADOS DE GESTION",
+    "email": "fgarciav@udistrital.edu.co"
+  },
+  {
+    "name": "GIRALDO JARAMILLO FABIO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "SISTEMAS INTEGRADOS DE GESTION",
+    "email": "fgiraldaj@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO GOMEZ JOSE GERMAN",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "MICROECONOMIA",
+    "email": "jforerog@udistrital.edu.co"
+  },
+  {
+    "name": "ESCOBAR RIVERA RUTH MARLENY",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "rescobarr@udistrital.edu.co"
+  },
+  {
+    "name": "ZAMORA VELANDIA ALEXANDER",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "COSTOS Y PRESUPUESTOS",
+    "email": "azamoraV@udistrital.edu.co"
+  },
+  {
+    "name": "LEON BELTRAN EDUARDO AIZAMAK",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "MACROECONOMIA Y POLITICA ECONOMICA",
+    "email": "lleonb@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ RAMIREZ JULIO CESAR",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "NEGOCIOS VERDES",
+    "email": "jjimenezr@udistrital.edu.co"
+  },
+  {
+    "name": "CORONADO PINZON ELIZABETH",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "ecoronadop@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ ABELLO JAIRO MIGUEL",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ADMINISTRACION PUBLICA AMBIENTAL",
+    "email": "jmartineza@udistrital.edu.co"
+  },
+  {
+    "name": "CARDENAS MONASALVA ILEANA ROMEA",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "FACTORES DE RIESGO AMBIENTAL EN SALUD PUBLICA",
+    "email": "icardenasm@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ GOMEZ JOSE ELIECER",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "GESTION PUBLICA",
+    "email": "jgomezg@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ VIVAS WILLIAM",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "PLANIFICACION AMBIENTAL",
+    "email": "wmartinezv@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ SALAS ANGELA MILENA",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "PLANIFICACION AMBIENTAL",
+    "email": "arodriguezs@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA MORENO HECTOR FULVIO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "INVESTIGACION OPERATIVA",
+    "email": "hacostam@udistrital.edu.co"
+  },
+  {
+    "name": "DUARTE GUSTAVO ADOLFO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "FISICO-QUIMICA",
+    "email": "gduarteg@udistrital.edu.co"
+  },
+  {
+    "name": "BLANCO NUÑEZ JOSE LUIS",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "jblancon@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ PACHON RAUL",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ELECTIVA CIENCIAS SOCIALES",
+    "email": "rlopezp@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MURCIA JORGE LUIS",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "jgonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "CALLEJAS CUERVO LUIS GABRIEL",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "lcallejasC@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ MEDINA LUIS HERNANDO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ELECTIVA HUMANIDADES II",
+    "email": "llopezm@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON SANCHEZ EDGAR ALFREDO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "MACROECONOMIA",
+    "email": "echacons@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS MARIN NELSON JAVIER",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "PROCESOS DE INTERVENCION URBANO REGIONAL",
+    "email": "nvargasm@udistrital.edu.co"
+  },
+  {
+    "name": "MEDINA CLAVIJO HERNAN",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "SEMINARIO DE GRADO",
+    "email": "hmedinac@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON ACOSTA JULIO ROBERTO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "CONSTITUCION Y ECOLOGIA",
+    "email": "jpinzona@udistrital.edu.co"
+  },
+  {
+    "name": "CARREÑO CARREÑO ALVARO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "CONSTITUCION POLITICA Y DERECHO LABORAL",
+    "email": "acarreñoc@udistrital.edu.co"
+  },
+  {
+    "name": "CABRERA BARRERA ELKIN EMIR",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "POLITICA Y LEGISLACION AMBIENTAL",
+    "email": "ecabrerab@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON FLORIAN OLGA PATRICIA",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "SANIDAD FORESTAL",
+    "email": "ppinzof@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA OLMOS CARLOS FRANCISCO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "CONSERVACION DE SUELOS",
+    "email": "cgarciaO@udistrital.edu.co"
+  },
+  {
+    "name": "LEON SOTELO CLAUDIA JANETH",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "APROVECHAMIENTO FORESTAL",
+    "email": "cleons@udistrital.edu.co"
+  },
+  {
+    "name": "CASTELLANOS PABON JUAN MANUEL",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "jcastellanosP@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS CARMONA WILLIAM",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "ECOLOGIA DEL PAISAJE",
+    "email": "wrojasc@udistrital.edu.co"
+  },
+  {
+    "name": "CABRERA BARRERA ELKIN EMIR",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "POLITICA Y LEGISLACION AMBIENTAL",
+    "email": "ecabrerab@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON FLORIAN OLGA PATRICIA",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "SANIDAD FORESTAL",
+    "email": "ppinzof@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA OLMOS CARLOS FRANCISCO",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "CONSERVACION DE SUELOS",
+    "email": "cgarciaO@udistrital.edu.co"
+  },
+  {
+    "name": "LEON SOTELO CLAUDIA JANETH",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "APROVECHAMIENTO FORESTAL",
+    "email": "cleons@udistrital.edu.co"
+  },
+  {
+    "name": "CASTELLANOS PABON JUAN MANUEL",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "jcastellanosP@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON ACOSTA JULIO ROBERTO",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "ELECTIVA CONSTITUCION Y ECOLOGIA",
+    "email": "jpinzona@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS CARMONA WILLIAM",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "ECOLOGIA DEL PAISAJE",
+    "email": "wrojasc@udistrital.edu.co"
+  },
+  {
+    "name": "BONZA PEREZ NIRIA PASTORA",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "SILVICULTURA DE PLANTACIONES",
+    "email": "nbbonzap@udistrital.edu.co"
+  },
+  {
+    "name": "TOVAR CORZO GERMAN",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "ARBORICULTURA URBANA",
+    "email": "gtovarc@udistrital.edu.co"
+  },
+  {
+    "name": "CARDONA LONDO?O CLAUDIA MARIA",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "MODELAMIENTO DE FENOMENOS BIOLOGICOS",
+    "email": "ccardonal@udistrital.edu.co"
+  },
+  {
+    "name": "ESPINOSA GARCIA HELMUT",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "CUENCAS HIDROGRAFICAS",
+    "email": "hespinog@udistrital.edu.co"
+  },
+  {
+    "name": "PULIDO RODRIGUEZ ESPERANZA NANCY",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "PROPIEDADES DE LA MADERA, ESTRUCTURAS DE MADERA",
+    "email": "epulidor@udistrital.edu.co"
+  },
+  {
+    "name": "HERNANDEZ RAMOS FABIAN ALONSO",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "EXTENSION FORESTAL, ORDENAMIENTO TERRITORIAL",
+    "email": "fhernandr@udistrital.edu.co"
+  },
+  {
+    "name": "MORENO GUTIERREZ JAIME ALBERTO",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "GESTION DE RECURSOS FORESTALES, EVALUACION AMBIENTAL",
+    "email": "jmorenog@udistrital.edu.co"
+  },
+  {
+    "name": "TRIANA GOMEZ MAX ALEJANDRO",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "SILVICULTURA COMUNITARIA, SILVICULTURA DE BOSQUE NATURAL",
+    "email": "mtrianag@udistrital.edu.co"
+  },
+  {
+    "name": "VILLARRAGA FLOREZ LIZ FARLEIDY",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "ECONOMIA DE RECURSOS NATURALES, EVALUACION DE PROYECTOS FORESTALES, EMPRENDIMIENTO FORESTAL",
+    "email": "lvillarragaf@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA OLMOS CARLOS FRANCISC",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "ELECTIVA INTRINSECA IV",
+    "email": "cganciao@udistrital.edu.co"
+  },
+  {
+    "name": "POLANCO TAPIA CESAR AUGUSTO",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "INDUSTRIAS FORESTALES I, PRACTICA INTEGRADA III, INDUSTRIAS FORESTALES II",
+    "email": "cpolancot@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ CAMACHO RENE",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "PRODUCTOS NO MADERABLES",
+    "email": "rlopezc@udistrital.edu.co"
+  },
+  {
+    "name": "AVELLA MU?OZ EDGAR ANDRES",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "ORDENACION DE BOSQUES",
+    "email": "eavellam@udistrital.edu.co"
+  },
+  {
+    "name": "PARRADO ROSSELLI ANGELA",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "AREAS PROTEGIDAS",
+    "email": "aparraador@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES CARLOS EDGAR",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "POLITICA Y LEGISLACION FORESTAL, GESTION DEL RIESGO",
+    "email": "etorresc@udistrital.edu.co"
+  },
+  {
+    "name": "FRANCO HELVAR RODOLFO",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "EDICION FOTOGRAFICA DIGITAL",
+    "email": "hfrancor@udistrital.edu.co"
+  },
+  {
+    "name": "CORTES BALLEN ROCIO DEL PILAR",
+    "faculty": "INGENIERIA FORESTAL",
+    "subject": "DATOS MOLECULARES EN BIODIVERSIDAD",
+    "email": "rcortesb@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ CORTES JORGE LUIS",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "CALCULO DIFERENCIAL, ECUACIONES DIFERENCIALES",
+    "email": "jrodriguezc@udistrital.edu.co"
+  },
+  {
+    "name": "PEREZ VELASQUEZ JHOAN EDUAR",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "FISICA I: MECANICA NEWTONIANA",
+    "email": "jperezv@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS LUIS ALBERTO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS, MUSICA I, MUSICA II",
+    "email": "lvargasl@udistrital.edu.co"
+  },
+  {
+    "name": "VERA CASTANEDA LUIS CARLOS",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "lverac@udistrital.edu.co"
+  },
+  {
+    "name": "PE?A MACIAS VICTOR BRYALLAN",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "CALCULO INTEGRAL, ALGEBRA LINEAL",
+    "email": "vpenam@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ EDGAR ALFONSO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ALGEBRA LINEAL",
+    "email": "elopezl@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA OLMOS RAFAEL",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ECUACIONES DIFERENCIALES",
+    "email": "rgarciao@udistrital.edu.co"
+  },
+  {
+    "name": "VASQUEZ RODRIGUEZ MARTHA CAROLINA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "FUNDAMENTOS DE ECOLOGIA, BIOLOGIA GENERAL",
+    "email": "mvasquezr@udistrital.edu.co"
+  },
+  {
+    "name": "PRECIADO BELTRAN JAIR",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "METODOLOGIA DE LA INVESTIGACION",
+    "email": "jpreciadob@udistrital.edu.co"
+  },
+  {
+    "name": "CARDENAS LEON JORGE ALONSO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "FUNDAMENTOS DE QUIMICA",
+    "email": "jcardenasl@udistrital.edu.co"
+  },
+  {
+    "name": "AVILA CORTES JOHN JAIRO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "FUNDAMENTOS DE QUIMICA",
+    "email": "javilac@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES SERRANO NORMAN ARTURO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "QUIMICA ORGANICA",
+    "email": "ntorress@udistrital.edu.co"
+  },
+  {
+    "name": "VILLATE SIERRA JOHN JAIRO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "TOPOGRAFIA Y CARTOGRAFIA",
+    "email": "jvillates@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ MILA FREDY YOBANI",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "TOPOGRAFIA Y CARTOGRAFIA",
+    "email": "fdiazm@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ LOPEZ JHON FREDY",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "TOPOGRAFIA Y CARTOGRAFIA",
+    "email": "jlopezl@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ MALAVER CESAR AUGUSTO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "QUIMICA AMBIENTAL",
+    "email": "crodriguezm@udistrital.edu.co"
+  },
+  {
+    "name": "CASTELLANOS PEREZ HECTOR ADOLFO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "FISICOQUIMICA",
+    "email": "hcastellanosp@udistrital.edu.co"
+  },
+  {
+    "name": "BAQUERO PE?A LUIS CARLOS",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "TERMODINAMICA",
+    "email": "lbaquerop@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO CABALLERO JOSE VICENTE",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "HIDRAULICA BASICA",
+    "email": "jforeroc@udistrital.edu.co"
+  },
+  {
+    "name": "CORONADO MANCILLA NELSON ENRIQUE",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "HIDRAULICA BASICA",
+    "email": "ncoronadom@udistrital.edu.co"
+  },
+  {
+    "name": "BERMUDEZ HERNANDEZ GLORIA CONSTANZA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "HIDROLOGIA",
+    "email": "gbermudezh@udistrital.edu.co"
+  },
+  {
+    "name": "CARO ROMERO JAIME ARTURO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "TRATAMIENTO DE AGUA POTABLE",
+    "email": "jcaror@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ ALARCON JAVIER GUILLERMO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "MANEJO DE RESIDUOS SOLIDOS",
+    "email": "jrodrigueza@udistrital.edu.co"
+  },
+  {
+    "name": "MORENO PARRA GLORIA PATRICIA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "gmorenop@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ MORENO SANDRA PATRICIA",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "SISTEMAS DE ALCANTARILLADO",
+    "email": "srodriguezm@udistrital.edu.co"
+  },
+  {
+    "name": "ALVAREZ ROJAS FABIO ERNESTO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "TRATAMIENTO DE AGUAS RESIDUALES",
+    "email": "falvarezr@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ RIVERA WILLIAM FERNANDO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "TRATAMIENTO DE AGUAS RESIDUALES",
+    "email": "wgonzalezr@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA VARGAS HERNANDO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "DISE?O Y GESTION DE RIESGOS",
+    "email": "hacostav@udistrital.edu.co"
+  },
+  {
+    "name": "SALINAS ALVIS EDGAR ANTONIO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "AUDITORIAS EN GESTION AMBIENTAL",
+    "email": "esalinasa@udistrital.edu.co"
+  },
+  {
+    "name": "MORA JIMENEZ LUIS FERNANDO",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "EVALUACION AMBIENTAL DE PROYECTOS, ELECTIVA EN INGENIERIA SANITARIA I",
+    "email": "lmoraj@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS RODRIGUEZ OSCAR JULIAN",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "ELECTIVA EN INGENIERIA SANITARIA I, ELECTIVA EN INGENIERIA SANITARIA II",
+    "email": "ovargasr@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ RAMIREZ LUIS ALFONSO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "CALCULO DIFERENCIAL",
+    "email": "ljimenezr@udistrital.edu.co"
+  },
+  {
+    "name": "MORENO PACHON GUSTAVO ADOLFO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "CALCULO DIFERENCIAL, ECUACIONES DIFERENCIALES",
+    "email": "gmorenop@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO DIAZ LUIS ALBERTO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "ALGEBRA LINEAL",
+    "email": "lcastrod@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ CORTES JORGE LUIS",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "ALGEBRA LINEAL",
+    "email": "jrodriguezc@udistrital.edu.co"
+  },
+  {
+    "name": "CASTELLANOS PEREZ HECTOR ADOLFO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "FUNDAMENTOS DE QUIMICA",
+    "email": "hcastellanosp@udistrital.edu.co"
+  },
+  {
+    "name": "CRUZ CASTILLO LUIS ALFREDO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "FUNDAMENTOS DE QUIMICA",
+    "email": "lcruzc@udistrital.edu.co"
+  },
+  {
+    "name": "VERGARA CAMARGO RUBEN DARIO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "QUIMICA ORGANICA",
+    "email": "rvergarac@udistrital.edu.co"
+  },
+  {
+    "name": "VASQUEZ RODRIGUEZ MARTHA CAROLINA",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "BIOLOGIA AMBIENTAL",
+    "email": "mvasquezr@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ MALAVER CESAR AUGUSTO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "QUIMICA AMBIENTAL",
+    "email": "crodriguezm@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS RODRIGUEZ OSCAR JULIAN",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "FENOMENOS DE TRANSPORTE",
+    "email": "ovargasr@udistrital.edu.co"
+  },
+  {
+    "name": "MENDOZA SARMIENTO JHON ANTONY",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "MODELOS ESTOCASTICOS AMBIENTALES",
+    "email": "jmendozas@udistrital.edu.co"
+  },
+  {
+    "name": "ALVAREZ ROJAS FABIO ERNESTO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "SISTEMAS DE ABASTECIMIENTO DE AGUA",
+    "email": "falvarezr@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ GOMEZ DIANA MARCELA",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "HIDROLOGIA AMBIENTAL",
+    "email": "ddiazg@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ MORENO SANDRA PATRICIA",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "HIDROLOGIA AMBIENTAL",
+    "email": "srodriguezm@udistrital.edu.co"
+  },
+  {
+    "name": "MORENO PARRA GLORIA PATRICIA",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "ECONOMIA AMBIENTAL",
+    "email": "gmorenop@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ ALARCON JAVIER GUILLERMO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "MANEJO DE RESIDUOS SOLIDOS Y RECUPERACION DE ENERGIA",
+    "email": "jrodrigueza@udistrital.edu.co"
+  },
+  {
+    "name": "PERALTA MORENO NELSON ENRIQUE",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "TRATAMIENTO DE AGUAS RESIDUALES",
+    "email": "nperaltam@udistrital.edu.co"
+  },
+  {
+    "name": "LEON SERRANO DIANA PAOLA",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "TOXICOLOGIA AMBIENTAL",
+    "email": "dleons@udistrital.edu.co"
+  },
+  {
+    "name": "SANABRIA LOPEZ LUIS FERNANDO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "AUDITORIA DE GESTION AMBIENTAL",
+    "email": "lsanabrial@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ SANDOVAL LUIS ALIRIO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "LEGISLACION AMBIENTAL",
+    "email": "llopezs@udistrital.edu.co"
+  },
+  {
+    "name": "PINILLA GUERRERO RAUL",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "SEMINARIO DE INVESTIGACION",
+    "email": "rpinillag@udistrital.edu.co"
+  },
+  {
+    "name": "ESCALANTE ANGEL DIANA MARCELA",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "DISE?O DE REACTORES EN INGENIERIA AMBIENTAL",
+    "email": "descalantea@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ RIVERA WILLIAM FERNANDO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "REMOCION DE CONTAMINANTES ATMOSFERICOS",
+    "email": "wgonzalezr@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA ALFONSO CARLOS EDUARDO",
+    "faculty": "INGENIERIA AMBIENTAL",
+    "subject": "ELECTIVA PROFUNDIZACION I, ELECTIVA PROFUNDIZACION II",
+    "email": "cgarciaa@udistrital.edu.co"
+  },
+  {
+    "name": "GUERRERO PARDO HENRY ERNESTO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "METODOLOGIA DE LA INVESTIGACION",
+    "email": "hguerrerop@udistrital.edu.co"
+  },
+  {
+    "name": "MEDINA MALO GLORIA STELLA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "METODOLOGIA DE LA INVESTIGACION",
+    "email": "gmedinam@udistrital.edu.co"
+  },
+  {
+    "name": "CRUZ ROBAYO EDNA CAROLINA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "PRODUCCION Y COMPRENSION TEXTOS",
+    "email": "ecruzr@udistrital.edu.co"
+  },
+  {
+    "name": "ESPINOSA GARCIA HELMUT",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ECOLOGIA GENERAL",
+    "email": "hespinog@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ RAMIREZ LUIS ALFONSO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ESTADISTICA INFERENCIAL, ESTADISTICA DESCRIPTIVA",
+    "email": "ljimenezr@udistrital.edu.co"
+  },
+  {
+    "name": "CHACON SANCHEZ VICTOR MANUEL",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "CONSTITUCION Y DERECHO AMBIENTAL",
+    "email": "vchacons@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ GUERRERO ANDRES FELIPE",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "TERRITORIOS E IDENTIDADES",
+    "email": "aramirezg@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ SANDOVAL LUIS ALIRIO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "POLITICA Y LEGISLACION AMBIENTAL",
+    "email": "llopezs@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES CARLOS EDGAR",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "EVALUACION DE RIESGOS AMBIENTALES",
+    "email": "etorresc@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ MORENO SANDRA PATRICIA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "HIDROLOGIA AMBIENTAL",
+    "email": "srodriguezm@udistrital.edu.co"
+  },
+  {
+    "name": "MENDOZA SARMIENTO JHON ANTONY",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "SISTEMAS DE INFORMACION GEOGRAFICA",
+    "email": "jmendozas@udistrital.edu.co"
+  },
+  {
+    "name": "ORTIZ SAAVEDRA JULIAN RICARDO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "ORDENAMIENTO AMBIENTAL TERRITORIAL",
+    "email": "jortizs@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ RIVERA WILLIAM FERNANDO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "GESTION INTEGRAL DE RESIDUOS SOLIDOS",
+    "email": "wgonzalezr@udistrital.edu.co"
+  },
+  {
+    "name": "MORA JIMENEZ LUIS FERNANDO",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "AUDITORIAS AMBIENTALES",
+    "email": "lmoraj@udistrital.edu.co"
+  },
+  {
+    "name": "CASTA?EDA HURTADO JUAN CARLOS",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "jcastanedah@udistrital.edu.co"
+  },
+  {
+    "name": "PARRADO ROSSELLI ANGELA",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "AREAS PROTEGIDAS",
+    "email": "aparraador@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS RODRIGUEZ OSCAR JULIAN",
+    "faculty": "ADMINISTRACION AMBIENTAL",
+    "subject": "PRACTICA EMPRESARIAL",
+    "email": "ovargasr@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ CALDERON CESAR AUGUSTO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "MATEMATICAS BASICAS",
+    "email": "cmartinezc@udistrital.edu.co"
+  },
+  {
+    "name": "VALLEJO RUIZ MARIA CRISTINA",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "CULTURA FISICA Y DEPORTE",
+    "email": "mvallejor@udistrital.edu.co"
+  },
+  {
+    "name": "BAQUERO PE?A LUIS CARLOS",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "CULTURA FISICA Y DEPORTE",
+    "email": "lbaquerop@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO DIAZ LUIS ALBERTO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ALGEBRA LINEAL",
+    "email": "lcastrod@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA VARGAS HERNANDO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "PENSAMIENTO LOGICO Y MATEMATICO",
+    "email": "hacostav@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS LUIS ALBERTO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "MUSICA I",
+    "email": "lvargasl@udistrital.edu.co"
+  },
+  {
+    "name": "PEREZ VELASQUEZ JHOAN EDUAR",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "FISICA I: MECANICA NEWTONIANA",
+    "email": "jperezv@udistrital.edu.co"
+  },
+  {
+    "name": "CASTANEDA HURTADO JUAN CARLOS",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "PENSAMIENTO ECONOMICO",
+    "email": "jcastanedah@udistrital.edu.co"
+  },
+  {
+    "name": "CARDOZO RAMIREZ PEDRO ANDRES",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "FUNDAMENTOS DE GESTION DEPORTIVA",
+    "email": "pcardozor@udistrital.edu.co"
+  },
+  {
+    "name": "MEDINA MALO GLORIA STELLA",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "CATEDRA DEMOCRACIA Y CIUDADANIA",
+    "email": "gmedinam@udistrital.edu.co"
+  },
+  {
+    "name": "GIRALDO MARIN MAURICIO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "HISTORIA DEL DEPORTE",
+    "email": "mgiraldom@udistrital.edu.co"
+  },
+  {
+    "name": "SALINAS ALVIS EDGAR ANTONIO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "GEOGRAFIA ECONOMICA",
+    "email": "esalinasa@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ PINTO DIEGO FERNANDO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "COMPLEJOS DEPORTIVOS",
+    "email": "dsanchezp@udistrital.edu.co"
+  },
+  {
+    "name": "MENDOZA SARMIENTO JHON ANTONY",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ESTADISTICA DESCRIPTIVA",
+    "email": "jmendozas@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO CABALLERO JOSE VICENTE",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "FINANZAS PUBLICAS",
+    "email": "jforeroc@udistrital.edu.co"
+  },
+  {
+    "name": "GUERRERO PARDO HENRY ERNESTO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ANALISIS DE DATOS",
+    "email": "hguerrerop@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ RAMIREZ LUIS ALFONSO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ANALISIS DE DATOS",
+    "email": "ljimenezr@udistrital.edu.co"
+  },
+  {
+    "name": "PINILLA GUERRERO RAUL",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "rpinillag@udistrital.edu.co"
+  },
+  {
+    "name": "ORTIZ SAAVEDRA JULIAN RICARDO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "jortizs@udistrital.edu.co"
+  },
+  {
+    "name": "CARO ROMERO JAIME ARTURO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "SEMINARIO DE INVESTIGACION",
+    "email": "jcaror@udistrital.edu.co"
+  },
+  {
+    "name": "OSPINA LEON HECTOR FABIO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ELECTIVA I",
+    "email": "hospinal@udistrital.edu.co"
+  },
+  {
+    "name": "MOLINA JIMENEZ LILIANA",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ELECTIVA I",
+    "email": "lmolinaj@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ RIVERA WILLIAM FERNANDO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ELECTIVA I",
+    "email": "wgonzalezr@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ JIMENEZ RAUL EDUARDO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "ELECTIVA II",
+    "email": "rjimenezj@udistrital.edu.co"
+  },
+  {
+    "name": "MONROY VALOR LUIS ALBERTO",
+    "faculty": "ADMINISTRACION DEPORTIVA",
+    "subject": "PRACTICA SOCIAL",
+    "email": "lmonroyv@udistrital.edu.co"
+  },
+  {
+    "name": "CASTA?EDA HURTADO JUAN CARLOS",
+    "faculty": "TECNOLOGIA EN SANEAMIENTO AMBIENTAL",
+    "subject": "FUNDAMENTOS DE ECONOMIA, EVALUACION DE PROYECTOS AMBIENTALES",
+    "email": "jcastanedah@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ RIVERA WILLIAM FERNANDO",
+    "faculty": "TECNOLOGIA EN SANEAMIENTO AMBIENTAL",
+    "subject": "SISTEMAS DE TRATAMIENTO DE AGUAS",
+    "email": "wgonzalezr@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ SANDOVAL LUIS ALIRIO",
+    "faculty": "TECNOLOGIA EN SANEAMIENTO AMBIENTAL",
+    "subject": "NORMAS AMBIENTALES",
+    "email": "llopezs@udistrital.edu.co"
+  },
+  {
+    "name": "CORONADO MANCILLA NELSON ENRIQUE",
+    "faculty": "TECNOLOGIA EN SANEAMIENTO AMBIENTAL",
+    "subject": "FORMULACION DE PROYECTOS",
+    "email": "ncoronadom@udistrital.edu.co"
+  },
+  {
+    "name": "GUERRERO PARDO HENRY ERNESTO",
+    "faculty": "TECNOLOGIA EN SANEAMIENTO AMBIENTAL",
+    "subject": "FORMULACION DE PROYECTOS",
+    "email": "hguerrerop@udistrital.edu.co"
+  },
+  {
+    "name": "ALVAREZ ROJAS FABIO ERNESTO",
+    "faculty": "TECNOLOGIA EN SANEAMIENTO AMBIENTAL",
+    "subject": "IMPACTO Y AUDITORIA AMBIENTAL",
+    "email": "falvarezr@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ PINTO DIEGO FERNANDO",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "MATEMATICAS BASICAS",
+    "email": "dsanchezp@udistrital.edu.co"
+  },
+  {
+    "name": "PE?A MACIAS VICTOR BRYALLAN",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "CALCULO DIFERENCIAL",
+    "email": "vpenam@udistrital.edu.co"
+  },
+  {
+    "name": "CRUZ SANCHEZ HECTOR JULIO",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "DIBUJO TOPOGRAFICO",
+    "email": "hcruzs@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ JIMENEZ RAUL EDUARDO",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "DIBUJO TOPOGRAFICO",
+    "email": "rjimenezj@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ MILA FREDY YOBANI",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "TOPOGRAFIA I",
+    "email": "fdiazm@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ LOPEZ JHON FREDY",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "TOPOGRAFIA I",
+    "email": "jlopezl@udistrital.edu.co"
+  },
+  {
+    "name": "VILLATE SIERRA JOHN JAIRO",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "TOPOGRAFIA I",
+    "email": "jvillates@udistrital.edu.co"
+  },
+  {
+    "name": "PINILLA GUERRERO RAUL",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "TOPOGRAFIA II",
+    "email": "rpinillag@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS RODRIGUEZ OSCAR JULIAN",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "RESISTENCIA DE MATERIALES",
+    "email": "ovargasr@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ GOMEZ DIANA MARCELA",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "FOTOINTERPRETACION",
+    "email": "ddiazg@udistrital.edu.co"
+  },
+  {
+    "name": "MENDOZA SARMIENTO JHON ANTONY",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "SISTEMAS DE INFORMACION GEOGRAFICA",
+    "email": "jmendozas@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ SANDOVAL LUIS ALIRIO",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "LEGISLACION Y AVALUOS",
+    "email": "llopezs@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA ALFONSO CARLOS EDUARDO",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "TELEDETECCION",
+    "email": "cgarciaa@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ CORTES JORGE LUIS",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "CALCULO DIFERENCIAL",
+    "email": "jrodriguezc@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ RAMIREZ LUIS ALFONSO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "CALCULO INTEGRAL",
+    "email": "ljimenezr@udistrital.edu.co"
+  },
+  {
+    "name": "PENUELA CUERVO RAUL ANTONIO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ECUACIONES DIFERENCIALES",
+    "email": "rpenuelac@udistrital.edu.co"
+  },
+  {
+    "name": "PINILLA GUERRERO RAUL",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "FISICA I: MECANICA NEWTONIANA",
+    "email": "rpinillag@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ MILA FREDY YOBANI",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "TOPOGRAFIA I",
+    "email": "fdiazm@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ LOPEZ JHON FREDY",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "TOPOGRAFIA I",
+    "email": "jlopezl@udistrital.edu.co"
+  },
+  {
+    "name": "VILLATE SIERRA JOHN JAIRO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "TOPOGRAFIA I",
+    "email": "jvillates@udistrital.edu.co"
+  },
+  {
+    "name": "CRUZ SANCHEZ HECTOR JULIO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "TOPOGRAFIA I",
+    "email": "hcruzs@udistrital.edu.co"
+  },
+  {
+    "name": "MENDOZA SARMIENTO JHON ANTONY",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ESTADISTICA",
+    "email": "jmendozas@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS RODRIGUEZ OSCAR JULIAN",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "RESISTENCIA DE MATERIALES",
+    "email": "ovargasr@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ GOMEZ DIANA MARCELA",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "FOTOINTERPRETACION",
+    "email": "ddiazg@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ SANDOVAL LUIS ALIRIO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "LEGISLACION Y AVALUOS",
+    "email": "llopezs@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA ALFONSO CARLOS EDUARDO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "TELEDETECCION",
+    "email": "cgarciaa@udistrital.edu.co"
+  },
+  {
+    "name": "ALDANA BOUTIN ROSE MARIE",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "SISTEMAS DE INFORMACION GEOGRAFICA",
+    "email": "rabaldanab@udistrital.edu.co"
+  },
+  {
+    "name": "ALVAREZ SANCHEZ GUSTAVO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "MECANICA DE FLUIDOS",
+    "email": "gasalvarezs@udistrital.edu.co"
+  },
+  {
+    "name": "BARRAGAN ZAQUE WILLIAM BENIGNO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "CARTOGRAFIA DIGITAL AVANZADA, ETICA E INTRODUCCION A LA INGENIERIA TOPOGRAFICA",
+    "email": "wbbarraganz@udistrital.edu.co"
+  },
+  {
+    "name": "CAÑON BUITRAGO ELKIN DARIO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "DISEÑO COMPUTACIONAL DE VIAS, TRANSITO Y TRANSPORTE",
+    "email": "ebcañonb@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO SANTAMARIA MOISES",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ETICA E INTRODUCCION A LA INGENIERIA TOPOGRAFICA",
+    "email": "mscastros@udistrital.edu.co"
+  },
+  {
+    "name": "CEPEDA RENDON JOSE MIGUEL",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "INGENIERIA AMBIENTAL",
+    "email": "jmcepedar@udistrital.edu.co"
+  },
+  {
+    "name": "COY VERANO URIEL",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "METODOLOGIA DE LA INVESTIGACION, ORDENAMIENTO TERRITORIAL",
+    "email": "uvcoyv@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ ALFONSO JOSE ARMANDO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "PRINCIPIOS DE PROCESAMIENTO DIGITAL DE IMAGENES",
+    "email": "jadiaza@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ PARRA JOHN ALEXANDER",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "GEOLOGIA",
+    "email": "jpdiazp@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ DIAZ ARMANDO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "TOPOGRAFIA BASICA",
+    "email": "adgonzalezd@udistrital.edu.co"
+  },
+  {
+    "name": "LEON CASTILLO JHON ALEXANDER",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ANALISIS Y GESTION DEL RIESGO",
+    "email": "jaleonc@udistrital.edu.co"
+  },
+  {
+    "name": "MATURANA CORDOBA ZAMIR",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "LEVANTAMIENTOS ESPECIALES, TRANSITO Y TRANSPORTE, TOPOGRAFIA AUTOMATIZADA",
+    "email": "zcmaturanac@udistrital.edu.co"
+  },
+  {
+    "name": "MORA RODRIGUEZ JHONATAN STEVEN",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "FOTOGRAMETRIA BASICA",
+    "email": "jsmorar@udistrital.edu.co"
+  },
+  {
+    "name": "NIÑO NIÑO EDILBERTO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "GEODESIA SATELITAL",
+    "email": "eeniñon@udistrital.edu.co"
+  },
+  {
+    "name": "ORDUÑA DIAZ JOHN ALEXANDER",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "TOPOGRAFIA AUTOMATIZADA",
+    "email": "jaorduñad@udistrital.edu.co"
+  },
+  {
+    "name": "PINTOR BAUTISTA IRAIDA MILENA",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ANALISIS Y GESTION DEL RIESGO",
+    "email": "impintorb@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON MORA MANUEL ALBERTO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "MATEMATICAS BASICAS",
+    "email": "mapinzonm@udistrital.edu.co"
+  },
+  {
+    "name": "QUINTANA PUENTES ROBINSON",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "METODOS DE PROSPECCION GEOFISICA, SISTEMAS DE INFORMACION GEOGRAFICA",
+    "email": "rpquintanap@udistrital.edu.co"
+  },
+  {
+    "name": "QUINTERO LOPEZ CARLOS ALBERTO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "FISICA GENERAL",
+    "email": "caquinterol@udistrital.edu.co"
+  },
+  {
+    "name": "REYES GOMEZ IVAN ANDRES",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "SISTEMAS DE INFORMACION GEOGRAFICA",
+    "email": "iareyesg@udistrital.edu.co"
+  },
+  {
+    "name": "RINCON VILLALBA MARIO ARTURO",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "DISEÑO COMPUTACIONAL DE VIAS",
+    "email": "marinconv@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ MATEUS GUSTAVO ADOLFO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "TELEDETECCION APLICADA",
+    "email": "garodriguezm@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS PEDRAZA VICTOR MAURICIO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "TEORIA ERRORES Y AJUSTES, TOPOGRAFIA CONSTRUCCION",
+    "email": "vmrojasp@udistrital.edu.co"
+  },
+  {
+    "name": "ROMERO BELTRAN JEISSON ANDRES",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "ETICA E INTRODUCCION A LA INGENIERIA TOPOGRAFICA",
+    "email": "jaromerob@udistrital.edu.co"
+  },
+  {
+    "name": "ROMERO PATIÑO NICOLAS ENRIQUE",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "LEVANTAMIENTOS ESPECIALES",
+    "email": "nromerop@udistrital.edu.co"
+  },
+  {
+    "name": "RONDON QUINTANA HUGO ALEXANDER",
+    "faculty": "INGENIERIA TOPOGRAFICA",
+    "subject": "PAVIMENTOS",
+    "email": "harondonq@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ DIAZ WILLIAM GUILLERMO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "DIBUJO DE INGENIERIA",
+    "email": "wgsanchezd@udistrital.edu.co"
+  },
+  {
+    "name": "SARMIENTO SARMIENTO EDILBERTO",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "ALGEBRA LINEAL, CALCULO DIFERENCIAL",
+    "email": "essarmientos@udistrital.edu.co"
+  },
+  {
+    "name": "VERA LOPEZ BLANCA MIREYA",
+    "faculty": "TEC. EN LEVANTAMIENTOS TOPOGRAFICOS",
+    "subject": "DIBUJO TOPOGRAFICO",
+    "email": "bmveral@udistrital.edu.co"
+  },
+  {
+    "name": "VILLAMIZAR HERNANDEZ ALEXANDER",
+    "faculty": "INGENIERIA SANITARIA",
+    "subject": "HIDRAULICA",
+    "email": "ahvillamizarh@udistrital.edu.co"
+  },
+  {
+    "name": "NIÑO NIÑO EDILBERTO",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "FOTOGRAFIA I",
+    "email": "enino@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA NOSCUE JOSE RAUL",
+    "faculty": "TECNOLOGIA EN TOPOGRAFIA",
+    "subject": "COSMOVISION Y MUSICA SURAMERICANA",
+    "email": "jacostan@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA OLMOS RAFAEL",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "CALCULO DIFERENCIAL, CALCULO INTEGRAL",
+    "email": "rgarciao@udistrital.edu.co"
+  },
+  {
+    "name": "CABRERA BARRERA ELKIN EMIR",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS, LEGISLACION AMBIENTAL",
+    "email": "ecabrerab@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES LOPEZ JOSUE ROBERTO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+    "email": "jtorresl@udistrital.edu.co"
+  },
+  {
+    "name": "ESTUPIÑAN RODRIGUEZ JAIRO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+    "email": "jestupianr@udistrital.edu.co"
+  },
+  {
+    "name": "MOSQUERA SALAS CARMEN OLIVA",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+    "email": "cmosqueras@udistrital.edu.co"
+  },
+  {
+    "name": "BUSTAMANTE LOZANO ALVARO MAURICIO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "ESTADISTICA DESCRIPTIVA",
+    "email": "abustamantel@udistrital.edu.co"
+  },
+  {
+    "name": "CARDENAS TORRES LUZ FABIOLA",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "FUNDAMENTOS DE ECOLOGIA, BIOLOGIA",
+    "email": "lcardenast@udistrital.edu.co"
+  },
+  {
+    "name": "LOZANO CAROLINA MARIA",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "FUNDAMENTOS DE ECOLOGIA, BIOLOGIA, PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "clozanoc@udistrital.edu.co"
+  },
+  {
+    "name": "PARSONS DELGADO ASTRID XIMENA",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "METODOLOGIA DE LA INVESTIGACION",
+    "email": "aparsonsd@udistrital.edu.co"
+  },
+  {
+    "name": "BAUTISTA HERRERA HAYDER OSVALDO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "METODOLOGIA DE LA INVESTIGACION, ORGANIZACION Y PARTICIPACION COMUNITARIA, ORIENTACION EMPRESARIAL",
+    "email": "hbautistah@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ BLANCO DORIBEL",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "INT. A LA GESTION AMBIENTAL Y LOS SERVICIOS PUBLICOS, EVALUACION AMBIENTAL DE LOS RESIDUOS PELIGROSOS, CATEDRA AMBIENTAL, ADMINISTRACION Y REGIMEN TERRITORIAL",
+    "email": "dsanchezb@udistrital.edu.co"
+  },
+  {
+    "name": "BERMUDEZ RAMIREZ NEFTALI",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "ECONOMIA",
+    "email": "nbermudezr@udistrital.edu.co"
+  },
+  {
+    "name": "URIBE EDISON",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "OPERACION DE PLANTAS Y ESTACIONES DE BOMBEO",
+    "email": "euribe@udistrital.edu.co"
+  },
+  {
+    "name": "LADINO PERALTA RAFAEL EDUARDO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "ENERGIAS RENOVABLES, MECANICA DE FLUIDOS",
+    "email": "rladinop@udistrital.edu.co"
+  },
+  {
+    "name": "ASPRILLA LARA YEFER",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "PRESUPUESTO",
+    "email": "yasprillal@udistrital.edu.co"
+  },
+  {
+    "name": "RAMOS GUATAQUIRA ERNEY GONZALO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "ORGANIZACION Y PARTICIPACION COMUNITARIA, GESTION COMERCIAL DE LOS SERVICIOS PUBLICOS",
+    "email": "eramosg@udistrital.edu.co"
+  },
+  {
+    "name": "AGUILAR TORRES ORLANDO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "SERVICIO DE TELECOMUNICACIONES",
+    "email": "oaguilart@udistrital.edu.co"
+  },
+  {
+    "name": "AGUALIMPIA DUALIBY YOLIMA DEL CARMEN",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "DISEÑO DE REDES DE ACUEDUCTO Y ALCANTARRILLADO, FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "yagualimpiad@udistrital.edu.co"
+  },
+  {
+    "name": "ESPINOSA GARCIA HELMUT",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "EVALUACION DEL IMPACTO AMBIENTAL",
+    "email": "hespinosa@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ GAITAN JUAN CARLOS",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "EVALUACION AMBIENTAL DE LOS RESIDUOS PELIGROSOS, FUNDAMENTOS DE QUIMICA",
+    "email": "jsanchezg@udistrital.edu.co"
+  },
+  {
+    "name": "GUEVARA BOLAÑOS CARMEN ROSA",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "PROBLEMATICA AMBIENTAL DEL CAMBIO CLIMATICO, COMPOSTAJE Y LOMBRICULTURA, GESTION DE LA SEGURIDAD INDUSTRIAL",
+    "email": "cguevarab@udistrital.edu.co"
+  },
+  {
+    "name": "VALBUENA MERCEDES",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "SISTEMAS Y COMPUTACION",
+    "email": "mvalbuena@udistrital.edu.co"
+  },
+  {
+    "name": "GARZON ROMERO JENNY MARCELA",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "SISTEMAS Y COMPUTACION, CARTOGRAFIA Y SIG",
+    "email": "jgarzonr@udistrital.edu.co"
+  },
+  {
+    "name": "LIZCANO CARO JOSE ANDELFO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "PRACTICA EMPRESARIAL",
+    "email": "jlizcanoc@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ VALBUENA JUAN CAMILO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+    "email": "jsanchezv@udistrital.edu.co"
+  },
+  {
+    "name": "HERNANDEZ TORRES ALEJANDRO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "FISICA MECANICA",
+    "email": "ahernandezt@udistrital.edu.co"
+  },
+  {
+    "name": "ARROYO LUIS EDUARDO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "FISICA MECANICA",
+    "email": "larroyo@udistrital.edu.co"
+  },
+  {
+    "name": "AVILA CORTES JOHN JAIRO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "FUNDAMENTOS DE QUIMICA",
+    "email": "javilac@udistrital.edu.co"
+  },
+  {
+    "name": "MANJARRES DIEGO ANTONIO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "CALCULO INTEGRAL",
+    "email": "dmanjarres@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES SERRANO NORMAN ARTURO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "CALIDAD DEL AGUA",
+    "email": "ntorress@udistrital.edu.co"
+  },
+  {
+    "name": "GORDON RODRIGUEZ OSCAR",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "CONTABILIDAD",
+    "email": "ogordonr@udistrital.edu.co"
+  },
+  {
+    "name": "ANGARITA MANOSALVA EDISON",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "REGIMEN DE PRESTADORES DE SERVICIOS PUBLICOS",
+    "email": "eangaritam@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ SANCHEZ FERNANDO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "GESTION INTEGRAL DE RESIDUOS SOLIDOS, PRACTICA INTEGRADA**",
+    "email": "fsanchezs@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ SANCHEZ RIGOBERTO",
+    "faculty": "TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS",
+    "subject": "SERVICIO PUBLICO DE GAS",
+    "email": "rsanchezs@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES MEDINA JAIRO ABDEL",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "CALCULO DIFERENCIAL",
+    "email": "jtorresm@udistrital.edu.co"
+  },
+  {
+    "name": "ALVARADO CORONADO CLAUDIA LILIANA",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "CALCULO DIFERENCIAL, CALCULO INTEGRAL, ESTADISTICA DESCRIPTIVA",
+    "email": "calvaradoc@udistrital.edu.co"
+  },
+  {
+    "name": "BARRIOS JARA NELSON ENRIQUE",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "FISICA I: MECANICA NEWTONIANA",
+    "email": "nbarriosj@udistrital.edu.co"
+  },
+  {
+    "name": "HERNANDEZ RODRIGUEZ MARIA ELVIRA",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "mhernandezr@udistrital.edu.co"
+  },
+  {
+    "name": "VELASQUEZ LUISA FERNANDA",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "FUNDAMENTOS DE ECOLOGIA, MICROBIOLOGIA, BIOLOGIA GENERAL, MANEJO E HIGIENE DE ALIMENTOS, BIOINDICADORES DE CALIDAD AMBIENTAL",
+    "email": "lvelasquezl@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ CUARTAS MARTIN",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "CATEDRA DE CONTEXTO, INTRODUCCION AL SANEAMIENTO AMBIENTAL, SANEAMIENTO URBANO Y RURAL",
+    "email": "msanchezc@udistrital.edu.co"
+  },
+  {
+    "name": "VERA CASTANEDA LUIS CARLOS",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "FOTOGRAFIA I",
+    "email": "lverac@udistrital.edu.co"
+  },
+  {
+    "name": "BOGOTA ANGEL RAUL GIOVANNI",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "BIOLOGIA GENERAL",
+    "email": "rbogotaa@udistrital.edu.co"
+  },
+  {
+    "name": "TOVAR ROMERO EDWARD LEONARDO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "HIDRAULICA",
+    "email": "etovarr@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ LOPEZ JHON FREDY",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "TOPOGRAFIA Y CARTOGRAFIA, AUTOCAD, SIG AMBIENTAL",
+    "email": "jlopezl@udistrital.edu.co"
+  },
+  {
+    "name": "CRUZ OSORIO CARLOS HUMBERTO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "ADMINISTRACION GENERAL",
+    "email": "ccruzo@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ MARTINEZ CARLOS AUGUSTO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "SOCIEDAD Y AMBIENTE, ORGANIZACION COMUNITARIA",
+    "email": "crodriguezm@udistrital.edu.co"
+  },
+  {
+    "name": "CORRADINE MORA DIEGO TOMAS",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "TECNICAS DE CAMPISMO, ZOONOSIS",
+    "email": "dcorradinem@udistrital.edu.co"
+  },
+  {
+    "name": "GIL MORALES JAIME ANDRES",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "FUNDAMENTOS DE ACUEDUCTOS Y ALCANTARILLADOS, TRATAMIENTO DE AGUA PARA CONSUMO, RESIDUOS SOLIDOS, HIDROLOGIA",
+    "email": "jgilm@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ MIRANDA JUAN PABLO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "MANEJO RESIDUOS LIQUIDOS",
+    "email": "jrodriguezm@udistrital.edu.co"
+  },
+  {
+    "name": "GARZON JIMENEZ SANDRA PATRICIA",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "EPIDEMIOLOGIA",
+    "email": "sgarzonj@udistrital.edu.co"
+  },
+  {
+    "name": "MURAD PEDRAZA JOSE ALEJANDRO",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "EMISIONES ATMOSFERICAS, SALIDA INTEGRAL DE SANEAMIENTO",
+    "email": "jmuradp@udistrital.edu.co"
+  },
+  {
+    "name": "MOJICA HERNANDEZ MARTHA LUCIA",
+    "faculty": "TEC. SANEAMIENTO AMBIENTAL",
+    "subject": "SALUD OCUPACIONAL Y SEGURIDAD INDUSTRIAL",
+    "email": "mmojicah@udistrital.edu.co"
+  }
+]

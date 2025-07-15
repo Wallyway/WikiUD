@@ -4,15 +4,19 @@ import { useEffect, useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
+import { useSession } from "next-auth/react";
+
+const ADMIN_EMAIL = "jsapariciow@udistrital.edu.co";
 
 const AdminTeachersPage = () => {
+    const { data: session, status } = useSession();
     const [teachers, setTeachers] = useState<any[]>([]);
     const [loading, setLoading] = useState(false);
+    // Cambia el estado inicial y el tipo de form para eliminar 'degree'
     const [form, setForm] = useState({
         _id: "",
         name: "",
         faculty: "",
-        degree: "",
         subject: "",
         email: "",
     });
@@ -20,6 +24,8 @@ const AdminTeachersPage = () => {
     const [error, setError] = useState("");
     const [success, setSuccess] = useState("");
     const [search, setSearch] = useState("");
+    const [seedLoading, setSeedLoading] = useState(false);
+    const [seedMsg, setSeedMsg] = useState("");
 
     // Fetch teachers
     const fetchTeachers = async () => {
@@ -80,7 +86,6 @@ const AdminTeachersPage = () => {
             body: JSON.stringify({
                 name: form.name,
                 faculty: form.faculty,
-                degree: form.degree,
                 subject: form.subject,
                 email: form.email,
             }),
@@ -88,7 +93,7 @@ const AdminTeachersPage = () => {
         const data = await res.json();
         if (res.ok) {
             setSuccess(editMode ? "Profesor actualizado" : "Profesor agregado");
-            setForm({ _id: "", name: "", faculty: "", degree: "", subject: "", email: "" });
+            setForm({ _id: "", name: "", faculty: "", subject: "", email: "" });
             setEditMode(false);
             fetchTeachers();
         } else {
@@ -108,9 +113,65 @@ const AdminTeachersPage = () => {
         );
     });
 
+    // Función para ejecutar el seed (POST /api/seed)
+    const handleSeed = async () => {
+        if (!window.confirm("¿Seguro que deseas cargar los profesores desde el archivo JSON? Esto borrará los profesores y comentarios actuales.")) return;
+        setSeedLoading(true);
+        setSeedMsg("");
+        try {
+            const res = await fetch("/api/seed", { method: "POST" });
+            const data = await res.json();
+            if (res.ok && data.success) {
+                setSeedMsg("Profesores cargados desde el archivo JSON.");
+                fetchTeachers();
+            } else {
+                setSeedMsg(data.error || "Error al ejecutar el seed");
+            }
+        } catch (e) {
+            setSeedMsg("Error al ejecutar el seed");
+        }
+        setSeedLoading(false);
+    };
+
+    // Función para borrar todo (DELETE /api/seed)
+    const handleDeleteAll = async () => {
+        if (!window.confirm("¿Seguro que deseas borrar TODOS los profesores y comentarios? Esta acción no se puede deshacer.")) return;
+        setSeedLoading(true);
+        setSeedMsg("");
+        try {
+            const res = await fetch("/api/seed", { method: "DELETE" });
+            const data = await res.json();
+            if (res.ok && data.success) {
+                setSeedMsg("Todos los profesores y comentarios han sido eliminados.");
+                fetchTeachers();
+            } else {
+                setSeedMsg(data.error || "Error al borrar todo");
+            }
+        } catch (e) {
+            setSeedMsg("Error al borrar todo");
+        }
+        setSeedLoading(false);
+    };
+
+    // Solo permitir acceso al admin
+    if (status === "loading") return <div>Cargando...</div>;
+    if (!session || session.user?.email !== ADMIN_EMAIL) {
+        return <div className="p-8 text-center text-red-600 font-bold">Acceso restringido</div>;
+    }
+
     return (
-        <div className="max-w-3xl mx-auto p-6">
+        <div className="max-w-6xl w-full mx-auto p-6">
             <h1 className="text-3xl font-bold mb-6 text-center">Administrar Profesores</h1>
+            {/* Botones de seed y borrar todo */}
+            <div className="flex flex-col sm:flex-row gap-2 mb-6 justify-center">
+                <Button onClick={handleSeed} disabled={seedLoading} variant="secondary">
+                    Cargar profesores desde archivo JSON (Seed)
+                </Button>
+                <Button onClick={handleDeleteAll} disabled={seedLoading} variant="destructive">
+                    Borrar TODOS los profesores y comentarios
+                </Button>
+            </div>
+            {seedMsg && <div className={seedMsg.includes("eliminados") ? "mb-4 text-red-600" : "mb-4 text-green-600"}>{seedMsg}</div>}
             {error && <div className="mb-4 text-red-600">{error}</div>}
             {success && <div className="mb-4 text-green-600">{success}</div>}
             <form onSubmit={handleSubmit} className="mb-8 grid grid-cols-1 gap-4 bg-gray-50 dark:bg-neutral-900 p-4 rounded-lg">
@@ -121,10 +182,6 @@ const AdminTeachersPage = () => {
                 <div>
                     <Label>Facultad</Label>
                     <Input name="faculty" value={form.faculty} onChange={handleChange} required className="bg-white dark:bg-neutral-900 text-black dark:text-white border border-neutral-300 dark:border-neutral-700" />
-                </div>
-                <div>
-                    <Label>Grado</Label>
-                    <Input name="degree" value={form.degree} onChange={handleChange} required className="bg-white dark:bg-neutral-900 text-black dark:text-white border border-neutral-300 dark:border-neutral-700" />
                 </div>
                 <div>
                     <Label>Materia</Label>
@@ -139,7 +196,7 @@ const AdminTeachersPage = () => {
                         {editMode ? "Actualizar" : "Agregar"}
                     </Button>
                     {editMode && (
-                        <Button type="button" variant="secondary" onClick={() => { setEditMode(false); setForm({ _id: "", name: "", faculty: "", degree: "", subject: "", email: "" }); }}>
+                        <Button type="button" variant="secondary" onClick={() => { setEditMode(false); setForm({ _id: "", name: "", faculty: "", subject: "", email: "" }); }}>
                             Cancelar
                         </Button>
                     )}
@@ -158,29 +215,29 @@ const AdminTeachersPage = () => {
                 <table className="min-w-full border text-sm bg-white dark:bg-neutral-900 text-black dark:text-white">
                     <thead>
                         <tr className="bg-gray-100 dark:bg-neutral-800">
-                            <th className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">Nombre</th>
-                            <th className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">Facultad</th>
-                            <th className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">Grado</th>
-                            <th className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">Materia</th>
-                            <th className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">Email</th>
-                            <th className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">Acciones</th>
+                            <th className="border px-4 py-2 border-neutral-300 dark:border-neutral-700">Nombre</th>
+                            <th className="border px-4 py-2 border-neutral-300 dark:border-neutral-700">Facultad</th>
+                            <th className="border px-4 py-2 border-neutral-300 dark:border-neutral-700">Materia</th>
+                            <th className="border px-4 py-2 border-neutral-300 dark:border-neutral-700">Email</th>
+                            <th className="border px-4 py-2 border-neutral-300 dark:border-neutral-700 min-w-[180px]">Acciones</th>
                         </tr>
                     </thead>
                     <tbody>
                         {filteredTeachers.map((t) => (
                             <tr key={t._id}>
-                                <td className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">{t.name}</td>
-                                <td className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">{t.faculty}</td>
-                                <td className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">{t.degree}</td>
-                                <td className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">{t.subject}</td>
-                                <td className="border px-2 py-1 border-neutral-300 dark:border-neutral-700">{t.email}</td>
-                                <td className="border px-2 py-1 flex gap-2 border-neutral-300 dark:border-neutral-700">
-                                    <Button type="button" size="sm" onClick={() => handleEdit(t)}>
-                                        Editar
-                                    </Button>
-                                    <Button type="button" size="sm" variant="destructive" onClick={() => handleDelete(t._id)}>
-                                        Eliminar
-                                    </Button>
+                                <td className="border px-4 py-2 border-neutral-300 dark:border-neutral-700">{t.name}</td>
+                                <td className="border px-4 py-2 border-neutral-300 dark:border-neutral-700">{t.faculty}</td>
+                                <td className="border px-4 py-2 border-neutral-300 dark:border-neutral-700">{t.subject}</td>
+                                <td className="border px-4 py-2 border-neutral-300 dark:border-neutral-700">{t.email}</td>
+                                <td className="border px-4 py-2 border-neutral-300 dark:border-neutral-700 min-w-[180px]">
+                                    <div className="flex gap-2">
+                                        <Button type="button" size="sm" onClick={() => handleEdit(t)}>
+                                            Editar
+                                        </Button>
+                                        <Button type="button" size="sm" variant="destructive" onClick={() => handleDelete(t._id)}>
+                                            Eliminar
+                                        </Button>
+                                    </div>
                                 </td>
                             </tr>
                         ))}

@@ -1,0 +1,1268 @@
+[
+    {
+        "name": "RODRIGUEZ SABOGAL CARLOS ALBERTO",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA DE PLANTAS VASCULARES, LABORATORIO DE BIOLOGIA DE PLANTAS VASCULARES",
+        "email": "crodriguezs@udistrital.edu.co"
+    },
+    {
+        "name": "PINILLA AGUDELO GUSTAVO ADOLFO",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE BIOLOGIA DE PLANTAS VASCULARES",
+        "email": "gpinillaa@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ MORENO SANDRA PATRICIA",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA DEL DESARROLLO, LABORATORIO DE BIOLOGIA DEL DESARROLLO",
+        "email": "srodriguezm@udistrital.edu.co"
+    },
+    {
+        "name": "VANEGAS MUÑOZ LEIDY DIANA",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA DEL DESARROLLO",
+        "email": "lvanezm@udistrital.edu.co"
+    },
+    {
+        "name": "HERNANDEZ PEREZ GUSTAVO",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA EVOLUTIVA, LABORATORIO DE BIOLOGIA EVOLUTIVA",
+        "email": "ghernandezp@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑA VARGAS SONIA",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA CELULAR, LABORATORIO DE BIOLOGIA CELULAR",
+        "email": "spenav@udistrital.edu.co"
+    },
+    {
+        "name": "CALVO CASTILLO KAREN DAHIAN",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE BIOLOGIA CELULAR",
+        "email": "kcalvoc@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ GOMEZ ALVARO",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOMETRIA, LABORATORIO DE BIOMETRIA",
+        "email": "adiazg@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA BASTIDAS ELSSY CECILIA",
+        "faculty": "BIOLOGIA",
+        "subject": "FISIOLOGIA VEGETAL",
+        "email": "eacostab@udistrital.edu.co"
+    },
+    {
+        "name": "PEREZ PINZON ELIZABETH",
+        "faculty": "BIOLOGIA",
+        "subject": "FISIOLOGIA VEGETAL, LABORATORIO DE FISIOLOGIA VEGETAL",
+        "email": "eperezp@udistrital.edu.co"
+    },
+    {
+        "name": "RUIZ MORENO LUIS",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOFISICA, LABORATORIO DE BIOFISICA",
+        "email": "lruizm@udistrital.edu.co"
+    },
+    {
+        "name": "CALDERON MANRIQUE LEYDI JOHANA",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA DE HONGOS, LABORATORIO DE BIOLOGIA DE HONGOS",
+        "email": "lcalderonm@udistrital.edu.co"
+    },
+    {
+        "name": "CASTRO CUADROS WILLIAM ALBERTO",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE BIOLOGIA DE HONGOS",
+        "email": "wcastroc@udistrital.edu.co"
+    },
+    {
+        "name": "CAMARGO CARDENAS ALBERTO",
+        "faculty": "BIOLOGIA",
+        "subject": "GENETICA, LABORATORIO DE GENETICA",
+        "email": "acamargoc@udistrital.edu.co"
+    },
+    {
+        "name": "FORERO MONTENEGRO CRISTIAN ARMANDO",
+        "faculty": "BIOLOGIA",
+        "subject": "GENETICA",
+        "email": "cforerom@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ BERNAL ANDRES FELIPE",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE GENETICA",
+        "email": "aramirezb@udistrital.edu.co"
+    },
+    {
+        "name": "SANABRIA DIAZ LUIS ALBERTO",
+        "faculty": "BIOLOGIA",
+        "subject": "MICROBIOLOGIA, LABORATORIO DE MICROBIOLOGIA",
+        "email": "lsanabriad@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA VARGAS RICARDO HUMBERTO",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE MICROBIOLOGIA",
+        "email": "racostav@udistrital.edu.co"
+    },
+    {
+        "name": "CHAVES MAHECHA ADRIANA CONSTANZA",
+        "faculty": "BIOLOGIA",
+        "subject": "MUESTREO Y DISEÑO EXPERIMENTAL, LABORATORIO DE MUESTREO Y DISEÑO EXPERIMENTAL",
+        "email": "achavesm@udistrital.edu.co"
+    },
+    {
+        "name": "PINZON ZULUAGA JOHN JAIRO",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE MUESTREO Y DISEÑO EXPERIMENTAL",
+        "email": "jpinzonc@udistrital.edu.co"
+    },
+    {
+        "name": "MORENO HERAZO JUAN GUILLERMO",
+        "faculty": "BIOLOGIA",
+        "subject": "TAXONOMIA DE VERTEBRADOS, LABORATORIO DE TAXONOMIA DE VERTEBRADOS",
+        "email": "jmorenoh@udistrital.edu.co"
+    },
+    {
+        "name": "SALAMANCA SALAS NELSON ANDRES",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE TAXONOMIA DE VERTEBRADOS",
+        "email": "nsalamancas@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINEL ORTIZ CLAUDIA PATRICIA",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA ANIMAL",
+        "email": "cespinelo@udistrital.edu.co"
+    },
+    {
+        "name": "CASTIBLANCO PEÑA JORGE ENRIQUE",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA ANIMAL, LABORATORIO DE BIOLOGIA ANIMAL",
+        "email": "jcastiblancop@udistrital.edu.co"
+    },
+    {
+        "name": "LEON SUCERQUIA LEIDY JOHANA",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE BIOLOGIA ANIMAL",
+        "email": "lleons@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ CHIA CLAUDIA MARCELA",
+        "faculty": "BIOLOGIA",
+        "subject": "CULTIVOS CELULARES, LABORATORIO DE CULTIVOS CELULARES",
+        "email": "clopezc@udistrital.edu.co"
+    },
+    {
+        "name": "BERNAL PINEDA LUZ AMPARO",
+        "faculty": "BIOLOGIA",
+        "subject": "CULTIVOS CELULARES",
+        "email": "lbernalp@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS SAAVEDRA LUIS ENRIQUE",
+        "faculty": "BIOLOGIA",
+        "subject": "INMUNOLOGIA, LABORATORIO DE INMUNOLOGIA",
+        "email": "lvargass@udistrital.edu.co"
+    },
+    {
+        "name": "CRISTANCHO ROJAS NELLY ESPERANZA",
+        "faculty": "BIOLOGIA",
+        "subject": "INMUNOLOGIA",
+        "email": "ncristanchor@udistrital.edu.co"
+    },
+    {
+        "name": "PEREZ TRUJILLO DIANA MARCELA",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE INMUNOLOGIA",
+        "email": "dperezt@udistrital.edu.co"
+    },
+    {
+        "name": "CALVO RODRIGUEZ GLORIA ALEJANDRA",
+        "faculty": "BIOLOGIA",
+        "subject": "PARASITOLOGIA, LABORATORIO DE PARASITOLOGIA",
+        "email": "gcalvor@udistrital.edu.co"
+    },
+    {
+        "name": "CASTELLANOS AGUIRRE MONICA FERNANDA",
+        "faculty": "BIOLOGIA",
+        "subject": "PARASITOLOGIA",
+        "email": "mcastellosa@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS LEUDO DIEGO ARMANDO",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE PARASITOLOGIA",
+        "email": "dvargasl@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS MORENO JOHN JAIRO",
+        "faculty": "BIOLOGIA",
+        "subject": "PRACTICA INVESTIGACION EN BIOLOGIA",
+        "email": "jvaragm@udistrital.edu.co"
+    },
+    {
+        "name": "SALAMANCA ANDRES",
+        "faculty": "BIOLOGIA",
+        "subject": "PRACTICA INVESTIGACION EN BIOLOGIA",
+        "email": "asalamancs@udistrital.edu.co"
+    },
+    {
+        "name": "SANABRIA LUIS ALBERTO",
+        "faculty": "BIOLOGIA",
+        "subject": "PRACTICA INVESTIGACION EN BIOLOGIA",
+        "email": "lsanabria@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ GUEVARA EDGAR AUGUSTO",
+        "faculty": "FISICA",
+        "subject": "ECUACIONES DIFERENCIALES, CALCULO DIFERENCIAL",
+        "email": "egomezg@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ REY DIANA MARCELA",
+        "faculty": "FISICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "dgomezr@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA LOPEZ JESUS ENRIQUE",
+        "faculty": "FISICA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "jgarcial@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ MARTINEZ JOSE ALEXANDER",
+        "faculty": "FISICA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "jramirezma@udistrital.edu.co"
+    },
+    {
+        "name": "MARTINEZ RUIZ ADRIANA CAROLINA",
+        "faculty": "FISICA",
+        "subject": "CALCULO INTEGRAL",
+        "email": "amartinezr@udistrital.edu.co"
+    },
+    {
+        "name": "PRIETO ORTIZ JUAN PABLO",
+        "faculty": "FISICA",
+        "subject": "CALCULO INTEGRAL",
+        "email": "jprietoo@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES LOPEZ JOSUE ROBERTO",
+        "faculty": "FISICA",
+        "subject": "MECANICA I",
+        "email": "jtorresl@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES PARDO JOHN ALFREDO",
+        "faculty": "FISICA",
+        "subject": "MECANICA I",
+        "email": "jtorresp@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ GOMEZ ALVARO",
+        "faculty": "FISICA",
+        "subject": "FISICA GENERAL",
+        "email": "adiazg@udistrital.edu.co"
+    },
+    {
+        "name": "MEDINA SARMIENTO PAULA ANDREA",
+        "faculty": "FISICA",
+        "subject": "METODOLOGIA DE LA INVESTIGACION",
+        "email": "pmedinas@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON BARRERO JAVIER ERNESTO",
+        "faculty": "FISICA",
+        "subject": "ELECTROMAGNETISMO",
+        "email": "jrinconb@udistrital.edu.co"
+    },
+    {
+        "name": "MONTAÑO MANRIQUE CARLOS ALBERTO",
+        "faculty": "FISICA",
+        "subject": "ELECTROMAGNETISMO",
+        "email": "cmontañom@udistrital.edu.co"
+    },
+    {
+        "name": "CHAPARRO MALAGON CARLOS ANDRES",
+        "faculty": "FISICA",
+        "subject": "TERMODINAMICA",
+        "email": "cchaparrom@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ MARTINEZ JOSE ALEXANDER",
+        "faculty": "FISICA",
+        "subject": "VARIABLE COMPLEJA, ECUACIONES DIFERENCIALES, ECUACIONES DIFERENCIALES PARCIALES",
+        "email": "jramirezma@udistrital.edu.co"
+    },
+    {
+        "name": "PINZON ZULUAGA JOHN JAIRO",
+        "faculty": "FISICA",
+        "subject": "METODOS MATEMATICOS DE LA FISICA I",
+        "email": "jpinzonc@udistrital.edu.co"
+    },
+    {
+        "name": "RANGEL PACHECO JAIRO ENRIQUE",
+        "faculty": "FISICA",
+        "subject": "METODOS MATEMATICOS DE LA FISICA I",
+        "email": "jrangele@udistrital.edu.co"
+    },
+    {
+        "name": "CASTRO CORTES LILIANA",
+        "faculty": "FISICA",
+        "subject": "MECANICA CUANTICA I",
+        "email": "lcastroc@udistrital.edu.co"
+    },
+    {
+        "name": "MONTAÑO MANRIQUE CARLOS ALBERTO",
+        "faculty": "FISICA",
+        "subject": "MECANICA CLASICA",
+        "email": "cmontañom@udistrital.edu.co"
+    },
+    {
+        "name": "GUERRERO MORALES DIANA MARCELA",
+        "faculty": "FISICA",
+        "subject": "FISICA ESTADISTICA",
+        "email": "dguerrerom@udistrital.edu.co"
+    },
+    {
+        "name": "BENAVIDES MORALES PAULA",
+        "faculty": "FISICA",
+        "subject": "FISICA DEL ESTADO SOLIDO",
+        "email": "pbenavidesm@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN DIAZ CRISTIAN GUILLERMO",
+        "faculty": "FISICA",
+        "subject": "ELEMENTOS DE ELECTRONICA",
+        "email": "cguzmand@udistrital.edu.co"
+    },
+    {
+        "name": "NIÑO VALBUENA JAVIER ARMANDO",
+        "faculty": "FISICA",
+        "subject": "ELEMENTOS DE ELECTRONICA",
+        "email": "jninov@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA VARGAS RICARDO HUMBERTO",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA I: MECANICA",
+        "email": "racostav@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ SABOGAL CARLOS ALBERTO",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA I: MECANICA",
+        "email": "crodriguezs@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINOSA SANTIAGO WILLIAM",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA I: MECANICA",
+        "email": "wespinosas@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINOSA SARMIENTO WILMER ARTURO",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA I: MECANICA",
+        "email": "wespinosas@udistrital.edu.co"
+    },
+    {
+        "name": "JIMENEZ RAMIREZ CARLOS ARTURO",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA I: MECANICA",
+        "email": "cjimenezr@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ MORA NELSON ALFONSO",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA I: MECANICA",
+        "email": "ngonzalezm@udistrital.edu.co"
+    },
+    {
+        "name": "RUIZ MORENO LUIS",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA I: MECANICA",
+        "email": "lruizm@udistrital.edu.co"
+    },
+    {
+        "name": "BENAVIDES MORALES PAULA",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA II: TERMODINAMICA Y ELECTROMAGNETISMO",
+        "email": "pbenavidesm@udistrital.edu.co"
+    },
+    {
+        "name": "MONTAÑO MANRIQUE CARLOS ALBERTO",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA II: TERMODINAMICA Y ELECTROMAGNETISMO",
+        "email": "cmontañom@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN DIAZ CRISTIAN GUILLERMO",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA II: TERMODINAMICA Y ELECTROMAGNETISMO",
+        "email": "cguzmand@udistrital.edu.co"
+    },
+    {
+        "name": "NIÑO VALBUENA JAVIER ARMANDO",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA II: TERMODINAMICA Y ELECTROMAGNETISMO",
+        "email": "jninov@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON BARRERO JAVIER ERNESTO",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE FISICA III: ONDAS Y OPTICA",
+        "email": "jrinconb@udistrital.edu.co"
+    },
+    {
+        "name": "CASTRO CORTES LILIANA",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE MECANICA CUANTICA",
+        "email": "lcastroc@udistrital.edu.co"
+    },
+    {
+        "name": "LEON VIDES ALFONSO",
+        "faculty": "FISICA",
+        "subject": "LABORATORIO DE ELECTRONICA DIGITAL",
+        "email": "aleonv@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS MORENO JOHN JAIRO",
+        "faculty": "MATEMATICAS",
+        "subject": "ALGEBRA LINEAL",
+        "email": "jvaragm@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ GUEVARA EDGAR AUGUSTO",
+        "faculty": "MATEMATICAS",
+        "subject": "CALCULO INTEGRAL",
+        "email": "egomezg@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA BASTIDAS ELSSY CECILIA",
+        "faculty": "MATEMATICAS",
+        "subject": "ECUACIONES DIFERENCIALES",
+        "email": "eacostab@udistrital.edu.co"
+    },
+    {
+        "name": "SANABRIA DIAZ LUIS ALBERTO",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "lsanabriad@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ GOMEZ ALVARO",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "adiazg@udistrital.edu.co"
+    },
+    {
+        "name": "CRISTANCHO ROJAS NELLY ESPERANZA",
+        "faculty": "MATEMATICAS",
+        "subject": "BIOLOGIA GENERAL",
+        "email": "ncristanchor@udistrital.edu.co"
+    },
+    {
+        "name": "CORREA AGUIRRE ALEJANDRO",
+        "faculty": "MATEMATICAS",
+        "subject": "BIOLOGIA GENERAL",
+        "email": "acorreac@udistrital.edu.co"
+    },
+    {
+        "name": "BAUTISTA CASTRO ANGELA MARIA",
+        "faculty": "MATEMATICAS",
+        "subject": "QUIMICA GENERAL",
+        "email": "abautistac@udistrital.edu.co"
+    },
+    {
+        "name": "RIVERA GONZALEZ JENNY MARITZA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA ORGANICA I, LABORATORIO DE QUIMICA ORGANICA I",
+        "email": "jriverag@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON VELANDIA SONIA CATALINA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA ORGANICA II",
+        "email": "srinconv@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ ROA LUIS GABRIEL",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA ORGANICA II",
+        "email": "lsuarezr@udistrital.edu.co"
+    },
+    {
+        "name": "BERNAL PINEDA LUZ AMPARO",
+        "faculty": "QUIMICA",
+        "subject": "BIOQUIMICA I, LABORATORIO DE BIOQUIMICA I",
+        "email": "lbernalp@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA VARGAS RICARDO HUMBERTO",
+        "faculty": "QUIMICA",
+        "subject": "BIOQUIMICA I",
+        "email": "racostav@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS SAAVEDRA LUIS ENRIQUE",
+        "faculty": "QUIMICA",
+        "subject": "BIOQUIMICA II, LABORATORIO DE BIOQUIMICA II",
+        "email": "lvargass@udistrital.edu.co"
+    },
+    {
+        "name": "CASTELLANOS AGUIRRE MONICA FERNANDA",
+        "faculty": "QUIMICA",
+        "subject": "BIOQUIMICA II",
+        "email": "mcastellosa@udistrital.edu.co"
+    },
+    {
+        "name": "PAEZ SAENZ MARTHA CECILIA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA INORGANICA",
+        "email": "mpaezs@udistrital.edu.co"
+    },
+    {
+        "name": "PEREZ TRUJILLO DIANA MARCELA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA INORGANICA",
+        "email": "dperezt@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑA VARGAS SONIA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA GENERAL",
+        "email": "spenav@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA BASTIDAS ELSSY CECILIA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA FISICA I, LABORATORIO DE QUIMICA FISICA I",
+        "email": "eacostab@udistrital.edu.co"
+    },
+    {
+        "name": "RUIZ MORENO LUIS",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA FISICA I",
+        "email": "lruizm@udistrital.edu.co"
+    },
+    {
+        "name": "MARTINEZ RUIZ ADRIANA CAROLINA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA FISICA II, LABORATORIO DE QUIMICA FISICA II",
+        "email": "amartinezr@udistrital.edu.co"
+    },
+    {
+        "name": "GUERRERO MORALES DIANA MARCELA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA FISICA II",
+        "email": "dguerrerom@udistrital.edu.co"
+    },
+    {
+        "name": "CRUZ OSORIO CARLOS HUMBERTO",
+        "faculty": "QUIMICA",
+        "subject": "ELECTROQUIMICA, LABORATORIO DE ELECTROQUIMICA",
+        "email": "ccruzo@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ GUEVARA EDGAR AUGUSTO",
+        "faculty": "QUIMICA",
+        "subject": "ELECTROQUIMICA",
+        "email": "egomezg@udistrital.edu.co"
+    },
+    {
+        "name": "MEDINA SARMIENTO PAULA ANDREA",
+        "faculty": "QUIMICA",
+        "subject": "METODOLOGIA DE LA INVESTIGACION",
+        "email": "pmedinas@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ REY DIANA MARCELA",
+        "faculty": "QUIMICA",
+        "subject": "FISICOQUIMICA DE SUPERFICIES",
+        "email": "dgomezr@udistrital.edu.co"
+    },
+    {
+        "name": "BAUTISTA CASTRO ANGELA MARIA",
+        "faculty": "QUIMICA",
+        "subject": "ANALISIS INSTRUMENTAL",
+        "email": "abautistac@udistrital.edu.co"
+    },
+    {
+        "name": "CRISTANCHO ROJAS NELLY ESPERANZA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA AMBIENTAL",
+        "email": "ncristanchor@udistrital.edu.co"
+    },
+    {
+        "name": "TRIANA MARTINEZ RUDOLF ARTHUR",
+        "faculty": "FISICA",
+        "subject": "NANOTECNOLOGIA Y NUEVOS MATERIALES",
+        "email": "rtrianam@udistrital.edu.co"
+    },
+    {
+        "name": "CHAVES MAHECHA ADRIANA CONSTANZA",
+        "faculty": "FISICA",
+        "subject": "TRABAJO DE GRADO",
+        "email": "achavesm@udistrital.edu.co"
+    },
+    {
+        "name": "CHAPARRO MALAGON CARLOS ANDRES",
+        "faculty": "FISICA",
+        "subject": "TRABAJO DE GRADO",
+        "email": "cchaparrom@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ CHIA CLAUDIA MARCELA",
+        "faculty": "QUIMICA",
+        "subject": "NANOMATERIALES",
+        "email": "clopezc@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA VARGAS RICARDO HUMBERTO",
+        "faculty": "QUIMICA",
+        "subject": "PREPARACION Y CARACTERIZACION DE MATERIALES",
+        "email": "racostav@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON VELANDIA SONIA CATALINA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA GENERAL",
+        "email": "srinconv@udistrital.edu.co"
+    },
+    {
+        "name": "BAUTISTA CASTRO ANGELA MARIA",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA GENERAL",
+        "email": "abautistac@udistrital.edu.co"
+    },
+    {
+        "name": "MOJICA HERNANDEZ MARTHA LUCIA",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA GENERAL",
+        "email": "mmojicah@udistrital.edu.co"
+    },
+    {
+        "name": "CASTELLANOS AGUIRRE MONICA FERNANDA",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA GENERAL",
+        "email": "mcastellosa@udistrital.edu.co"
+    },
+    {
+        "name": "JIMENEZ RAMIREZ CARLOS ARTURO",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA GENERAL",
+        "email": "cjimenezr@udistrital.edu.co"
+    },
+    {
+        "name": "SALAMANCA SALAS NELSON ANDRES",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA GENERAL",
+        "email": "nsalamancas@udistrital.edu.co"
+    },
+    {
+        "name": "GUERRERO MORALES DIANA MARCELA",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA GENERAL",
+        "email": "dguerrerom@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ MORA NELSON ALFONSO",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA GENERAL",
+        "email": "ngonzalezm@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA BASTIDAS ELSSY CECILIA",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA GENERAL",
+        "email": "eacostab@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINOSA SANTIAGO WILLIAM",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA GENERAL",
+        "email": "wespinosas@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ ROA LUIS GABRIEL",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA ANALITICA CUANTITATIVA, LABORATORIO DE QUIMICA ANALITICA CUANTITATIVA",
+        "email": "lsuarezr@udistrital.edu.co"
+    },
+    {
+        "name": "RIVERA GONZALEZ JENNY MARITZA",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA ANALITICA CUANTITATIVA",
+        "email": "jriverag@udistrital.edu.co"
+    },
+    {
+        "name": "PEREZ TRUJILLO DIANA MARCELA",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA INORGANICA",
+        "email": "dperezt@udistrital.edu.co"
+    },
+    {
+        "name": "PAEZ SAENZ MARTHA CECILIA",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA INORGANICA",
+        "email": "mpaezs@udistrital.edu.co"
+    },
+    {
+        "name": "CRISTANCHO ROJAS NELLY ESPERANZA",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE QUIMICA AMBIENTAL",
+        "email": "ncristanchor@udistrital.edu.co"
+    },
+    {
+        "name": "BERNAL PINEDA LUZ AMPARO",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE BIOQUIMICA",
+        "email": "lbernalp@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS SAAVEDRA LUIS ENRIQUE",
+        "faculty": "QUIMICA",
+        "subject": "LABORATORIO DE BIOQUIMICA",
+        "email": "lvargass@udistrital.edu.co"
+    },
+    {
+        "name": "MOJICA HERNANDEZ MARTHA LUCIA",
+        "faculty": "QUIMICA",
+        "subject": "PRACTICA DE INVESTIGACION EN QUIMICA",
+        "email": "mmojicah@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON VELANDIA SONIA CATALINA",
+        "faculty": "QUIMICA",
+        "subject": "PRACTICA DE INVESTIGACION EN QUIMICA",
+        "email": "srinconv@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES LOPEZ JOSUE ROBERTO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "jtorresl@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ REY DIANA MARCELA",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "dgomezr@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA LOPEZ JESUS ENRIQUE",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "jgarcial@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ MARTINEZ JOSE ALEXANDER",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "jramirezma@udistrital.edu.co"
+    },
+    {
+        "name": "MARTINEZ RUIZ ADRIANA CAROLINA",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "amartinezr@udistrital.edu.co"
+    },
+    {
+        "name": "CASTRO CORTES LILIANA",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "lcastroc@udistrital.edu.co"
+    },
+    {
+        "name": "CORREA AGUIRRE ALEJANDRO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "acorreac@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON BARRERO JAVIER ERNESTO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "jrinconb@udistrital.edu.co"
+    },
+    {
+        "name": "MONTAÑO MANRIQUE CARLOS ALBERTO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "cmontañom@udistrital.edu.co"
+    },
+    {
+        "name": "CHAPARRO MALAGON CARLOS ANDRES",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "cchaparrom@udistrital.edu.co"
+    },
+    {
+        "name": "MEDINA SARMIENTO PAULA ANDREA",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "pmedinas@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ GUEVARA EDGAR AUGUSTO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "egomezg@udistrital.edu.co"
+    },
+    {
+        "name": "BENAVIDES MORALES PAULA",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "pbenavidesm@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN DIAZ CRISTIAN GUILLERMO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "cguzmand@udistrital.edu.co"
+    },
+    {
+        "name": "NIÑO VALBUENA JAVIER ARMANDO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "jninov@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ SABOGAL CARLOS ALBERTO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "crodriguezs@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINOSA SARMIENTO WILMER ARTURO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "wespinosas@udistrital.edu.co"
+    },
+    {
+        "name": "JIMENEZ RAMIREZ CARLOS ARTURO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "cjimenezr@udistrital.edu.co"
+    },
+    {
+        "name": "PINZON ZULUAGA JOHN JAIRO",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "jpinzonc@udistrital.edu.co"
+    },
+    {
+        "name": "RANGEL PACHECO JAIRO ENRIQUE",
+        "faculty": "MATEMATICAS",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "jrangele@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ MORA NELSON ALFONSO",
+        "faculty": "MATEMATICAS",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "ngonzalezm@udistrital.edu.co"
+    },
+    {
+        "name": "SALAMANCA SALAS NELSON ANDRES",
+        "faculty": "MATEMATICAS",
+        "subject": "ALGEBRA LINEAL",
+        "email": "nsalamancas@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ ROA LUIS GABRIEL",
+        "faculty": "MATEMATICAS",
+        "subject": "ECUACIONES DIFERENCIALES, ECUACIONES DIFERENCIALES PARCIALES",
+        "email": "lsuarezr@udistrital.edu.co"
+    },
+    {
+        "name": "LEON VIDES ALFONSO",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "aleonv@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA VARGAS RICARDO HUMBERTO",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "racostav@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINOSA SANTIAGO WILLIAM",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "wespinosas@udistrital.edu.co"
+    },
+    {
+        "name": "AGUILAR MANRIQUE ALEXANDER",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "aaguilarm@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON VELANDIA SONIA CATALINA",
+        "faculty": "MATEMATICAS",
+        "subject": "QUIMICA GENERAL",
+        "email": "srinconv@udistrital.edu.co"
+    },
+    {
+        "name": "MOJICA HERNANDEZ MARTHA LUCIA",
+        "faculty": "MATEMATICAS",
+        "subject": "QUIMICA GENERAL",
+        "email": "mmojicah@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS LEUDO DIEGO ARMANDO",
+        "faculty": "MATEMATICAS",
+        "subject": "BIOLOGIA GENERAL",
+        "email": "dvargasl@udistrital.edu.co"
+    },
+    {
+        "name": "CORDOBA CORDOBA SERGIO",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA DE LA CONSERVACION",
+        "email": "scordobc@udistrital.edu.co"
+    },
+    {
+        "name": "BRAVO PIÑEROS NESTOR ALBERTO",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA GENERAL I",
+        "email": "nbravop@udistrital.edu.co"
+    },
+    {
+        "name": "SILVA CARRERO DIEGO ALEJANDRO",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA GENERAL I, QUIMICA GENERAL",
+        "email": "dsilvac@udistrital.edu.co"
+    },
+    {
+        "name": "CHAVES MAHECHA ADRIANA CONSTANZA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA INORGANICA I",
+        "email": "achavesm@udistrital.edu.co"
+    },
+    {
+        "name": "BERNAL PINEDA LUZ AMPARO",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA ORGANICA I, LABORATORIO DE BIOQUIMICA",
+        "email": "lbernalp@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ CHIA CLAUDIA MARCELA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA ORGANICA I",
+        "email": "clopezc@udistrital.edu.co"
+    },
+    {
+        "name": "CALVO RODRIGUEZ GLORIA ALEJANDRA",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA ANALITICA II",
+        "email": "gcalvor@udistrital.edu.co"
+    },
+    {
+        "name": "SANABRIA DIAZ LUIS ALBERTO",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA ANALITICA II",
+        "email": "lsanabriad@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS LEUDO DIEGO ARMANDO",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA AMBIENTAL, QUIMICA GENERAL",
+        "email": "dvargasl@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ SAZA FREDDY",
+        "faculty": "QUIMICA",
+        "subject": "TOXICOLOGIA",
+        "email": "frodriguezs@udistrital.edu.co"
+    },
+    {
+        "name": "MIRANDA ARANGUREN SERGIO",
+        "faculty": "MATEMATICAS",
+        "subject": "CALCULO DIFERENCIAL, ECUACIONES DIFERENCIALES, ECUACIONES DIFERENCIALES ORDINARIAS",
+        "email": "smirandaa@udistrital.edu.co"
+    },
+    {
+        "name": "PRIETO ORTIZ JUAN PABLO",
+        "faculty": "MATEMATICAS",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "jprietoo@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES LOPEZ JOSUE ROBERTO",
+        "faculty": "MATEMATICAS",
+        "subject": "ALGEBRA LINEAL",
+        "email": "jtorresl@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES PARDO JOHN ALFREDO",
+        "faculty": "MATEMATICAS",
+        "subject": "ALGEBRA LINEAL",
+        "email": "jtorresp@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ GOMEZ ALVARO",
+        "faculty": "MATEMATICAS",
+        "subject": "CALCULO INTEGRAL",
+        "email": "adiazg@udistrital.edu.co"
+    },
+    {
+        "name": "MARTINEZ RUIZ ADRIANA CAROLINA",
+        "faculty": "MATEMATICAS",
+        "subject": "CALCULO INTEGRAL",
+        "email": "amartinezr@udistrital.edu.co"
+    },
+    {
+        "name": "CHAPARRO MALAGON CARLOS ANDRES",
+        "faculty": "MATEMATICAS",
+        "subject": "ESTADISTICA DESCRIPTIVA",
+        "email": "cchaparrom@udistrital.edu.co"
+    },
+    {
+        "name": "RANGEL PACHECO JAIRO ENRIQUE",
+        "faculty": "MATEMATICAS",
+        "subject": "ESTADISTICA DESCRIPTIVA",
+        "email": "jrangele@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA VARGAS RICARDO HUMBERTO",
+        "faculty": "MATEMATICAS",
+        "subject": "QUIMICA GENERAL",
+        "email": "racostav@udistrital.edu.co"
+    },
+    {
+        "name": "JIMENEZ RAMIREZ CARLOS ARTURO",
+        "faculty": "MATEMATICAS",
+        "subject": "QUIMICA GENERAL",
+        "email": "cjimenezr@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ MORA NELSON ALFONSO",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "ngonzalezm@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ SABOGAL CARLOS ALBERTO",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "crodriguezs@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINOSA SANTIAGO WILLIAM",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "wespinosas@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINOSA SARMIENTO WILMER ARTURO",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "wespinosas@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN DIAZ CRISTIAN GUILLERMO",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "cguzmand@udistrital.edu.co"
+    },
+    {
+        "name": "NIÑO VALBUENA JAVIER ARMANDO",
+        "faculty": "MATEMATICAS",
+        "subject": "FISICA GENERAL",
+        "email": "jninov@udistrital.edu.co"
+    },
+    {
+        "name": "SANABRIA DIAZ LUIS ALBERTO",
+        "faculty": "MATEMATICAS",
+        "subject": "BIOLOGIA GENERAL",
+        "email": "lsanabriad@udistrital.edu.co"
+    },
+    {
+        "name": "CRISTANCHO ROJAS NELLY ESPERANZA",
+        "faculty": "MATEMATICAS",
+        "subject": "BIOLOGIA GENERAL",
+        "email": "ncristanchor@udistrital.edu.co"
+    },
+    {
+        "name": "CORREA AGUIRRE ALEJANDRO",
+        "faculty": "MATEMATICAS",
+        "subject": "BIOLOGIA GENERAL",
+        "email": "acorreac@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS LEUDO DIEGO ARMANDO",
+        "faculty": "MATEMATICAS",
+        "subject": "BIOLOGIA GENERAL",
+        "email": "dvargasl@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON BARRERO JAVIER ERNESTO",
+        "faculty": "MATEMATICAS",
+        "subject": "CALCULO VECTORIAL",
+        "email": "jrinconb@udistrital.edu.co"
+    },
+    {
+        "name": "MONTAÑO MANRIQUE CARLOS ALBERTO",
+        "faculty": "MATEMATICAS",
+        "subject": "CALCULO VECTORIAL",
+        "email": "cmontañom@udistrital.edu.co"
+    },
+    {
+        "name": "BENAVIDES MORALES PAULA",
+        "faculty": "MATEMATICAS",
+        "subject": "PROBABILIDAD Y ESTADISTICA",
+        "email": "pbenavidesm@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ GUEVARA EDGAR AUGUSTO",
+        "faculty": "MATEMATICAS",
+        "subject": "PROBABILIDAD Y ESTADISTICA",
+        "email": "egomezg@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ REY DIANA MARCELA",
+        "faculty": "MATEMATICAS",
+        "subject": "PROBABILIDAD Y ESTADISTICA",
+        "email": "dgomezr@udistrital.edu.co"
+    },
+    {
+        "name": "MEDINA SARMIENTO PAULA ANDREA",
+        "faculty": "MATEMATICAS",
+        "subject": "PROBABILIDAD Y ESTADISTICA",
+        "email": "pmedinas@udistrital.edu.co"
+    },
+    {
+        "name": "PINZON ZULUAGA JOHN JAIRO",
+        "faculty": "MATEMATICAS",
+        "subject": "MATEMATICAS DISCRETAS",
+        "email": "jpinzonc@udistrital.edu.co"
+    },
+    {
+        "name": "CASTRO CORTES LILIANA",
+        "faculty": "MATEMATICAS",
+        "subject": "TOPOLOGIA",
+        "email": "lcastroc@udistrital.edu.co"
+    },
+    {
+        "name": "AGUILAR MANRIQUE ALEXANDER",
+        "faculty": "MATEMATICAS",
+        "subject": "TEORIA DE NUMEROS",
+        "email": "aaguilarm@udistrital.edu.co"
+    },
+    {
+        "name": "LEON VIDES ALFONSO",
+        "faculty": "MATEMATICAS",
+        "subject": "COMPUTACION CIENTIFICA",
+        "email": "aleonv@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA LOPEZ JESUS ENRIQUE",
+        "faculty": "MATEMATICAS",
+        "subject": "GEOMETRIA EUCLIDIANA",
+        "email": "jgarcial@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ MARTINEZ JOSE ALEXANDER",
+        "faculty": "MATEMATICAS",
+        "subject": "GEOMETRIA EUCLIDIANA",
+        "email": "jramirezma@udistrital.edu.co"
+    },
+    {
+        "name": "CAICEDO ORJUELA OBRADITH",
+        "faculty": "QUIMICA",
+        "subject": "QUIMICA GENERAL I",
+        "email": "ocaicedoo@udistrital.edu.co"
+    },
+    {
+        "name": "CASTELLANOS AGUIRRE MONICA FERNANDA",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA GENERAL",
+        "email": "mcastellosa@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ SAZA FREDDY",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA GENERAL, BIOLOGIA MOLECULAR AVANZADA",
+        "email": "frodriguezs@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS SAAVEDRA LUIS ENRIQUE",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOFISICA, ECOLOGIA II",
+        "email": "lvargass@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA BASTIDAS ELSSY CECILIA",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOFISICA",
+        "email": "eacostab@udistrital.edu.co"
+    },
+    {
+        "name": "PEREZ TRUJILLO DIANA MARCELA",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOQUIMICA VEGETAL",
+        "email": "dperezt@udistrital.edu.co"
+    },
+    {
+        "name": "CRISTANCHO ROJAS NELLY ESPERANZA",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOTECNOLOGIA VEGETAL",
+        "email": "ncristanchor@udistrital.edu.co"
+    },
+    {
+        "name": "PAEZ SAENZ MARTHA CECILIA",
+        "faculty": "BIOLOGIA",
+        "subject": "FISIOLOGIA VEGETAL, GENETICA",
+        "email": "mpaezs@udistrital.edu.co"
+    },
+    {
+        "name": "CORDOBA CORDOBA SERGIO",
+        "faculty": "BIOLOGIA",
+        "subject": "ZOOLOGIA DE INVERTEBRADOS, ZOOLOGIA DE VERTEBRADOS",
+        "email": "scordobc@udistrital.edu.co"
+    },
+    {
+        "name": "BERNAL PINEDA LUZ AMPARO",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOLOGIA CELULAR",
+        "email": "lbernalp@udistrital.edu.co"
+    },
+    {
+        "name": "TRUJILLO CALDERON JOHN EDISON",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOESTADISTICA",
+        "email": "jtrujilloc@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA VARGAS RICARDO HUMBERTO",
+        "faculty": "BIOLOGIA",
+        "subject": "BIOESTADISTICA",
+        "email": "racostav@udistrital.edu.co"
+    },
+    {
+        "name": "MIRANDA ARANGUREN SERGIO",
+        "faculty": "BIOLOGIA",
+        "subject": "LABORATORIO DE BIOLOGIA MOLECULAR",
+        "email": "smirandaa@udistrital.edu.co"
+    },
+    {
+        "name": "CHAPARRO MALAGON CARLOS ANDRES",
+        "faculty": "BIOLOGIA",
+        "subject": "ELECTIVA BIOLOGIA I",
+        "email": "cchaparrom@udistrital.edu.co"
+    },
+    {
+        "name": "SILVA CARRERO DIEGO ALEJANDRO",
+        "faculty": "BIOLOGIA",
+        "subject": "ELECTIVA BIOLOGIA II",
+        "email": "dsilvac@udistrital.edu.co"
+    }
+]

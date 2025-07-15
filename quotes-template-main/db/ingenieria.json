@@ -1,0 +1,3920 @@
+[
+    {
+        "name": "NELSON JORGE ALGARIN MEZA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "njalgarinm@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS JORGE DIAZ FUENTES",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "ljdiazf@udistrital.edu.co"
+    },
+    {
+        "name": "ROSS MARY SAENZ LESMES",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "rmsaenzl@udistrital.edu.co"
+    },
+    {
+        "name": "ESPERANZA GONZALEZ NIÑO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "egonzalezn@udistrital.edu.co"
+    },
+    {
+        "name": "RICHARD ALARCON VARGAS",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "ralarconv@udistrital.edu.co"
+    },
+    {
+        "name": "YURI CRISTIAN BERNAL PEÑA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "ycbernalp@udistrital.edu.co"
+    },
+    {
+        "name": "DAVID MAURICIO RUBIO ZAFRA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "dmrubioz@udistrital.edu.co"
+    },
+    {
+        "name": "ANGELA MARCELA BOHORQUEZ RAIRAN",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "ambohorquezr@udistrital.edu.co"
+    },
+    {
+        "name": "GERMAN CIFUENTES CONTRERAS",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "gcifuentesc@udistrital.edu.co"
+    },
+    {
+        "name": "ARJUNA CASTRILLON CAMACHO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "acastrillonc@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS EDUARDO VILLAMIL MENDOZA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "levillamilm@udistrital.edu.co"
+    },
+    {
+        "name": "ALBERTO FRANCISCO RUANO MIRANDA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+        "email": "afruanom@udistrital.edu.co"
+    },
+    {
+        "name": "WILLIAM CIFUENTES CRUZ",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "wcifuentec@udistrital.edu.co"
+    },
+    {
+        "name": "ROSSEMBER ALAPE VERGARA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "ralapev@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE DANIEL BEJARANO MARTIN",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "jdbejaranom@udistrital.edu.co"
+    },
+    {
+        "name": "IVAN ALFONSO PINEDO CANTILLO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "iapinedoc@udistrital.edu.co"
+    },
+    {
+        "name": "OSCAR FERNANDO TORRES COLMENARES",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "SEMINARIO DE INGENIERIA",
+        "email": "oftorresc@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS HERNAN CASTRO ORTEGA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "SEMINARIO DE INGENIERIA",
+        "email": "chcastroo@udistrital.edu.co"
+    },
+    {
+        "name": "MIGUEL ANTONIO AVILA ANGULO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "SEMINARIO DE INGENIERIA",
+        "email": "maavilaa@udistrital.edu.co"
+    },
+    {
+        "name": "MAURICIO GUZMAN GONZALEZ",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CALCULO INTEGRAL",
+        "email": "mguzmang@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS ALBERTO PEÑA MARIN",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CALCULO INTEGRAL",
+        "email": "capenam@udistrital.edu.co"
+    },
+    {
+        "name": "LUZ ANGELA SILVA ROBAYO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA",
+        "email": "lasilvar@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS MOJICA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA",
+        "email": "jcmojica@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE DANIEL BEJARANO MARTIN",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA",
+        "email": "jdbejaranom@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS ALIRIO RICO ACEVEDO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "caricoa@udistrital.edu.co"
+    },
+    {
+        "name": "NELSON JORGE ALGARIN MEZA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "njalgarinm@udistrital.edu.co"
+    },
+    {
+        "name": "RAMON FERNANDO GARCIA SANTAMARIA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "rfgS@udistrital.edu.co"
+    },
+    {
+        "name": "LUZ LILIANA ARDILA ARDILA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "llardilaa@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE ANTONIO VALERO MEDINA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "javalerom@udistrital.edu.co"
+    },
+    {
+        "name": "PAULO CESAR CORONADO SANCHEZ",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "pccoronados@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS ORLANDO HERRERA GARCIA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "loherrerag@udistrital.edu.co"
+    },
+    {
+        "name": "GERMAN CIFUENTES CONTRERAS",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "gcifuentesc@udistrital.edu.co"
+    },
+    {
+        "name": "ALBERTO FRANCISCO RUANO MIRANDA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CATEDRA DEMOCRACIA Y CIUDADANIA",
+        "email": "afruanom@udistrital.edu.co"
+    },
+    {
+        "name": "SANDRA JIMENA OLIVEROS TAUTIVA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "sjoliverost@udistrital.edu.co"
+    },
+    {
+        "name": "ARJUNA CASTRILLON CAMACHO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "acastrillonc@udistrital.edu.co"
+    },
+    {
+        "name": "TITO ERNESTO VARGAS HEREDIA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "tevargash@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS JORGE DIAZ FUENTES",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "ljdiazf@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE IVAN PARRA LONDOÑO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "ETICA Y BIOETICA",
+        "email": "jparral@udistrital.edu.co"
+    },
+    {
+        "name": "OMAR SALCEDO URIZA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROCESOS CATASTRALES",
+        "email": "ousalcedou@udistrital.edu.co"
+    },
+    {
+        "name": "EDWIN ROBERT PEREZ CARVAJAL",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "AVALUOS PUNTUALES, INGENIERIA DE SISTEMAS SOCIALES PARA EL TERRITORIO",
+        "email": "erpc@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE EDUARDO FORERO TORRES",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "AVALUOS PUNTUALES, AVALUOS MASIVOS",
+        "email": "jeforero@udistrital.edu.co"
+    },
+    {
+        "name": "JAIME VERGARA HINCAPIE",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "ECONOMETRIA",
+        "email": "jvvergara@udistrital.edu.co"
+    },
+    {
+        "name": "HECTOR JAVIER FUENTES LOPEZ",
+        "faculty": "INGENIERIA CATASTRALES Y GEODESIA",
+        "subject": "ECONOMETRIA, METODOLOGIA DE LA INVESTIGACION",
+        "email": "hjfuentesl@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS EDUARDO MELO MARTINEZ",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "ECONOMETRIA",
+        "email": "cemelom@udistrital.edu.co"
+    },
+    {
+        "name": "RUBEN JAVIER MEDINA DAZA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "MATEMATICAS APLICADAS EN EL PROCESAMIENTO DIGITAL DE IMAGENES",
+        "email": "rjmedinad@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES CARDENAS CONTRERAS",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "GEOFISICA",
+        "email": "acardenasc@udistrital.edu.co"
+    },
+    {
+        "name": "ERIKA SOFIA UPEGUI CARDONA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "FOTOGRAMETRIA DIGITAL",
+        "email": "esueguic@udistrital.edu.co"
+    },
+    {
+        "name": "CLAUDIA BERENICE ROJAS",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "FOTOGRAMETRIA DIGITAL",
+        "email": "cbrojas@udistrital.edu.co"
+    },
+    {
+        "name": "OSCAR FERNANDO TORRES COLMENARES",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "AVALUOS MASIVOS",
+        "email": "oftorresc@udistrital.edu.co"
+    },
+    {
+        "name": "JULY MARCELA RODRIGUEZ MUSTAFA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "AVALUOS MASIVOS",
+        "email": "jmrodriguezm@udistrital.edu.co"
+    },
+    {
+        "name": "JAVIER FELIPE MONCADA SANCHEZ",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROGRAMACION DE INTERFASES SIG",
+        "email": "jfmoncadas@udistrital.edu.co"
+    },
+    {
+        "name": "YOLANDA TERESA HERNANDEZ PEÑA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "GESTION DE RIESGOS, PLANEACION DEL DESARROLLO",
+        "email": "ythernandezp@udistrital.edu.co"
+    },
+    {
+        "name": "YENNY ANDREA MARIN SALAZAR",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "ORDENAMIENTO TERRITORIAL",
+        "email": "yamarins@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR ROJAS JIMENEZ",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "VALORIZACION",
+        "email": "crrojash@udistrital.edu.co"
+    },
+    {
+        "name": "MARCO ALVARO SANABRIA DUQUE",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "VALORIZACION",
+        "email": "masanabriad@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS HERNAN CASTRO ORTEGA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "METODOLOGIA DE LA INVESTIGACION",
+        "email": "chcastroo@udistrital.edu.co"
+    },
+    {
+        "name": "PAULO CESAR CORONADO SANCHEZ",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "INTELIGENCIA ARTIFICIAL APLICADA AL TERRITORIO",
+        "email": "pccoronados@udistrital.edu.co"
+    },
+    {
+        "name": "LILIA MARCELA ESPINOSA RODRIGUEZ",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION BASICA, FACTORES HUMANOS, INGENIERIA ECONOMICA",
+        "email": "lmerojasr@udistrital.edu.co"
+    },
+    {
+        "name": "SERGIO ANDRES ROJAS GALEANO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION BASICA, PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "sarojasg@udistrital.edu.co"
+    },
+    {
+        "name": "ISAIAS DAVID MARIN GAVIRIA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION BASICA",
+        "email": "idmaring@udistrital.edu.co"
+    },
+    {
+        "name": "EDILMA ISABEL AMAYA BARRERA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO INTEGRAL",
+        "email": "eiamayab@udistrital.edu.co"
+    },
+    {
+        "name": "ALEXANDER MARTINEZ RODRIGUEZ",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "amartinezr@udistrital.edu.co"
+    },
+    {
+        "name": "NANCY YANETH GELVEZ GARCIA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "nygelvezg@udistrital.edu.co"
+    },
+    {
+        "name": "LEONARDO MOLINA ROMERO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "lmolinar@udistrital.edu.co"
+    },
+    {
+        "name": "LEONARDO MOLINA ROMERO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "lmolinar@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES LEONARDO RAMIREZ LEAL",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ECUACIONES DIFERENCIALES",
+        "email": "alramirezl@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR FERNANDO VENEGAS RAMIREZ",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "cfvenegasr@udistrital.edu.co"
+    },
+    {
+        "name": "JANNETH SILVA CACERES",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ETICA Y BIOETICA",
+        "email": "jsilvac@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS HURTADO BETANCOURT",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA III: ONDAS Y FISICA MODERNA",
+        "email": "jchurtadob@udistrital.edu.co"
+    },
+    {
+        "name": "JULIO CORTES ALARCON",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "TERMODINAMICA",
+        "email": "jcac@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN MANUEL SANCHEZ CESPEDES",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "INGENIERIA ECONOMICA",
+        "email": "jmsanchezc@udistrital.edu.co"
+    },
+    {
+        "name": "ABEL ANTONIO NAVARRETE LOPEZ",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "INGENIERIA ECONOMICA",
+        "email": "aanavarretel@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE DAVID ALVAREZ PLATA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "TENDENCIAS AVANZADAS DE INGENIERIA DE SOFTWARE",
+        "email": "jdalvarezp@udistrital.edu.co"
+    },
+    {
+        "name": "KAREN LORENA FLOREZ OSORIO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FOTOGRAFIA, REALIZACION AUDIOVISUAL",
+        "email": "klflorezo@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN MANUEL LOPEZ ALVARADO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PRODUCCION DE TELEVISION",
+        "email": "jmlopeza@udistrital.edu.co"
+    },
+    {
+        "name": "FABIAN ENRIQUE PACHON BERNAL",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MODELOS DE PROGRAMACION II",
+        "email": "fepachonb@udistrital.edu.co"
+    },
+    {
+        "name": "HENRY ALBERTO DIOSA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MODELOS DE PROGRAMACION II",
+        "email": "had@udistrital.edu.co"
+    },
+    {
+        "name": "SIMAR ENRIQUE HERRERA JIMENEZ",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MODELOS DE PROGRAMACION II",
+        "email": "seherreraj@udistrital.edu.co"
+    },
+    {
+        "name": "HELIO HENRY RAMIREZ AREVALO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIENCIAS DE LA COMPUTACION I",
+        "email": "hhramireza@udistrital.edu.co"
+    },
+    {
+        "name": "OCTAVIO JOSE SALCEDO PARRA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REDES DE COMUNICACIONES I",
+        "email": "ojsalcedop@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES ALEXANDER RODRIGUEZ FONSECA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REDES DE COMUNICACIONES I",
+        "email": "aarodriguezf@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR AUGUSTO SUAREZ PARRA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIBERNETICA CUALITATIVA II",
+        "email": "casuarezp@udistrital.edu.co"
+    },
+    {
+        "name": "PAULO ALONSO GAONA GARCIA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REDES DE COMUNICACIONES II",
+        "email": "paguanag@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE MARTIN DELGADO GARCIA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "GEOMATICA I",
+        "email": "jmdelgadog@udistrital.edu.co"
+    },
+    {
+        "name": "CORONADO SANCHEZ PAULO CESAR",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "BASES DE DATOS ESPACIALES",
+        "email": "pccoronados@udistrital.edu.co"
+    },
+    {
+        "name": "CASTILLO BARRAGAN LUZ MALLY",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "TOPOGRAFIA",
+        "email": "lmcastillob@udistrital.edu.co"
+    },
+    {
+        "name": "MELO MARTINEZ CARLOS EDUARDO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "GEOESTADISTICA",
+        "email": "cemelom@udistrital.edu.co"
+    },
+    {
+        "name": "HERRERA ESCORCIA JOSE LUIS",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "SISTEMAS DE RADAR",
+        "email": "jlherrerae@udistrital.edu.co"
+    },
+    {
+        "name": "PACHON RODRIGUEZ WILLIAN ANTONIO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "TOPOLOGIA Y CATASTRO DE REDES",
+        "email": "wapachonr@udistrital.edu.co"
+    },
+    {
+        "name": "UPEGUI CARDONA ERIKA SOFIA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "FOTOGRAMETRIA",
+        "email": "esupeguic@udistrital.edu.co"
+    },
+    {
+        "name": "CONTRERAS GUERRERO SERVIO JAVIER",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "FOTOGRAMETRIA",
+        "email": "sjcontrerasg@udistrital.edu.co"
+    },
+    {
+        "name": "ROJAS CLAUDIA BERENICE",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "FOTOGRAMETRIA",
+        "email": "cbrojas@udistrital.edu.co"
+    },
+    {
+        "name": "ALVAREZ CESAR GIOVANNI",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "SUELOS",
+        "email": "cgavarez@udistrital.edu.co"
+    },
+    {
+        "name": "CEDEÑO MEDINA ELSY ROCIO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "SUELOS",
+        "email": "ercedeom@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ MUSTAFA JULY MARCELA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "REAJUSTE DE TERRENOS",
+        "email": "jrmustafam@udistrital.edu.co"
+    },
+    {
+        "name": "FANDIÑO BOHORQUEZ JONNATHAN HADIER",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROCESAMIENTO GNSS",
+        "email": "jhfandinob@udistrital.edu.co"
+    },
+    {
+        "name": "FORERO TORRES JORGE EDUARDO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "GESTION CATASTRAL Y CATASTRO MULTIPROPOSITO",
+        "email": "jeforerot@udistrital.edu.co"
+    },
+    {
+        "name": "MANCERA MEDINA HUGO ALFONSO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROBABILIDAD",
+        "email": "hamanceram@udistrital.edu.co"
+    },
+    {
+        "name": "CARDENAS CONTRERAS ANDRES",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "GEODESIA GEOMETRICA",
+        "email": "accardenasc@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ RAMOS CARLOS GERMAN",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PERCEPCION REMOTA E INTERPRETACION DE IMAGENES",
+        "email": "cgrmirezr@udistrital.edu.co"
+    },
+    {
+        "name": "CASTRO ORTEGA CARLOS HERNAN",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "GEOGRAFIA HUMANA Y FISICA",
+        "email": "chcastroo@udistrital.edu.co"
+    },
+    {
+        "name": "AVILA ANGULO MIGUEL ANTONIO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "GEODESIA FISICA, GEODESIA SATELITAL",
+        "email": "maavilaa@udistrital.edu.co"
+    },
+    {
+        "name": "CASTILLO MENDEZ LUIS EDUARDO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "ESTADISTICA, MATEMATICAS ESPECIALES",
+        "email": "lecastillom@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ FUENTES LUIS JORGE",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "MATEMATICAS ESPECIALES",
+        "email": "ljdiazf@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINOSA GOMEZ YENNY",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "BASES DE DATOS, SISTEMAS DE INFORMACION GEOGRAFICA",
+        "email": "yespinosag@udistrital.edu.co"
+    },
+    {
+        "name": "GAITAN MESA EDWIN ARMANDO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "AJUSTES GEODESICOS",
+        "email": "eagaitanm@udistrital.edu.co"
+    },
+    {
+        "name": "MARIN SALAZAR YENNY ANDREA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "GEOGRAFIA HUMANA Y FISICA",
+        "email": "yamarins@udistrital.edu.co"
+    },
+    {
+        "name": "MONCADA SANCHEZ JAVIER FELIPE",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "BASES DE DATOS, SISTEMAS DE INFORMACION GEOGRAFICA",
+        "email": "jfmoncadas@udistrital.edu.co"
+    },
+    {
+        "name": "RICO BAEZ JOSE ABEL",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "AJUSTES GEODESICOS, GEODESIA SATELITAL",
+        "email": "jaricob@udistrital.edu.co"
+    },
+    {
+        "name": "ROCHA SALAMANCA LUZ ANGELA",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CARTOGRAFIA, SISTEMAS DE INFORMACION GEOGRAFICA",
+        "email": "larochas@udistrital.edu.co"
+    },
+    {
+        "name": "ROJAS JIMENEZ CESAR",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "LEGISLACION CATASTRAL",
+        "email": "crojasj@udistrital.edu.co"
+    },
+    {
+        "name": "SAENZ LESMES ROSS MARY",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "ESTADISTICA",
+        "email": "rmsaenzl@udistrital.edu.co"
+    },
+    {
+        "name": "SILVA BARACALDO YONNY",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "PROCESOS CATASTRALES",
+        "email": "ysilvab@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES COLMENARES OSCAR FERNANDO",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "SISTEMAS CATASTRALES",
+        "email": "oftorresc@udistrital.edu.co"
+    },
+    {
+        "name": "VERGARA HINCAPIE JAIME",
+        "faculty": "INGENIERIA CATASTRAL Y GEODESIA",
+        "subject": "CONTABILIDAD DE COSTOS, ECONOMIA II",
+        "email": "jvergarah@udistrital.edu.co"
+    },
+    {
+        "name": "OMAR SALCEDO URIZA",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "PROCESOS CATASTRALES",
+        "email": "osalcedou@udistrital.edu.co"
+    },
+    {
+        "name": "EDWIN ROBERT PEREZ CARVAJAL",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "AVALUOS PUNTUALES",
+        "email": "eperezc@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE EDUARDO FORERO TORRES",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "AVALUOS PUNTUALES, AVALUOS MASIVOS",
+        "email": "jforerot@udistrital.edu.co"
+    },
+    {
+        "name": "JAIME VERGARA HINCAPIE",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "ECONOMETRIA",
+        "email": "jvergaraa@udistrital.edu.co"
+    },
+    {
+        "name": "HECTOR JAVIER FUENTES LOPEZ",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "ECONOMETRIA, METODOLOGIA DE LA INVESTIGACION",
+        "email": "hfuentesl@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS EDUARDO MELO MARTINEZ",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "ECONOMETRIA",
+        "email": "cmelom@udistrital.edu.co"
+    },
+    {
+        "name": "RUBEN JAVIER MEDINA DAZA",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "MATEMATICAS APLICADAS EN EL PROCESAMIENTO DIGITAL DE IMAGENES",
+        "email": "rmedinad@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES CARDENAS CONTRERAS",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "GEOFISICA",
+        "email": "acardenasc@udistrital.edu.co"
+    },
+    {
+        "name": "ERIKA SOFIA UPEGUI CARDONA",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "FOTOGRAMETRIA DIGITAL",
+        "email": "eupeguic@udistrital.edu.co"
+    },
+    {
+        "name": "CLAUDIA BERENICE ROJAS",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "FOTOGRAMETRIA DIGITAL",
+        "email": "crojasb@udistrital.edu.co"
+    },
+    {
+        "name": "OSCAR FERNANDO TORRES COLMENARES",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "AVALUOS MASIVOS",
+        "email": "otorresc@udistrital.edu.co"
+    },
+    {
+        "name": "JULY MARCELA RODRIGUEZ MUSTAFA",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "AVALUOS MASIVOS",
+        "email": "jrodriguezm@udistrital.edu.co"
+    },
+    {
+        "name": "JAVIER FELIPE MONCADA SANCHEZ",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "PROGRAMACION DE INTERFASES SIG",
+        "email": "jmoncadas@udistrital.edu.co"
+    },
+    {
+        "name": "YOLANDA TERESA HERNANDEZ PEÑA",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "GESTION DE RIESGOS, PLANEACION DEL DESARROLLO",
+        "email": "yhernandezp@udistrital.edu.co"
+    },
+    {
+        "name": "YENNY ANDREA MARIN SALAZAR",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "ORDENAMIENTO TERRITORIAL",
+        "email": "ymarins@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR ROJAS JIMENEZ",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "VALORIZACION",
+        "email": "crojasj@udistrital.edu.co"
+    },
+    {
+        "name": "MARCO ALVARO SANABRIA DUQUE",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "VALORIZACION",
+        "email": "msanabriada@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS HERNAN CASTRO ORTEGA",
+        "faculty": "INGENIERÍA CATASTRAL Y GEODESIA",
+        "subject": "METODOLOGIA DE LA INVESTIGACION",
+        "email": "ccastroo@udistrital.edu.co"
+    },
+    {
+        "name": "TOLE GALVIS GERARDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ALGEBRA LINEAL, ECUACIONES DIFERENCIALES",
+        "email": "gtgalvisg@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA MARTIN ISMAEL",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ALGEBRA LINEAL",
+        "email": "imgarciam@udistrital.edu.co"
+    },
+    {
+        "name": "REYES CASTELLANOS CESAR AUGUSTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ALGEBRA LINEAL, ECUACIONES DIFERENCIALES",
+        "email": "craugustor@udistrital.edu.co"
+    },
+    {
+        "name": "NEIRA SANABRIA GLORIA INES",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ALGEBRA LINEAL",
+        "email": "ginsanabriag@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA LOPEZ ALBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ALGEBRA LINEAL",
+        "email": "alacostal@udistrital.edu.co"
+    },
+    {
+        "name": "ROJAS GALEANO SERGIO ANDRES",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "sarojasg@udistrital.edu.co"
+    },
+    {
+        "name": "MARTINEZ RODRIGUEZ FERNANDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "frmartinezr@udistrital.edu.co"
+    },
+    {
+        "name": "GELVEZ GARCIA NANCY YANETH",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "nygelvezg@udistrital.edu.co"
+    },
+    {
+        "name": "MOLINA ROMERO LEONARDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "lmolinar@udistrital.edu.co"
+    },
+    {
+        "name": "HERRERA CUBIDES JHON FRANCINED",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "jfherrerac@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ HERNANDEZ MARIA FERNANDA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "mfdiazh@udistrital.edu.co"
+    },
+    {
+        "name": "SIERRA VIRGUEZ CARLOS ANDRES",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "casierrav@udistrital.edu.co"
+    },
+    {
+        "name": "NAVARRETE LOPEZ ABEL ANTONIO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CATEDRA DEMOCRACIA Y CIUDADANIA, INGENIERIA ECONOMICA, DESARROLLO DEL ESPIRITU EMPRESARIAL",
+        "email": "aanavarretel@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ LEAL ANDRES LEONARDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "alramirezl@udistrital.edu.co"
+    },
+    {
+        "name": "VENEGAS RAMIREZ CESAR FERNANDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "cfvenegasr@udistrital.edu.co"
+    },
+    {
+        "name": "LEON PARADA FERNANDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "fleonc@udistrital.edu.co"
+    },
+    {
+        "name": "CHITIVA HUERTAS DIEGO ALBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "dachitivah@udistrital.edu.co"
+    },
+    {
+        "name": "SILVA CACERES JANNETH",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ETICA Y BIOETICA",
+        "email": "jsilvac@udistrital.edu.co"
+    },
+    {
+        "name": "HURTADO BETANCOURT JUAN CARLOS",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA III: ONDAS Y FISICA MODERNA",
+        "email": "jchurtadob@udistrital.edu.co"
+    },
+    {
+        "name": "REINA RODRIGUEZ CARLOS ARTURO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "HOMBRE SOCIEDAD Y ECOLOGIA",
+        "email": "carreinar@udistrital.edu.co"
+    },
+    {
+        "name": "ATARA CIFUENTES JOSE VICENTE",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ECONOMIA",
+        "email": "jvatrac@udistrital.edu.co"
+    },
+    {
+        "name": "SANCHEZ CESPEDES JUAN MANUEL",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "INGENIERIA ECONOMICA",
+        "email": "jmsanchezc@udistrital.edu.co"
+    },
+    {
+        "name": "FLOREZ BAEZ JULIO CESAR",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "INGENIERIA ECONOMICA",
+        "email": "jcflorezb@udistrital.edu.co"
+    },
+    {
+        "name": "GUERRERO MORENO DIEGO GERMAN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ECUACIONES DIFERENCIALES",
+        "email": "dgguerrerom@udistrital.edu.co"
+    },
+    {
+        "name": "VEGA VEGA ANSELMO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "TEORIA DE SISTEMAS",
+        "email": "avegav@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON ROJAS EDGAR JACINTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "TEORIA DE SISTEMAS",
+        "email": "ejrinconr@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ HERNANDEZ MARIA FERNANDA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "TEORIA DE SISTEMAS, PROGRAMACION AVANZADA",
+        "email": "mfdiazh@udistrital.edu.co"
+    },
+    {
+        "name": "ALVAREZ PLATA JOSE DAVID",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION AVANZADA, TENDENCIAS AVANZADAS DE INGENIERIA DE SOFTWARE",
+        "email": "jdalvarezp@udistrital.edu.co"
+    },
+    {
+        "name": "BOCANEGRA GARCIA JOSE JOAQUIN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION AVANZADA",
+        "email": "jjbocanegrag@udistrital.edu.co"
+    },
+    {
+        "name": "HERRERA CUBIDES JHON FRANCINED",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION AVANZADA",
+        "email": "jfherrerac@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINOSA RODRIGUEZ LILIA MARCELA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROGRAMACION AVANZADA, FACTORES HUMANOS",
+        "email": "lmespinozar@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ FONSECA ANDRES ALEXANDER",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "TELEINFORMATICA I, REDES DE COMUNICACIONES I",
+        "email": "aarodriguezf@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR FAJARDO SANTIAGO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "TENDENCIAS AVANZADAS DE INGENIERIA DE SOFTWARE",
+        "email": "ssalazarf@udistrital.edu.co"
+    },
+    {
+        "name": "FLOREZ OSORIO KAREN LORENA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FOTOGRAFIA",
+        "email": "klflorezo@udistrital.edu.co"
+    },
+    {
+        "name": "AMAYA BARRERA EDILMA ISABEL",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MATEMATICAS ESPECIALES",
+        "email": "eamayab@udistrital.edu.co"
+    },
+    {
+        "name": "RONDON SANTOS MARIO AURELIO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MATEMATICAS ESPECIALES",
+        "email": "marrondons@udistrital.edu.co"
+    },
+    {
+        "name": "VEGA VEGA ANSELMO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ANALISIS DE SISTEMAS",
+        "email": "avegav@udistrital.edu.co"
+    },
+    {
+        "name": "VILLADA DIAZ JOSE",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "METODOS NUMERICOS",
+        "email": "jvilladad@udistrital.edu.co"
+    },
+    {
+        "name": "ORDOÑEZ SALINAS SONIA DEL CARMEN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FUNDAMENTOS DE BASES DE DATOS",
+        "email": "scordonezs@udistrital.edu.co"
+    },
+    {
+        "name": "DIOSA HENRY ALBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MODELOS DE PROGRAMACION II",
+        "email": "had@udistrital.edu.co"
+    },
+    {
+        "name": "HERRERA JIMENEZ SIMAR ENRIQUE",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MODELOS DE PROGRAMACION II, CIENCIAS DE LA COMPUTACION I",
+        "email": "sherreraj@udistrital.edu.co"
+    },
+    {
+        "name": "ALVARADO NIETO LUZ DEICY",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIENCIAS DE LA COMPUTACION I",
+        "email": "ldalvaradon@udistrital.edu.co"
+    },
+    {
+        "name": "MALAVER PARRA JORGE HERNANDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIENCIAS DE LA COMPUTACION I",
+        "email": "jhmalaverp@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ AREVALO HELIO HENRY",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIENCIAS DE LA COMPUTACION I",
+        "email": "hhramireza@udistrital.edu.co"
+    },
+    {
+        "name": "GUERRERO VARONA JORGE FERNANDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIBERNETICA I",
+        "email": "jfguerrerov@udistrital.edu.co"
+    },
+    {
+        "name": "SALCEDO PARRA OCTAVIO JOSE",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REDES DE COMUNICACIONES I",
+        "email": "ojsalcedop@udistrital.edu.co"
+    },
+    {
+        "name": "JARAMILLO MORENO BEATRIZ ELISA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REDES DE COMUNICACIONES I",
+        "email": "bejaramillom@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ SARMIENTO DANILO ALFONSO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REDES DE COMUNICACIONES I",
+        "email": "dalopezs@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ PARRA CESAR AUGUSTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIBERNETICA CUALITATIVA II",
+        "email": "casuarezp@udistrital.edu.co"
+    },
+    {
+        "name": "FLOREZ OSORIO KAREN LORENA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REALIZACION AUDIOVISUAL, COMPOSICION FOTOGRAFICA",
+        "email": "klflorezo@udistrital.edu.co"
+    },
+    {
+        "name": "GUERRERO VARONA JORGE FERNANDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIBERNETICA II",
+        "email": "jfguerrerov@udistrital.edu.co"
+    },
+    {
+        "name": "MARTINEZ ALAYON CARLOS ANDRES",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REDES DE COMUNICACIONES II, REDES DE COMUNICACIONES III",
+        "email": "camartinezal@udistrital.edu.co"
+    },
+    {
+        "name": "GAONA GARCIA PAULO ALONSO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REDES DE COMUNICACIONES II",
+        "email": "pagaonag@udistrital.edu.co"
+    },
+    {
+        "name": "BEJARANO GARZON LILIAN ASTRID",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "INVESTIGACION DE OPERACIONES III",
+        "email": "labejaranog@udistrital.edu.co"
+    },
+    {
+        "name": "BARON VELANDIA JULIO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FUNDAMENTOS DE INGENIERIA DE SOFTWARE",
+        "email": "jbaronv@udistrital.edu.co"
+    },
+    {
+        "name": "BOLAÑOS CASTRO SANDRO JAVIER",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FUNDAMENTOS DE INGENIERIA DE SOFTWARE, DISEÑO ARQUITECTURAL DE SOFTWARE Y PATRONES",
+        "email": "sbolanosc@udistrital.edu.co"
+    },
+    {
+        "name": "HERRERA JIMENEZ SIMAR ENRIQUE",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FUNDAMENTOS DE INGENIERIA DE SOFTWARE",
+        "email": "sherreraj@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR FAJARDO SANTIAGO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FUNDAMENTOS DE INGENIERIA DE SOFTWARE, SEMINARIO DE INGENIERIA DE SOFTWARE",
+        "email": "ssalazarf@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑA REYES ANA MARIA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FUNDAMENTOS DE INTELIGENCIA ARTIFICIAL",
+        "email": "amreyesp@udistrital.edu.co"
+    },
+    {
+        "name": "MUÑOZ GARZON MABEL RUBIELA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "AUDITORIA I, PLANEACION DE SISTEMAS DE INFORMACION",
+        "email": "mmunozg@udistrital.edu.co"
+    },
+    {
+        "name": "JARAMILLO MORENO BEATRIZ ELISA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REDES DE COMUNICACIONES III",
+        "email": "bejaramillom@udistrital.edu.co"
+    },
+    {
+        "name": "SALCEDO PARRA OCTAVIO JOSE",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "REDES DE COMUNICACIONES III",
+        "email": "ojsalcedop@udistrital.edu.co"
+    },
+    {
+        "name": "DIOSA HENRY ALBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "DISEÑO ARQUITECTURAL DE SOFTWARE Y PATRONES",
+        "email": "had@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ AREVALO HELIO HENRY",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "DISEÑO ARQUITECTURAL DE SOFTWARE Y PATRONES",
+        "email": "hhramireza@udistrital.edu.co"
+    },
+    {
+        "name": "DELGADO GARCIA JOSE MARTIN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "GEOMATICA I",
+        "email": "jmdelgadog@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON ROJAS EDGAR JACINTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PLANEACION DE SISTEMAS DE INFORMACION",
+        "email": "ejrinconr@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ PARRA CESAR AUGUSTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIBERNETICA CUALITATIVA, CIBERNETICA CUALITATIVA III",
+        "email": "casuarezp@udistrital.edu.co"
+    },
+    {
+        "name": "MEDINA GARCIA VICTOR HUGO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "GESTION, CALIDAD, VERIFICACION Y VALIDACION DE SOFTWARE",
+        "email": "vhmedinag@udistrital.edu.co"
+    },
+    {
+        "name": "ORDOÑEZ SALINAS SONIA DEL CARMEN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "BASES DE DATOS I",
+        "email": "scorodonezs@udistrital.edu.co"
+    },
+    {
+        "name": "SALCEDO PARRA OCTAVIO JOSE",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "TELEINFORMATICA II",
+        "email": "ojsalcedop@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑA REYES ANA MARIA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "INTELIGENCIA ARTIFICIAL I",
+        "email": "amreyesp@udistrital.edu.co"
+    },
+    {
+        "name": "SIERRA VIRGUEZ CARLOS ANDRES",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "BASES DE DATOS II, CIENCIAS DE LA COMPUTACION III",
+        "email": "casierrav@udistrital.edu.co"
+    },
+    {
+        "name": "ALVARADO NIETO LUZ DEICY",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "INTELIGENCIA ARTIFICIAL II",
+        "email": "ldalvaradon@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES CASTILLO JONATHAN ROBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MULTIMEDIA",
+        "email": "jrtorresc@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ BUITRAGO GABRIEL HERNAN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "GEOMATICA II",
+        "email": "ghgonzalezb@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ FONSECA ANDRES ALEXANDER",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "GESTION TECNOLOGICA",
+        "email": "aarodriguezf@udistrital.edu.co"
+    },
+    {
+        "name": "SAENZ LESMES ROSS MARY",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "rmsaenzl@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA MARTIN ISMAEL",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "imgarciam@udistrital.edu.co"
+    },
+    {
+        "name": "NEIRA SANABRIA GLORIA INES",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "ginsanabriag@udistrital.edu.co"
+    },
+    {
+        "name": "VILLADA DIAZ JOSE",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "jvilladad@udistrital.edu.co"
+    },
+    {
+        "name": "LEON PARADA FERNANDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "fleonp@udistrital.edu.co"
+    },
+    {
+        "name": "MARIN GAVIRIA ISAIAS DAVID",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "idmaring@udistrital.edu.co"
+    },
+    {
+        "name": "DUARTE CHAVEZ JAVIER ALBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA NEWTONIANA",
+        "email": "jduartec@udistrital.edu.co"
+    },
+    {
+        "name": "BERMUDEZ MANJARRES ANDRES DARIO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA NEWTONIANA",
+        "email": "adbermudezm@udistrital.edu.co"
+    },
+    {
+        "name": "HURTADO BETANCOURT JUAN CARLOS",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA NEWTONIANA",
+        "email": "jchurtadob@udistrital.edu.co"
+    },
+    {
+        "name": "JARA HUERFANO ALVARO ESNEIDER",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA NEWTONIANA",
+        "email": "aejh@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ POSADA MARTA PATRICIA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA NEWTONIANA",
+        "email": "mpramirezp@udistrital.edu.co"
+    },
+    {
+        "name": "MARIN MEDINA NATHALY MELINA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA NEWTONIANA",
+        "email": "nmmarinm@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ POSADA MARTA PATRICIA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA NEWTONIANA, ELECTROMAGNETISMO",
+        "email": "mpramirezp@udistrital.edu.co"
+    },
+    {
+        "name": "BERMUDEZ MANJARRES ANDRES DARIO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA NEWTONIANA, ELECTROMAGNETISMO",
+        "email": "adbermudezm@udistrital.edu.co"
+    },
+    {
+        "name": "VILLAMIL MENDOZA LUIS EDUARDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA NEWTONIANA",
+        "email": "levillamilm@udistrital.edu.co"
+    },
+    {
+        "name": "GARZON VELANDIA RAFAEL EDUARDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FISICA NEWTONIANA, ELECTROMAGNETISMO",
+        "email": "regarzonv@udistrital.edu.co"
+    },
+    {
+        "name": "VEGA VEGA ANSELMO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "SEMINARIO DE INTRODUCCION A INGENIERIA",
+        "email": "avegav@udistrital.edu.co"
+    },
+    {
+        "name": "RINCON ROJAS EDGAR JACINTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "SEMINARIO DE INTRODUCCION A INGENIERIA",
+        "email": "ejrinconr@udistrital.edu.co"
+    },
+    {
+        "name": "MU?OZ GARZON MABEL RUBIELA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "SEMINARIO DE INTRODUCCION A INGENIERIA",
+        "email": "mrmunozg@udistrital.edu.co"
+    },
+    {
+        "name": "HURTADO BETANCOURT JUAN CARLOS",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ELECTROMAGNETISMO",
+        "email": "jchurtadob@udistrital.edu.co"
+    },
+    {
+        "name": "DUARTE CHAVEZ JAVIER ALBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ELECTROMAGNETISMO",
+        "email": "jduartec@udistrital.edu.co"
+    },
+    {
+        "name": "JARA HUERFANO ALVARO ESNEIDER",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ELECTROMAGNETISMO",
+        "email": "aejh@udistrital.edu.co"
+    },
+    {
+        "name": "MARIN MEDINA NATHALY MELINA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ELECTROMAGNETISMO",
+        "email": "nmmarinm@udistrital.edu.co"
+    },
+    {
+        "name": "ATARA CIFUENTES JOSE VICENTE",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+        "email": "jvatac@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑA FLOREZ LUIS ALFONSO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FORMULACION Y EVALUACION DE PROYECTOS, MATEMATICAS DISCRETAS",
+        "email": "lapenaf@udistrital.edu.co"
+    },
+    {
+        "name": "TOLE GALVIS GERARDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PRECALCULO",
+        "email": "gttoleg@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ LEAL ANDRES LEONARDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MATEMATICAS DISCRETAS",
+        "email": "alramirezl@udistrital.edu.co"
+    },
+    {
+        "name": "MARIN GAVIRIA ISAIAS DAVID",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MATEMATICAS DISCRETAS",
+        "email": "idmaring@udistrital.edu.co"
+    },
+    {
+        "name": "RONDON SANTOS MARIO AURELIO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MATEMATICAS DISCRETAS",
+        "email": "mars@udistrital.edu.co"
+    },
+    {
+        "name": "DELGADO GARCIA JOSE MARTIN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ARQUITECTURA DE COMPUTADORES",
+        "email": "jmdelgadog@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES CASTILLO JONATHAN ROBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ARQUITECTURA DE COMPUTADORES",
+        "email": "jrtorresc@udistrital.edu.co"
+    },
+    {
+        "name": "ROMERO VILLALOBOS OSWALDO ALBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ARQUITECTURA DE COMPUTADORES",
+        "email": "oaromeroV@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR FAJARDO SANTIAGO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ARQUITECTURA DE COMPUTADORES",
+        "email": "ssfajardos@udistrital.edu.co"
+    },
+    {
+        "name": "LEAL LARA DANIEL DAVID",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ARQUITECTURA DE COMPUTADORES",
+        "email": "ddleall@udistrital.edu.co"
+    },
+    {
+        "name": "GUERRERO MORENO DIEGO GERMAN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROBABILIDAD Y ESTADISTICA",
+        "email": "dgguerrerom@udistrital.edu.co"
+    },
+    {
+        "name": "GUERRERO MORENO DIEGO GERMAN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROBABILIDAD Y ESTADISTICA",
+        "email": "dgguerrerom@udistrital.edu.co"
+    },
+    {
+        "name": "CHITIVA HUERTAS DIEGO ALBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROBABILIDAD Y ESTADISTICA, METODOS NUMERICOS",
+        "email": "dachitivah@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA LOPEZ ALBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "PROBABILIDAD Y ESTADISTICA",
+        "email": "aacostal@udistrital.edu.co"
+    },
+    {
+        "name": "LEAL LARA DANIEL DAVID",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ANALISIS Y DISE?O DE SISTEMAS, BASES DE DATOS",
+        "email": "ddleall@udistrital.edu.co"
+    },
+    {
+        "name": "SIERRA VIRGUEZ CARLOS ANDRES",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "ANALISIS Y DISE?O DE SISTEMAS, FUNDAMENTOS DE CIENCIAS DE SISTEMAS",
+        "email": "casierrav@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ LEAL ANDRES LEONARDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "METODOS NUMERICOS",
+        "email": "alramirezl@udistrital.edu.co"
+    },
+    {
+        "name": "FLOREZ BAEZ JULIO CESAR",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIENCIAS DE LA COMPUTACION II",
+        "email": "jcflorezb@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA RODRIGUEZ RAFAEL ANTONIO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIENCIAS DE LA COMPUTACION II",
+        "email": "raacostar@udistrital.edu.co"
+    },
+    {
+        "name": "HERRERA JIMENEZ SIMAR ENRIQUE",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "CIENCIAS DE LA COMPUTACION II",
+        "email": "seherreraj@udistrital.edu.co"
+    },
+    {
+        "name": "BOCANEGRA GARCIA JOSE JOAQUIN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MODELOS DE PROGRAMACION",
+        "email": "jjbocanegrag@udistrital.edu.co"
+    },
+    {
+        "name": "MALAVER PARRA JORGE HERNANDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MODELOS DE PROGRAMACION, SISTEMAS OPERATIVOS",
+        "email": "jhmalaverp@udistrital.edu.co"
+    },
+    {
+        "name": "BARON VELANDIA JULIO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MODELOS DE PROGRAMACION",
+        "email": "jbaronv@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ AREVALO HELIO HENRY",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MODELOS DE PROGRAMACION",
+        "email": "hhramireza@udistrital.edu.co"
+    },
+    {
+        "name": "VANEGAS AYALA SEBASTIAN CAMILO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "MODELOS DE PROGRAMACION, BASES DE DATOS",
+        "email": "scvanegasa@udistrital.edu.co"
+    },
+    {
+        "name": "PE?A REYES ANA MARIA",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "INVESTIGACION DE OPERACIONES I, FUNDAMENTOS DE CIENCIAS DE SISTEMAS",
+        "email": "ampenar@udistrital.edu.co"
+    },
+    {
+        "name": "PINEDA PEREZ CESAR AUGUSTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "INVESTIGACION DE OPERACIONES I, PROCESOS ESTOCASTICOS",
+        "email": "capinedap@udistrital.edu.co"
+    },
+    {
+        "name": "GAONA GARCIA PAULO ALONSO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FUNDAMENTOS DE REDES DE COMUNICACIONES",
+        "email": "pagalonsog@udistrital.edu.co"
+    },
+    {
+        "name": "MARTINEZ ALAYON CARLOS ANDRES",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "FUNDAMENTOS DE REDES DE COMUNICACIONES",
+        "email": "camartineza@udistrital.edu.co"
+    },
+    {
+        "name": "BEJARANO GARZON LILIAN ASTRID",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "INVESTIGACION DE OPERACIONES II",
+        "email": "labejaranoj@udistrital.edu.co"
+    },
+    {
+        "name": "ROMERO VILLALOBOS OSWALDO ALBERTO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "SISTEMAS OPERATIVOS",
+        "email": "oaromeroV@udistrital.edu.co"
+    },
+    {
+        "name": "BOCANEGRA GARCIA JOSE JOAQUIN",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "TEORIA DE LA INFORMACION",
+        "email": "jjbocanegrag@udistrital.edu.co"
+    },
+    {
+        "name": "VILLANUEVA MARTINEZ ORLANDO",
+        "faculty": "INGENIERIA DE SISTEMAS",
+        "subject": "METODOLOGIA DE LA INVESTIGACION",
+        "email": "ovvillanuevam@udistrital.edu.co"
+    },
+    {
+        "name": "GALVIS MOTOA SERGIO IVAN",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROGRAMACION BASICA, PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "sigalvism@udistrital.edu.co"
+    },
+    {
+        "name": "BOHORQUEZ RAIRAN ANGELA MARCELA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "ambohorquezr@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINEL ORTEGA ALVARO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "aeespinelo@udistrital.edu.co"
+    },
+    {
+        "name": "PE?ARANDA CAPERA ASTRID",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "apapeñarandac@udistrital.edu.co"
+    },
+    {
+        "name": "ABUCHAR PORRAS ALEXANDRA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "aabucharp@udistrital.edu.co"
+    },
+    {
+        "name": "ARIAS BARRAGAN LUIS ALEJANDRO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "laariasb@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ GAMBA YOVANNA CECILIA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+        "email": "ycdiazg@udistrital.edu.co"
+    },
+    {
+        "name": "MERCHAN ABRIL ANTONIO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CALCULO INTEGRAL",
+        "email": "amerchana@udistrital.edu.co"
+    },
+    {
+        "name": "VEGA MORENO ANGELICA MARIA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CALCULO INTEGRAL",
+        "email": "amvegam@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES SANCHEZ SOFIA JULIETA DEL P",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA, CATEDRA DEMOCRACIA Y CIUDADANIA",
+        "email": "sjtorress@udistrital.edu.co"
+    },
+    {
+        "name": "ALAPE VERGARA ROSSEMBER",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA",
+        "email": "raalapev@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES MELO ANGELY KATHERINE",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA",
+        "email": "aktorresm@udistrital.edu.co"
+    },
+    {
+        "name": "ESTRADA RODRIGUEZ JOHANNE ALEXIS",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA",
+        "email": "jaestradar@udistrital.edu.co"
+    },
+    {
+        "name": "SILVA ROBAYO LUZ ANGELA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA",
+        "email": "lasilvar@udistrital.edu.co"
+    },
+    {
+        "name": "BELLO RODRIGUEZ SANDRA PATRICIA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "spbellor@udistrital.edu.co"
+    },
+    {
+        "name": "PALACIOS AREVALO GUSTAVO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "gapalaciosa@udistrital.edu.co"
+    },
+    {
+        "name": "LOZANO LUNA LUIS ALBERTO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "lallozanol@udistrital.edu.co"
+    },
+    {
+        "name": "BARRETO SANDOVAL MARIA LUISA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "mlbarretos@udistrital.edu.co"
+    },
+    {
+        "name": "ROSERO BERNAL DAVID GUSTAVO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "dgroserob@udistrital.edu.co"
+    },
+    {
+        "name": "VEGA ESCOBAR ADRIANA MARCELA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "amvegae@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES SANCHEZ SOFIA JULIETA DEL P",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CATEDRA DEMOCRACIA Y CIUDADANIA",
+        "email": "sjtorress@udistrital.edu.co"
+    },
+    {
+        "name": "VEGA MORENO ANGELICA MARIA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CALCULO MULTIVARIADO, ECUACIONES DIFERENCIALES",
+        "email": "amvegam@udistrital.edu.co"
+    },
+    {
+        "name": "ALBARRACIN HERNANDEZ CAROLINA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "calbarracinh@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ GAMBA WILSON",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ETICA Y BIOETICA",
+        "email": "wdiazg@udistrital.edu.co"
+    },
+    {
+        "name": "MOJICA JUAN CARLOS",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ETICA Y BIOETICA",
+        "email": "jcmojicaj@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ GAMBA YOVANNA CECILIA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ETICA Y BIOETICA",
+        "email": "ycdiazg@udistrital.edu.co"
+    },
+    {
+        "name": "PE?A RODRIGUEZ JAIME HERNANDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ECONOMIA, INGENIERIA ECONOMICA",
+        "email": "jhpeñar@udistrital.edu.co"
+    },
+    {
+        "name": "CORREA LUIS ENRIQUE",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ECONOMIA",
+        "email": "lecorreac@udistrital.edu.co"
+    },
+    {
+        "name": "SEGOVIA RODRIGUEZ ADRIANA ANDREA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ECONOMIA, INGENIERIA ECONOMICA",
+        "email": "aasegoviar@udistrital.edu.co"
+    },
+    {
+        "name": "HERNANDEZ MORA JOHANN ALEXANDER",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS I",
+        "email": "jahernandezm@udistrital.edu.co"
+    },
+    {
+        "name": "MAGO RAMOS MARIA GABRIELA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS I",
+        "email": "mgmagor@udistrital.edu.co"
+    },
+    {
+        "name": "ROMERO LOZANO MIGUEL FERNANDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS I",
+        "email": "mfromerol@udistrital.edu.co"
+    },
+    {
+        "name": "MOYA CHAVES FRANCISCO DAVID",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS I",
+        "email": "fdmoyac@udistrital.edu.co"
+    },
+    {
+        "name": "TRUJILLO RODRIGUEZ CESAR LEONARDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS I",
+        "email": "cltrujillor@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR ROMERO ROBERT PAUL",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "MATERIALES PARA INGENIERIA, FLUIDOS Y TERMODINAMICA",
+        "email": "rpsalazarr@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ OSPINA JULIAN",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FLUIDOS Y TERMODINAMICA",
+        "email": "jlopezo@udistrital.edu.co"
+    },
+    {
+        "name": "VINASCO TELLEZ MAURICIO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FLUIDOS Y TERMODINAMICA",
+        "email": "mvvinascot@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ PATARROYO DIEGO JULIAN",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FLUIDOS Y TERMODINAMICA",
+        "email": "djrodriguezp@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ PATARROYO DIEGO JULIAN",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FLUIDOS Y TERMODINAMICA",
+        "email": "djrodriguezp@udistrital.edu.co"
+    },
+    {
+        "name": "HERNANDEZ LOPEZ LEIDY MILENA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FLUIDOS Y TERMODINAMICA",
+        "email": "lmhernandezl@udistrital.edu.co"
+    },
+    {
+        "name": "VINASCO TELLEZ MAURICIO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FLUIDOS Y TERMODINAMICA",
+        "email": "mvvinascot@udistrital.edu.co"
+    },
+    {
+        "name": "NARVAEZ CUBILLOS EIDER ALEXANDER",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS II, MAQUINAS ELECTRICAS",
+        "email": "eanarvaezc@udistrital.edu.co"
+    },
+    {
+        "name": "ROMERO LOZANO MIGUEL FERNANDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS II, MAQUINAS ELECTRICAS",
+        "email": "mfromerol@udistrital.edu.co"
+    },
+    {
+        "name": "RIVAS TRUJILLO EDWIN",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS II, CONVERSION ELECTROMAGNETICA, ANALISIS DE SISTEMAS DE POTENCIA",
+        "email": "erit@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ VARGAS ERNESTO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ELECTRONICA DIGITAL, METODOLOGIA DE LA INVESTIGACION",
+        "email": "egomezv@udistrital.edu.co"
+    },
+    {
+        "name": "PE?A MARIN CARLOS ALBERTO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROBABILIDAD Y ESTADISTICA",
+        "email": "capeñam@udistrital.edu.co"
+    },
+    {
+        "name": "JARAMILLO MATTA ADOLFO ANDRES",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ANALISIS DE SISTEMAS DINAMICOS",
+        "email": "aajaramillom@udistrital.edu.co"
+    },
+    {
+        "name": "MOYA CHAVES FRANCISCO DAVID",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "INSTALACIONES ELECTRICAS",
+        "email": "fdmoyac@udistrital.edu.co"
+    },
+    {
+        "name": "MAGO RAMOS MARIA GABRIELA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CONVERSION ELECTROMAGNETICA",
+        "email": "mgmagor@udistrital.edu.co"
+    },
+    {
+        "name": "PE?A SUESCA RAFAEL ANTONIO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ELECTRONICA DE POTENCIA",
+        "email": "rapeñas@udistrital.edu.co"
+    },
+    {
+        "name": "TRUJILLO RODRIGUEZ CESAR LEONARDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ELECTRONICA DE POTENCIA",
+        "email": "cltrujillor@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA MIRANDA DIANA STELLA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ANALISIS DE SISTEMAS DE POTENCIA",
+        "email": "dsgarciam@udistrital.edu.co"
+    },
+    {
+        "name": "RIA?O MALDONADO WILLIAM ALFONSO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PROTECCIONES ELECTRICAS",
+        "email": "wariñom@udistrital.edu.co"
+    },
+    {
+        "name": "ALARCON VILLAMIL JORGE ALEXANDER",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "METODOLOGIA DE LA INVESTIGACION",
+        "email": "jaalarconv@udistrital.edu.co"
+    },
+    {
+        "name": "VEGA MORENO ANGELICA MARIA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "amvegam@udistrital.edu.co"
+    },
+    {
+        "name": "LOZANO LUNA LUIS ALBERTO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "lall@udistrital.edu.co"
+    },
+    {
+        "name": "LOZANO LUNA LUIS ALBERTO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "lall@udistrital.edu.co"
+    },
+    {
+        "name": "PE?A MARIN CARLOS ALBERTO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "capeñam@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR ROMERO ROBERT PAUL",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FISICA NEWTONIANA, OSCILACIONES Y ONDAS",
+        "email": "rpsalazarr@udistrital.edu.co"
+    },
+    {
+        "name": "NAVARRO ALVARADO RICARDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FISICA NEWTONIANA",
+        "email": "rnavarroa@udistrital.edu.co"
+    },
+    {
+        "name": "DELGADO CORREAL MAYKOL CAMILO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FISICA NEWTONIANA",
+        "email": "mcdelgadoc@udistrital.edu.co"
+    },
+    {
+        "name": "VINASCO TELLEZ MAURICIO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FISICA NEWTONIANA, ELECTROMAGNETISMO",
+        "email": "mvvinascot@udistrital.edu.co"
+    },
+    {
+        "name": "MEDINA BAHAMON HUGO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FISICA NEWTONIANA",
+        "email": "hmmedinab@udistrital.edu.co"
+    },
+    {
+        "name": "PABON ROSAS GERMAN ALEXANDER",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FISICA NEWTONIANA, ELECTROMAGNETISMO",
+        "email": "gapabonr@udistrital.edu.co"
+    },
+    {
+        "name": "MAGO RAMOS MARIA GABRIELA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "SEMINARIO DE INTRODUCCION A INGENIERIA",
+        "email": "mgmagor@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ OSPINA JULIAN",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ELECTROMAGNETISMO, OSCILACIONES Y ONDAS",
+        "email": "jlopezo@udistrital.edu.co"
+    },
+    {
+        "name": "DUE?AS SUATERNA JORGE ALBERTO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ELECTROMAGNETISMO",
+        "email": "jadueñass@udistrital.edu.co"
+    },
+    {
+        "name": "HERNANDEZ LOPEZ LEIDY MILENA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ELECTROMAGNETISMO, OSCILACIONES Y ONDAS",
+        "email": "lmhernandezl@udistrital.edu.co"
+    },
+    {
+        "name": "CASTELLANOS CONTRERA JOSE ULISES",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ELECTRONICA ANALOGICA",
+        "email": "jucastellanosc@udistrital.edu.co"
+    },
+    {
+        "name": "ROMERO LOZANO MIGUEL FERNANDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ELECTRONICA ANALOGICA",
+        "email": "mfromerol@udistrital.edu.co"
+    },
+    {
+        "name": "HARKER SANCHEZ ORLANDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ELECTRONICA ANALOGICA",
+        "email": "oharkers@udistrital.edu.co"
+    },
+    {
+        "name": "PERDOMO CHARRY CESAR ANDREY",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "ELECTRONICA ANALOGICA",
+        "email": "caperdomoc@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ PATARROYO DIEGO JULIAN",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "METODOS NUMERICOS",
+        "email": "djrodriguezp@udistrital.edu.co"
+    },
+    {
+        "name": "MONTOYA GIRALDO OSCAR DANILO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "METODOS NUMERICOS, CIRCUITOS III",
+        "email": "odmontoyag@udistrital.edu.co"
+    },
+    {
+        "name": "NIVIA VARGAS ANGELICA MERCEDES",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS III",
+        "email": "amniviav@udistrital.edu.co"
+    },
+    {
+        "name": "MONTOYA GIRALDO OSCAR DANILO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS III",
+        "email": "odmontoyag@udistrital.edu.co"
+    },
+    {
+        "name": "NIVIA VARGAS ANGELICA MERCEDES",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CIRCUITOS III",
+        "email": "amniviav@udistrital.edu.co"
+    },
+    {
+        "name": "SANTAMARIA PIEDRAHITA FRANCISCO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CAMPOS ELECTROMAGNETICOS",
+        "email": "fpsantamariap@udistrital.edu.co"
+    },
+    {
+        "name": "ALARCON VILLAMIL JORGE ALEXANDER",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CAMPOS ELECTROMAGNETICOS, AISLAMIENTO ELECTRICO",
+        "email": "jaalarconv@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA MIRANDA DIANA STELLA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "TRANSMISION DISTRIBUCION DE ENERGIA",
+        "email": "dsgarciam@udistrital.edu.co"
+    },
+    {
+        "name": "MARTINEZ CERON DAVID ANDRES",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "TRANSMISION DISTRIBUCION DE ENERGIA",
+        "email": "damartinezc@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA SUAREZ JULIO CESAR",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "GENERACION CONVENCIONAL",
+        "email": "jcgarcias@udistrital.edu.co"
+    },
+    {
+        "name": "MOYA CHAVES FRANCISCO DAVID",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "GENERACION NO CONVENCIONAL",
+        "email": "fdmoyac@udistrital.edu.co"
+    },
+    {
+        "name": "CARDENAS QUINTERO BEITMANTT GEOVANNI",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "FORMULACION Y EVALUACION DE PROYECTOS",
+        "email": "bgcardenasq@udistrital.edu.co"
+    },
+    {
+        "name": "HARKER SANCHEZ ORLANDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CONTROL",
+        "email": "oharkers@udistrital.edu.co"
+    },
+    {
+        "name": "JARAMILLO MATTA ADOLFO ANDRES",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CONTROL",
+        "email": "ajaramilom@udistrital.edu.co"
+    },
+    {
+        "name": "JUTINICO ALARCON ANDRES LEONARDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "CONTROL",
+        "email": "ajutinicoa@udistrital.edu.co"
+    },
+    {
+        "name": "RIA?O MALDONADO WILLIAM ALFONSO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "SUBESTACIONES ELECTRICAS, AUTOMATIZACION",
+        "email": "wariñom@udistrital.edu.co"
+    },
+    {
+        "name": "IBA?EZ OLAYA HENRY FELIPE",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "AISLAMIENTO ELECTRICO",
+        "email": "hfibañezo@udistrital.edu.co"
+    },
+    {
+        "name": "ESPINEL ORTEGA ALVARO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "AUTOMATIZACION",
+        "email": "aespinelo@udistrital.edu.co"
+    },
+    {
+        "name": "MORENO ROA CARMENZA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PRECALCULO",
+        "email": "cmorenor@udistrital.edu.co"
+    },
+    {
+        "name": "MERCHAN ABRIL ANTONIO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "PRECALCULO",
+        "email": "amerchana@udistrital.edu.co"
+    },
+    {
+        "name": "CABUYA PARRA GERMAN",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "INTERVENTORIA PARA INGENIEROS",
+        "email": "gcabuyap@udistrital.edu.co"
+    },
+    {
+        "name": "SEGOVIA RODRIGUEZ ADRIANA ANDREA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "GESTION FINANCIERA",
+        "email": "aasegoviar@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ SANCHEZ MARIA",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "SISTEMAS DE GESTION EMPRESARIAL, ADMINISTRACION DE EMPRESAS",
+        "email": "mramirezs@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ SARMIENTO DANILO ALFONSO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "REDES DE COMUNICACIONES",
+        "email": "dalopezs@udistrital.edu.co"
+    },
+    {
+        "name": "TORRES MELO ANGELY KATHERINE",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "GENEROS E INGENIERIA: MAS ALLA DEL BINARISMO",
+        "email": "aktorresm@udistrital.edu.co"
+    },
+    {
+        "name": "CAMARGO LOPEZ JULIAN ROLANDO",
+        "faculty": "INGENIERIA ELECTRICA",
+        "subject": "DISPOSITIVOS DIGITALES PROGRAMABLES",
+        "email": "jrcamargol@udistrital.edu.co"
+    },
+    {
+        "name": "ABUCHAR PORRAS ALEXANDRA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "aabucharp@udistrital.edu.co"
+    },
+    {
+        "name": "CAMARGO LOPEZ JULIAN ROLANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "DISPOSITIVOS DIGITALES PROGRAMABLES",
+        "email": "jrcamargol@udistrital.edu.co"
+    },
+    {
+        "name": "CAMERANO FUENTES RAFAEL ARTURO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "racameranof@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ BERNAL LUIS FERNANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "lfdiazb@udistrital.edu.co"
+    },
+    {
+        "name": "DUE?AS SUATERNA JORGE ALBERTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "jaduenass@udistrital.edu.co"
+    },
+    {
+        "name": "FIALLO RENDON NINI JOHANA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "njfiallor@udistrital.edu.co"
+    },
+    {
+        "name": "FUENMAYOR RIVADENEIR GERALD BREEK",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "gbfuenmayorr@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA HURTADO ORLANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "oghurtadoo@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN JESUS AUGUSTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "jaguzmanj@udistrital.edu.co"
+    },
+    {
+        "name": "HERRERA GARCIA LUIS ORLANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "loherrerag@udistrital.edu.co"
+    },
+    {
+        "name": "MEJIA AUGUSTO ENRIQUE",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "aemejiaa@udistrital.edu.co"
+    },
+    {
+        "name": "MENDIETA SANABRIA JEEMMY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "jsmendietas@udistrital.edu.co"
+    },
+    {
+        "name": "MESA RODRIGUEZ FREDY GIOVANNI",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "fgmesar@udistrital.edu.co"
+    },
+    {
+        "name": "MONTEJO HERNANDEZ ADRIANA MARITZA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "ammontejoh@udistrital.edu.co"
+    },
+    {
+        "name": "MONTOYA GIRALDO OSCAR DANILO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE SISTEMAS DE DISTRIBUCION",
+        "email": "odmontoyag@udistrital.edu.co"
+    },
+    {
+        "name": "PE?A SUAREZ ALFONSO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "apsuareza@udistrital.edu.co"
+    },
+    {
+        "name": "QUINTERO DUQUE JUAN CARLOS",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "jcquinterod@udistrital.edu.co"
+    },
+    {
+        "name": "RAMOS BORDA GERMAN ERNESTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "geramosb@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ NAVARRO NELLY ISABEL",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "nirodriguezn@udistrital.edu.co"
+    },
+    {
+        "name": "ROSERO BERNAL DAVID GUSTAVO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION BASICA",
+        "email": "dgroserob@udistrital.edu.co"
+    },
+    {
+        "name": "SAENZ SALAZAR MAURICIO HERNANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "mhsaenzs@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR MORALES OMAR",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "osalazarm@udistrital.edu.co"
+    },
+    {
+        "name": "SILVA ROBAYO LUZ ANGELA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "HUMANIDADES I",
+        "email": "lsilvar@udistrital.edu.co"
+    },
+    {
+        "name": "MARIN SANABRIA HUGO DANIEL",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "hmsanabriah@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ BERNAL LUIS FERNANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "ldiazb@udistrital.edu.co"
+    },
+    {
+        "name": "MEJIA AUGUSTO ENRIQUE",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "amejiae@udistrital.edu.co"
+    },
+    {
+        "name": "SANCHEZ CHOACHI JOHAN SEBASTIAN",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "jssanchezc@udistrital.edu.co"
+    },
+    {
+        "name": "MESA RODRIGUEZ FREDY GIOVANNI",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "fmr@udistrital.edu.co"
+    },
+    {
+        "name": "ARIAS GAVIRIA JAIRO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CATEDRA FRANCISCO JOSE DE CALDAS, PRODUCCION Y COMPRENSION DE TEXTOS, HISTORIA Y CULTURA COLOMBIANA",
+        "email": "jag@udistrital.edu.co"
+    },
+    {
+        "name": "POVEDA ZAFRA JOSE NOE",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+        "email": "jpovedaz@udistrital.edu.co"
+    },
+    {
+        "name": "HERRERA GARCIA RODRIGO JAVIER",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "rhg@udistrital.edu.co"
+    },
+    {
+        "name": "CASTRO ARCINIEGAS HENRRY MAURICIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "hrcastroc@udistrital.edu.co"
+    },
+    {
+        "name": "ROZO GARCIA PABLO EMILIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "SEMINARIO DE INGENIERIA",
+        "email": "prg@udistrital.edu.co"
+    },
+    {
+        "name": "BENITEZ FORERO JAIME",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "SEMINARIO DE INGENIERIA",
+        "email": "jbenitezf@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ FAJARDO CARLOS ARTURO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "SEMINARIO DE INGENIERIA",
+        "email": "csf@udistrital.edu.co"
+    },
+    {
+        "name": "CAMARGO CASALLAS LUZ HELENA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "SEMINARIO DE INGENIERIA",
+        "email": "lcamargoc@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA GARCIA ALVARO HUMBERTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO INTEGRAL, ALGEBRA LINEAL",
+        "email": "ahg@udistrital.edu.co"
+    },
+    {
+        "name": "ARDILA ARDILA LUZ LILIANA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO INTEGRAL, ALGEBRA LINEAL",
+        "email": "llardilaa@udistrital.edu.co"
+    },
+    {
+        "name": "RAMOS BORDA GERMAN ERNESTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO INTEGRAL",
+        "email": "grb@udistrital.edu.co"
+    },
+    {
+        "name": "CIFUENTES CRUZ WILLIAM",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA",
+        "email": "wcc@udistrital.edu.co"
+    },
+    {
+        "name": "RUANO MIRANDA ALBERTO FRANCISCO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA",
+        "email": "arm@udistrital.edu.co"
+    },
+    {
+        "name": "MENDIETA SANABRIA JEEMMY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "jmsanabriaj@udistrital.edu.co"
+    },
+    {
+        "name": "MUÑOZ QUIÑONES GERARDO ALCIDES",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "gmq@udistrital.edu.co"
+    },
+    {
+        "name": "FIALLO RENDON NINI JOHANA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "njfiallor@udistrital.edu.co"
+    },
+    {
+        "name": "SAENZ SALAZAR MAURICIO HERNANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "mss@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA HURTADO ORLANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ALGEBRA LINEAL",
+        "email": "ogarh@udistrital.edu.co"
+    },
+    {
+        "name": "ABUCHAR PORRAS ALEXANDRA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "apabucharp@udistrital.edu.co"
+    },
+    {
+        "name": "ALZATE MONROY MARCO AURELIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "mamonz@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN JESUS AUGUSTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "jaguzman@udistrital.edu.co"
+    },
+    {
+        "name": "FUENMAYOR RIVADENEIR GERALD BREEK",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "gfuenmayorr@udistrital.edu.co"
+    },
+    {
+        "name": "SEGURA TORRES DARIO ALEJANDRO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "dsegurat@udistrital.edu.co"
+    },
+    {
+        "name": "MONTEJO HERNANDEZ ADRIANA MARITZA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "ammontejoh@udistrital.edu.co"
+    },
+    {
+        "name": "BORRERO GUERRERO HENRY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "hborrerog@udistrital.edu.co"
+    },
+    {
+        "name": "CORTES TRUJILLO JULIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "jcortest@udistrital.edu.co"
+    },
+    {
+        "name": "APARICIO PICO LILIA EDITH",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CATEDRA DEMOCRACIA Y CIUDADANIA",
+        "email": "lapp@udistrital.edu.co"
+    },
+    {
+        "name": "BARRERA TORRES JORGE IVAN",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "jb@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ BERNAL LUIS FERNANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "ldiazb@udistrital.edu.co"
+    },
+    {
+        "name": "REGALIA MARCO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "mregalia@udistrital.edu.co"
+    },
+    {
+        "name": "DUEÑAS SUATERNA JORGE ALBERTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "jduenass@udistrital.edu.co"
+    },
+    {
+        "name": "BAYONA NAVARRO JHON FREDY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO",
+        "email": "jbayonan@udistrital.edu.co"
+    },
+    {
+        "name": "VEGA OSORIO EDMUNDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO, ANALISIS DE CIRCUITOS II Y LABORATORIO",
+        "email": "evegao@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ CASTELLANOS JHON EDISSON",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO",
+        "email": "jrodriguezc@udistrital.edu.co"
+    },
+    {
+        "name": "DAVILA ROJAS MIGUEL ANGEL",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO",
+        "email": "mdavilar@udistrital.edu.co"
+    },
+    {
+        "name": "PATERNINA ANAYA JOSE DE JESUS",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO",
+        "email": "jjpaterinana@udistrital.edu.co"
+    },
+    {
+        "name": "SANCHEZ CHOACHI JOHAN SEBASTIAN",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO, ANALISIS DE CIRCUITOS II Y LABORATORIO",
+        "email": "jssanchezc@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ PAREDES JUAN CARLOS",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO",
+        "email": "jgomezp@udistrital.edu.co"
+    },
+    {
+        "name": "GUACANEME MORENO JAVIER ANTONIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO",
+        "email": "jguacanemem@udistrital.edu.co"
+    },
+    {
+        "name": "CASTELLANOS CONTRERA JOSE ULISES",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO",
+        "email": "jcastellanosu@udistrital.edu.co"
+    },
+    {
+        "name": "BENITEZ FORERO JAIME",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO",
+        "email": "jbenitezf@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑA SUESCA RAFAEL ANTONIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS I Y LABORATORIO",
+        "email": "rpenas@udistrital.edu.co"
+    },
+    {
+        "name": "NIETO CLAVIJO GUSTAVO ADOLFO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "gnietoc@udistrital.edu.co"
+    },
+    {
+        "name": "ALVARADO JIMENEZ GERMAN",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "galvaradoj@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ RODRIGUEZ IVAN FERNANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS II Y LABORATORIO",
+        "email": "igonzalezr@udistrital.edu.co"
+    },
+    {
+        "name": "SANCHEZ CHOACHI JOHAN SEBASTIAN",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS II Y LABORATORIO",
+        "email": "jssanchezc@udistrital.edu.co"
+    },
+    {
+        "name": "VEGA OSORIO EDMUNDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS II Y LABORATORIO",
+        "email": "evegao@udistrital.edu.co"
+    },
+    {
+        "name": "BENITEZ FORERO JAIME",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS II Y LABORATORIO",
+        "email": "jbenitezf@udistrital.edu.co"
+    },
+    {
+        "name": "PATERNINA ANAYA JOSE DE JESUS",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE CIRCUITOS II Y LABORATORIO",
+        "email": "jjpaterinana@udistrital.edu.co"
+    },
+    {
+        "name": "ORTIZ MORA EDGAR",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ETICA Y BIOETICA",
+        "email": "eortizm@udistrital.edu.co"
+    },
+    {
+        "name": "MEDINA BAHAMON HUGO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA III: ONDAS Y FISICA MODERNA",
+        "email": "hmb@udistrital.edu.co"
+    },
+    {
+        "name": "BARRERA TORRES JORGE IVAN",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA III: ONDAS Y FISICA MODERNA",
+        "email": "jb@udistrital.edu.co"
+    },
+    {
+        "name": "MENDIETA SANABRIA JEEMMY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA III: ONDAS Y FISICA MODERNA",
+        "email": "jmsanabria@udistrital.edu.co"
+    },
+    {
+        "name": "CAMERANO FUENTES RAFAEL ARTURO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA III: ONDAS Y FISICA MODERNA",
+        "email": "rcameranof@udistrital.edu.co"
+    },
+    {
+        "name": "CARDENAS CASTIBLANCO JOSE ROBERTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROBABILIDADES Y ESTADISTICA",
+        "email": "jcc@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ TORRES ANTONIO RICARDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROBABILIDADES Y ESTADISTICA, FUNDAMENTOS DE CIRCUITOS DIGITALES",
+        "email": "agt@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ JORGE GIOVANY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "VARIABLE COMPLEJA",
+        "email": "jgs@udistrital.edu.co"
+    },
+    {
+        "name": "ALVARADO JIMENEZ GERMAN",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "VARIABLE COMPLEJA",
+        "email": "galvaradoj@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ CASTELLANOS JHON EDISSON",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA II, FUNDAMENTOS DE CIRCUITOS DIGITALES",
+        "email": "jrodriguezc@udistrital.edu.co"
+    },
+    {
+        "name": "BAYONA NAVARRO JHON FREDY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA II",
+        "email": "jbayonan@udistrital.edu.co"
+    },
+    {
+        "name": "SEGURA TORRES DARIO ALEJANDRO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION APLICADA",
+        "email": "dsegurat@udistrital.edu.co"
+    },
+    {
+        "name": "BORRERO GUERRERO HENRY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION APLICADA",
+        "email": "hborrerog@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ NAVARRO NELLY ISABEL",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION APLICADA",
+        "email": "nrodriguezn@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑA SUAREZ ALFONSO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "PROGRAMACION APLICADA",
+        "email": "apenas@udistrital.edu.co"
+    },
+    {
+        "name": "JIMENEZ BORREGO LUIS CAMILO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CAMPOS ELECTROMAGNETICOS",
+        "email": "ljb@udistrital.edu.co"
+    },
+    {
+        "name": "DEAZA RINCON PEDRO IGNACIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CAMPOS ELECTROMAGNETICOS",
+        "email": "pdeazar@udistrital.edu.co"
+    },
+    {
+        "name": "DAVILA ROJAS MIGUEL ANGEL",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FUNDAMENTOS DE CIRCUITOS DIGITALES",
+        "email": "mdavilar@udistrital.edu.co"
+    },
+    {
+        "name": "DAVILA ROJAS MIGUEL ANGEL",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FUNDAMENTOS DE CIRCUITOS DIGITALES, DISEÑO DIGITAL CON MICROCONTROLADORES",
+        "email": "mdavilar@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ TORRES ANTONIO RICARDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FUNDAMENTOS DE CIRCUITOS DIGITALES, COMUNICACIONES ANALOGICAS",
+        "email": "agonzalezt@udistrital.edu.co"
+    },
+    {
+        "name": "PERDOMO CHARRY CESAR ANDREY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FUNDAMENTOS DE CIRCUITOS DIGITALES",
+        "email": "cperdomoc@udistrital.edu.co"
+    },
+    {
+        "name": "VALERO CARVAJAL OSCAR ANTONIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ONDAS ELECTROMAGNETICAS",
+        "email": "ovaleroa@udistrital.edu.co"
+    },
+    {
+        "name": "DEAZA RINCON PEDRO IGNACIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ONDAS ELECTROMAGNETICAS",
+        "email": "pdeazar@udistrital.edu.co"
+    },
+    {
+        "name": "RAMOS BORDA GERMAN ERNESTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE FOURIER WAVELETS",
+        "email": "gramosb@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR MORALES OMAR",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS DE FOURIER WAVELETS, ELECTRONICA III",
+        "email": "osalazarm@udistrital.edu.co"
+    },
+    {
+        "name": "ROZO GARCIA PABLO EMILIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "TRANSFORMADORES",
+        "email": "prozog@udistrital.edu.co"
+    },
+    {
+        "name": "FLOREZ CEDIEL OSCAR DAVID",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "TRANSFORMADORES, MOTORES Y GENERADORES",
+        "email": "oflorezc@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ FAJARDO CARLOS ARTURO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA III",
+        "email": "csuarezf@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ CHAVEZ HANS IGOR",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA III",
+        "email": "hlopezc@udistrital.edu.co"
+    },
+    {
+        "name": "BAYONA NAVARRO JHON FREDY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA III",
+        "email": "jbayonan@udistrital.edu.co"
+    },
+    {
+        "name": "GAONA BARRERA ANDRES EDUARDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS Y DISEÑO DE MICROPROCESADORES",
+        "email": "agaonab@udistrital.edu.co"
+    },
+    {
+        "name": "MELGAREJO REY MIGUEL ALBERTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ANALISIS Y DISEÑO DE MICROPROCESADORES",
+        "email": "mmelgarejor@udistrital.edu.co"
+    },
+    {
+        "name": "POVEDA ZAFRA JOSE NOE",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "COMUNICACIONES ANALOGICAS",
+        "email": "jpovedaz@udistrital.edu.co"
+    },
+    {
+        "name": "CASTELLANOS CONTRERA JOSE ULISES",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "COMUNICACIONES ANALOGICAS",
+        "email": "jcastellanosu@udistrital.edu.co"
+    },
+    {
+        "name": "HARKER SANCHEZ ORLANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "MOTORES Y GENERADORES",
+        "email": "oharkers@udistrital.edu.co"
+    },
+    {
+        "name": "DAVILA ROJAS MIGUEL ANGEL",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "DISEÑO DIGITAL CON MICROCONTROLADORES, COMUNICACIONES DIGITALES",
+        "email": "mdavilar@udistrital.edu.co"
+    },
+    {
+        "name": "ZAMORA NAVARRO FRANCISCO JAVIER",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "DISEÑO DIGITAL CON MICROCONTROLADORES",
+        "email": "fzamoran@udistrital.edu.co"
+    },
+    {
+        "name": "CAMARGO LOPEZ JULIAN ROLANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "DISEÑO DIGITAL CON MICROCONTROLADORES",
+        "email": "jcamargol@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR MORALES OMAR",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "SEÑALES Y SISTEMAS",
+        "email": "osalazarm@udistrital.edu.co"
+    },
+    {
+        "name": "HERRERA GARCIA RODRIGO JAVIER",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "SEÑALES Y SISTEMAS",
+        "email": "rherrerag@udistrital.edu.co"
+    },
+    {
+        "name": "APARICIO PICO LILIA EDITH",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "laparicop@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ RODRIGUEZ IVAN FERNANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "COMUNICACIONES DIGITALES, TELEMATICA I",
+        "email": "igonzalezr@udistrital.edu.co"
+    },
+    {
+        "name": "JIMENEZ BORREGO LUIS CAMILO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA DE SEMICONDUCTORES",
+        "email": "ljimenezb@udistrital.edu.co"
+    },
+    {
+        "name": "DEAZA RINCON PEDRO IGNACIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FISICA DE SEMICONDUCTORES",
+        "email": "pdeazar@udistrital.edu.co"
+    },
+    {
+        "name": "CIFUENTES CRUZ WILLIAM",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "HOMBRE SOCIEDAD Y ECOLOGIA",
+        "email": "wcifuentec@udistrital.edu.co"
+    },
+    {
+        "name": "ORTIZ MORA EDGAR",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "HOMBRE SOCIEDAD Y ECOLOGIA",
+        "email": "eortizm@udistrital.edu.co"
+    },
+    {
+        "name": "SORIANO MENDEZ JOSE JAIRO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "SISTEMAS DINAMICOS",
+        "email": "jsorianom@udistrital.edu.co"
+    },
+    {
+        "name": "GUACANEME MORENO JAVIER ANTONIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA DE POTENCIA",
+        "email": "jguacanemem@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑA SUESCA RAFAEL ANTONIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA DE POTENCIA",
+        "email": "rpenas@udistrital.edu.co"
+    },
+    {
+        "name": "CORREA LUIS ENRIQUE",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ECONOMIA",
+        "email": "lcorreale@udistrital.edu.co"
+    },
+    {
+        "name": "SEGOVIA RODRIGUEZ ADRIANA ANDREA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ECONOMIA",
+        "email": "asegoviar@udistrital.edu.co"
+    },
+    {
+        "name": "PUERTO LEGUIZAMON GUSTAVO ADOLFO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "TELECOMUNICACIONES I",
+        "email": "gpuertol@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ FAJARDO CARLOS ARTURO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "TELECOMUNICACIONES I",
+        "email": "csuarezf@udistrital.edu.co"
+    },
+    {
+        "name": "PLAZAS NOSSA LEONARDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "TELEMATICA I",
+        "email": "lplazasn@udistrital.edu.co"
+    },
+    {
+        "name": "BORRERO GUERRERO HENRY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CONTROL I",
+        "email": "hborrerog@udistrital.edu.co"
+    },
+    {
+        "name": "GUARNIZO MARIN JOSE GUILLERMO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CONTROL I",
+        "email": "jguarnizom@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ CASTELLANOS JHON EDISSON",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CONTROL I",
+        "email": "jrodriguezc@udistrital.edu.co"
+    },
+    {
+        "name": "GUARNIZO MARIN JOSE GUILLERMO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CONTROL I, INSTRUMENTACION INDUSTRIAL",
+        "email": "jguarnizom@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ CASTELLANOS JHON EDISSON",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "INSTRUMENTACION INDUSTRIAL",
+        "email": "jrodriguezc@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ SANCHEZ WILSON RICARDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "INSTRUMENTACION INDUSTRIAL, ELECTRONICA INDUSTRIAL",
+        "email": "wlopezs@udistrital.edu.co"
+    },
+    {
+        "name": "BENITEZ FORERO JAIME",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "BIOINGENIERIA I",
+        "email": "jbenitezf@udistrital.edu.co"
+    },
+    {
+        "name": "CORREA LUIS ENRIQUE",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "INGENIERIA ECONOMICA",
+        "email": "lcorreae@udistrital.edu.co"
+    },
+    {
+        "name": "VEGA OSORIO EDMUNDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "TELEVISION",
+        "email": "evegao@udistrital.edu.co"
+    },
+    {
+        "name": "SANDOVAL MARTINEZ CLAUDIA ROCIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "TELEVISION",
+        "email": "csandovalm@udistrital.edu.co"
+    },
+    {
+        "name": "APARICIO PICO LILIA EDITH",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FORMULACION, GESTION Y EVALUACION DE PROYECTOS",
+        "email": "laparicop@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ CHAVEZ HANS IGOR",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "BIOINGENIERIA II",
+        "email": "hlopezc@udistrital.edu.co"
+    },
+    {
+        "name": "JUTINICO ALARCON ANDRES LEONARDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "CONTROL II",
+        "email": "ajutunicoa@udistrital.edu.co"
+    },
+    {
+        "name": "CAMARGO CASALLAS LUZ HELENA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "NANOTECNOLOGIA I",
+        "email": "lcamargoc@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ SARMIENTO DANILO ALFONSO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "TELEMATICA II",
+        "email": "dlopezs@udistrital.edu.co"
+    },
+    {
+        "name": "CARDENAS CASTIBLANCO JOSE ROBERTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "TELEMATICA II",
+        "email": "jcardenasc@udistrital.edu.co"
+    },
+    {
+        "name": "ALZATE MONROY MARCO AURELIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "DSP",
+        "email": "malzatem@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR MORALES OMAR",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "DSP",
+        "email": "osalazarm@udistrital.edu.co"
+    },
+    {
+        "name": "MELGAREJO REY MIGUEL ALBERTO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "INTELIGENCIA COMPUTACIONAL I",
+        "email": "mmelgarejor@udistrital.edu.co"
+    },
+    {
+        "name": "MUÑOZ QUIÑONES GERARDO ALCIDES",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "SISTEMAS EMBEBIDOS I",
+        "email": "gmuñozq@udistrital.edu.co"
+    },
+    {
+        "name": "CABUYA PARRA GERMAN",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "INTERVENTORIA PARA INGENIEROS",
+        "email": "gcabuyap@udistrital.edu.co"
+    },
+    {
+        "name": "SARTA FUENTES JOSE ANTONIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "BIOINGENIERIA III",
+        "email": "jsartaf@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ PAREDES JUAN CARLOS",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "TELECOMUNICACIONES III",
+        "email": "jgomezp@udistrital.edu.co"
+    },
+    {
+        "name": "GAONA BARRERA ANDRES EDUARDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "INTELIGENCIA COMPUTACIONAL II",
+        "email": "agaonab@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ JORGE GIOVANY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ECUACIONES DIFERENCIALES",
+        "email": "jsuarezg@udistrital.edu.co"
+    },
+    {
+        "name": "SAENZ SALAZAR MAURICIO HERNANDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ECUACIONES DIFERENCIALES",
+        "email": "msaenzs@udistrital.edu.co"
+    },
+    {
+        "name": "NIETO CLAVIJO GUSTAVO ADOLFO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ECUACIONES DIFERENCIALES",
+        "email": "gnietoc@udistrital.edu.co"
+    },
+    {
+        "name": "ARIAS BARRAGAN LUIS ALEJANDRO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA I",
+        "email": "lariasb@udistrital.edu.co"
+    },
+    {
+        "name": "ZAMORA NAVARRO FRANCISCO JAVIER",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA I",
+        "email": "fzamoran@udistrital.edu.co"
+    },
+    {
+        "name": "PLAZAS NOSSA LEONARDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA I",
+        "email": "lplazasn@udistrital.edu.co"
+    },
+    {
+        "name": "BAYONA NAVARRO JHON FREDY",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA I",
+        "email": "jbayonan@udistrital.edu.co"
+    },
+    {
+        "name": "SANDOVAL MARTINEZ CLAUDIA ROCIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "ELECTRONICA I",
+        "email": "csandovalm@udistrital.edu.co"
+    },
+    {
+        "name": "FLOREZ OSORIO KAREN LORENA",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "FOTOGRAFIA",
+        "email": "kflorezo@udistrital.edu.co"
+    },
+    {
+        "name": "ROZO GARCIA PABLO EMILIO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "SEMINARIO TRABAJO DE GRADO",
+        "email": "prozog@udistrital.edu.co"
+    },
+    {
+        "name": "PUERTO LEGUIZAMON GUSTAVO ADOLFO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "SEMINARIO TRABAJO DE GRADO",
+        "email": "gpuertol@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ SANCHEZ WILSON RICARDO",
+        "faculty": "INGENIERIA ELECTRONICA",
+        "subject": "DISEÑO DE PROTOTIPOS ELECTRONICOS",
+        "email": "wlopezs@udistrital.edu.co"
+    },
+    {
+        "name": "CORTES URAZAN RICARDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "rcortesu@udistrital.edu.co"
+    },
+    {
+        "name": "CAÑON RINCON CARLOS ALBERTO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "ccañonr@udistrital.edu.co"
+    },
+    {
+        "name": "BETANCUR RIOS JUAN DAVID",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "jdbetancurr@udistrital.edu.co"
+    },
+    {
+        "name": "CAÑON RINCON CARLOS ALBERTO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "cacañonr@udistrital.edu.co"
+    },
+    {
+        "name": "CASTRO ARCINIEGAS HENRRY MAURICIO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "hmcastroa@udistrital.edu.co"
+    },
+    {
+        "name": "CAVIEDES AGUDELO CARLOS ANDRES",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "cacaviedesa@udistrital.edu.co"
+    },
+    {
+        "name": "DELGADO NIÑO PILAR",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FISICA I: MECANICA NEWTONIANA",
+        "email": "pdn@udistrital.edu.co"
+    },
+    {
+        "name": "GALVIS BERRIO JOHN FELIPE",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION BASICA",
+        "email": "jfgalvisb@udistrital.edu.co"
+    },
+    {
+        "name": "GAMBOA HERNANDEZ GINA PAOLA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "gpgamboah@udistrital.edu.co"
+    },
+    {
+        "name": "JIMENEZ AVELLANEDA ALFI",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CALCULO DIFERENCIAL, CALCULO INTEGRAL",
+        "email": "ajimeneza@udistrital.edu.co"
+    },
+    {
+        "name": "OCHOA RODRIGUEZ JULIO FERNANDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "SEMINARIO DE INGENIERIA",
+        "email": "jfochoar@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑARANDA BAUTISTA JESUS ANTONIO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION BASICA",
+        "email": "japeñarandab@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ ROJAS LUZ ANDREA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "SEMINARIO DE INGENIERIA",
+        "email": "larodriguezr@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR ZUÑIGA JORGE EDUARDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION BASICA",
+        "email": "jesalazarz@udistrital.edu.co"
+    },
+    {
+        "name": "TAMAYO VASQUEZ CLAUDIA CONSTANZA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CALCULO DIFERENCIAL",
+        "email": "cctamayov@udistrital.edu.co"
+    },
+    {
+        "name": "TARAZONA BERMUDEZ GIOVANNI MAURICIO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+        "email": "gmtarazonab@udistrital.edu.co"
+    },
+    {
+        "name": "TOCASUCHE GONZALEZ HELVER RICARDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+        "email": "hrtocasucheg@udistrital.edu.co"
+    },
+    {
+        "name": "CA?ON RINCON CARLOS ALBERTO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "cacanonr@udistrital.edu.co"
+    },
+    {
+        "name": "CAVIEDES AGUDELO CARLOS ANDRES",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ALGEBRA LINEAL",
+        "email": "cacaviedesa@udistrital.edu.co"
+    },
+    {
+        "name": "CORTES URAZAN RICARDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CALCULO INTEGRAL",
+        "email": "rurazanc@udistrital.edu.co"
+    },
+    {
+        "name": "DUE?AS SUATERNA JORGE ALBERTO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "jadu?ass@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA RODRIGUEZ GUSTAVO OCTAVIO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ETICA Y BIOETICA",
+        "email": "gogarciar@udistrital.edu.co"
+    },
+    {
+        "name": "MARIN MEDINA NATHALY MELINA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "nmmarinm@udistrital.edu.co"
+    },
+    {
+        "name": "ORTIZ MORA EDGAR",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "HISTORIA Y CULTURA COLOMBIANA",
+        "email": "eortizm@udistrital.edu.co"
+    },
+    {
+        "name": "PINEDA TORRES FRANKLIN EDISSON",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "fepinedat@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ ANDRADE JUAN PABLO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "jpramireza@udistrital.edu.co"
+    },
+    {
+        "name": "REGALIA MARCO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "mregalia@udistrital.edu.co"
+    },
+    {
+        "name": "RIVERA LOZANO WILSON",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CALCULO MULTIVARIADO",
+        "email": "wriveral@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ CASTILLO DIANA JEANNETH",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ALGEBRA LINEAL, CALCULO INTEGRAL",
+        "email": "djrodriguezc@udistrital.edu.co"
+    },
+    {
+        "name": "RUANO MIRANDA ALBERTO FRANCISCO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ETICA Y BIOETICA",
+        "email": "afruanom@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR ZU?IGA JORGE EDUARDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION ORIENTADA A OBJETOS",
+        "email": "jesalazarz@udistrital.edu.co"
+    },
+    {
+        "name": "SARTA FUENTES JOSE ANTONIO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "jasartaf@udistrital.edu.co"
+    },
+    {
+        "name": "TAMAYO VASQUEZ CLAUDIA CONSTANZA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ALGEBRA LINEAL",
+        "email": "cttamayov@udistrital.edu.co"
+    },
+    {
+        "name": "TOCASUCHE GONZALEZ HELVER RICARDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CATEDRA DEMOCRACIA Y CIUDADANIA",
+        "email": "hrtocasucheg@udistrital.edu.co"
+    },
+    {
+        "name": "VALERO CARVAJAL OSCAR ANTONIO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FISICA II: ELECTROMAGNETISMO",
+        "email": "oavaleroc@udistrital.edu.co"
+    },
+    {
+        "name": "VANEGAS CANRO ORLANDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ALGEBRA LINEAL",
+        "email": "ovcanrov@udistrital.edu.co"
+    },
+    {
+        "name": "ARANDA PINILLA JOHAN ALEXANDER",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ESTADISTICA INFERENCIAL Y DISE?O DE EXPERIMENTOS",
+        "email": "jarandap@udistrital.edu.co"
+    },
+    {
+        "name": "BERMUDEZ AMAYA MAURICIO ORLANDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ESTADISTICA INFERENCIAL Y DISE?O DE EXPERIMENTOS",
+        "email": "bbermudeza@udistrital.edu.co"
+    },
+    {
+        "name": "BETANCUR RIOS JUAN DAVID",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FISICA III: ONDAS Y FISICA MODERNA",
+        "email": "jbetancurr@udistrital.edu.co"
+    },
+    {
+        "name": "CARDENAS QUINTERO BEITMANTT GEOVANNI",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FORMULACION, GESTION Y EVALUACION DE PROYECTOS",
+        "email": "bcardenasq@udistrital.edu.co"
+    },
+    {
+        "name": "CASTRO ARCINIEGAS HENRRY MAURICIO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "HOMBRE SOCIEDAD Y ECOLOGIA",
+        "email": "hcastroa@udistrital.edu.co"
+    },
+    {
+        "name": "CUERVO FERNANDEZ OMAR ANDRES",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ECUACIONES DIFERENCIALES",
+        "email": "ocuerf@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA PEÑALOZA LUZ ANGELA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FISICA III: ONDAS Y FISICA MODERNA",
+        "email": "lgarciap@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA RODRIGUEZ GUSTAVO OCTAVIO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ETICA Y BIOETICA",
+        "email": "ggarciar@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ ZUÑIGA CARLOS EDUARDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ESTADISTICA INFERENCIAL Y DISE?O DE EXPERIMENTOS",
+        "email": "ggomezz@udistrital.edu.co"
+    },
+    {
+        "name": "GRANADOS GUZMAN ALVARO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FUNDAMENTOS QUIMICOS Y BIOQUIMICOS",
+        "email": "ggranadosg@udistrital.edu.co"
+    },
+    {
+        "name": "MANRIQUE LOPEZ KARINA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FORMULACION, GESTION Y EVALUACION DE PROYECTOS",
+        "email": "kmanriquel@udistrital.edu.co"
+    },
+    {
+        "name": "MESA SALAMANCA CAMILO ANDRES",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "INGENIERIA ECONOMICA",
+        "email": "cmesas@udistrital.edu.co"
+    },
+    {
+        "name": "MORALES VALENZUELA OLGUER SEBASTIAN",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FORMULACION, GESTION Y EVALUACION DE PROYECTOS",
+        "email": "omoralesv@udistrital.edu.co"
+    },
+    {
+        "name": "MORENO ROA CARMENZA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ECUACIONES DIFERENCIALES",
+        "email": "cmorenr@udistrital.edu.co"
+    },
+    {
+        "name": "ORTIZ MORA EDGAR",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "HOMBRE SOCIEDAD Y ECOLOGIA",
+        "email": "eortizm@udistrital.edu.co"
+    },
+    {
+        "name": "SABOYA CORTES DAGOBERTO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ECUACIONES DIFERENCIALES",
+        "email": "dsaboyac@udistrital.edu.co"
+    },
+    {
+        "name": "SARTA FUENTES JOSE ANTONIO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FISICA III: ONDAS Y FISICA MODERNA",
+        "email": "jsartaf@udistrital.edu.co"
+    },
+    {
+        "name": "TOCASUCHE GONZALEZ HELVER RICARDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "htocasucheg@udistrital.edu.co"
+    },
+    {
+        "name": "BELTRAN BERNAL NESTOR ANDRES",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "GESTION DE OPERACIONES",
+        "email": "nbeltranb@udistrital.edu.co"
+    },
+    {
+        "name": "CABRERA MARTINEZ XIOMARA ALEJANDRA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FUNDAMENTOS QUIMICOS Y BIOQUIMICOS, PROCESOS QUIMICOS Y BIOQUIMICOS",
+        "email": "xcabreram@udistrital.edu.co"
+    },
+    {
+        "name": "CALDERON MARIA EUGENIA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROCESOS QUIMICOS Y BIOQUIMICOS",
+        "email": "mcalderonm@udistrital.edu.co"
+    },
+    {
+        "name": "GARZON CORREA MAGDA LORENA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FUNDAMENTOS QUIMICOS Y BIOQUIMICOS",
+        "email": "mgarzonc@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ RAMIREZ MANUEL ARTURO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "DIBUJO EN INGENIERIA",
+        "email": "mgonzalezr@udistrital.edu.co"
+    },
+    {
+        "name": "GRANADOS GUZMAN ALVARO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FUNDAMENTOS QUIMICOS Y BIOQUIMICOS",
+        "email": "agranadosg@udistrital.edu.co"
+    },
+    {
+        "name": "MEZA BUELVAS LILIANA MARGARITA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "FUNDAMENTOS QUIMICOS Y BIOQUIMICOS, PROCESOS QUIMICOS Y BIOQUIMICOS",
+        "email": "mmezab@udistrital.edu.co"
+    },
+    {
+        "name": "MU?OZ BARRAGAN JORGE ENRIQUE",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ECONOMIA I",
+        "email": "jmunozb@udistrital.edu.co"
+    },
+    {
+        "name": "PARRA PLAZAS JAIME ALBERTO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "DIBUJO EN INGENIERIA",
+        "email": "jparrap@udistrital.edu.co"
+    },
+    {
+        "name": "REAL FLOREZ GUILLERMO ENRIQUE",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "GESTION DE OPERACIONES",
+        "email": "rrealf@udistrital.edu.co"
+    },
+    {
+        "name": "TRISTANCHO ORTIZ JULIAN ALFONSO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "DIBUJO EN INGENIERIA",
+        "email": "ttristanchoo@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS TAMAYO LUIS FERNANDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "DIBUJO EN INGENIERIA",
+        "email": "vvarghast@udistrital.edu.co"
+    },
+    {
+        "name": "BELTRAN BERNAL NESTOR ANDRES",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION Y CONTROL DE LA PRODUCCION",
+        "email": "nabltranb@udistrital.edu.co"
+    },
+    {
+        "name": "BERMUDEZ AMAYA MAURICIO ORLANDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ESTADISTICA Y PROBABILIDAD",
+        "email": "mabermudeza@udistrital.edu.co"
+    },
+    {
+        "name": "CALDERON MARIA EUGENIA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "TERMODINAMICA YFLUIDOS",
+        "email": "mecalderon@udistrital.edu.co"
+    },
+    {
+        "name": "CONTRERAS BRAVO LEONARDO EMIRO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "MECANICA APLICADA",
+        "email": "lcontrerasb@udistrital.edu.co"
+    },
+    {
+        "name": "ESCOBAR ELIZALDE ISABEL",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "GESTION AMBIENTAL",
+        "email": "iescobare@udistrital.edu.co"
+    },
+    {
+        "name": "GARZON CORREA MAGDA LORENA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "TERMODINAMICA YFLUIDOS",
+        "email": "mgarzonc@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ ZU?IGA CARLOS EDUARDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ESTADISTICA Y PROBABILIDAD",
+        "email": "cegomezz@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ RAMIREZ MANUEL ARTURO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "MATERIALES INDUSTRIALES",
+        "email": "magonzalezr@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ AGUILAR IVAN DIEGO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "TEORIA GENERAL DE SISTEMAS",
+        "email": "ialopeza@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ SANTANA EDUYN RAMIRO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION Y CONTROL DE LA PRODUCCION",
+        "email": "erlopezs@udistrital.edu.co"
+    },
+    {
+        "name": "MEZA BUELVAS LILIANA MARGARITA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "TERMODINAMICA YFLUIDOS",
+        "email": "lmmezab@udistrital.edu.co"
+    },
+    {
+        "name": "MORENO AMADO MYRIAM",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "MATERIALES INDUSTRIALES, TERMODINAMICA YFLUIDOS",
+        "email": "mmorenoma@udistrital.edu.co"
+    },
+    {
+        "name": "PE?ARANDA BAUTISTA JESUS ANTONIO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "TEORIA GENERAL DE SISTEMAS",
+        "email": "jape?arandab@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ ROJAS LUZ ANDREA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "GESTION DE CALIDAD",
+        "email": "larodriguezr@udistrital.edu.co"
+    },
+    {
+        "name": "TOLEDO BUENO CARLOS AUGUSTO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "MECANICA APLICADA",
+        "email": "catolodob@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS HERNANDEZ CESAR ASDRALDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "TEORIA GENERAL DE SISTEMAS",
+        "email": "cavargash@udistrital.edu.co"
+    },
+    {
+        "name": "MEDINA GARCIA VICTOR HUGO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "METODOLOGIA DE LA INVESTIGACION",
+        "email": "vhmedinag@udistrital.edu.co"
+    },
+    {
+        "name": "MORENO ROA CARMENZA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "METODOLOGIA DE LA INVESTIGACION",
+        "email": "cmorenoc@udistrital.edu.co"
+    },
+    {
+        "name": "VALENZUELA MELO LUIS EDUARDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CONTABILIDAD Y COSTOS",
+        "email": "lvalenzuelam@udistrital.edu.co"
+    },
+    {
+        "name": "VILLAREAL LOPEZ LUIS",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CONTABILIDAD Y COSTOS",
+        "email": "lvillareall@udistrital.edu.co"
+    },
+    {
+        "name": "LOPEZ AGUILAR IVAN DIEGO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ADMINISTRACION DE LAS ORGANIZACIONES",
+        "email": "ilopeza@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA PEÑA JULIO CESAR",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ADMINISTRACION DE LAS ORGANIZACIONES, GESTION DEL TALENTO HUMANO.",
+        "email": "jgarciap@udistrital.edu.co"
+    },
+    {
+        "name": "NIEVES PIMIENTO NAYIVE",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROCESOS MECANICOS, DISEÑO INTEGRADO DE PRODUCTO Y PROCESO",
+        "email": "nnievesp@udistrital.edu.co"
+    },
+    {
+        "name": "CONTRERAS BRAVO LEONARDO EMIRO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROCESOS MECANICOS",
+        "email": "lcontrerasb@udistrital.edu.co"
+    },
+    {
+        "name": "MESA SALAMANCA CAMILO ANDRES",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ECONOMIA II",
+        "email": "cmesas@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑA RODRIGUEZ JAIME HERNANDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ECONOMIA II",
+        "email": "jpenar@udistrital.edu.co"
+    },
+    {
+        "name": "MENDEZ PINZON MANUEL",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "GESTION DEL TALENTO HUMANO.",
+        "email": "mmendezp@udistrital.edu.co"
+    },
+    {
+        "name": "UMAÑA VILLAMIZAR FLOR DE MARIA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "INGENIERIA DE METODOS Y TIEMPOS",
+        "email": "fumanav@udistrital.edu.co"
+    },
+    {
+        "name": "OCHOA RODRIGUEZ JULIO FERNANDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "INGENIERIA DE METODOS Y TIEMPOS, SEGURIDAD E HIGIENE OCUPACIONAL",
+        "email": "jchoar@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ SAAVEDRA GERMAN ANDRES",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "SEGURIDAD E HIGIENE OCUPACIONAL",
+        "email": "gsuarezs@udistrital.edu.co"
+    },
+    {
+        "name": "MENDEZ GIRALDO GERMAN ANDRES",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION LINEAL Y ENTERA",
+        "email": "gmendezg@udistrital.edu.co"
+    },
+    {
+        "name": "ALEJANDRO SILVA RIAÑO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ANALISIS Y DECISIONES FINANCIERAS, EMPRENDIMIENTO EMPRESARIAL E IDEAS DE NEGOCIOS",
+        "email": "asilvar@udistrital.edu.co"
+    },
+    {
+        "name": "ALEXIS ADAMI ORTIZ MORALES",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "EMPRENDIMIENTO EMPRESARIAL E IDEAS DE NEGOCIOS",
+        "email": "aaortizm@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS ALBERTO FRANCO FRANCO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION LINEAL Y ENTERA",
+        "email": "cafrancof@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR ASDRALDO VARGAS HERNANDEZ",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "GESTION E INNOVACION TECNOLOGICA, MERCADOTECNIA",
+        "email": "cavargash@udistrital.edu.co"
+    },
+    {
+        "name": "GERMAN ANDRES MENDEZ GIRALDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION LINEAL Y ENTERA",
+        "email": "gamendezg@udistrital.edu.co"
+    },
+    {
+        "name": "GUILLERMO ENRIQUE REAL FLOREZ",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROCESOS DE DECISION",
+        "email": "gerealfl@udistrital.edu.co"
+    },
+    {
+        "name": "ISABEL ESCOBAR ELIZALDE",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ERGONOMIA",
+        "email": "iescobare@udistrital.edu.co"
+    },
+    {
+        "name": "JAVIER ARTURO ORJUELA CASTRO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "LOGISTICA INDUSTRIAL I, LOGISTICA INDUSTRIAL II",
+        "email": "jaorjuelac@udistrital.edu.co"
+    },
+    {
+        "name": "JULIO FERNANDO OCHOA RODRIGUEZ",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "CONTROL Y ASEGURAMIENTO DE LA CALIDAD",
+        "email": "jfochoar@udistrital.edu.co"
+    },
+    {
+        "name": "LINDSAY ALVAREZ POMAR",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROCESOS DE DECISION",
+        "email": "lalvarezp@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS VILLAREAL LOPEZ",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROGRAMACION LINEAL Y ENTERA, PROCESOS DE DECISION, TEORIA DE GRAFOS",
+        "email": "lvillarreall@udistrital.edu.co"
+    },
+    {
+        "name": "NESTOR ANDRES BELTRAN BERNAL",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PROCESOS DE DECISION, TEORIA DE GRAFOS",
+        "email": "nabeltranb@udistrital.edu.co"
+    },
+    {
+        "name": "OLGUER SEBASTIAN MORALES VALENZUELA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ANALISIS Y DECISIONES FINANCIERAS",
+        "email": "omoralesv@udistrital.edu.co"
+    },
+    {
+        "name": "GERMAN ANDRES MENDEZ GIRALDO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "TEORIA DE COLAS Y SIMULACION",
+        "email": "gmendezg@udistrital.edu.co"
+    },
+    {
+        "name": "LINDSAY ALVAREZ POMAR",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "TEORIA DE COLAS Y SIMULACION",
+        "email": "lalvarezp@udistrital.edu.co"
+    },
+    {
+        "name": "MANUEL MENDEZ PINZON",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "GERENCIA ESTRATEGICA",
+        "email": "mmendezp@udistrital.edu.co"
+    },
+    {
+        "name": "MANUEL FRANCISCO ARIZMENDI BEDRAN",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "DERECHO EMPRESARIAL",
+        "email": "marizmendib@udistrital.edu.co"
+    },
+    {
+        "name": "VICTOR HUGO MEDINA GARCIA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "GESTION DEL CONOCIMIENTO",
+        "email": "vmedinag@udistrital.edu.co"
+    },
+    {
+        "name": "GERMAN ANDRES SUAREZ SAAVEDRA",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "HIGIENE INDUSTRIAL",
+        "email": "gsuarezs@udistrital.edu.co"
+    },
+    {
+        "name": "MANUEL ARTURO GONZALEZ RAMIREZ",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "GESTION DE MANTENIMIENTO PARA INGENIEROS INDUSTRIALES",
+        "email": "mgonzalezr@udistrital.edu.co"
+    },
+    {
+        "name": "JULIAN ALFONSO TRISTANCHO ORTIZ",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "AUTOMATIZACION",
+        "email": "jtristanchoo@udistrital.edu.co"
+    },
+    {
+        "name": "HELVER RICARDO TOCASUCHE GONZALEZ",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "ESTRUCTURA MENTAL Y COMPORTAMIENTOS PRODUCTIVOS",
+        "email": "htocasucheg@udistrital.edu.co"
+    },
+    {
+        "name": "KARINA MANRIQUE LOPEZ",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "PRESUPUESTOS",
+        "email": "kmanriquel@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS CARLOS BALLESTEROS",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "COMERCIO ELECTRONICO",
+        "email": "lballesteros@udistrital.edu.co"
+    },
+    {
+        "name": "FEIZAR JAVIER RUEDA VELASCO",
+        "faculty": "INGENIERIA INDUSTRIAL",
+        "subject": "DINAMICA INDUSTRIAL",
+        "email": "fruedav@udistrital.edu.co"
+    }
+]
