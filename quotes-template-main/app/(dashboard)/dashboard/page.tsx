@@ -192,7 +192,7 @@ function DashboardPage() {
               </Label>
               <Input
                 id="facultyTag"
-                placeholder="Facultad"
+                placeholder="Carrera"
                 type="text"
                 autoCapitalize="none"
                 autoCorrect="off"
