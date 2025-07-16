@@ -163,11 +163,11 @@ function DashboardPage() {
 
   return (
     <div className="min-h-screen w-full flex flex-col">
-      <div className="flex-1 px-4">
-        <h1 className="mt-16 text-4xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
+      <div className="flex-1 px-2 sm:px-4">
+        <h1 className="mt-12 sm:mt-16 text-3xl sm:text-4xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
           Busca a tu <AuroraText>Profe</AuroraText>
         </h1>
-        <div className={cn("grid gap-6 mt-6 mb-10 justify-center w-max mx-auto px-2 sm:px-0")}>
+        <div className={cn("grid gap-4 sm:gap-6 mt-4 sm:mt-6 mb-8 sm:mb-10 justify-center w-full max-w-2xl mx-auto px-0")}>
           <div className="flex flex-col gap-2 sm:flex-row sm:gap-1 w-full">
             <div className="grid flex-1 w-full">
               <Label className="sr-only" htmlFor="tag">
@@ -182,11 +182,11 @@ function DashboardPage() {
                 required
                 value={tag}
                 onChange={(e) => setTag(e.target.value)}
-                className="w-full"
+                className="w-full min-w-0"
               />
             </div>
 
-            <div className="grid flex-1 w-full">
+            <div className="grid flex-1 w-full mt-2 sm:mt-0">
               <Label className="sr-only" htmlFor="facultyTag">
                 Facultad
               </Label>
@@ -199,13 +199,13 @@ function DashboardPage() {
                 required
                 value={facultyTag}
                 onChange={(e) => setFacultyTag(e.target.value)}
-                className="w-full"
+                className="w-full min-w-0"
               />
             </div>
           </div>
 
           {/* Card Section (always ProjectStatusCard) */}
-          <div className="flex flex-col gap-6 w-full max-w-full mx-auto">
+          <div className="flex flex-col gap-4 sm:gap-6 w-full max-w-full mx-auto">
             <AnimatePresence mode="wait">
               {loading ? (
                 <motion.div
@@ -224,6 +224,7 @@ function DashboardPage() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -40 }}
                   transition={{ duration: 0.6, ease: "easeInOut" }}
+                  className="flex flex-col gap-1"
                 >
                   {teachers.map((teacher) => {
                     // Usar los últimos 3 comentarios directamente del objeto teacher
@@ -262,7 +263,7 @@ function DashboardPage() {
       <button
         onClick={scrollToTop}
         className={cn(
-          "fixed bottom-8 left-1/2 -translate-x-1/2 p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-lg transition-all duration-300 hover:bg-background/90",
+          "fixed bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-lg transition-all duration-300 hover:bg-background/90 z-50",
           showScrollTop ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"
         )}
         aria-label="Back to top"
