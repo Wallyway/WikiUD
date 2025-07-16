@@ -102,13 +102,14 @@ export async function DELETE(request: Request) {
         if (!comment) {
             return NextResponse.json({ error: 'Comment not found' }, { status: 404 });
         }
-        // Validar que el usuario es el autor
+        // Validar que el usuario es el autor o admin
         const author = comment.author || {};
+        const isAdmin = userEmail === 'jsapariciow@udistrital.edu.co';
         const isAuthor = (author.email && author.email === userEmail) ||
             (author.handle && author.handle === userHandle) ||
             (author.name && author.name === userName);
-        if (!isAuthor) {
-            return NextResponse.json({ error: 'Unauthorized: not the author' }, { status: 403 });
+        if (!isAuthor && !isAdmin) {
+            return NextResponse.json({ error: 'Unauthorized: not the author or admin' }, { status: 403 });
         }
         // Borrar el comentario
         await db.collection('comments').deleteOne({ _id: new ObjectId(commentId) });
