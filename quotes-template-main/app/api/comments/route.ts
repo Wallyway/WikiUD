@@ -4,6 +4,7 @@ import { ObjectId } from 'mongodb';
 import redis from '@/lib/redis'
 
 export async function GET(request: Request) {
+    let client;
     try {
         const { searchParams } = new URL(request.url);
         const teacherId = searchParams.get('teacherId');
@@ -18,7 +19,8 @@ export async function GET(request: Request) {
             return NextResponse.json(JSON.parse(cached));
         }
 
-        const client = await getMongoClient();
+        // Reutilizar la misma conexión
+        client = await getMongoClient();
         const db = client.db();
         const comments = await db.collection('comments').find({ teacherId: new ObjectId(teacherId) }).toArray();
 
@@ -35,6 +37,7 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
+    let client;
     try {
         const body = await request.json();
         const { teacherId, author, text, rating, date } = body;
@@ -42,8 +45,10 @@ export async function POST(request: Request) {
             return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
         }
 
-        const client = await getMongoClient();
+        // Reutilizar la misma conexión para todas las operaciones
+        client = await getMongoClient();
         const db = client.db();
+
         // Clean up author.handle if it looks like a random hash
         let cleanHandle = author.handle;
         if (!isValidHandle(cleanHandle) && author.email) {
@@ -86,6 +91,7 @@ export async function POST(request: Request) {
 }
 
 export async function DELETE(request: Request) {
+    let client;
     try {
         const { searchParams } = new URL(request.url);
         const commentId = searchParams.get('commentId');
@@ -96,8 +102,10 @@ export async function DELETE(request: Request) {
             return NextResponse.json({ error: 'Missing commentId or user identity' }, { status: 400 });
         }
 
-        const client = await getMongoClient();
+        // Reutilizar la misma conexión para todas las operaciones
+        client = await getMongoClient();
         const db = client.db();
+
         const comment = await db.collection('comments').findOne({ _id: new ObjectId(commentId) });
         if (!comment) {
             return NextResponse.json({ error: 'Comment not found' }, { status: 404 });
@@ -141,14 +149,18 @@ export async function DELETE(request: Request) {
 }
 
 export async function PATCH(request: Request) {
+    let client;
     try {
         const body = await request.json();
         const { commentId, newText, userEmail, userHandle, userName } = body;
         if (!commentId || !newText || (!userEmail && !userHandle && !userName)) {
             return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
         }
-        const client = await getMongoClient();
+
+        // Reutilizar la misma conexión
+        client = await getMongoClient();
         const db = client.db();
+
         const comment = await db.collection('comments').findOne({ _id: new ObjectId(commentId) });
         if (!comment) {
             return NextResponse.json({ error: 'Comment not found' }, { status: 404 });

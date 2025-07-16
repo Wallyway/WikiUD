@@ -10,6 +10,7 @@ import authOptions from '@/auth.config';
 const teacherService: TeacherService = new TeacherServiceImpl()
 
 export async function GET(request: Request) {
+    let client;
     try {
         const { searchParams } = new URL(request.url)
         const name = searchParams.get('name') || ''
@@ -19,94 +20,60 @@ export async function GET(request: Request) {
 
         // Clave única para el caché basada en los parámetros de búsqueda
         const cacheKey = `teachers:${name}:${faculty}:${page}:${limit}`;
-
-        // Intentar obtener del caché primero
-        try {
-            const cached = await redis.get(cacheKey);
-            if (cached) {
-                return NextResponse.json(JSON.parse(cached));
-            }
-        } catch (cacheError) {
-            console.warn('Cache error, continuing without cache:', cacheError);
+        const cached = await redis.get(cacheKey);
+        if (cached) {
+            return NextResponse.json(JSON.parse(cached));
         }
 
-        // Obtener profesores con timeout
-        const teachers = await Promise.race([
-            teacherService.searchTeachers({ name, faculty, page, limit }),
-            new Promise((_, reject) =>
-                setTimeout(() => reject(new Error('Database timeout')), 10000)
-            )
-        ]) as any[];
+        const teachers = await teacherService.searchTeachers({ name, faculty, page, limit })
 
-        // Optimizar: obtener comentarios en una sola consulta agregada
-        const client = await getMongoClient();
+        // Reutilizar la misma conexión para todas las operaciones
+        client = await getMongoClient();
         const db = client.db();
 
-        // Usar agregación para obtener los últimos 3 comentarios por profesor en una sola consulta
-        const teachersWithComments = await Promise.all(
+        const teachersWithLastComments = await Promise.all(
             teachers.map(async (teacher) => {
-                try {
-                    const pipeline = [
-                        { $match: { teacherId: new ObjectId(teacher._id) } },
-                        { $sort: { date: -1 } },
-                        { $limit: 3 },
-                        {
-                            $project: {
-                                author: 1,
-                                date: 1,
-                                content: 1
-                            }
-                        }
-                    ];
-
-                    const lastComments = await db.collection('comments')
-                        .aggregate(pipeline)
-                        .toArray();
-
-                    return {
-                        ...teacher,
-                        lastComments
-                    };
-                } catch (error) {
-                    console.error(`Error fetching comments for teacher ${teacher._id}:`, error);
-                    return {
-                        ...teacher,
-                        lastComments: []
-                    };
-                }
+                const lastComments = await db.collection('comments')
+                    .find({ teacherId: new ObjectId(teacher._id) })
+                    .sort({ date: -1 })
+                    .limit(3)
+                    .toArray();
+                return {
+                    ...teacher,
+                    lastComments
+                };
             })
         );
 
         // Responde al usuario inmediatamente
-        const response = { teachers: teachersWithComments };
+        const response = { teachers: teachersWithLastComments };
+        // Actualiza el caché en segundo plano (no bloquea la respuesta)
+        redis.set(cacheKey, JSON.stringify(response), "EX", 60);
 
-        // Actualizar el caché en segundo plano (no bloquea la respuesta)
-        try {
-            redis.set(cacheKey, JSON.stringify(response), "EX", 60);
-        } catch (cacheError) {
-            console.warn('Failed to update cache:', cacheError);
-        }
-
-        return NextResponse.json(response);
+        return NextResponse.json(response)
     } catch (error) {
-        console.error('Error in teachers API:', error);
+        console.error('Error fetching teachers:', error)
         return NextResponse.json(
-            { error: 'Internal server error', teachers: [] },
+            { error: 'Failed to fetch teachers' },
             { status: 500 }
-        );
+        )
     }
 }
 
 export async function POST(request: Request) {
+    let client;
     try {
         const body = await request.json();
         const { name, faculty, degree, subject, email } = body;
         if (!name || !faculty || !degree || !subject || !email) {
             return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
         }
-        const client = await getMongoClient();
+
+        // Reutilizar la misma conexión
+        client = await getMongoClient();
         const db = client.db();
         const result = await db.collection('teachers').insertOne({ name, faculty, degree, subject, email });
+
         // Invalidar cache de profesores
         const teacherCachePattern = `teachers:*`;
         const teacherCacheKeys = await redis.keys(teacherCachePattern);
@@ -120,12 +87,16 @@ export async function POST(request: Request) {
 }
 
 export async function PUT(request: Request) {
+    let client;
     try {
         const { searchParams } = new URL(request.url);
         const action = searchParams.get('action');
+
+        // Reutilizar la misma conexión para todas las operaciones
+        client = await getMongoClient();
+        const db = client.db();
+
         if (action === 'recalculate-stats') {
-            const client = await getMongoClient();
-            const db = client.db();
             // Obtener todos los profesores
             const teachers = await db.collection('teachers').find({}).toArray();
             // Para cada profesor, recalcular estadísticas
@@ -147,20 +118,20 @@ export async function PUT(request: Request) {
                 message: `Recalculated stats for ${teachers.length} teachers`
             });
         }
+
         // Edición normal
         const id = searchParams.get('id');
         if (!id) {
             return NextResponse.json({ error: 'Missing id' }, { status: 400 });
         }
         const body = await request.json();
-        const client = await getMongoClient();
-        const db = client.db();
         const updateFields = { ...body };
         delete updateFields._id;
         const result = await db.collection('teachers').updateOne(
             { _id: new ObjectId(id) },
             { $set: updateFields }
         );
+
         // Invalidar cache de profesores
         const teacherCachePattern = `teachers:*`;
         const teacherCacheKeys = await redis.keys(teacherCachePattern);
@@ -174,15 +145,19 @@ export async function PUT(request: Request) {
 }
 
 export async function DELETE(request: Request) {
+    let client;
     try {
         const { searchParams } = new URL(request.url);
         const id = searchParams.get('id');
         if (!id) {
             return NextResponse.json({ error: 'Missing id' }, { status: 400 });
         }
-        const client = await getMongoClient();
+
+        // Reutilizar la misma conexión
+        client = await getMongoClient();
         const db = client.db();
         const result = await db.collection('teachers').deleteOne({ _id: new ObjectId(id) });
+
         // Invalidar cache de profesores
         const teacherCachePattern = `teachers:*`;
         const teacherCacheKeys = await redis.keys(teacherCachePattern);
