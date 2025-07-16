@@ -113,7 +113,6 @@ export function TestimonialCard({
         (author.handle && userSession.user?.username === author.handle) ||
         (author.name && userSession.user?.name === author.name)
     );
-    const isAdmin = userSession && userSession.user?.email === "jsapariciow@udistrital.edu.co";
 
     if (href) {
         return (
@@ -200,7 +199,7 @@ export function TestimonialCard({
                 </p>
             )}
             <div className="flex items-center justify-end gap-2 mt-4">
-                {(isOwnComment || isAdmin) && onEditComment && _id && !isEditing && (
+                {isOwnComment && onEditComment && _id && !isEditing && (
                     <button
                         className="px-2 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition"
                         title="Editar comentario"
@@ -209,7 +208,7 @@ export function TestimonialCard({
                         Editar
                     </button>
                 )}
-                {(isOwnComment || isAdmin) && onDeleteComment && _id && !isEditing && (
+                {isOwnComment && onDeleteComment && _id && !isEditing && (
                     <button
                         className="px-2 py-1 text-xs bg-red-500 text-white rounded hover:bg-red-600 transition"
                         title="Borrar comentario"
