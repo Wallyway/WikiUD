@@ -162,12 +162,12 @@ function DashboardPage() {
   }, []);
 
   return (
-    <div className="min-h-screen w-full flex flex-col">
-      <div className="flex-1 px-2 sm:px-4">
+    <div className="min-h-screen w-auto flex flex-col">
+      <div className="flex-1 px-4 sm:px-8"> {/* Aumenta el padding lateral en móviles */}
         <h1 className="mt-12 sm:mt-16 text-3xl sm:text-4xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
           Busca a tu <AuroraText>Profe</AuroraText>
         </h1>
-        <div className={cn("grid gap-4 sm:gap-6 mt-4 sm:mt-6 mb-8 sm:mb-10 justify-center w-full max-w-2xl mx-auto px-0")}>
+        <div className={cn("grid gap-4 sm:gap-6 mt-4 sm:mt-6 mb-8 sm:mb-10 justify-center w-full max-w-2xl mx-auto px-2 sm:px-0")}> {/* padding lateral en móviles */}
           <div className="flex flex-col gap-2 sm:flex-row sm:gap-1 w-full">
             <div className="grid flex-1 w-full">
               <Label className="sr-only" htmlFor="tag">
@@ -182,7 +182,7 @@ function DashboardPage() {
                 required
                 value={tag}
                 onChange={(e) => setTag(e.target.value)}
-                className="w-full min-w-0"
+                className="w-full min-w-0 max-w-xs mx-auto sm:max-w-full" // Limita el ancho en móviles y centra
               />
             </div>
 
@@ -199,13 +199,13 @@ function DashboardPage() {
                 required
                 value={facultyTag}
                 onChange={(e) => setFacultyTag(e.target.value)}
-                className="w-full min-w-0"
+                className="w-full min-w-0 max-w-xs mx-auto sm:max-w-full" // Limita el ancho en móviles y centra
               />
             </div>
           </div>
 
           {/* Card Section (always ProjectStatusCard) */}
-          <div className="flex flex-col gap-4 sm:gap-6 w-full max-w-full mx-auto">
+          <div className="flex flex-col gap-4 sm:gap-6 w-full max-w-full mx-auto px-1 sm:px-0"> {/* padding lateral en móviles */}
             <AnimatePresence mode="wait">
               {loading ? (
                 <motion.div
@@ -247,6 +247,7 @@ function DashboardPage() {
                         ]}
                         githubStars={teacher.reviews}
                         openIssues={teacher.reviews}
+                      // className="mb-2 rounded-lg" // Quitado porque no está soportado
                       />
                     );
                   })}
@@ -267,6 +268,7 @@ function DashboardPage() {
           showScrollTop ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"
         )}
         aria-label="Back to top"
+        style={{ left: 'calc(50% + 2px)' }} // Ajuste menor para evitar que quede pegado al borde
       >
         <ChevronUp className="h-6 w-6" />
       </button>
