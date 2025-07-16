@@ -167,9 +167,9 @@ function DashboardPage() {
         <h1 className="mt-16 text-4xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
           Busca a tu <AuroraText>Profe</AuroraText>
         </h1>
-        <div className={cn("grid gap-6 mt-6 mb-10 justify-center w-max mx-auto")}>
-          <div className="flex gap-1">
-            <div className="grid flex-1">
+        <div className={cn("grid gap-6 mt-6 mb-10 justify-center w-max mx-auto px-2 sm:px-0")}>
+          <div className="flex flex-col gap-2 sm:flex-row sm:gap-1 w-full">
+            <div className="grid flex-1 w-full">
               <Label className="sr-only" htmlFor="tag">
                 Nombre
               </Label>
@@ -182,10 +182,11 @@ function DashboardPage() {
                 required
                 value={tag}
                 onChange={(e) => setTag(e.target.value)}
+                className="w-full"
               />
             </div>
 
-            <div className="grid flex-1">
+            <div className="grid flex-1 w-full">
               <Label className="sr-only" htmlFor="facultyTag">
                 Facultad
               </Label>
@@ -198,6 +199,7 @@ function DashboardPage() {
                 required
                 value={facultyTag}
                 onChange={(e) => setFacultyTag(e.target.value)}
+                className="w-full"
               />
             </div>
           </div>
