@@ -8,4 +8,5 @@ export default {
     clientSecret: process.env.MICROSOFT_CLIENT_SECRET!,
     allowDangerousEmailAccountLinking: true,
   })],
+  debug: true,
 } satisfies NextAuthConfig
