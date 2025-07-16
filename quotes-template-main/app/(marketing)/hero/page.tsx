@@ -68,13 +68,7 @@ function HeroPage() {
             loop
             muted
             playsInline
-            className="hidden w-full max-w-full h-auto rounded-[inherit] border object-contain shadow-lg dark:block"
-            style={{ aspectRatio: '16/9' }}
-          />
-          <img
-            src="/video/showcase.webm"
-            alt="Hero Image"
-            className="block w-full max-w-full h-auto lg:max-w-[1000px] rounded-[inherit] border object-contain shadow-lg dark:hidden"
+            className="block w-full max-w-full h-auto rounded-[inherit] border object-contain shadow-lg"
             style={{ aspectRatio: '16/9' }}
           />
           <BorderBeam size={250} />
