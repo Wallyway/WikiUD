@@ -88,17 +88,17 @@ function HeroPage() {
         className="container space-y-6 bg-slate-50 py-8 dark:bg-transparent md:py-12 lg:py-10"
       >
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-          <h3 className="text-center text-sm font-semibold text-gray-500 pb-2">
+          <h2 className="text-center text-sm font-semibold text-gray-200 pb-2">
             FEATURES
-          </h3>
+          </h2>
         </div>
         <BentoDemo />
       </section>
       <section id="open-source" className="container py-8 md:py-12 lg:py-24">
         <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
-          <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+          <h3 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
             Todo en un solo lugar
-          </h2>
+          </h3>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
             Pruebalo Ahora - {" "}
             <a
