@@ -16,7 +16,11 @@ export class TeacherServiceImpl implements TeacherService {
         const query: any = {}
 
         if (name.trim()) {
-            query.name = { $regex: buildAccentInsensitiveRegex(name), $options: 'i' }
+            // Permitir búsqueda por palabras en cualquier orden
+            const words = name.trim().split(/\s+/);
+            query.$and = words.map(word => ({
+                name: { $regex: buildAccentInsensitiveRegex(word), $options: 'i' }
+            }));
         }
 
         if (faculty.trim()) {

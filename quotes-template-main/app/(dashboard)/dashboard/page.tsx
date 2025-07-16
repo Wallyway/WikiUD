@@ -30,7 +30,7 @@ const ProjectStatusCard = dynamic(
 );
 
 function DashboardPage() {
-  const [tag, setTag] = useState("");
+  const [inputTag, setInputTag] = useState("");
   const [facultyTag, setFacultyTag] = useState("");
   const [teachers, setTeachers] = useState<Teacher[]>([]);
   const [page, setPage] = useState(1);
@@ -39,13 +39,22 @@ function DashboardPage() {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const limit = 9; // Define the limit here
   const [commentsByTeacher, setCommentsByTeacher] = useState<Record<string, any[]>>({});
+  const [tag, setTag] = useState("");
 
   // Reset state when tag or facultyTag changes
   useEffect(() => {
     setPage(1);
     setTeachers([]);
     setHasMore(true);
-  }, [tag, facultyTag]);
+  }, [inputTag, facultyTag]);
+
+  // Debounce para el input de búsqueda
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setTag(inputTag);
+    }, 300);
+    return () => clearTimeout(handler);
+  }, [inputTag]);
 
   // Add scroll handler for back to top button
   useEffect(() => {
@@ -180,8 +189,8 @@ function DashboardPage() {
                 autoCapitalize="none"
                 autoCorrect="off"
                 required
-                value={tag}
-                onChange={(e) => setTag(e.target.value)}
+                value={inputTag}
+                onChange={(e) => setInputTag(e.target.value)}
                 className="w-full min-w-0 max-w-xs mx-auto sm:max-w-full" // Limita el ancho en móviles y centra
               />
             </div>
