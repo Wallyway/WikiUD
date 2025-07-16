@@ -16,8 +16,8 @@ const features = [
     name: "Comparte tus referencias",
     description: "Dejanos saber tus opiniones.",
     href: "/login",
-    cta: "Learn more",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
+    cta: "Comparte ahora",
+    background: <img className="absolute -right-20 -top-20 opacity-60" alt="" />,
     className: "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3",
   },
   {
@@ -25,8 +25,8 @@ const features = [
     name: "Busca tus profesores del semestre",
     description: "Encuentra tus profesores y sus referencias.",
     href: "/login",
-    cta: "Learn more",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
+    cta: "Buscar profesores",
+    background: <img className="absolute -right-20 -top-20 opacity-60" alt="" />,
     className: "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3",
   },
   {
@@ -34,8 +34,8 @@ const features = [
     name: "Seguro y confiable",
     description: "Soporte para mas de 100 profesores.",
     href: "/login",
-    cta: "Learn more",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
+    cta: "Ver profesores",
+    background: <img className="absolute -right-20 -top-20 opacity-60" alt="" />,
     className: "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4",
   },
   {
@@ -43,8 +43,8 @@ const features = [
     name: "Grupos de trabajo e investigación",
     description: "Escoge tu favorito",
     href: "/login",
-    cta: "Learn more",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
+    cta: "Explorar grupos",
+    background: <img className="absolute -right-20 -top-20 opacity-60" alt="" />,
     className: "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2",
   },
   {
@@ -53,8 +53,8 @@ const features = [
     description:
       "Recibe un recordatorio y dejanos tus opiniones al terminar el semestre.",
     href: "/login",
-    cta: "Learn more",
-    background: <img className="absolute -right-20 -top-20 opacity-60" />,
+    cta: "Activar recordatorio",
+    background: <img className="absolute -right-20 -top-20 opacity-60" alt="" />,
     className: "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4",
   },
 ];
