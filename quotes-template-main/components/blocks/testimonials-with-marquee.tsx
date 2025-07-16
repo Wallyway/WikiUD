@@ -17,6 +17,9 @@ interface TestimonialsSectionProps {
     className?: string
     highlightedCommentId?: string
     shinyCommentId?: string
+    userSession?: any // Nuevo: info del usuario autenticado
+    onDeleteComment?: (commentId: string) => void // Nuevo: función para borrar
+    onEditComment?: (commentId: string, newText: string) => void // Nuevo: función para editar
 }
 
 export function TestimonialsSection({
@@ -25,7 +28,10 @@ export function TestimonialsSection({
     testimonials,
     className,
     highlightedCommentId,
-    shinyCommentId
+    shinyCommentId,
+    userSession,
+    onDeleteComment,
+    onEditComment,
 }: TestimonialsSectionProps) {
     const [isPaused, setIsPaused] = useState(false);
     const [isHighlighting, setIsHighlighting] = useState(false);
@@ -184,6 +190,9 @@ export function TestimonialsSection({
                                             onMouseLeave={() => !isHighlighting && setIsPaused(false)}
                                             isHighlighted={isHighlighted}
                                             isShiny={isShiny}
+                                            userSession={userSession}
+                                            onDeleteComment={onDeleteComment}
+                                            onEditComment={onEditComment}
                                         />
                                     </div>
                                 );

@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
+import { useState } from "react"
 
 export interface TestimonialAuthor {
     name: string
@@ -18,6 +19,10 @@ export interface TestimonialCardProps {
     date?: string // fecha opcional
     isHighlighted?: boolean // nuevo prop para destacar comentarios
     isShiny?: boolean // shiny border for new comment
+    userSession?: any // Nuevo: info del usuario autenticado
+    onDeleteComment?: (commentId: string) => void // Nuevo: función para borrar
+    onEditComment?: (commentId: string, newText: string) => void // Nuevo: función para editar
+    _id?: string // Nuevo: id del comentario
 }
 
 function stringToColor(str: string) {
@@ -44,8 +49,30 @@ export function TestimonialCard({
     rating,
     date,
     isHighlighted,
-    isShiny
+    isShiny,
+    userSession,
+    onDeleteComment,
+    onEditComment,
+    _id
 }: TestimonialCardProps) {
+    const [isEditing, setIsEditing] = useState(false);
+    const [editText, setEditText] = useState(text);
+
+    const handleEdit = () => {
+        setIsEditing(true);
+        setEditText(text);
+    };
+    const handleCancel = () => {
+        setIsEditing(false);
+        setEditText(text);
+    };
+    const handleSave = () => {
+        if (onEditComment && _id) {
+            onEditComment(_id, editText);
+            setIsEditing(false);
+        }
+    };
+
     function TestimonialFooter({ rating, date }: { rating?: number, date?: string }) {
         return (
             <div className="mt-auto">
@@ -80,6 +107,11 @@ export function TestimonialCard({
             "z-10"
         ],
         className
+    );
+
+    const isOwnComment = userSession && (
+        (author.handle && userSession.user?.username === author.handle) ||
+        (author.name && userSession.user?.name === author.name)
     );
 
     if (href) {
@@ -136,14 +168,56 @@ export function TestimonialCard({
                     <h3 className="text-md font-semibold leading-none">
                         {author.name}
                     </h3>
-                    {/* <p className="text-sm text-muted-foreground">
-                        {author.handle}
-                    </p> */}
                 </div>
             </div>
-            <p className="sm:text-md mt-4 text-sm text-muted-foreground">
-                {text}
-            </p>
+            {isEditing ? (
+                <div className="mt-4 flex flex-col gap-2">
+                    <textarea
+                        className="w-full rounded border p-2 text-sm"
+                        value={editText}
+                        onChange={e => setEditText(e.target.value)}
+                        rows={3}
+                    />
+                    <div className="flex gap-2 justify-end">
+                        <button
+                            className="px-2 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition"
+                            onClick={handleSave}
+                        >
+                            Guardar
+                        </button>
+                        <button
+                            className="px-2 py-1 text-xs bg-gray-300 text-gray-800 rounded hover:bg-gray-400 transition"
+                            onClick={handleCancel}
+                        >
+                            Cancelar
+                        </button>
+                    </div>
+                </div>
+            ) : (
+                <p className="sm:text-md mt-4 text-sm text-muted-foreground">
+                    {text}
+                </p>
+            )}
+            <div className="flex items-center justify-end gap-2 mt-4">
+                {isOwnComment && onEditComment && _id && !isEditing && (
+                    <button
+                        className="px-2 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition"
+                        title="Editar comentario"
+                        onClick={handleEdit}
+                    >
+                        Editar
+                    </button>
+                )}
+                {isOwnComment && onDeleteComment && _id && !isEditing && (
+                    <button
+                        className="px-2 py-1 text-xs bg-red-500 text-white rounded hover:bg-red-600 transition"
+                        title="Borrar comentario"
+                        onClick={() => onDeleteComment(_id)}
+                    >
+                        Borrar
+                    </button>
+                )}
+            </div>
             <TestimonialFooter rating={rating} date={date} />
         </div>
     );

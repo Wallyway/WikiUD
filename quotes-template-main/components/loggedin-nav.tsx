@@ -82,8 +82,8 @@ export function LoggedInNav() {
         href="/dashboard"
         className="lg:mr-6 sm:mr-0 flex items-center gap-2">
         <Icons.logoud className="h-10 w-9 hidden lg:block md:block" />
-        <span className="font-bold lg:block md:block">WikiUD</span>
-        <Badge className="hidden lg:block md:block">Beta</Badge>
+        <span className="font-bold hidden md:block lg:block">WikiUD</span>
+        <Badge className="hidden md:block lg:block">Beta</Badge>
       </Link>
       <NavigationMenu className="hidden lg:block">
         <NavigationMenuList>

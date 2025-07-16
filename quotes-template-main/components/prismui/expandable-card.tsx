@@ -484,6 +484,45 @@ const CommentsModal = ({ teacherId }: { teacherId: string }) => {
     };
   }, [teacherId, session]);
 
+  // Nueva función para borrar comentario
+  const handleDeleteComment = async (commentId: string) => {
+    if (!session?.user) return;
+    setLoading(true);
+    const params = new URLSearchParams({
+      commentId,
+      userEmail: session.user.email || '',
+      userHandle: session.user.username || '',
+      userName: session.user.name || '',
+    });
+    const res = await fetch(`/api/comments?${params.toString()}`, {
+      method: 'DELETE',
+    });
+    setLoading(false);
+    if (res.ok) {
+      refreshComments();
+    } else {
+      // Opcional: mostrar error
+      alert('No se pudo borrar el comentario');
+    }
+  };
+
+  // Nueva función para editar comentario
+  const handleEditComment = async (commentId: string, newText: string) => {
+    if (!session?.user) return;
+    setLoading(true);
+    const res = await fetch(`/api/comments`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ commentId, newText, userEmail: session.user.email || '', userHandle: session.user.username || '', userName: session.user.name || '' }),
+    });
+    setLoading(false);
+    if (res.ok) {
+      refreshComments();
+    } else {
+      alert('No se pudo editar el comentario');
+    }
+  };
+
   return (
     <div>
       <AnimatePresence mode="wait">
@@ -513,6 +552,9 @@ const CommentsModal = ({ teacherId }: { teacherId: string }) => {
               className="max-w-xl w-full mx-auto"
               highlightedCommentId={highlightedCommentId}
               shinyCommentId={shinyCommentId}
+              userSession={session}
+              onDeleteComment={handleDeleteComment}
+              onEditComment={handleEditComment}
             />
           </motion.div>
         )}

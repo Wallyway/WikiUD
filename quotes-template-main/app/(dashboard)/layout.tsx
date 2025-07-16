@@ -6,6 +6,7 @@ import { UserAccountNav } from "@/components/user-account-nav"
 import { LoggedInNav } from "@/components/loggedin-nav"
 import { ModeToggle } from "@/components/toggle"
 import { BGPattern } from "@/components/ui/bg-pattern"
+import MobileNav from "@/components/mobile-nav"
 
 {/* @ts-ignore */ }
 
@@ -28,6 +29,7 @@ export default async function DashboardLayout({
 
       <header className="sticky top-0 z-40 border-b bg-background">
         <div className="container flex h-16 items-center py-4 justify-between">
+          <MobileNav />
           <LoggedInNav />
           <div className="flex items-center gap-4 mx-2">
             <ModeToggle />
