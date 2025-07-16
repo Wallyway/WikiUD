@@ -62,6 +62,7 @@ export function MainNav() {
     <div className="mr-4 md:flex">
       <Link
         href="/"
+        aria-label="Ir a la página principal"
         className="lg:mr-6 sm:mr-0 flex items-center gap-2">
         <div className="aspect-[168/212] w-10 hidden lg:block md:block">
           <Icons.logoud className="w-full h-auto" />
