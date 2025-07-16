@@ -2,22 +2,35 @@
 import { motion } from "framer-motion";
 import { Timeline } from "@/components/ui/timeline";
 import { ExpandableImage } from "@/components/ui/ExpandableImage";
+import { useState, useEffect } from "react";
 
 export default function CalculoIntegralPage() {
+    const [isMobile, setIsMobile] = useState(false);
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            setIsMobile(window.innerWidth < 768);
+        }
+    }, []);
     return (
-        <div className="min-h-screen flex flex-col items-center w-full pt-16"> {/* pt-32 para espacio arriba */}
-            <motion.h1
-                initial={{ opacity: 0.5, y: -100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{
-                    delay: 0.3,
-                    duration: 0.8,
-                    ease: "easeInOut",
-                }}
-                className="bg-gradient-to-br from-slate-200 to-slate-400 py-4 bg-clip-text text-center text-4xl font-bold tracking-tight text-transparent md:text-7xl mb-4"
-            >
-                Ecuaciones Diferenciales
-            </motion.h1>
+        <div className="min-h-screen flex flex-col items-center w-full pt-4 md:pt-16"> {/* pt-32 para espacio arriba */}
+            {isMobile ? (
+                <h1 className="bg-gradient-to-br from-slate-200 to-slate-400 py-4 bg-clip-text text-center text-4xl font-bold tracking-tight text-transparent md:text-7xl mb-2 md:mb-4">
+                    Ecuaciones Diferenciales
+                </h1>
+            ) : (
+                <motion.h1
+                    initial={{ opacity: 0.5, y: -100 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                        delay: 0.3,
+                        duration: 0.8,
+                        ease: "easeInOut",
+                    }}
+                    className="bg-gradient-to-br from-slate-200 to-slate-400 py-4 bg-clip-text text-center text-4xl font-bold tracking-tight text-transparent md:text-7xl mb-2 md:mb-4"
+                >
+                    Ecuaciones Diferenciales
+                </motion.h1>
+            )}
             {/* Timeline debajo del título */}
             <div className="w-full max-w-4xl -mt-10 bg-transparent">
                 <Timeline

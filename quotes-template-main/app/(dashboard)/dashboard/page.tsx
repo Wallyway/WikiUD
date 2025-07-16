@@ -167,9 +167,9 @@ function DashboardPage() {
         <h1 className="mt-16 text-4xl font-bold tracking-tighter md:text-6xl lg:text-7xl text-center">
           Busca a tu <AuroraText>Profe</AuroraText>
         </h1>
-        <div className={cn("grid gap-6 mt-6 mb-10 justify-center w-max mx-auto")}>
-          <div className="flex gap-1">
-            <div className="grid flex-1">
+        <div className={cn("grid gap-6 mt-6 mb-10 w-full max-w-xl mx-auto")}>
+          <div className="flex flex-col gap-2 sm:flex-row sm:gap-1 w-full">
+            <div className="grid flex-1 min-w-0">
               <Label className="sr-only" htmlFor="tag">
                 Nombre
               </Label>
@@ -182,10 +182,11 @@ function DashboardPage() {
                 required
                 value={tag}
                 onChange={(e) => setTag(e.target.value)}
+                className="w-full"
               />
             </div>
 
-            <div className="grid flex-1">
+            <div className="grid flex-1 min-w-0">
               <Label className="sr-only" htmlFor="facultyTag">
                 Facultad
               </Label>
@@ -198,6 +199,7 @@ function DashboardPage() {
                 required
                 value={facultyTag}
                 onChange={(e) => setFacultyTag(e.target.value)}
+                className="w-full"
               />
             </div>
           </div>
@@ -222,6 +224,7 @@ function DashboardPage() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -40 }}
                   transition={{ duration: 0.6, ease: "easeInOut" }}
+                  className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full"
                 >
                   {teachers.map((teacher) => {
                     // Usar los últimos 3 comentarios directamente del objeto teacher
@@ -231,27 +234,28 @@ function DashboardPage() {
                       image: c.author?.avatar || undefined,
                     }));
                     return (
-                      <ProjectStatusCard
-                        key={teacher._id}
-                        id={teacher._id}
-                        title={teacher.name}
-                        progress={Math.round((teacher.rating / 5) * 100)}
-                        dueDate={teacher.email}
-                        faculty={teacher.faculty}
-                        contributors={contributors}
-                        tasks={[
-                          { title: teacher.subject, completed: true },
-                        ]}
-                        githubStars={teacher.reviews}
-                        openIssues={teacher.reviews}
-                      />
+                      <div key={teacher._id} className="w-full">
+                        <ProjectStatusCard
+                          id={teacher._id}
+                          title={teacher.name}
+                          progress={Math.round((teacher.rating / 5) * 100)}
+                          dueDate={teacher.email}
+                          faculty={teacher.faculty}
+                          contributors={contributors}
+                          tasks={[
+                            { title: teacher.subject, completed: true },
+                          ]}
+                          githubStars={teacher.reviews}
+                          openIssues={teacher.reviews}
+                        />
+                      </div>
                     );
                   })}
                 </motion.div>
               )}
             </AnimatePresence>
-            {!loading && !hasMore && teachers.length === 0 && <div className="text-center">Sin resultados</div>} {/* Message when no teachers found after initial load */}
-            {!loading && !hasMore && teachers.length > 0 && <div className="text-center">No hay más profesores.</div>} {/* Message when no more teachers after some have loaded */}
+            {!loading && !hasMore && teachers.length === 0 && <div className="text-center">Sin resultados</div>}
+            {!loading && !hasMore && teachers.length > 0 && <div className="text-center">No hay más profesores.</div>}
           </div>
         </div>
       </div>

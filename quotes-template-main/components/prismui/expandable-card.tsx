@@ -119,7 +119,7 @@ export function ProjectStatusCard({
 
   return (
     <Card
-      className="w-96 cursor-pointer transition-all duration-300 hover:shadow-lg shadow-none mb-6"
+      className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl cursor-pointer transition-all duration-300 hover:shadow-lg shadow-none mb-6"
       onClick={toggleExpand}
     >
       <MagicCard
