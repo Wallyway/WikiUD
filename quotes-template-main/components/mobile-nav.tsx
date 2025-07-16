@@ -69,40 +69,34 @@ function MobileNav() {
           <ScrollArea className="h-[calc(100vh-80px)] p-4">
             <nav className="flex flex-col gap-4">
               <MobileLink href="/dashboard" onOpenChange={setOpen} className="font-medium text-base">Dashboard</MobileLink>
-              <div>
-                <div className="font-semibold text-sm mb-1">Grupos de trabajo</div>
-                <ul className="flex flex-col gap-1">
-                  {workGroups.map((g) => (
-                    <li key={g.title}>
-                      <a href={g.href} target="_blank" rel="noopener noreferrer" className="text-sm text-blue-700 underline" onClick={() => setOpen(false)}>{g.title}</a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <div className="font-semibold text-sm mb-1">Grupos de investigación</div>
-                <ul className="flex flex-col gap-1">
-                  {researchGroups.map((g) => (
-                    <li key={g.title}>
-                      <a href={g.href} target="_blank" rel="noopener noreferrer" className="text-sm text-blue-700 underline" onClick={() => setOpen(false)}>{g.title}</a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <div className="font-semibold text-sm mb-1">Parciales conjuntos</div>
-                <ul className="flex flex-col gap-1">
-                  {examSubjects.map((s) => (
-                    <li key={s.title}>
-                      <Link href={s.href} onClick={() => setOpen(false)} className="text-sm text-blue-700 underline">{s.title}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <div className="mt-4 text-xs uppercase text-muted-foreground font-semibold mb-1">Grupos de trabajo</div>
+              <ul className="flex flex-col gap-1">
+                {workGroups.map((g) => (
+                  <li key={g.title}>
+                    <a href={g.href} target="_blank" rel="noopener noreferrer" className="text-sm hover:bg-accent hover:text-accent-foreground transition-colors rounded px-2 py-1" onClick={() => setOpen(false)}>{g.title}</a>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-4 text-xs uppercase text-muted-foreground font-semibold mb-1">Grupos de investigación</div>
+              <ul className="flex flex-col gap-1">
+                {researchGroups.map((g) => (
+                  <li key={g.title}>
+                    <a href={g.href} target="_blank" rel="noopener noreferrer" className="text-sm hover:bg-accent hover:text-accent-foreground transition-colors rounded px-2 py-1" onClick={() => setOpen(false)}>{g.title}</a>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-4 text-xs uppercase text-muted-foreground font-semibold mb-1">Parciales conjuntos</div>
+              <ul className="flex flex-col gap-1">
+                {examSubjects.map((s) => (
+                  <li key={s.title}>
+                    <Link href={s.href} onClick={() => setOpen(false)} className="text-sm hover:bg-accent hover:text-accent-foreground transition-colors rounded px-2 py-1">{s.title}</Link>
+                  </li>
+                ))}
+              </ul>
             </nav>
           </ScrollArea>
         </SheetContent>
-      </Sheet>
+      </Sheet >
     </>
   );
 }

@@ -72,7 +72,7 @@ function HeroPage() {
             style={{ aspectRatio: '16/9' }}
           />
           <img
-            src="/light.webp"
+            src="/video/showcase.webm"
             alt="Hero Image"
             className="block w-full max-w-full h-auto lg:max-w-[1000px] rounded-[inherit] border object-contain shadow-lg dark:hidden"
             style={{ aspectRatio: '16/9' }}
