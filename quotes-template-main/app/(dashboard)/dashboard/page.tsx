@@ -224,7 +224,7 @@ function DashboardPage() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -40 }}
                   transition={{ duration: 0.6, ease: "easeInOut" }}
-                  className="flex flex-col gap-1"
+                  className="flex flex-col gap-1 px-0"
                 >
                   {teachers.map((teacher) => {
                     // Usar los últimos 3 comentarios directamente del objeto teacher
