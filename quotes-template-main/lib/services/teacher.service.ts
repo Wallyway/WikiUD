@@ -10,14 +10,15 @@ export class TeacherServiceImpl implements TeacherService {
 
     async searchTeachers(params: TeacherSearchParams): Promise<Teacher[]> {
         const { name = '', faculty = '', page = 1, limit = 9 } = params
+        const skip = (page - 1) * limit
+
         const db = await this.getDb()
         const query: any = {}
 
-        // Optimización: usar índices de texto para búsquedas más eficientes
         if (name.trim()) {
             // Permitir búsqueda por palabras en cualquier orden
             const words = name.trim().split(/\s+/);
-            query.$and = words.map((word: string) => ({
+            query.$and = words.map(word => ({
                 name: { $regex: buildAccentInsensitiveRegex(word), $options: 'i' }
             }));
         }
@@ -26,21 +27,8 @@ export class TeacherServiceImpl implements TeacherService {
             query.faculty = { $regex: buildAccentInsensitiveRegex(faculty), $options: 'i' }
         }
 
-        const skip = (page - 1) * limit
-
-        // Optimización: usar projection para solo traer campos necesarios
         const teachers = await db.collection("teachers")
             .find(query)
-            .project({
-                _id: 1,
-                name: 1,
-                faculty: 1,
-                degree: 1,
-                subject: 1,
-                email: 1,
-                rating: 1,
-                reviews: 1
-            })
             .skip(skip)
             .limit(limit)
             .toArray()

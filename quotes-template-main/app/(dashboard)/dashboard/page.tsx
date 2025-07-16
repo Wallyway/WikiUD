@@ -52,20 +52,9 @@ function DashboardPage() {
   useEffect(() => {
     const handler = setTimeout(() => {
       setTag(inputTag);
-    }, 500); // Aumentado de 300ms a 500ms para reducir peticiones
+    }, 300);
     return () => clearTimeout(handler);
   }, [inputTag]);
-
-  // Debounce para el filtro de facultad
-  useEffect(() => {
-    const handler = setTimeout(() => {
-      // Reset state when faculty changes
-      setPage(1);
-      setTeachers([]);
-      setHasMore(true);
-    }, 500);
-    return () => clearTimeout(handler);
-  }, [facultyTag]);
 
   // Add scroll handler for back to top button
   useEffect(() => {

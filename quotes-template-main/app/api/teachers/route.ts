@@ -9,31 +9,8 @@ import authOptions from '@/auth.config';
 
 const teacherService: TeacherService = new TeacherServiceImpl()
 
-// Rate limiting: máximo 10 requests por minuto por IP
-async function checkRateLimit(ip: string): Promise<boolean> {
-    const key = `rate_limit:${ip}`
-    const current = await redis.incr(key)
-
-    if (current === 1) {
-        await redis.expire(key, 60) // Expira en 1 minuto
-    }
-
-    return current <= 10 // Máximo 10 requests por minuto
-}
-
 export async function GET(request: Request) {
     try {
-        // Rate limiting
-        const ip = request.headers.get('x-forwarded-for') || 'unknown'
-        const isAllowed = await checkRateLimit(ip)
-
-        if (!isAllowed) {
-            return NextResponse.json(
-                { error: 'Rate limit exceeded. Please try again later.' },
-                { status: 429 }
-            )
-        }
-
         const { searchParams } = new URL(request.url)
         const name = searchParams.get('name') || ''
         const faculty = searchParams.get('faculty') || ''
@@ -52,40 +29,30 @@ export async function GET(request: Request) {
         const client = await getMongoClient();
         const db = client.db();
 
-        // Cache de comentarios por profesor para evitar consultas repetidas
         const teachersWithLastComments = await Promise.all(
             teachers.map(async (teacher) => {
-                const commentsCacheKey = `comments:${teacher._id}`;
-                let lastComments = await redis.get(commentsCacheKey);
-
-                if (!lastComments) {
-                    const comments = await db.collection('comments')
-                        .find({ teacherId: new ObjectId(teacher._id) })
-                        .sort({ date: -1 })
-                        .limit(3)
-                        .toArray();
-                    lastComments = JSON.stringify(comments);
-                    // Cache comentarios por 5 minutos
-                    await redis.set(commentsCacheKey, lastComments, "EX", 300);
-                }
-
+                const lastComments = await db.collection('comments')
+                    .find({ teacherId: new ObjectId(teacher._id) })
+                    .sort({ date: -1 })
+                    .limit(3)
+                    .toArray();
                 return {
                     ...teacher,
-                    lastComments: JSON.parse(lastComments)
+                    lastComments
                 };
             })
         );
 
         // Responde al usuario inmediatamente
         const response = { teachers: teachersWithLastComments };
-        // Cache principal por 2 minutos (aumentado de 1 minuto)
-        redis.set(cacheKey, JSON.stringify(response), "EX", 120);
+        // Actualiza el caché en segundo plano (no bloquea la respuesta)
+        redis.set(cacheKey, JSON.stringify(response), "EX", 60);
 
         return NextResponse.json(response)
     } catch (error) {
-        console.error('Error in teachers API:', error)
+        console.error('Error fetching teachers:', error)
         return NextResponse.json(
-            { error: 'Internal server error' },
+            { error: 'Failed to fetch teachers' },
             { status: 500 }
         )
     }
