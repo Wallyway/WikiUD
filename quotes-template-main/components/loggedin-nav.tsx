@@ -81,7 +81,7 @@ export function LoggedInNav() {
       <Link
         href="/dashboard"
         className="lg:mr-6 sm:mr-0 flex items-center gap-2">
-        <div className="aspect-[168/212] w-10 hidden lg:block md:block">
+        <div className="aspect-[168/212] w-8 hidden lg:block md:block">
           <Icons.logoud className="w-full h-auto" />
         </div>
         <span className="font-bold hidden md:block lg:block">WikiUD</span>
