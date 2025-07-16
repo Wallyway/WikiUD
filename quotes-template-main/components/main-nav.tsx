@@ -63,7 +63,9 @@ export function MainNav() {
       <Link
         href="/"
         className="lg:mr-6 sm:mr-0 flex items-center gap-2">
-        <Icons.logoud className="h-10 w-9 hidden lg:block md:block" />
+        <div className="aspect-[168/212] w-10 hidden lg:block md:block">
+          <Icons.logoud className="w-full h-auto" />
+        </div>
         <span className="font-bold hidden lg:block md:block">WikiUD</span>
         <Badge className="hidden lg:block md:block">Beta</Badge>
       </Link>

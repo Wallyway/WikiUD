@@ -81,7 +81,9 @@ export function LoggedInNav() {
       <Link
         href="/dashboard"
         className="lg:mr-6 sm:mr-0 flex items-center gap-2">
-        <Icons.logoud className="h-10 w-9 hidden lg:block md:block" />
+        <div className="aspect-[168/212] w-10 hidden lg:block md:block">
+          <Icons.logoud className="w-full h-auto" />
+        </div>
         <span className="font-bold hidden md:block lg:block">WikiUD</span>
         <Badge className="hidden md:block lg:block">Beta</Badge>
       </Link>
@@ -97,7 +99,7 @@ export function LoggedInNav() {
                       className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                       href="/"
                     >
-                      <Icons.logoud className="h-10 w-9" />
+                      <Icons.logoud className="w-full h-auto" />
                       <div className="mb-2 mt-4 text-lg font-medium">
                         ¿Qué son?
                       </div>

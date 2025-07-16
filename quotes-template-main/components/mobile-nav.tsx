@@ -58,7 +58,9 @@ function MobileNav() {
           <SheetHeader className="p-4 border-b">
             <SheetTitle>
               <Link href="/dashboard" onClick={() => setOpen(false)} className="flex items-center gap-2 w-full justify-center">
-                <Icons.logoud className="h-8 w-8" />
+                <div className="aspect-[168/212] w-8">
+                  <Icons.logoud className="w-full h-auto" />
+                </div>
                 <span className="font-bold text-lg">WikiUD</span>
               </Link>
             </SheetTitle>

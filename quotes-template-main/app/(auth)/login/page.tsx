@@ -10,7 +10,7 @@ import { UserAuthForm } from "@/components/user-auth-form"
 
 
 export default function LoginPage() {
-  
+
   return (
     <>
       <div className="container flex h-screen w-screen flex-col items-center justify-center">
@@ -24,7 +24,9 @@ export default function LoginPage() {
         </Link>
         <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
           <div className="flex flex-col space-y-2 text-center">
-            <Icons.logoud className="mx-auto h-11 w-10" />
+            <div className="mx-auto aspect-[168/212] w-10">
+              <Icons.logoud className="w-full h-auto" />
+            </div>
             <h1 className="text-2xl font-semibold tracking-tight">
               Bienvenido a WikiUD
             </h1>
