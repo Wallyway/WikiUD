@@ -52,9 +52,33 @@ function DashboardPage() {
   useEffect(() => {
     const handler = setTimeout(() => {
       setTag(inputTag);
-    }, 300);
+    }, 500); // Aumentado de 300ms a 500ms para reducir peticiones
     return () => clearTimeout(handler);
   }, [inputTag]);
+
+  // Throttled scroll handler para infinite scroll
+  useEffect(() => {
+    let ticking = false;
+
+    const handleScroll = () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          // Check if near bottom (e.g., within 300px) of the scrollable content
+          const isNearBottom = (window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 300;
+
+          // Trigger loading next page if near bottom, there's more data, and not currently loading
+          if (isNearBottom && hasMore && !loading) {
+            setPage(prevPage => prevPage + 1);
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [hasMore, loading]);
 
   // Add scroll handler for back to top button
   useEffect(() => {
@@ -118,24 +142,6 @@ function DashboardPage() {
     fetchTeachers();
 
   }, [tag, facultyTag, page]); // Dependencies are tag, facultyTag and page.
-
-  // Infinite scroll effect
-  useEffect(() => {
-    const handleScroll = () => {
-      // Check if near bottom (e.g., within 300px) of the scrollable content
-      // Using documentElement.scrollHeight for potentially more reliable total height
-      const isNearBottom = (window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 300;
-
-      // Trigger loading next page if near bottom, there's more data, and not currently loading
-      if (isNearBottom && hasMore && !loading) {
-        setPage(prevPage => prevPage + 1);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    // Clean up the event listener when the component unmounts or dependencies change
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [hasMore, loading]); // Include dependencies hasMore and loading to ensure handler re-creates when these change
 
   // Fetch comments for all teachers when teachers change
   useEffect(() => {

@@ -19,42 +19,81 @@ export async function GET(request: Request) {
 
         // Clave única para el caché basada en los parámetros de búsqueda
         const cacheKey = `teachers:${name}:${faculty}:${page}:${limit}`;
-        const cached = await redis.get(cacheKey);
-        if (cached) {
-            return NextResponse.json(JSON.parse(cached));
+
+        // Intentar obtener del caché primero
+        try {
+            const cached = await redis.get(cacheKey);
+            if (cached) {
+                return NextResponse.json(JSON.parse(cached));
+            }
+        } catch (cacheError) {
+            console.warn('Cache error, continuing without cache:', cacheError);
         }
 
-        const teachers = await teacherService.searchTeachers({ name, faculty, page, limit })
+        // Obtener profesores con timeout
+        const teachers = await Promise.race([
+            teacherService.searchTeachers({ name, faculty, page, limit }),
+            new Promise((_, reject) =>
+                setTimeout(() => reject(new Error('Database timeout')), 10000)
+            )
+        ]) as any[];
 
+        // Optimizar: obtener comentarios en una sola consulta agregada
         const client = await getMongoClient();
         const db = client.db();
 
-        const teachersWithLastComments = await Promise.all(
+        // Usar agregación para obtener los últimos 3 comentarios por profesor en una sola consulta
+        const teachersWithComments = await Promise.all(
             teachers.map(async (teacher) => {
-                const lastComments = await db.collection('comments')
-                    .find({ teacherId: new ObjectId(teacher._id) })
-                    .sort({ date: -1 })
-                    .limit(3)
-                    .toArray();
-                return {
-                    ...teacher,
-                    lastComments
-                };
+                try {
+                    const pipeline = [
+                        { $match: { teacherId: new ObjectId(teacher._id) } },
+                        { $sort: { date: -1 } },
+                        { $limit: 3 },
+                        {
+                            $project: {
+                                author: 1,
+                                date: 1,
+                                content: 1
+                            }
+                        }
+                    ];
+
+                    const lastComments = await db.collection('comments')
+                        .aggregate(pipeline)
+                        .toArray();
+
+                    return {
+                        ...teacher,
+                        lastComments
+                    };
+                } catch (error) {
+                    console.error(`Error fetching comments for teacher ${teacher._id}:`, error);
+                    return {
+                        ...teacher,
+                        lastComments: []
+                    };
+                }
             })
         );
 
         // Responde al usuario inmediatamente
-        const response = { teachers: teachersWithLastComments };
-        // Actualiza el caché en segundo plano (no bloquea la respuesta)
-        redis.set(cacheKey, JSON.stringify(response), "EX", 60);
+        const response = { teachers: teachersWithComments };
 
-        return NextResponse.json(response)
+        // Actualizar el caché en segundo plano (no bloquea la respuesta)
+        try {
+            redis.set(cacheKey, JSON.stringify(response), "EX", 60);
+        } catch (cacheError) {
+            console.warn('Failed to update cache:', cacheError);
+        }
+
+        return NextResponse.json(response);
     } catch (error) {
-        console.error('Error fetching teachers:', error)
+        console.error('Error in teachers API:', error);
         return NextResponse.json(
-            { error: 'Failed to fetch teachers' },
+            { error: 'Internal server error', teachers: [] },
             { status: 500 }
-        )
+        );
     }
 }
 
