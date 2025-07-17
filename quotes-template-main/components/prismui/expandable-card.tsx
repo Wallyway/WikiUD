@@ -689,18 +689,19 @@ function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSli
   }
 
   return (
-    <form className="flex h-full flex-col" onSubmit={handleSubmit}>
-      <PopoverLabel>Agrega un comentario</PopoverLabel>
-      <CommentTextareaWithCounter maxLength={200} />
-      {/* Checkbox para comentario anónimo */}
-      <label className="flex items-center gap-2 mt-2 text-sm">
+    <form className="flex h-full flex-col relative" onSubmit={handleSubmit}>
+      {/* Checkbox para comentario anónimo en la esquina superior derecha */}
+      <div className="absolute top-3 right-4 z-10 flex items-center gap-2 text-sm">
         <input
           type="checkbox"
           checked={isAnonymous}
           onChange={handleAnonCheckbox}
+          id="anon-checkbox"
         />
-        Comentario anónimo
-      </label>
+        <label htmlFor="anon-checkbox">Comentario anónimo</label>
+      </div>
+      <PopoverLabel>Agrega un comentario</PopoverLabel>
+      <CommentTextareaWithCounter maxLength={200} />
       {/* Pop-up de advertencia para comentario anónimo */}
       <AnimatePresence>
         {showAnonWarning && (
