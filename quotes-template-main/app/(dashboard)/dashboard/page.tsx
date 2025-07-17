@@ -237,7 +237,9 @@ function DashboardPage() {
                 >
                   {teachers.map((teacher) => {
                     // Usar los últimos 3 comentarios directamente del objeto teacher
-                    const last3 = (teacher.lastComments || []).slice(0, 3);
+                    // Asegurar que lastComments sea un array antes de procesarlo
+                    const lastComments = Array.isArray(teacher.lastComments) ? teacher.lastComments : [];
+                    const last3 = lastComments.slice(0, 3);
                     const contributors = last3.map((c: any) => ({
                       name: c.author?.name || "-",
                       image: c.author?.avatar || undefined,
