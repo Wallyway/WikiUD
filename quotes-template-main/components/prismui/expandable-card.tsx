@@ -625,6 +625,7 @@ function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSli
   const [sent, setSent] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
   const [isAnonymous, setIsAnonymous] = useState(false); // Nuevo estado
+  const [showAnonWarning, setShowAnonWarning] = useState(false); // Estado para el pop-up
   const isLoggedIn = status === 'authenticated' && session?.user;
 
   async function sendComment() {
@@ -680,6 +681,13 @@ function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSli
     setShowConfirm(false);
   }
 
+  function handleAnonCheckbox(e: React.ChangeEvent<HTMLInputElement>) {
+    setIsAnonymous(e.target.checked);
+    if (e.target.checked) {
+      setShowAnonWarning(true);
+    }
+  }
+
   return (
     <form className="flex h-full flex-col" onSubmit={handleSubmit}>
       <PopoverLabel>Agrega un comentario</PopoverLabel>
@@ -689,10 +697,38 @@ function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSli
         <input
           type="checkbox"
           checked={isAnonymous}
-          onChange={e => setIsAnonymous(e.target.checked)}
+          onChange={handleAnonCheckbox}
         />
         Comentario anónimo
       </label>
+      {/* Pop-up de advertencia para comentario anónimo */}
+      <AnimatePresence>
+        {showAnonWarning && (
+          <motion.div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/40"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.div
+              className="bg-background border border-border rounded-xl shadow-xl p-8 flex flex-col items-center gap-4 min-w-[320px] max-w-[90vw] font-sans"
+              initial={{ scale: 0.92, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.92, opacity: 0 }}
+              transition={{ type: 'spring', stiffness: 260, damping: 22 }}
+            >
+              <div className="text-lg font-bold text-foreground text-center">Cualquier indicio de spam será sancionado de usar WikiUD</div>
+              <button
+                type="button"
+                className="px-4 py-2 rounded-md bg-blue-600 text-white font-semibold hover:bg-blue-700 transition mt-2"
+                onClick={() => setShowAnonWarning(false)}
+              >
+                Aceptar
+              </button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
       <PopoverFooterComp>
         <PopoverCloseButton />
         <div className="flex flex-col items-center gap-1 w-full">
