@@ -41,21 +41,21 @@ export default function RootLayout({
         {/* Open Graph */}
         <meta property="og:title" content="WikiUD: Comparte y descubre referencias de profesores | Universidad Distrital" />
         <meta property="og:description" content="Lleva tu experiencia universitaria al siguiente nivel con WikiUD: la plataforma donde los estudiantes de la Universidad Distrital comparten opiniones, recomendaciones y referencias de sus profesores. Descubre, explora y contribuye a una comunidad académica colaborativa." />
-        <meta property="og:image" content="https://www.wikiud.org/UPimg.png" />
+        <meta property="og:image" content="https://www.wikiud.org/Pi7_ud.png" />
         <meta property="og:url" content="https://www.wikiud.org/" />
         <meta property="og:type" content="website" />
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="WikiUD: Comparte y descubre referencias de profesores | Universidad Distrital" />
         <meta name="twitter:description" content="Lleva tu experiencia universitaria al siguiente nivel con WikiUD: la plataforma donde los estudiantes de la Universidad Distrital comparten opiniones, recomendaciones y referencias de sus profesores. Descubre, explora y contribuye a una comunidad académica colaborativa." />
-        <meta name="twitter:image" content="https://www.wikiud.org/UPimg.png" />
+        <meta name="twitter:image" content="https://www.wikiud.org/Pi7_ud.png" />
         {/* Schema.org Organization Logo */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "url": "https://www.wikiud.org",
-            "logo": "https://www.wikiud.org/UPimg.png"
+            "logo": "https://www.wikiud.org/Pi7_ud.png"
           })
         }} />
       </head>
