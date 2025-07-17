@@ -32,7 +32,33 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>WikiUD: Comparte y descubre referencias de profesores | Universidad Distrital</title>
+        <meta name="description" content="Lleva tu experiencia universitaria al siguiente nivel con WikiUD: la plataforma donde los estudiantes de la Universidad Distrital comparten opiniones, recomendaciones y referencias de sus profesores. Descubre, explora y contribuye a una comunidad académica colaborativa." />
+        {/* Open Graph */}
+        <meta property="og:title" content="WikiUD: Comparte y descubre referencias de profesores | Universidad Distrital" />
+        <meta property="og:description" content="Lleva tu experiencia universitaria al siguiente nivel con WikiUD: la plataforma donde los estudiantes de la Universidad Distrital comparten opiniones, recomendaciones y referencias de sus profesores. Descubre, explora y contribuye a una comunidad académica colaborativa." />
+        <meta property="og:image" content="https://www.wikiud.org/UPimg.png" />
+        <meta property="og:url" content="https://www.wikiud.org/" />
+        <meta property="og:type" content="website" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="WikiUD: Comparte y descubre referencias de profesores | Universidad Distrital" />
+        <meta name="twitter:description" content="Lleva tu experiencia universitaria al siguiente nivel con WikiUD: la plataforma donde los estudiantes de la Universidad Distrital comparten opiniones, recomendaciones y referencias de sus profesores. Descubre, explora y contribuye a una comunidad académica colaborativa." />
+        <meta name="twitter:image" content="https://www.wikiud.org/UPimg.png" />
+        {/* Schema.org Organization Logo */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://www.wikiud.org",
+            "logo": "https://www.wikiud.org/UPimg.png"
+          })
+        }} />
+      </head>
       <body
         className={cn(
           "relative flex min-h-screen w-full flex-col justify-center scroll-smooth bg-background font-sans antialiased",
