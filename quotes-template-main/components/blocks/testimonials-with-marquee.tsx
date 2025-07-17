@@ -127,6 +127,48 @@ export function TestimonialsSection({
         }
     }, [highlightedCommentId, testimonials, cardWidth, totalCardWidth]);
 
+    // Touch events for mobile swipe
+    useEffect(() => {
+        let startX = 0;
+        let lastX = 0;
+        let isTouching = false;
+        const handleTouchStart = (e: TouchEvent) => {
+            if (e.touches.length === 1) {
+                isTouching = true;
+                startX = e.touches[0].clientX;
+                lastX = scrollPositionRef.current;
+                setIsPaused(true);
+            }
+        };
+        const handleTouchMove = (e: TouchEvent) => {
+            if (!isTouching || !innerRef.current) return;
+            const deltaX = e.touches[0].clientX - startX;
+            let newScroll = lastX - deltaX;
+            const maxScroll = totalCardWidth * testimonials.length;
+            if (newScroll < 0) newScroll = 0;
+            if (newScroll > maxScroll) newScroll = maxScroll;
+            scrollPositionRef.current = newScroll;
+            innerRef.current.style.transform = `translateX(-${newScroll}px)`;
+        };
+        const handleTouchEnd = () => {
+            isTouching = false;
+            setIsPaused(false);
+        };
+        const carousel = carouselRef.current;
+        if (carousel) {
+            carousel.addEventListener('touchstart', handleTouchStart, { passive: false });
+            carousel.addEventListener('touchmove', handleTouchMove, { passive: false });
+            carousel.addEventListener('touchend', handleTouchEnd);
+        }
+        return () => {
+            if (carousel) {
+                carousel.removeEventListener('touchstart', handleTouchStart);
+                carousel.removeEventListener('touchmove', handleTouchMove);
+                carousel.removeEventListener('touchend', handleTouchEnd);
+            }
+        };
+    }, [testimonials.length, totalCardWidth]);
+
     return (
         <section className={cn(
             "bg-background text-foreground",
