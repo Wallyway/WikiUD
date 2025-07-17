@@ -54,65 +54,78 @@ import path from 'path';
 // Para tipado correcto
 // type TeacherRatings = { [email: string]: number[] };
 
-export async function POST() {
+export async function POST(request: Request) {
     try {
+        const { searchParams } = new URL(request.url);
+        const file = searchParams.get('file') || 'profesores_ingenieria_sin_duplicados.json';
+        const clear = searchParams.get('clear') === 'true';
+
         const client = await getMongoClient();
         const db = client.db();
 
-        // Leer profesores oficiales desde el archivo JSON
-        const filePath = path.join(process.cwd(), 'db', 'profesores_ingenieria_sin_duplicados.json');
+        // Leer profesores desde el archivo JSON especificado
+        const filePath = path.join(process.cwd(), 'db', file);
+
+        // Verificar si el archivo existe
+        try {
+            await fs.access(filePath);
+        } catch (error) {
+            return NextResponse.json(
+                { success: false, error: `Archivo ${file} no encontrado` },
+                { status: 404 }
+            );
+        }
+
         const fileContents = await fs.readFile(filePath, 'utf-8');
         const sampleTeachers = JSON.parse(fileContents);
 
-        // Clear existing teachers and comments
-        await db.collection("teachers").deleteMany({});
-        await db.collection("comments").deleteMany({});
+        // Solo limpiar si se especifica explícitamente
+        if (clear) {
+            console.log('Limpiando base de datos...');
+            await db.collection("teachers").deleteMany({});
+            await db.collection("comments").deleteMany({});
+        }
 
-        // Inserta los profesores y obtiene sus _id
-        const teacherInsertResult = await db.collection("teachers").insertMany(sampleTeachers);
+        // Verificar si los profesores ya existen (por email)
+        const existingEmails = await db.collection("teachers")
+            .find({}, { projection: { email: 1 } })
+            .toArray();
+
+        const existingEmailSet = new Set(existingEmails.map(t => t.email));
+
+        // Filtrar solo profesores nuevos
+        const newTeachers = sampleTeachers.filter((teacher: any) => !existingEmailSet.has(teacher.email));
+
+        if (newTeachers.length === 0) {
+            return NextResponse.json({
+                success: true,
+                message: `Todos los profesores de ${file} ya existen en la base de datos`,
+                added: 0,
+                skipped: sampleTeachers.length
+            });
+        }
+
+        // Insertar solo los profesores nuevos
+        const teacherInsertResult = await db.collection("teachers").insertMany(newTeachers);
         const emailToId: Record<string, ObjectId> = {};
         Object.values(teacherInsertResult.insertedIds).forEach((id, idx) => {
-            emailToId[sampleTeachers[idx].email] = id;
+            emailToId[newTeachers[idx].email] = id;
         });
 
-        // Prepara los comentarios con teacherId
-        // const sampleComments = sampleCommentsRaw.map(comment => ({
-        //     ...comment,
-        //     teacherId: emailToId[comment.teacherEmail],
-        // }));
-        // // Elimina teacherEmail del objeto
-        // sampleComments.forEach(c => { delete (c as any).teacherEmail; });
-
-        // Inserta los comentarios
-        // await db.collection("comments").insertMany(sampleComments);
-
-        // Agrupa comentarios por teacherId
-        const teacherRatings: Record<string, number[]> = {};
-        // for (const comment of sampleComments) {
-        //     const tid = comment.teacherId.toString();
-        //     if (!teacherRatings[tid]) {
-        //         teacherRatings[tid] = [];
-        //     }
-        //     teacherRatings[tid].push(comment.rating);
-        // }
-
-        // Actualiza rating y reviews sincronizados en los profesores
-        for (const teacher of sampleTeachers) {
-            const tid = emailToId[teacher.email].toString();
-            const ratings = teacherRatings[tid] || [];
-            const rating = ratings.length
-                ? parseFloat((ratings.reduce((a: number, b: number) => a + b, 0) / ratings.length).toFixed(2))
-                : 0;
-            const reviews = ratings.length;
+        // Inicializar rating y reviews para los nuevos profesores
+        for (const teacher of newTeachers) {
             await db.collection("teachers").updateOne(
                 { _id: emailToId[teacher.email] },
-                { $set: { rating, reviews } }
+                { $set: { rating: 0.0 } }
             );
         }
 
         return NextResponse.json({
             success: true,
-            // message: `Successfully inserted ${sampleTeachers.length} teachers and ${sampleComments.length} comments`
+            message: `Agregados ${newTeachers.length} profesores desde ${file}`,
+            added: newTeachers.length,
+            skipped: sampleTeachers.length - newTeachers.length,
+            file: file
         });
     } catch (error) {
         console.error('Error seeding teachers:', error);
