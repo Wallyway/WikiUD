@@ -157,16 +157,16 @@ export function TestimonialCard({
             <div className="flex items-center gap-3">
                 <Avatar className="h-12 w-12">
                     {author.avatar ? (
-                        <AvatarImage src={author.avatar} alt={author.name} />
+                        <AvatarImage src={author.avatar} alt={author.name || author.handle || 'Anónimo'} />
                     ) : (
-                        <AvatarFallback className={stringToColor(author.name)}>
-                            {author.name[0]}
+                        <AvatarFallback className={stringToColor(author.name || author.handle || 'A')}>
+                            {(author.name || author.handle || 'A')[0]}
                         </AvatarFallback>
                     )}
                 </Avatar>
                 <div className="flex flex-col items-start">
                     <h3 className="text-md font-semibold leading-none">
-                        {author.name}
+                        {author.name ? author.name : (author.handle || "Anónimo")}
                     </h3>
                 </div>
             </div>

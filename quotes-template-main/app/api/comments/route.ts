@@ -40,7 +40,7 @@ export async function POST(request: Request) {
     let client;
     try {
         const body = await request.json();
-        const { teacherId, author, text, rating, date } = body;
+        const { teacherId, author, text, rating, date, isAnonymous } = body;
         if (!teacherId || !author || !text || !rating || !date) {
             return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
         }
@@ -56,10 +56,15 @@ export async function POST(request: Request) {
         }
         const comment = {
             teacherId: new ObjectId(teacherId),
-            author: { ...author, handle: cleanHandle },
+            author: {
+                name: isAnonymous ? undefined : author.name, // Si es anónimo, no guardar el nombre
+                handle: cleanHandle,
+                avatar: author.avatar || '',
+            },
             text,
             rating,
             date: new Date(date), // Asegura que sea tipo Date
+            isAnonymous: !!isAnonymous, // Guardar el flag
         };
         await db.collection('comments').insertOne(comment);
 
@@ -83,7 +88,7 @@ export async function POST(request: Request) {
             { $set: { rating: avgRating, reviews } }
         );
 
-        return NextResponse.json({ success: true });
+        return NextResponse.json({ success: true, comment });
     } catch (error) {
         console.error('Error saving comment:', error);
         return NextResponse.json({ error: 'Failed to save comment' }, { status: 500 });

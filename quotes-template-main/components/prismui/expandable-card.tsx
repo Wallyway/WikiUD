@@ -624,6 +624,7 @@ function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSli
   const [submitting, setSubmitting] = useState(false);
   const [sent, setSent] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
+  const [isAnonymous, setIsAnonymous] = useState(false); // Nuevo estado
   const isLoggedIn = status === 'authenticated' && session?.user;
 
   async function sendComment() {
@@ -631,7 +632,7 @@ function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSli
     setSubmitting(true);
     setSent(false);
     const author = {
-      name: session.user.name || '',
+      name: isAnonymous ? undefined : (session.user.name || ''), // Si es anónimo, no enviar nombre
       handle: session.user.username || session.user.email || '',
       avatar: session.user.image || '',
     };
@@ -641,6 +642,7 @@ function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSli
       text: note,
       rating: sliderValue[0],
       date: new Date().toISOString().slice(0, 10),
+      isAnonymous, // Nuevo campo
     };
     console.log('PopoverFormWithSlider: Sending comment', payload);
     const res = await fetch('/api/comments', {
@@ -682,6 +684,15 @@ function PopoverFormWithSlider({ teacherId, onCommentAdded }: PopoverFormWithSli
     <form className="flex h-full flex-col" onSubmit={handleSubmit}>
       <PopoverLabel>Agrega un comentario</PopoverLabel>
       <CommentTextareaWithCounter maxLength={200} />
+      {/* Checkbox para comentario anónimo */}
+      <label className="flex items-center gap-2 mt-2 text-sm">
+        <input
+          type="checkbox"
+          checked={isAnonymous}
+          onChange={e => setIsAnonymous(e.target.checked)}
+        />
+        Comentario anónimo
+      </label>
       <PopoverFooterComp>
         <PopoverCloseButton />
         <div className="flex flex-col items-center gap-1 w-full">
