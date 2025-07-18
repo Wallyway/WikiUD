@@ -13,7 +13,7 @@ const options = {
     deprecationErrors: true,
   },
   // Configuración optimizada del pool de conexiones
-  maxPoolSize: 1, // Máximo 10 conexiones en el pool
+  maxPoolSize: 5, // Máximo 10 conexiones en el pool
   minPoolSize: 1,  // Mínimo 1 conexión siempre disponible
   maxIdleTimeMS: 30000, // Cerrar conexiones inactivas después de 30 segundos
   connectTimeoutMS: 10000, // Timeout de conexión de 10 segundos
