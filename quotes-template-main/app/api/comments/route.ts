@@ -27,7 +27,7 @@ export async function GET(request: Request) {
         // Responde al usuario inmediatamente
         const response = { comments };
         // Actualiza el caché en segundo plano (no bloquea la respuesta)
-        redis.set(cacheKey, JSON.stringify(response), "EX", 60);
+        redis.set(cacheKey, JSON.stringify(response), "EX", 300);
 
         return NextResponse.json(response);
     } catch (error) {
