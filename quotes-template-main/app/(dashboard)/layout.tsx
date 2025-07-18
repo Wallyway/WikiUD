@@ -7,6 +7,7 @@ import { LoggedInNav } from "@/components/loggedin-nav"
 import { ModeToggle } from "@/components/toggle"
 import { BGPattern } from "@/components/ui/bg-pattern"
 import MobileNav from "@/components/mobile-nav"
+import { Analytics } from '@vercel/analytics/react';
 
 {/* @ts-ignore */ }
 
@@ -51,6 +52,7 @@ export default async function DashboardLayout({
       </main>
       {/* </div> */}
       <SiteFooter className="border-t" />
+      <Analytics />
 
     </div>
   )
