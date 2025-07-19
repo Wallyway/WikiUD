@@ -29,6 +29,19 @@ const ProjectStatusCard = dynamic(
   { ssr: false }
 );
 
+// Función debounce local para evitar dependencias externas
+function debounce<T extends (...args: any[]) => void>(func: T, wait: number) {
+  let timeout: ReturnType<typeof setTimeout> | null = null;
+  const debounced = (...args: Parameters<T>) => {
+    if (timeout) clearTimeout(timeout);
+    timeout = setTimeout(() => func(...args), wait);
+  };
+  debounced.cancel = () => {
+    if (timeout) clearTimeout(timeout);
+  };
+  return debounced as T & { cancel: () => void };
+}
+
 function DashboardPage() {
   const [inputTag, setInputTag] = useState("");
   const [facultyTag, setFacultyTag] = useState("");
@@ -121,44 +134,47 @@ function DashboardPage() {
 
   // Infinite scroll effect
   useEffect(() => {
-    const handleScroll = () => {
-      // Check if near bottom (e.g., within 300px) of the scrollable content
-      // Using documentElement.scrollHeight for potentially more reliable total height
-      const isNearBottom = (window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 300;
+    // Debounce para evitar múltiples requests seguidos
+    const debouncedSetPage = debounce(() => {
+      setPage(prevPage => prevPage + 1);
+    }, 300);
 
-      // Trigger loading next page if near bottom, there's more data, and not currently loading
+    const handleScroll = () => {
+      const isNearBottom = (window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 300;
       if (isNearBottom && hasMore && !loading) {
-        setPage(prevPage => prevPage + 1);
+        debouncedSetPage();
       }
     };
 
     window.addEventListener('scroll', handleScroll);
-    // Clean up the event listener when the component unmounts or dependencies change
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [hasMore, loading]); // Include dependencies hasMore and loading to ensure handler re-creates when these change
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      debouncedSetPage.cancel();
+    };
+  }, [hasMore, loading]);
 
-  // Fetch comments for all teachers when teachers change
-  useEffect(() => {
-    async function fetchComments() {
-      const newCommentsByTeacher: Record<string, any[]> = {};
-      await Promise.all(
-        teachers.map(async (teacher) => {
-          try {
-            const res = await axios.get(`/api/comments?teacherId=${teacher._id}`);
-            newCommentsByTeacher[teacher._id] = res.data.comments || [];
-          } catch (e) {
-            newCommentsByTeacher[teacher._id] = [];
-          }
-        })
-      );
-      setCommentsByTeacher(newCommentsByTeacher);
-    }
-    if (teachers.length > 0) {
-      fetchComments();
-    } else {
-      setCommentsByTeacher({});
-    }
-  }, [teachers]);
+  // Eliminar el useEffect que hace fetchComments en batch
+  // useEffect(() => {
+  //   async function fetchComments() {
+  //     const newCommentsByTeacher: Record<string, any[]> = {};
+  //     await Promise.all(
+  //       teachers.map(async (teacher) => {
+  //         try {
+  //           const res = await axios.get(`/api/comments?teacherId=${teacher._id}`);
+  //           newCommentsByTeacher[teacher._id] = res.data.comments || [];
+  //         } catch (e) {
+  //           newCommentsByTeacher[teacher._id] = [];
+  //         }
+  //       })
+  //     );
+  //     setCommentsByTeacher(newCommentsByTeacher);
+  //   }
+  //   if (teachers.length > 0) {
+  //     fetchComments();
+  //   } else {
+  //     setCommentsByTeacher({});
+  //   }
+  // }, [teachers]);
 
   useEffect(() => {
     const handleCommentAdded = () => {

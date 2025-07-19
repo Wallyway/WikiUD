@@ -3,9 +3,28 @@ import { getMongoClient } from '@/lib/db';
 import { ObjectId } from 'mongodb';
 import redis from '@/lib/redis'
 
+// Simple in-memory rate limiter (reinicia con cada lambda)
+const rateLimit = new Map();
+const WINDOW_MS = 60000; // 1 minuto
+const MAX_REQUESTS = 30; // máximo 30 requests por minuto por IP
+
 export async function GET(request: Request) {
     let client;
     try {
+        // Rate limiting por IP
+        const ip = request.headers.get('x-forwarded-for') || 'unknown';
+        const now = Date.now();
+        if (!rateLimit.has(ip)) {
+            rateLimit.set(ip, []);
+        }
+        const requests = rateLimit.get(ip);
+        const validRequests = requests.filter((time: number) => now - time < WINDOW_MS);
+        if (validRequests.length >= MAX_REQUESTS) {
+            return NextResponse.json({ error: 'Rate limit exceeded' }, { status: 429 });
+        }
+        validRequests.push(now);
+        rateLimit.set(ip, validRequests);
+
         const { searchParams } = new URL(request.url);
         const teacherId = searchParams.get('teacherId');
         if (!teacherId) {

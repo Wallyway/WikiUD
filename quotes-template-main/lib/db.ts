@@ -16,8 +16,8 @@ const options = {
   maxPoolSize: 1, // Máximo 10 conexiones en el pool
   minPoolSize: 0,  // Mínimo 1 conexión siempre disponible
   maxIdleTimeMS: 5000, // Cerrar conexiones inactivas después de 10 segundos
-  connectTimeoutMS: 10000, // Timeout de conexión de 10 segundos
-  socketTimeoutMS: 45000, // Timeout de socket de 45 segundos
+  connectTimeoutMS: 5000, // Timeout de conexión de 10 segundos
+  socketTimeoutMS: 10000, // Timeout de socket de 45 segundos
   // Configuraciones adicionales para optimizar
   retryWrites: true, // Reintentar escrituras fallidas
   retryReads: true,  // Reintentar lecturas fallidas
