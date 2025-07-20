@@ -9,19 +9,46 @@ import authOptions from '@/auth.config';
 
 const teacherService: TeacherService = new TeacherServiceImpl()
 
+// Simple in-memory rate limiter para teachers
+const teacherRateLimit = new Map();
+const TEACHER_WINDOW_MS = 60000; // 1 minuto
+const TEACHER_MAX_REQUESTS = 120; // máximo 120 requests por minuto por IP (muy permisivo para infinite scroll)
+
 export async function GET(request: Request) {
     let client;
     try {
+        // Rate limiting por IP
+        const ip = request.headers.get('x-forwarded-for') || 'unknown';
+        const now = Date.now();
+        if (!teacherRateLimit.has(ip)) {
+            teacherRateLimit.set(ip, []);
+        }
+        const requests = teacherRateLimit.get(ip);
+        const validRequests = requests.filter((time: number) => now - time < TEACHER_WINDOW_MS);
+
+        // Log para debugging
+        console.log(`IP ${ip}: ${validRequests.length}/${TEACHER_MAX_REQUESTS} requests in window`);
+
+        if (validRequests.length >= TEACHER_MAX_REQUESTS) {
+            console.log(`Rate limit exceeded for IP ${ip}`);
+            return NextResponse.json({ error: 'Rate limit exceeded' }, { status: 429 });
+        }
+        validRequests.push(now);
+        teacherRateLimit.set(ip, validRequests);
+
         const { searchParams } = new URL(request.url)
         const name = searchParams.get('name') || ''
         const faculty = searchParams.get('faculty') || ''
         const page = parseInt(searchParams.get('page') || '1', 10)
         const limit = parseInt(searchParams.get('limit') || '9', 10)
 
+        console.log(`Teachers request: page=${page}, name="${name}", faculty="${faculty}"`);
+
         // Clave única para el caché basada en los parámetros de búsqueda
         const cacheKey = `teachers:${name}:${faculty}:${page}:${limit}`;
         const cached = await redis.get(cacheKey);
         if (cached) {
+            console.log(`Cache hit for ${cacheKey}`);
             return NextResponse.json(JSON.parse(cached));
         }
 
@@ -49,6 +76,8 @@ export async function GET(request: Request) {
         const response = { teachers: teachersWithLastComments };
         // Actualiza el caché en segundo plano (no bloquea la respuesta)
         redis.set(cacheKey, JSON.stringify(response), "EX", 300);
+
+        console.log(`Returning ${teachersWithLastComments.length} teachers for page ${page}`);
 
         return NextResponse.json(response)
     } catch (error) {
