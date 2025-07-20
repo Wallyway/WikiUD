@@ -9,28 +9,9 @@ import authOptions from '@/auth.config';
 
 const teacherService: TeacherService = new TeacherServiceImpl()
 
-// Simple in-memory rate limiter para teachers
-const teacherRateLimit = new Map();
-const TEACHER_WINDOW_MS = 60000; // 1 minuto
-const TEACHER_MAX_REQUESTS = 60; // máximo 60 requests por minuto por IP (más permisivo que comments)
-
 export async function GET(request: Request) {
     let client;
     try {
-        // Rate limiting por IP
-        const ip = request.headers.get('x-forwarded-for') || 'unknown';
-        const now = Date.now();
-        if (!teacherRateLimit.has(ip)) {
-            teacherRateLimit.set(ip, []);
-        }
-        const requests = teacherRateLimit.get(ip);
-        const validRequests = requests.filter((time: number) => now - time < TEACHER_WINDOW_MS);
-        if (validRequests.length >= TEACHER_MAX_REQUESTS) {
-            return NextResponse.json({ error: 'Rate limit exceeded' }, { status: 429 });
-        }
-        validRequests.push(now);
-        teacherRateLimit.set(ip, validRequests);
-
         const { searchParams } = new URL(request.url)
         const name = searchParams.get('name') || ''
         const faculty = searchParams.get('faculty') || ''

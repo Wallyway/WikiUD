@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -54,19 +54,11 @@ function DashboardPage() {
   const [commentsByTeacher, setCommentsByTeacher] = useState<Record<string, any[]>>({});
   const [tag, setTag] = useState("");
 
-  // Sistema de cola para evitar múltiples requests simultáneos
-  const [isRequestInProgress, setIsRequestInProgress] = useState(false);
-  const pendingPagesRef = useRef<Set<number>>(new Set());
-  const currentRequestRef = useRef<number | null>(null);
-
   // Reset state when tag or facultyTag changes
   useEffect(() => {
     setPage(1);
     setTeachers([]);
     setHasMore(true);
-    pendingPagesRef.current.clear();
-    setIsRequestInProgress(false);
-    currentRequestRef.current = null;
   }, [inputTag, facultyTag]);
 
   // Debounce para el input de búsqueda
@@ -94,127 +86,72 @@ function DashboardPage() {
     });
   };
 
-  // Función para procesar la cola de requests
-  const processQueue = async () => {
-    if (isRequestInProgress || pendingPagesRef.current.size === 0) {
-      return;
-    }
-
-    const nextPage = Math.min(...Array.from(pendingPagesRef.current));
-    if (nextPage === currentRequestRef.current) {
-      return; // Evitar requests duplicados
-    }
-
-    setIsRequestInProgress(true);
-    currentRequestRef.current = nextPage;
-    pendingPagesRef.current.delete(nextPage);
-
-    try {
-      console.log(`Fetching page ${nextPage}...`); // Debug log
-      const response = await axios.get(`/api/teachers?name=${encodeURIComponent(tag)}&faculty=${encodeURIComponent(facultyTag)}&page=${nextPage}&limit=${limit}`, {
-        timeout: 10000, // 10 segundos de timeout
-      });
-      const newTeachers = response.data.teachers;
-
-      console.log(`Page ${nextPage} loaded: ${newTeachers.length} teachers`); // Debug log
-
-      if (newTeachers.length === 0) {
-        setHasMore(false);
-      } else {
-        setTeachers(prev => {
-          const existingIds = new Set(prev.map((teacher: Teacher) => teacher._id));
-          const uniqueNewTeachers = newTeachers.filter((teacher: Teacher) => !existingIds.has(teacher._id));
-          return nextPage === 1 ? newTeachers : [...prev, ...uniqueNewTeachers];
-        });
-
-        if (newTeachers.length < limit) {
-          setHasMore(false);
-        } else {
-          setHasMore(true);
-        }
-      }
-
-      // Actualizar el estado de la página actual
-      setPage(nextPage);
-    } catch (error: any) {
-      console.error(`Error fetching page ${nextPage}:`, error);
-
-      // Si es un error de red, reintentar después de un tiempo
-      if (error.code === 'NETWORK_ERROR' || error.message === 'Network Error') {
-        console.log(`Network error on page ${nextPage}, will retry...`);
-        // Reagregar la página a la cola para reintentar
-        setTimeout(() => {
-          pendingPagesRef.current.add(nextPage);
-          processQueue();
-        }, 2000); // Esperar 2 segundos antes de reintentar
-      } else {
-        // Para otros errores, asumir que no hay más datos
-        setHasMore(false);
-      }
-    } finally {
-      setIsRequestInProgress(false);
-      currentRequestRef.current = null;
-
-      // Procesar la siguiente página en la cola
-      setTimeout(() => {
-        processQueue();
-      }, 200); // Aumentar la pausa a 200ms
-    }
-  };
-
-  // Función para agregar una página a la cola
-  const addPageToQueue = (pageNumber: number) => {
-    console.log(`Adding page ${pageNumber} to queue`); // Debug log
-
-    if (pageNumber === 1) {
-      // Para la primera página, limpiar todo y procesar inmediatamente
-      setTeachers([]);
-      setHasMore(true);
-      pendingPagesRef.current.clear();
-      setIsRequestInProgress(false);
-      currentRequestRef.current = null;
-      pendingPagesRef.current.add(pageNumber);
-      processQueue();
-    } else {
-      // Para páginas adicionales, agregar a la cola
-      pendingPagesRef.current.add(pageNumber);
-      processQueue();
-    }
-  };
-
   // Fetch teachers based on tag, facultyTag and page
   useEffect(() => {
-    if (page === 1) {
-      addPageToQueue(page);
-    }
-  }, [tag, facultyTag]); // Solo cuando cambian los filtros
-
-  // Infinite scroll effect con cola de requests
-  useEffect(() => {
-    const debouncedAddPage = debounce((pageNumber: number) => {
-      console.log(`Debounced add page ${pageNumber}, hasMore: ${hasMore}, isRequestInProgress: ${isRequestInProgress}`); // Debug log
-
-      if (hasMore && !isRequestInProgress && !pendingPagesRef.current.has(pageNumber)) {
-        addPageToQueue(pageNumber);
+    const fetchTeachers = async () => {
+      if (loading) {
+        return;
       }
-    }, 300); // Reducir el debounce a 300ms
+
+      if (!hasMore && page > 1) {
+        return;
+      }
+
+      setLoading(true); // Set loading to true
+      try {
+        const response = await axios.get(`/api/teachers?name=${encodeURIComponent(tag)}&faculty=${encodeURIComponent(facultyTag)}&page=${page}&limit=${limit}`);
+        const newTeachers = response.data.teachers;
+
+        if (newTeachers.length === 0) {
+          setHasMore(false); // No more data received, set hasMore to false
+        } else {
+          setTeachers(prev => {
+            const existingIds = new Set(prev.map((teacher: Teacher) => teacher._id));
+            const uniqueNewTeachers = newTeachers.filter((teacher: Teacher) => !existingIds.has(teacher._id));
+            return page === 1 ? newTeachers : [...prev, ...uniqueNewTeachers];
+          });
+
+          // If we received less than the limit, there might not be more pages
+          if (newTeachers.length < limit) {
+            setHasMore(false);
+          } else {
+            // If we received exactly the limit, assume there might be more
+            // This prevents prematurely setting hasMore to false if there's another full page
+            setHasMore(true);
+          }
+        }
+      } catch (error) {
+        setHasMore(false); // Assume no more data on error
+      } finally {
+        setLoading(false); // Set loading to false
+      }
+    };
+
+    // Fetch data when tag, facultyTag or page changes
+    fetchTeachers();
+
+  }, [tag, facultyTag, page]); // Dependencies are tag, facultyTag and page.
+
+  // Infinite scroll effect
+  useEffect(() => {
+    // Debounce para evitar múltiples requests seguidos
+    const debouncedSetPage = debounce(() => {
+      setPage(prevPage => prevPage + 1);
+    }, 300);
 
     const handleScroll = () => {
       const isNearBottom = (window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 300;
       if (isNearBottom && hasMore && !loading) {
-        // Calcular la siguiente página de forma más simple
-        const nextPage = page + 1;
-        console.log(`Scroll detected, next page would be: ${nextPage}`); // Debug log
-        debouncedAddPage(nextPage);
+        debouncedSetPage();
       }
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      debouncedAddPage.cancel();
+      debouncedSetPage.cancel();
     };
-  }, [hasMore, loading, isRequestInProgress, page]);
+  }, [hasMore, loading]);
 
   // Eliminar el useEffect que hace fetchComments en batch
   // useEffect(() => {
@@ -244,18 +181,10 @@ function DashboardPage() {
       // Solo reiniciar la paginación y hasMore, no limpiar profesores
       setPage(1);
       setHasMore(true);
-      pendingPagesRef.current.clear();
-      setIsRequestInProgress(false);
-      currentRequestRef.current = null;
     };
     window.addEventListener('commentAdded', handleCommentAdded);
     return () => window.removeEventListener('commentAdded', handleCommentAdded);
   }, []);
-
-  // Actualizar el estado de loading basado en si hay requests en progreso
-  useEffect(() => {
-    setLoading(isRequestInProgress);
-  }, [isRequestInProgress]);
 
   return (
     <div className="min-h-screen w-auto flex flex-col">
