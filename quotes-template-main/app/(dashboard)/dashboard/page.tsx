@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -54,20 +54,11 @@ function DashboardPage() {
   const [commentsByTeacher, setCommentsByTeacher] = useState<Record<string, any[]>>({});
   const [tag, setTag] = useState("");
 
-  // Sistema de control de concurrencia robusto
-  const [isRequestInProgress, setIsRequestInProgress] = useState(false);
-  const currentRequestRef = useRef<Promise<any> | null>(null);
-  const lastLoadedPageRef = useRef<number>(0);
-  const scrollHandlerRef = useRef<((pageNumber: number) => void) | null>(null);
-
   // Reset state when tag or facultyTag changes
   useEffect(() => {
     setPage(1);
     setTeachers([]);
     setHasMore(true);
-    setIsRequestInProgress(false);
-    currentRequestRef.current = null;
-    lastLoadedPageRef.current = 0;
   }, [inputTag, facultyTag]);
 
   // Debounce para el input de búsqueda
@@ -95,131 +86,101 @@ function DashboardPage() {
     });
   };
 
-  // Función para cargar una página específica
-  const loadPage = async (pageNumber: number): Promise<void> => {
-    // Evitar cargar la misma página múltiples veces
-    if (pageNumber <= lastLoadedPageRef.current) {
-      return;
-    }
+  // Fetch teachers based on tag, facultyTag and page
+  useEffect(() => {
+    const fetchTeachers = async () => {
+      if (loading) {
+        return;
+      }
 
-    // Si ya hay un request en progreso, esperar a que termine
-    if (currentRequestRef.current) {
-      await currentRequestRef.current;
-    }
+      if (!hasMore && page > 1) {
+        return;
+      }
 
-    // Crear un nuevo request
-    const requestPromise = (async () => {
+      setLoading(true); // Set loading to true
       try {
-        console.log(`Loading page ${pageNumber}...`);
-        const response = await axios.get(`/api/teachers?name=${encodeURIComponent(tag)}&faculty=${encodeURIComponent(facultyTag)}&page=${pageNumber}&limit=${limit}`, {
-          timeout: 15000, // 15 segundos de timeout
-        });
-
+        const response = await axios.get(`/api/teachers?name=${encodeURIComponent(tag)}&faculty=${encodeURIComponent(facultyTag)}&page=${page}&limit=${limit}`);
         const newTeachers = response.data.teachers;
-        console.log(`Page ${pageNumber} loaded: ${newTeachers.length} teachers`);
 
         if (newTeachers.length === 0) {
-          setHasMore(false);
+          setHasMore(false); // No more data received, set hasMore to false
         } else {
           setTeachers(prev => {
             const existingIds = new Set(prev.map((teacher: Teacher) => teacher._id));
             const uniqueNewTeachers = newTeachers.filter((teacher: Teacher) => !existingIds.has(teacher._id));
-            return pageNumber === 1 ? newTeachers : [...prev, ...uniqueNewTeachers];
+            return page === 1 ? newTeachers : [...prev, ...uniqueNewTeachers];
           });
 
+          // If we received less than the limit, there might not be more pages
           if (newTeachers.length < limit) {
             setHasMore(false);
           } else {
+            // If we received exactly the limit, assume there might be more
+            // This prevents prematurely setting hasMore to false if there's another full page
             setHasMore(true);
           }
         }
-
-        lastLoadedPageRef.current = pageNumber;
-        setPage(pageNumber);
-
-      } catch (error: any) {
-        console.error(`Error loading page ${pageNumber}:`, error);
-
-        // Si es un error de red, reintentar después de un tiempo
-        if (error.code === 'NETWORK_ERROR' || error.message === 'Network Error') {
-          console.log(`Network error on page ${pageNumber}, will retry in 3 seconds...`);
-          await new Promise(resolve => setTimeout(resolve, 3000));
-          return loadPage(pageNumber); // Reintentar
-        } else {
-          setHasMore(false);
-        }
+      } catch (error) {
+        setHasMore(false); // Assume no more data on error
+      } finally {
+        setLoading(false); // Set loading to false
       }
-    })();
+    };
 
-    currentRequestRef.current = requestPromise;
-    return requestPromise;
-  };
+    // Fetch data when tag, facultyTag or page changes
+    fetchTeachers();
 
-  // Función para cargar la primera página cuando cambian los filtros
-  const loadInitialPage = async () => {
-    setIsRequestInProgress(true);
-    try {
-      await loadPage(1);
-    } finally {
-      setIsRequestInProgress(false);
-    }
-  };
-
-  // Función para cargar la siguiente página
-  const loadNextPage = async () => {
-    if (isRequestInProgress || !hasMore) {
-      return;
-    }
-
-    setIsRequestInProgress(true);
-    try {
-      const nextPage = lastLoadedPageRef.current + 1;
-      await loadPage(nextPage);
-    } finally {
-      setIsRequestInProgress(false);
-    }
-  };
-
-  // Cargar página inicial cuando cambian los filtros
-  useEffect(() => {
-    loadInitialPage();
-  }, [tag, facultyTag]);
+  }, [tag, facultyTag, page]); // Dependencies are tag, facultyTag and page.
 
   // Infinite scroll effect
   useEffect(() => {
-    const debouncedLoadNext = debounce(() => {
-      if (hasMore && !isRequestInProgress) {
-        loadNextPage();
-      }
-    }, 400); // 400ms de debounce
+    // Debounce para evitar múltiples requests seguidos
+    const debouncedSetPage = debounce(() => {
+      setPage(prevPage => prevPage + 1);
+    }, 300);
 
     const handleScroll = () => {
       const isNearBottom = (window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 300;
-      if (isNearBottom && hasMore && !isRequestInProgress) {
-        debouncedLoadNext();
+      if (isNearBottom && hasMore && !loading) {
+        debouncedSetPage();
       }
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      debouncedLoadNext.cancel();
+      debouncedSetPage.cancel();
     };
-  }, [hasMore, isRequestInProgress]);
+  }, [hasMore, loading]);
 
-  // Actualizar el estado de loading
-  useEffect(() => {
-    setLoading(isRequestInProgress);
-  }, [isRequestInProgress]);
+  // Eliminar el useEffect que hace fetchComments en batch
+  // useEffect(() => {
+  //   async function fetchComments() {
+  //     const newCommentsByTeacher: Record<string, any[]> = {};
+  //     await Promise.all(
+  //       teachers.map(async (teacher) => {
+  //         try {
+  //           const res = await axios.get(`/api/comments?teacherId=${teacher._id}`);
+  //           newCommentsByTeacher[teacher._id] = res.data.comments || [];
+  //         } catch (e) {
+  //           newCommentsByTeacher[teacher._id] = [];
+  //         }
+  //       })
+  //     );
+  //     setCommentsByTeacher(newCommentsByTeacher);
+  //   }
+  //   if (teachers.length > 0) {
+  //     fetchComments();
+  //   } else {
+  //     setCommentsByTeacher({});
+  //   }
+  // }, [teachers]);
 
   useEffect(() => {
     const handleCommentAdded = () => {
       // Solo reiniciar la paginación y hasMore, no limpiar profesores
       setPage(1);
       setHasMore(true);
-      setIsRequestInProgress(false);
-      currentRequestRef.current = null;
-      lastLoadedPageRef.current = 0;
     };
     window.addEventListener('commentAdded', handleCommentAdded);
     return () => window.removeEventListener('commentAdded', handleCommentAdded);
