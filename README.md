@@ -1,10 +1,8 @@
 # WikiUD
 
-WikiUD es una plataforma 
+<video src="https://github.com/user-attachments/assets/8d236db5-cb0b-4aa9-a726-ddf1cb013f68/WikiUD.webm" autoplay loop muted controls style="max-width: 100%; height: auto;"></video>
 
-[WikiUD.webm](https://github.com/user-attachments/assets/8d236db5-cb0b-4aa9-a726-ddf1cb013f68)
-
-web interactiva para buscar, calificar y comentar sobre profesores universitarios. Permite a los estudiantes encontrar información relevante sobre docentes, ver sus calificaciones, leer y dejar comentarios, y explorar detalles de cada profesor de manera visual y moderna.
+WikiUD es una plataforma web interactiva para buscar, calificar y comentar sobre profesores universitarios. Permite a los estudiantes encontrar información relevante sobre docentes, ver sus calificaciones, leer y dejar comentarios, y explorar detalles de cada profesor de manera visual y moderna.
 
 ## Características principales
 
