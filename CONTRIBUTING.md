@@ -1,155 +1,152 @@
-<!-- omit in toc -->
-# Contributing to WikiUD
+<!-- omitir en el índice -->
+# Contribuir a WikiUD
 
-First off, thanks for taking the time to contribute! ❤️
+¡Primero que nada, gracias por tomarte el tiempo para contribuir! ❤️
 
-All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
+Todo tipo de contribuciones son bienvenidas y valoradas. Consulta la [Tabla de Contenidos](#tabla-de-contenidos) para ver las diferentes formas de ayudar y detalles sobre cómo este proyecto las maneja. Por favor, asegúrate de leer el documento completo antes de contribuir.
 
-> And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
-> - Star the project
-> - Tweet about it
-> - Refer this project in your project's readme
-> - Mention the project at local meetups and tell your friends/colleagues
+> Y si te gusta el proyecto, pero no tienes tiempo para contribuir, está bien. Hay otras formas fáciles de apoyar el proyecto y mostrar tu agradecimiento, lo cual también nos haría muy felices:
+> - Dale una estrella al proyecto
+> - Twittea sobre él
+> - Menciona este proyecto en el README de tu propio proyecto
+> - Habla del proyecto en reuniones locales y cuéntaselo a tus amigos/colegas
 
-<!-- omit in toc -->
-## Table of Contents
+<!-- omitir en el índice -->
+## Tabla de Contenidos
 
-- [Code of Conduct](#code-of-conduct)
-- [I Have a Question](#i-have-a-question)
-- [I Want To Contribute](#i-want-to-contribute)
-- [Reporting Bugs](#reporting-bugs)
-- [Suggesting Enhancements](#suggesting-enhancements)
-- [Your First Code Contribution](#your-first-code-contribution)
-- [Improving The Documentation](#improving-the-documentation)
-- [Styleguides](#styleguides)
-- [Commit Messages](#commit-messages)
-- [Join The Project Team](#join-the-project-team)
-
-
-## Code of Conduct
-
-This project and everyone participating in it is governed by the
-[WikiUD Code of Conduct](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/blob/main/CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code. Please report unacceptable behavior
-to .
+- [Código de Conducta](#código-de-conducta)
+- [Tengo una pregunta](#tengo-una-pregunta)
+- [Quiero contribuir](#quiero-contribuir)
+- [Reportar errores](#reportar-errores)
+- [Sugerir mejoras](#sugerir-mejoras)
+- [Tu primera contribución de código](#tu-primera-contribución-de-código)
+- [Mejorar la documentación](#mejorar-la-documentación)
+- [Guías de estilo](#guías-de-estilo)
+- [Mensajes de commit](#mensajes-de-commit)
+- [Únete al equipo del proyecto](#únete-al-equipo-del-proyecto)
 
 
-## I Have a Question
+## Código de Conducta
 
-> If you want to ask a question, we assume that you have read the available [Documentation]().
+Este proyecto y todos los que participan en él están regidos por el
+[Código de Conducta de WikiUD](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/blob/main/CODE_OF_CONDUCT.md).
+Al participar, se espera que respetes este código. Por favor, reporta cualquier comportamiento inaceptable a .
 
-Before you ask a question, it is best to search for existing [Issues](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
+## Tengo una pregunta
 
-If you then still feel the need to ask a question and need clarification, we recommend the following:
+> Si quieres hacer una pregunta, asumimos que ya has leído la [Documentación]() disponible.
 
-- Open an [Issue](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues/new).
-- Provide as much context as you can about what you're running into.
-- Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant.
+Antes de hacer una pregunta, es mejor buscar [Issues](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues) existentes que puedan ayudarte. Si encuentras un issue adecuado pero aún tienes dudas, comenta en ese issue.
 
-We will then take care of the issue as soon as possible.
+Si después de eso todavía necesitas hacer una pregunta y necesitas aclaración, te recomendamos lo siguiente:
+
+- Abre un [Issue](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues/new).
+- Proporciona tanto contexto como puedas sobre el problema que tienes.
+- Proporciona las versiones del proyecto y la plataforma (nodejs, npm, etc.), según lo que sea relevante.
+
+Nos encargaremos del issue lo antes posible.
 
 <!--
-You might want to create a separate issue tag for questions and include it in this description. People should then tag their issues accordingly.
+Tal vez quieras crear una etiqueta de issue separada para preguntas e incluirla en esta descripción. Las personas deberían etiquetar sus issues en consecuencia.
 
-Depending on how large the project is, you may want to outsource the questioning, e.g. to Stack Overflow or Gitter. You may add additional contact and information possibilities:
+Dependiendo del tamaño del proyecto, quizás quieras externalizar las preguntas, por ejemplo, a Stack Overflow o Gitter. Puedes agregar otras formas de contacto:
 - IRC
 - Slack
 - Gitter
-- Stack Overflow tag
+- Etiqueta en Stack Overflow
 - Blog
 - FAQ
-- Roadmap
-- E-Mail List
-- Forum
+- Hoja de ruta
+- Lista de correos
+- Foro
 -->
 
-## I Want To Contribute
+## Quiero contribuir
 
-> ### Legal Notice <!-- omit in toc -->
-> When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project licence.
+> ### Aviso Legal <!-- omitir en el índice -->
+> Al contribuir a este proyecto, debes aceptar que eres el autor del 100% del contenido, que tienes los derechos necesarios sobre el contenido y que el contenido que contribuyes puede ser proporcionado bajo la licencia del proyecto.
 
-### Reporting Bugs
+### Reportar errores
 
-<!-- omit in toc -->
-#### Before Submitting a Bug Report
+<!-- omitir en el índice -->
+#### Antes de enviar un reporte de error
 
-A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
+Un buen reporte de error no debe dejar a otros buscando más información. Por eso, te pedimos que investigues cuidadosamente, recolectes información y describas el problema en detalle en tu reporte.
 
-- Make sure that you are using the latest version.
-- Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [documentation](). If you are looking for support, you might want to check [this section](#i-have-a-question)).
-- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues?q=label%3Abug).
-- Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
-- Collect information about the bug:
-- Stack trace (Traceback)
-- OS, Platform and Version (Windows, Linux, macOS, x86, ARM)
-- Version of the interpreter, compiler, SDK, runtime environment, package manager, depending on what seems relevant.
-- Possibly your input and the output
-- Can you reliably reproduce the issue? And can you also reproduce it with older versions?
+- Asegúrate de estar usando la última versión.
+- Determina si tu error es realmente un bug y no un error de tu parte, por ejemplo, usando componentes/ versiones incompatibles (Asegúrate de haber leído la [documentación](). Si buscas una solución, revisa los issues existentes).
+- Para ver si otros usuarios han experimentado (y potencialmente resuelto) el mismo problema, verifica que no exista ya un reporte de error en el [rastreador de errores](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues).
+- También asegúrate de buscar en internet (incluyendo Stack Overflow) para ver si usuarios fuera de la comunidad de GitHub han discutido el problema.
+- Recolecta información sobre el error:
+- Stack trace (rastro)
+- Sistema operativo, plataforma y versión (Windows, Linux, macOS, x86, ARM)
+- Versión del intérprete, compilador, SDK, entorno de ejecución, gestor de paquetes, según lo que sea relevante.
+- Posiblemente tu entrada y la salida
+- ¿Puedes reproducir el error de forma confiable? ¿También puedes reproducirlo con versiones anteriores?
 
-<!-- omit in toc -->
-#### How Do I Submit a Good Bug Report?
+<!-- omitir en el índice -->
+#### ¿Cómo envío un buen reporte de error?
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to .
-<!-- You may add a PGP key to allow the messages to be sent encrypted as well. -->
+> Nunca debes reportar problemas de seguridad, vulnerabilidades o errores que incluyan información sensible en el rastreador de issues ni en lugares públicos. Los bugs sensibles deben enviarse por correo electrónico a .
+<!-- Puedes agregar una clave PGP para permitir enviar los mensajes cifrados. -->
 
-We use GitHub issues to track bugs and errors. If you run into an issue with the project:
+Usamos issues de GitHub para rastrear errores y fallos. Si tienes un problema con el proyecto:
 
-- Open an [Issue](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
-- Explain the behavior you would expect and the actual behavior.
-- Please provide as much context as possible and describe the *reproduction steps* that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
-- Provide the information you collected in the previous section.
+- Abre un [Issue](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues/new). (Como no podemos estar seguros en este punto de si es un bug, te pedimos que no lo llames bug todavía).
+- Explica el comportamiento que esperas y el comportamiento actual.
+- Por favor, proporciona el mayor contexto posible y describe los *pasos de reproducción* que alguien más pueda seguir para recrear el problema. Esto generalmente incluye tu código. Para buenos reportes de errores, trata de minimizar tu código de ejemplo y otros datos para que sean lo más claros posible.
+- Proporciona la información que recolectaste en la sección anterior.
 
-Once it's filed:
+Una vez enviado:
 
-- The project team will label the issue accordingly.
-- A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
-- If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be [implemented by someone](#your-first-code-contribution).
+- El equipo del proyecto etiquetará el issue adecuadamente.
+- Un miembro del equipo intentará reproducir el error con los pasos que proporcionaste. Si no hay pasos claros de reproducción, se te pedirá que los detalles y el issue será marcado como `necesita-reproducir`.
+- Si el equipo logra reproducir el error, se marcará como `necesita-arreglo`, y posiblemente con otras etiquetas (como `crítico`), y el issue quedará disponible para ser [implementado por alguien](#tu-primera-contribución-de-código).
 
-<!-- You might want to create an issue template for bugs and errors that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
+<!-- Puedes crear una plantilla de issue para bugs y errores que sirva como guía y defina la estructura de la información a incluir. Si lo haces, referencia aquí la plantilla. -->
 
+### Sugerir mejoras
 
-### Suggesting Enhancements
+Esta sección te guía para enviar sugerencias de mejora para WikiUD, **incluyendo nuevas funcionalidades y mejoras menores a la funcionalidad existente**. Seguir estas pautas hará que el proceso sea más efectivo.
 
-This section guides you through submitting an enhancement suggestion for WikiUD, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
+<!-- omitir en el índice -->
+#### Antes de enviar una sugerencia de mejora
 
-<!-- omit in toc -->
-#### Before Submitting an Enhancement
+- Asegúrate de estar usando la última versión.
+- Lee la [documentación]() cuidadosamente y verifica si la funcionalidad ya está cubierta, quizás por una configuración individual.
+- Realiza una [búsqueda](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues) para ver si la mejora ya ha sido sugerida. Si ya existe, comenta en el issue existente en vez de abrir uno nuevo.
+- Averigua si tu idea encaja con el alcance y los objetivos del proyecto. Depende de ti convencer a los desarrolladores del proyecto sobre los méritos de la funcionalidad. Recuerda que valoramos las sugerencias, pero es posible que no todas se implementen.
 
-- Make sure that you are using the latest version.
-- Read the [documentation]() carefully and find out if the functionality is already covered, maybe by an individual configuration.
-- Perform a [search](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
-- Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
+<!-- omitir en el índice -->
+#### ¿Cómo envío una buena sugerencia de mejora?
 
-<!-- omit in toc -->
-#### How Do I Submit a Good Enhancement Suggestion?
+Las sugerencias de mejora se rastrean como [issues de GitHub](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues).
 
-Enhancement suggestions are tracked as [GitHub issues](https://github.com/Wallyway/WikiUD/tree/main/quotes-template-main/issues).
+- Usa un **título claro y descriptivo** para identificar la sugerencia.
+- Proporciona una **descripción paso a paso de la mejora sugerida** con todos los detalles posibles.
+- **Describe el comportamiento actual** y **explica el comportamiento que esperas ver en su lugar** y por qué. Aquí también puedes mencionar qué alternativas no te funcionan.
+- Puedes **incluir capturas de pantalla o grabaciones de pantalla** que ayuden a demostrar los pasos o señalar la parte a la que se refiere la sugerencia. Puedes usar [LICEcap](https://www.cockos.com/licecap/) para crear animaciones .gif rápidas.
+- **Explica por qué esta mejora sería útil** para la mayoría de los usuarios de WikiUD. También puedes señalar otros proyectos que lo hayan resuelto mejor y que puedan servir de inspiración.
 
-- Use a **clear and descriptive title** for the issue to identify the suggestion.
-- Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
-- **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
-- You may want to **include screenshots or screen recordings** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [LICEcap](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and the built-in [screen recorder in GNOME](https://help.gnome.org/users/gnome-help/stable/screen-shot-record.html.en) or [SimpleScreenRecorder](https://github.com/MaartenBaert/ssr) on Linux. <!-- this should only be included if the project has a GUI -->
-- **Explain why this enhancement would be useful** to most WikiUD users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
+<!-- Puedes crear una plantilla de issue para sugerencias de mejora que sirva de guía y defina la estructura de la información a incluir. Si lo haces, referencia aquí la plantilla. -->
 
-<!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
-
-### Your First Code Contribution
+### Tu primera contribución de código
 <!-- TODO
-include Setup of env, IDE and typical getting started instructions?
+Incluye configuración del entorno, IDE y típicas instrucciones para comenzar.
 
 -->
 
-### Improving The Documentation
+### Mejorar la documentación
 <!-- TODO
-Updating, improving and correcting the documentation
+Actualizar, mejorar y corregir la documentación
 
 -->
 
-## Styleguides
-### Commit Messages
+## Guías de estilo
+### Mensajes de commit
 <!-- TODO
 
 -->
 
-## Join The Project Team
+## Únete al equipo del proyecto
 <!-- TODO -->
