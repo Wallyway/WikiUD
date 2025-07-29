@@ -64,15 +64,15 @@ export async function POST(request: Request) {
     let client;
     try {
         const body = await request.json();
-        const { name, faculty, degree, subject, email } = body;
-        if (!name || !faculty || !degree || !subject || !email) {
+        const { name, faculty, subject, email } = body;
+        if (!name || !faculty || !subject || !email) {
             return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
         }
 
         // Reutilizar la misma conexión
         client = await getMongoClient();
         const db = client.db();
-        const result = await db.collection('teachers').insertOne({ name, faculty, degree, subject, email });
+        const result = await db.collection('teachers').insertOne({ name, faculty, subject, email });
 
         // Invalidar cache de profesores
         const teacherCachePattern = `teachers:*`;
