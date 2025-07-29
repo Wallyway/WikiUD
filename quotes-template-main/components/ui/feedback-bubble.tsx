@@ -1,24 +1,36 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
-import { PopoverRoot, PopoverTrigger, PopoverContent, PopoverForm, PopoverLabel, PopoverTextarea, PopoverFooter, PopoverSubmitButton, PopoverCloseButton } from "@/components/prismui/popover";
+import { PopoverRoot, PopoverTrigger, PopoverContent, PopoverForm, PopoverLabel, PopoverTextarea, PopoverFooter, PopoverSubmitButton, PopoverCloseButton, usePopoverContext } from "@/components/prismui/popover";
 import { cn } from "@/lib/utils";
 
-export default function FeedbackBubble() {
+function FeedbackForm() {
     const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
-    const [hover, setHover] = useState(false);
+    const { note, closePopover, isOpen } = usePopoverContext()!;
+
+    // Reset status when popover closes
+    useEffect(() => {
+        if (!isOpen && status !== "idle") {
+            setStatus("idle");
+        }
+    }, [isOpen, status]);
 
     async function handleSubmit(message: string) {
+        if (!message.trim()) return; // Validación adicional
+
         setStatus("sending");
         try {
             const res = await fetch("/api/feedback", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ message }),
+                body: JSON.stringify({ message: message.trim() }),
             });
             if (res.ok) {
                 setStatus("sent");
-                setTimeout(() => setStatus("idle"), 2000);
+                setTimeout(() => {
+                    setStatus("idle");
+                    closePopover();
+                }, 2000);
             } else {
                 setStatus("error");
             }
@@ -26,6 +38,39 @@ export default function FeedbackBubble() {
             setStatus("error");
         }
     }
+
+    const isMessageEmpty = !note.trim();
+    const isSubmitting = status === "sending";
+
+    return (
+        <>
+            {status === "sent" ? (
+                <div className="p-6 text-center text-green-600 font-semibold">¡Gracias por tu sugerencia!</div>
+            ) : status === "error" ? (
+                <div className="p-6 text-center text-red-600 font-semibold">Ocurrió un error. Intenta de nuevo.</div>
+            ) : (
+                <PopoverForm onSubmit={handleSubmit}>
+                    <PopoverLabel>¿Tienes una sugerencia o feedback?</PopoverLabel>
+                    <PopoverTextarea className="min-h-[80px]" id="feedback-message" />
+                    <PopoverFooter>
+                        <PopoverCloseButton />
+                        <PopoverSubmitButton
+                            disabled={isMessageEmpty || isSubmitting}
+                            className={cn(
+                                isMessageEmpty && "opacity-50 cursor-not-allowed"
+                            )}
+                        >
+                            {isSubmitting ? "Enviando..." : "Enviar"}
+                        </PopoverSubmitButton>
+                    </PopoverFooter>
+                </PopoverForm>
+            )}
+        </>
+    );
+}
+
+export default function FeedbackBubble() {
+    const [hover, setHover] = useState(false);
 
     return (
         <div className="fixed z-50 bottom-6 right-6">
@@ -50,22 +95,7 @@ export default function FeedbackBubble() {
                     </PopoverTrigger>
                 </div>
                 <PopoverContent position="center" className="p-0">
-                    {status === "sent" ? (
-                        <div className="p-6 text-center text-green-600 font-semibold">¡Gracias por tu sugerencia!</div>
-                    ) : status === "error" ? (
-                        <div className="p-6 text-center text-red-600 font-semibold">Ocurrió un error. Intenta de nuevo.</div>
-                    ) : (
-                        <PopoverForm onSubmit={handleSubmit}>
-                            <PopoverLabel>¿Tienes una sugerencia o feedback?</PopoverLabel>
-                            <PopoverTextarea className="min-h-[80px]" id="feedback-message" />
-                            <PopoverFooter>
-                                <PopoverCloseButton />
-                                <PopoverSubmitButton disabled={status === "sending"}>
-                                    {status === "sending" ? "Enviando..." : "Enviar"}
-                                </PopoverSubmitButton>
-                            </PopoverFooter>
-                        </PopoverForm>
-                    )}
+                    <FeedbackForm />
                 </PopoverContent>
             </PopoverRoot>
         </div>
