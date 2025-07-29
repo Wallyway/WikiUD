@@ -57,7 +57,7 @@ import path from 'path';
 export async function POST(request: Request) {
     try {
         const { searchParams } = new URL(request.url);
-        const file = searchParams.get('file') || 'profesores_ingenieria_sin_duplicados.json';
+        const file = searchParams.get('file') || 'profesores_asab_sin_duplicados.json';
         const clear = searchParams.get('clear') === 'true';
 
         const client = await getMongoClient();

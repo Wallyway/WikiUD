@@ -1,0 +1,2750 @@
+[
+  {
+    "name": "MAZO TORO BLANCA NIDIA",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS, TEORIA DEL LENGUAJE Y LA INFORMACION",
+    "email": "bnmazot@udistrital.edu.co"
+  },
+  {
+    "name": "PIRELA MORILLO JOHANN ENRIQUE",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "FUNDAMENTOS DE ARCHIVISTICA, METODOLOGIA DE LA INVESTIGACION, MUSEOLOGIA",
+    "email": "jpirelam@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRILLON CASTRO CARLOS MARIO",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "INSTITUCIONES Y DOCUMENTOS, HISTORIA SOCIAL Y POLITICA DE COLOMBIA, ARCHIVOS E HISTORIA",
+    "email": "cmcastrillc@udistrital.edu.co"
+  },
+  {
+    "name": "PIRAZAN SOTOL EDITH YANETH",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "INSTITUCIONES Y DOCUMENTOS, GESTION DE RECURSOS, ECONOMIA COLOMBIANA",
+    "email": "epirazans@udistrital.edu.co"
+  },
+  {
+    "name": "GALLEGO TORRES ROMULO ANDRES",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "FUNDAMENTOS DE TECNOLOGIAS DE LA INFORMACION Y LA COMUNICACION, DOCUMENTOS EN ENTORNOS DIGITALES",
+    "email": "rgallegot@udistrital.edu.co"
+  },
+  {
+    "name": "HERNANDEZ BERNAL ANA PATRICIA",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "FUNDAMENTOS DE ADMINISTRACION Y GESTION EMPRESARIAL, PLANEACION Y GESTION ESTRATEGICA, GESTION PUBLICA",
+    "email": "ahernandezb@udistrital.edu.co"
+  },
+  {
+    "name": "CUERVO ALONSO JOHN FRANCISCO",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "GESTION DOCUMENTAL, PRODUCCION DOCUMENTAL, TRABAJO DE GRADO II",
+    "email": "jcuervoa@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO LOZANO JOHN ALEXANDER",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "HISTORIA SOCIAL Y POLITICA DE COLOMBIA, SOCIEDAD Y CULTURA COLOMBIANA, ETICA Y SOCIEDAD, ETNOGRAFIA Y ARCHIVOS",
+    "email": "jcastrol@udistrital.edu.co"
+  },
+  {
+    "name": "BORJA SUAREZ JOSE LIBARDO",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "GESTION DE COLECCIONES DE DOCUMENTOS DIGITALES, SISTEMAS DE GESTION DE DOCUMENTOS Y ARCHIVOS ELECTRONICOS, TRABAJO DE GRADO I, PRESERVACION DEL PATRIMONIO DIGITAL",
+    "email": "jborjas@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS SUPELANO JOHN JAIRO",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "GESTION DE COLECCIONES DE DOCUMENTOS DIGITALES, DERECHO A LA INFORMACION, SISTEMA DE GESTION DOCUMENTAL, ORGANIZACION DOCUMENTAL. TALLER PRACTICO",
+    "email": "jvargass@udistrital.edu.co"
+  },
+  {
+    "name": "RAVELO MENDEZ ROISMAN ENRIQUE",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "DERECHO A LA INFORMACION, GESTION DE DATOS E INFORMACION",
+    "email": "rravelom@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ GARCIA VICENTE",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "GESTION DE DATOS E INFORMACION, GESTION DE LA CALIDAD, INTELIGENCIA DE NEGOCIOS Y VIGILANCIA TECNOLOGICA",
+    "email": "vgonzalezg@udistrital.edu.co"
+  },
+  {
+    "name": "CHISABA PEREIRA CRISTIAN ALEJANDRO",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "ARCHIVOS DE IMAGEN Y SONIDO",
+    "email": "cchisabap@udistrital.edu.co"
+  },
+  {
+    "name": "TELLEZ TOLOSA LUIS ROBERTO",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "FORMULACION Y EVALUACION DE PROYECTOS, MERCADEO DE SERVICIOS DE INFORMACION",
+    "email": "ltellezt@udistrital.edu.co"
+  },
+  {
+    "name": "GALEANO MARTINEZ PEDRO IGNACIO",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "DESCRIPCION DOCUMENTAL, CONSERVACION DEL PATRIMONIO DOCUMENTAL",
+    "email": "pgaleanom@udistrital.edu.co"
+  },
+  {
+    "name": "CORDERO VEGA PABLO ANDRES",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "DESCRIPCION DOCUMENTAL, TRABAJO DE GRADO I, ORGANIZACION DOCUMENTAL. TALLER PRACTICO, PRACTICA PROFESIONAL",
+    "email": "pcorderov@udistrital.edu.co"
+  },
+  {
+    "name": "NEIRA APONTE MANUEL VICENTE",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "SEGURIDAD DE LA INFORMACION, GOBIERNO ELECTRONICO, TRABAJO DE GRADO II",
+    "email": "mneiraa@udistrital.edu.co"
+  },
+  {
+    "name": "ALVAREZ ALVAREZ MARIA YANNETH",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "VALORACION DOCUMENTAL",
+    "email": "malvareza@udistrital.edu.co"
+  },
+  {
+    "name": "AMAYA NIÑO CARLOS ALEJANDRO",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "ARCHIVOS Y MEMORIA",
+    "email": "camayan@udistrital.edu.co"
+  },
+  {
+    "name": "PRADO MIREYA ROCIO",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "GESTION PUBLICA",
+    "email": "mpradom@udistrital.edu.co"
+  },
+  {
+    "name": "GOYENECHE REINA MARISOL",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "PATRIMONIO DOCUMENTAL, MUSEOLOGIA, NUEVA HUMANIDADES DIGITALES",
+    "email": "mgoyenecher@udistrital.edu.co"
+  },
+  {
+    "name": "VALLEJO SIERRA RUTH HELENA",
+    "faculty": "ARCHIVISTICA Y GESTION DE LA INFORMACION DIGITAL",
+    "subject": "TRABAJO DE GRADO II, CIENCIA ABIERTA",
+    "email": "rvallejos@udistrital.edu.co"
+  },
+  {
+    "name": "SALGADO CARDOSO CARLOS HERNANDO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "FUNDAMENTACION TEORICA",
+    "email": "csalgadoc@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO ARCINIEGAS HENRRY MAURICIO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "TEORIAS DEL LENGUAJE",
+    "email": "hcastroa@udistrital.edu.co"
+  },
+  {
+    "name": "BAEZ LEON JAIME ANDRES",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "TEORIAS DEL LENGUAJE",
+    "email": "jbaezl@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ ALZATE ALEXANDRA",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "ORALIDAD, SEMIOTICA",
+    "email": "amartineza@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ GONZALEZ SANDRA PATRICIA",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "ORALIDAD",
+    "email": "srodriguezg@udistrital.edu.co"
+  },
+  {
+    "name": "AYALA TARQUINO ALVARO ENRIQUE",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "FOTOGRAFIA",
+    "email": "aayalav@udistrital.edu.co"
+  },
+  {
+    "name": "BUENO TORRES RICARDO ALFONSO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "METODOS DE ESTUDIO",
+    "email": "rbuenot@udistrital.edu.co"
+  },
+  {
+    "name": "LEON ACUÑA LAURA MARCELA",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "METODOS DE ESTUDIO",
+    "email": "lleona@udistrital.edu.co"
+  },
+  {
+    "name": "MEDINA ESTRADA LINA MARIA",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "POLITICA Y CIUDADANIA",
+    "email": "lmedinae@udistrital.edu.co"
+  },
+  {
+    "name": "CASTILLO HERNANDEZ GISELLE",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "SOCIOLOGIA DE LA COMUNICACION",
+    "email": "gcastillh@udistrital.edu.co"
+  },
+  {
+    "name": "FLOREZ HUGO MANUEL",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "HISTORIA, GEOPOLITICA",
+    "email": "hflorezm@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ CRUZ JOSE MANUEL",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "HISTORIA",
+    "email": "jgonzalezc@udistrital.edu.co"
+  },
+  {
+    "name": "JARAMILLO ECHEVERRI DUVAN EMILIO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "SEMIOTICA, PRODUCCION DE TEXTOS ESCRITOS",
+    "email": "djaramilloe@udistrital.edu.co"
+  },
+  {
+    "name": "VALENCIA CHAVES ELSA IVONNE",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "SEMIOTICA",
+    "email": "evalenciac@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO CONTRERAS OLGA MILENA",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "PRODUCCION DE TEXTOS ESCRITOS",
+    "email": "oforeroc@udistrital.edu.co"
+  },
+  {
+    "name": "PARADA BERNAL MIGUEL ANGEL",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "PRODUCCION DE TEXTOS ESCRITOS",
+    "email": "mparadab@udistrital.edu.co"
+  },
+  {
+    "name": "ROMERO BONILLA OSCAR YOBANY",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "REPORTERIA GRAFICA, LENGUAJE CINEMATOGRAFICO",
+    "email": "oromerob@udistrital.edu.co"
+  },
+  {
+    "name": "SARMIENTO LOZANO LUIS EDUARDO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "FUNDAMENTOS DE INVESTIGACION EN COMUNICACION Y PERIODISMO",
+    "email": "lsarmientol@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ SIERRA JUAN CARLOS",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "HISTORIA SOCIAL DE LA COMUNICACION EN EL MUNDO",
+    "email": "jsanchezsi@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO LOZANO JOHN ALEXANDER",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "GEOPOLITICA",
+    "email": "jcastrol@udistrital.edu.co"
+  },
+  {
+    "name": "JARAMILLO GARCIA ANDREA MILENA",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "TEORIA DE LA IMAGEN, LENGUAJE CINEMATOGRAFICO",
+    "email": "ajaramillog@udistrital.edu.co"
+  },
+  {
+    "name": "GUARIN MARTHA YANETH",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "GENEROS INFORMATIVOS",
+    "email": "mguarinm@udistrital.edu.co"
+  },
+  {
+    "name": "MESTRA OSORIO ARMINIO DEL CRISTO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "RADIO",
+    "email": "amestrao@udistrital.edu.co"
+  },
+  {
+    "name": "MOLANO SUAREZ ERIKA PAOLA",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "METODOS DE INVESTIGACION CUANTITATIVA EN COMUNICACION Y PERIODISMO",
+    "email": "emolanos@udistrital.edu.co"
+  },
+  {
+    "name": "FUENTES ALVAREZ MAYTEE CECILIA",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "LABORATORIO TALLER CENTRAL I",
+    "email": "mfuentesa@udistrital.edu.co"
+  },
+  {
+    "name": "PINILLA CHAPARRO DIEGO ARMANDO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "HISTORIA SOCIAL DE LA COMUNICACION EN COLOMBIA",
+    "email": "ppinillac@udistrital.edu.co"
+  },
+  {
+    "name": "CRUZ OSORIO CARLOS HUMBERTO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "ECONOMIA POLITICA DE LA COMUNICACION",
+    "email": "ccruzo@udistrital.edu.co"
+  },
+  {
+    "name": "JARAMILLO BARON VESPASIANO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "GENEROS DE OPINION E INTERPRETACION",
+    "email": "vjaramillob@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ ARCHILA ANDRES",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "RADIO PERIODISMO, PERIODISMO DE INVESTIGACION, MULTIMEDIA",
+    "email": "ajimenezar@udistrital.edu.co"
+  },
+  {
+    "name": "PINILLA ESCOBAR FREDY ALEXANDER",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "RADIO PERIODISMO, SALA DE REDACCION",
+    "email": "fpinillae@udistrital.edu.co"
+  },
+  {
+    "name": "PRADO MIREYA ROCIO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "METODOS DE INVESTIGACION CUALITATIVA EN COMUNICACION Y PERIODISMO, GESTION DE PROYECTOS DE INVESTIGACION",
+    "email": "mpradom@udistrital.edu.co"
+  },
+  {
+    "name": "OTALORA MORENO FABIO ALBERTO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "LEGISLACION DE LA COMUNICACION",
+    "email": "fotaloram@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ RODRIGUEZ CESAR AUGUSTO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "DISEÑO Y DIAGRAMACION",
+    "email": "crodriguezr@udistrital.edu.co"
+  },
+  {
+    "name": "JUNCA RODRIGUEZ CESAR MAURICIO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "DIAGNOSTICO Y GESTION DE LA COMUNICACION COMUNITARIA",
+    "email": "cjuncar@udistrital.edu.co"
+  },
+  {
+    "name": "BELTRAN RIAÑO DANIEL ERNESTO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "OPINION PUBLICA",
+    "email": "dbeltranr@udistrital.edu.co"
+  },
+  {
+    "name": "SANDOVAL ELIANA YISETH",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "HIPERTEXTO",
+    "email": "esandovaly@udistrital.edu.co"
+  },
+  {
+    "name": "RIBERO SALAZAR FABIO ANDRES",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "PERIODISMO DE INVESTIGACION, GESTION DE CONTENIDOS",
+    "email": "friberos@udistrital.edu.co"
+  },
+  {
+    "name": "MORA RUIZ DANIEL STEVEN",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "TELEVISION",
+    "email": "dmorar@udistrital.edu.co"
+  },
+  {
+    "name": "PRADA GUEVARA JHOAN CAMILO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "LABORATORIO TALLER CENTRAL II, COMUNICACION PARA EL BUEN VIVIR",
+    "email": "jpradag@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ GARCIA VICENTE",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "PERIODISMO DIGITAL",
+    "email": "vgonzalezg@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS SERGIO CAMILO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "PERIODISMO DIGITAL",
+    "email": "svargass@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ BEDOYA ALEJANDRO",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "PERIODISMO TELEVISIVO, MULTIMEDIA",
+    "email": "agomezbe@udistrital.edu.co"
+  },
+  {
+    "name": "SAENZ LUZ HELENA",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "TRABAJO DE GRADO I",
+    "email": "lsaenzh@udistrital.edu.co"
+  },
+  {
+    "name": "RIVEROS SOLORZANO HERNAN JAVIER",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "TRABAJO DE GRADO I",
+    "email": "hriveross@udistrital.edu.co"
+  },
+  {
+    "name": "NOCUA CARO DIANA PRISILIA",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "TRABAJO DE GRADO I",
+    "email": "dnocuac@udistrital.edu.co"
+  },
+  {
+    "name": "GALLEGO TORRES ROMULO ANDRES",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "GESTION DE CONTENIDOS",
+    "email": "rgallegot@udistrital.edu.co"
+  },
+  {
+    "name": "BUSTAMANTE BOHORQUEZ BORYS RAFAEL",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "PRACTICA PROFESIONAL",
+    "email": "bbustamab@udistrital.edu.co"
+  },
+  {
+    "name": "PEREZ ROMERO JOSE LUIS",
+    "faculty": "COMUNICACION SOCIAL Y PERIODISMO",
+    "subject": "PERIODISMO CULTURAL",
+    "email": "jperezr@udistrital.edu.co"
+  },
+  {
+    "name": "SALGADO BOCANEGRA CAMILO",
+    "faculty": "FORM. DE PROFESORES EN NUEVAS EXPERIENCIAS EDUCATIVAS",
+    "subject": "AMBIENTES VIRTUALES PEDAGOGIA HOSPITALARIA DOMICILIARIA",
+    "email": "csalgadob@udistrital.edu.co"
+  },
+  {
+    "name": "LOZADA SILVA FANNY LUCIA",
+    "faculty": "FORM. DE PROFESORES EN NUEVAS EXPERIENCIAS EDUCATIVAS",
+    "subject": "MEDIACIONES SENSIBLES Y MULTISENSORIALES DESDE LA DISCAPACIDAD VISUAL",
+    "email": "flozadas@udistrital.edu.co"
+  },
+  {
+    "name": "BEDOYA RIOS NOHEMY MARCELA",
+    "faculty": "FORM. DE PROFESORES EN NUEVAS EXPERIENCIAS EDUCATIVAS",
+    "subject": "CONSTRUCCION DE EXPERIENCIAS DE APRENDIZAJE DESDE EL DUA Y EL PIAR",
+    "email": "nbedoyar@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ ORTEGON JHON ALEXANDER",
+    "faculty": "FORM. DE PROFESORES EN NUEVAS EXPERIENCIAS EDUCATIVAS",
+    "subject": "EL AJEDREZ Y EL DISEÑO UNIVERSAL PARA EL APRENDIZAJE UNA METAFORA NECESARIA",
+    "email": "jdiazo@udistrital.edu.co"
+  },
+  {
+    "name": "PASCAGAZA ORTIZ LUIS EDUARDO",
+    "faculty": "FORM. DE PROFESORES EN NUEVAS EXPERIENCIAS EDUCATIVAS",
+    "subject": "LENGUA DE SEÑAS COLOMBIANA NIVEL I, LENGUA DE SEÑAS COLOMBIANA NIVEL II",
+    "email": "lpasacagao@udistrital.edu.co"
+  },
+  {
+    "name": "LUQUE HERREÑO FREDY DANIEL",
+    "faculty": "FORM. DE PROFESORES EN NUEVAS EXPERIENCIAS EDUCATIVAS",
+    "subject": "LENGUA DE SEÑAS COLOMBIANA NIVEL I",
+    "email": "lluquee@udistrital.edu.co"
+  },
+  {
+    "name": "LEON CORREDOR OLGA LUCIA",
+    "faculty": "FORM. DE PROFESORES EN NUEVAS EXPERIENCIAS EDUCATIVAS",
+    "subject": "FORMACION EN ACCESIBILIDAD Y AMBIENTES DE APRENDIZAJE AFECTIVOS",
+    "email": "lleonc@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN MUNAR MARGOTH",
+    "faculty": "FORM. DE PROFESORES EN NUEVAS EXPERIENCIAS EDUCATIVAS",
+    "subject": "DIVERSIDAD E INTERSECCIONALIDAD",
+    "email": "mguzmanm@udistrital.edu.co"
+  },
+  {
+    "name": "SUZUNAGA QUINTANA JUAN CARLOS",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS, CATEDRA DEMOCRACIA Y CIUDADANIA, CATEDRA DE CONTEXTO, CUERPO, SEXUALIDAD Y LENGUAJE, UNA APROXIMACION PSICOANALITICA.",
+    "email": "jsuzunagq@udistrital.edu.co"
+  },
+  {
+    "name": "BUSTAMANTE BOHORQUEZ BORYS RAFAEL",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+    "email": "bbustamab@udistrital.edu.co"
+  },
+  {
+    "name": "PIÑEROS MORA OLGA HELENA",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS, CATEDRA DEMOCRACIA Y CIUDADANIA, CATEDRA DE CONTEXTO",
+    "email": "pmiñeroo@udistrital.edu.co"
+  },
+  {
+    "name": "PEÑA MELENDEZ WILSON LIBARDO",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS, CATEDRA DE CONTEXTO",
+    "email": "pmeñal@udistrital.edu.co"
+  },
+  {
+    "name": "CAMACHO CALDERON ALEJANDRO",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS, EDUCACION PUBLICA: FUNDAMENTOS PARA UNA FORMACION ETICOPOLITICA, PEDAGOGIA SOCIAL Y EDUCACION.",
+    "email": "acamachoc@udistrital.edu.co"
+  },
+  {
+    "name": "BARRETO CHICA OMAIRA",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+    "email": "obarretoc@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS ARIAS SANDRA PATRICIA",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS, CATEDRA DEMOCRACIA Y CIUDADANIA",
+    "email": "srojasa@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ FERNANDEZ RICARDO ALBERTO",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "CATEDRA FRANCISCO JOSE DE CALDAS, CATEDRA DEMOCRACIA Y CIUDADANIA, CATEDRA DE CONTEXTO",
+    "email": "ssanchezf@udistrital.edu.co"
+  },
+  {
+    "name": "MAHECHA ESPINOSA DANNIS ROBERTO",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "CATEDRA DEMOCRACIA Y CIUDADANIA, CATEDRA DE CONTEXTO",
+    "email": "dmahechae@udistrital.edu.co"
+  },
+  {
+    "name": "GARAY URRUTIA FERNANDO",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "CATEDRA DE CONTEXTO, REFORMA UNIVERSITARIA, PRACTICA ACADEMICA CAMPAMENTO PEDAGOGICO SIMON RODRIGUEZ, FORMACION INTEGRAL DE EDUCADORES, EDUCACION PUBLICA: FUNDAMENTOS PARA UNA FORMACION ETICOPOLITICA",
+    "email": "fgarayu@udistrital.edu.co"
+  },
+  {
+    "name": "CALDERON OMER",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "REFORMA UNIVERSITARIA",
+    "email": "ocalderon@udistrital.edu.co"
+  },
+  {
+    "name": "LANDAZABAL CUERVO DIANA PATRICIA",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "EDUCACION EMOCIONAL Y FORMACION DOCENTE, OTRAS PEDAGOGIAS",
+    "email": "dlandazac@udistrital.edu.co"
+  },
+  {
+    "name": "BOTHERT ORTIZ KARINA CLAUDIA",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "EDUCACION EMOCIONAL Y FORMACION DOCENTE",
+    "email": "bbotherto@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MELO HAMLET SANTIAGO",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "FORMACION INTEGRAL DE EDUCADORES, PEDAGOGIA SOCIAL Y EDUCACION.",
+    "email": "hgonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON RAMIREZ MARITZA",
+    "faculty": "INVESTIGACION Y EXTENSION DE PEDAGOGIA",
+    "subject": "OTRAS PEDAGOGIAS",
+    "email": "mpinzomr@udistrital.edu.co"
+  },
+  {
+    "name": "AFRICANO WILLIAM CAMILO",
+    "faculty": "LICENCIATURA EDUCACION BASICA CON ENFASIS EN EDUCACION ARTISTICA",
+    "subject": "GUITARRA POPULAR Y CLASICA",
+    "email": "wcafricano@udistrital.edu.co"
+  },
+  {
+    "name": "JARAMILLO MANTILLA MARIA DEL PILAR",
+    "faculty": "LICENCIATURA EDUCACION BASICA CON ENFASIS EN EDUCACION ARTISTICA",
+    "subject": "LOS CONFLICTOS FAMILIARES Y SU INCIDENCIA EN EL ÁMBITO EDUCATIVO",
+    "email": "mjaramillm@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ SOLER CARLOS JILMAR",
+    "faculty": "LICENCIATURA EDUCACION BASICA CON ENFASIS EN EDUCACION ARTISTICA",
+    "subject": "LOS CONFLICTOS FAMILIARES Y SU INCIDENCIA EN EL ÁMBITO EDUCATIVO",
+    "email": "cdiazs@udistrital.edu.co"
+  },
+  {
+    "name": "AGUDELO RONDON ANTONIO ARNOVIS",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS, GENETICA MOLECULAR, SISTEMATICA",
+    "email": "aaagudelr@udistrital.edu.co"
+  },
+  {
+    "name": "QUINTANA VILLA LILIANA",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "lquintanav@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ CASTRO ANGELICA PATRICIA",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "asanchezc@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN SERRATO ANDRES FELIPE",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "EDUCACION EN TECNOLOGIA, ETICA PROFESIONAL",
+    "email": "aguzmans@udistrital.edu.co"
+  },
+  {
+    "name": "BELTRAN GUTIERREZ HECTOR EDWIN",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "EDUCACION AMBIENTAL",
+    "email": "hbeltrang@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES ROJAS JOHANA ISABEL",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "BIOFISICA II, BIOFISICA I",
+    "email": "jtorresr@udistrital.edu.co"
+  },
+  {
+    "name": "VENEGAS SEGURA ANDRES ARTURO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "BIOFISICA II, FILOSOFIA DE LA EDUCACION, BIOFISICA I, CONTEXTO Y ESCUELA, ETICA PROFESIONAL",
+    "email": "avenegas@udistrital.edu.co"
+  },
+  {
+    "name": "LEON CASTILLO JHON ALEXANDER",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "PALEONTOLOGIA",
+    "email": "jleonc@udistrital.edu.co"
+  },
+  {
+    "name": "DAZA ARDILA DIANA DEL SOCORRO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "CIENCIA AGROECOLOGICA",
+    "email": "ddazaa@udistrital.edu.co"
+  },
+  {
+    "name": "GUTIERREZ FAJARDO ISIDRO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "MATEMATICAS I, MATEMATICAS II",
+    "email": "igutierrezf@udistrital.edu.co"
+  },
+  {
+    "name": "GAMBOA MORA MARIA CRISTINA",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "QUIMICA INORGANICA",
+    "email": "mgamboam@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ LOPEZ EDWIN FERNANDO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "QUIMICA INORGANICA, QUIMICA ORGANICA, BIOQUIMICA",
+    "email": "ssanchezl@udistrital.edu.co"
+  },
+  {
+    "name": "MORALES POSADA NELLY BIBIANA",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "QUIMICA INORGANICA",
+    "email": "nmoralesp@udistrital.edu.co"
+  },
+  {
+    "name": "CHIRIVI JOYA DANIEL ANDRES",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "BIOLOGIA CELULAR",
+    "email": "dchirivj@udistrital.edu.co"
+  },
+  {
+    "name": "BARRETO CHICA OMAIRA",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "FILOSOFIA DE LA EDUCACION",
+    "email": "obarretoc@udistrital.edu.co"
+  },
+  {
+    "name": "VILLARREAL GIL ELDA YANNETH",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "CONTEXTO Y ESCUELA, PROYECTO DE INVESTIGACION FORMATIVA INTERDISCIPLINAR PIFI I",
+    "email": "evillarreg@udistrital.edu.co"
+  },
+  {
+    "name": "MATEUS VARGAS MARITZA",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "MODELOS EXPLICATIVOS, PROYECTO DE INVESTIGACION FORMATIVA INTERDISCIPLINAR PIFI I",
+    "email": "mmateusv@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA GARCIA ALEXANDER",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "ZOOLOGIA DE INVERTEBRADOS",
+    "email": "agarciag@udistrital.edu.co"
+  },
+  {
+    "name": "CAMPOS MORENO DIEGO FERNANDO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "ZOOLOGIA DE INVERTEBRADOS",
+    "email": "dcamposm@udistrital.edu.co"
+  },
+  {
+    "name": "BAEZ LIZARAZO MABEL ROCIO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "BOTANICA I, BOTANICA II",
+    "email": "mbaezl@udistrital.edu.co"
+  },
+  {
+    "name": "DAVILA GONZALEZ GLORIA RAQUEL",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "BOTANICA I",
+    "email": "gdavilag@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ CELY JOSE WILSON",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "EPISTEMOLOGIA E HISTORIA DE LA BIOLOGIA, PSICOLOGIA DEL APRENDIZAJE, POLITICA EDUCATIVA",
+    "email": "jgonzalezc@udistrital.edu.co"
+  },
+  {
+    "name": "GIRALDO QUINTERO GUSTAVO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "EPISTEMOLOGIA E HISTORIA DE LA BIOLOGIA",
+    "email": "ggiraldq@udistrital.edu.co"
+  },
+  {
+    "name": "FONSECA AMAYA GUILLERMO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "DIDACTICA DE LA BIOLOGIA",
+    "email": "ffonsecaa@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MANIOS FERNANDO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "QUIMICA ORGANICA",
+    "email": "fgonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "RUEDA ESTEBAN MARTHA ALEXANDRA",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "ZOOLOGIA DE VERTEBRADOS",
+    "email": "mruedae@udistrital.edu.co"
+  },
+  {
+    "name": "VELASCO FORERO MARTHA JANET",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "CURRICULO Y EVALUACION",
+    "email": "mvelascof@udistrital.edu.co"
+  },
+  {
+    "name": "ROBLES PINEROS JAIRO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "PROYECTO DE INVESTIGACION FORMATIVA INTERDISCIPLINAR PIFI I",
+    "email": "jroblesp@udistrital.edu.co"
+  },
+  {
+    "name": "BARRERA COBOS NUBIA FARID",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "BIOQUIMICA",
+    "email": "nbarrerc@udistrital.edu.co"
+  },
+  {
+    "name": "CARDENAS TORRES LUZ FABIOLA",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "FISIOLOGIA VEGETAL",
+    "email": "lfcardenast@udistrital.edu.co"
+  },
+  {
+    "name": "QUEVEDO CARDENAS LUIS ARMANDO",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "ESTADISTICA",
+    "email": "lquevedoc@udistrital.edu.co"
+  },
+  {
+    "name": "CANO ARANGO JOHN EDWARD",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "MICROBIOLOGIA",
+    "email": "jcanoa@udistrital.edu.co"
+  },
+  {
+    "name": "LOZADA SILVA FANNY LUCIA",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "PRACTICAS NO CONVENCIONALES",
+    "email": "flozadas@udistrital.edu.co"
+  },
+  {
+    "name": "PINTO MANTILLA LUCIA",
+    "faculty": "LICENCIATURA EN BIOLOGIA",
+    "subject": "PRACTICA DOCENTE I, PRACTICA DOCENTE II",
+    "email": "lpintom@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ ARDILA JORGE DAVID",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "COMPRENSION Y PRODUCCION DE TEXTOS, LENGUAJE, ESTETICA Y SOCIEDAD",
+    "email": "jsancheza@udistrital.edu.co"
+  },
+  {
+    "name": "PAEZ MADERA MEYRA JUDITH",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "COMPRENSION Y PRODUCCION DE TEXTOS, ANALISIS DEL DISCURSO, LENGUAJE, ESTETICA Y SOCIEDAD",
+    "email": "mpaezm@udistrital.edu.co"
+  },
+  {
+    "name": "GARZON CHIRIVI OMAR ALBERTO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "COMPRENSION Y PRODUCCION DE TEXTOS",
+    "email": "ogarzoc@udistrital.edu.co"
+  },
+  {
+    "name": "FAJARDO NESTOR",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "ANALISIS DEL DISCURSO",
+    "email": "nfajardo@udistrital.edu.co"
+  },
+  {
+    "name": "BEDOYA RIOS NOHEMY MARCELA",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "nbedoyar@udistrital.edu.co"
+  },
+  {
+    "name": "PIÑEROS PIÑEROS LISSED JHASBEIDY",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "lpiñerop@udistrital.edu.co"
+  },
+  {
+    "name": "NIETO USECHE SANDRA",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "EDUCACION EN TECNOLOGIA",
+    "email": "snietou@udistrital.edu.co"
+  },
+  {
+    "name": "ROA OVALLE IVAN ERNESTO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "TEORIA SOCIAL CLASICA",
+    "email": "iroao@udistrital.edu.co"
+  },
+  {
+    "name": "CUBILLOS SANCHEZ IVAN LUIS",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "TEORIA SOCIAL CLASICA",
+    "email": "icubilloss@udistrital.edu.co"
+  },
+  {
+    "name": "MORALES GARCIA JOHN FREDY",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PENSAMIENTO LOGICO MATEMATICO",
+    "email": "jmoralesg@udistrital.edu.co"
+  },
+  {
+    "name": "ORDOÑEZ JIMENEZ ANDRES FELIPE",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PENSAMIENTO LOGICO MATEMATICO",
+    "email": "aordoñezj@udistrital.edu.co"
+  },
+  {
+    "name": "DE LA TORRE BURBANO OMAIRA BEATRIZ",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "HISTORIA DE LA EDUCACION Y LA PEDAGOGIA",
+    "email": "ode la torreb@udistrital.edu.co"
+  },
+  {
+    "name": "GARCES VICTOR HUGO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "HISTORIA DE LA EDUCACION Y LA PEDAGOGIA",
+    "email": "vgarces@udistrital.edu.co"
+  },
+  {
+    "name": "BOLAÑOS FLORIDO LEIDY PAOLA",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "CULTURA POLITICA, ETICA Y CIUDADANA",
+    "email": "lbolañosf@udistrital.edu.co"
+  },
+  {
+    "name": "PALOMINO AMADOR JHON FREDY",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "CULTURA POLITICA, ETICA Y CIUDADANA",
+    "email": "jpalominoa@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO BUENO FABIO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "CONTEXTOS ESCOLARES",
+    "email": "fcastrob@udistrital.edu.co"
+  },
+  {
+    "name": "ESCOBAR RINCON LILIANA DEL PILAR",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "CONTEXTOS ESCOLARES",
+    "email": "lescobarr@udistrital.edu.co"
+  },
+  {
+    "name": "SERNA DIMAS ADRIAN EDUARDO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "ENFOQUES EPISTEMOLOGICOS Y METODOLOGICOS EN INVESTIGACION SOCIAL",
+    "email": "asernad@udistrital.edu.co"
+  },
+  {
+    "name": "CAMACHO TELLEZ JEISON HERLEY",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "ENFOQUES EPISTEMOLOGICOS Y METODOLOGICOS EN INVESTIGACION SOCIAL",
+    "email": "jcamachot@udistrital.edu.co"
+  },
+  {
+    "name": "ORDONEZ JIMENEZ ANDRES FELIPE",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "ESTADISTICA PARA LAS CIENCIAS SOCIALES",
+    "email": "afordonezj@udistrital.edu.co"
+  },
+  {
+    "name": "SILVA BRICENO ORLANDO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "TEORIAS SOCIALES CONTEMPORANEAS, CIENCIAS SOCIALES ESCOLARES",
+    "email": "osbriceo@udistrital.edu.co"
+  },
+  {
+    "name": "AVILA VICTOR MANUEL",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "TEORIAS SOCIALES CONTEMPORANEAS, VIOLENCIA, CONFLICTO Y EDUCACION PARA LA PAZ",
+    "email": "vmavilav@udistrital.edu.co"
+  },
+  {
+    "name": "RENDON LARA DIEGO BERNARDO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "CORRIENTES PEDAGOGICAS CONTEMPORANEAS, PRACTICAS DE EDUCACION COMUNITARIA, DISEÑO DE PROYECTOS DE AULA EN CIENCIAS SOCIALES",
+    "email": "dbrendonl@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ PEREZ NEMIAS",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "VIOLENCIA, CONFLICTO Y EDUCACION PARA LA PAZ, OTRAS EDUCACIONES",
+    "email": "ngomezp@udistrital.edu.co"
+  },
+  {
+    "name": "MOLANO CAMARGO FRANK",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "MEMORIA SOCIAL Y COLECTIVA",
+    "email": "fmcolanoc@udistrital.edu.co"
+  },
+  {
+    "name": "BOLANOS FLORIDO LEIDY PAOLA",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "MEMORIA SOCIAL Y COLECTIVA, DERECHOS HUMANOS Y EDUCACION EN DERECHOS HUMANOS",
+    "email": "lpbolanof@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ NAVAS DIANA MARCELA",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "ENFOQUES EPISTEMOLOGICOS Y METODOLOGICOS EN INVESTIGACION EDUCATIVA, DISEÑO Y FORMULACION DE PROYECTOS DE INVESTIGACION SOCIAL Y EDUCATIVA",
+    "email": "dmgomezn@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ CAMACHO ADRIANA",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "OTRAS EDUCACIONES",
+    "email": "alopezc@udistrital.edu.co"
+  },
+  {
+    "name": "MORENO LACHE NUBIA",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PROBLEMAS RURALES Y URBANOS: CONSTRUCCION SOCIAL DEL ESPACIO Y EL TERRITORIO, PROBLEMAS COLOMBIANOS: SOCIEDAD Y TERRITORIO",
+    "email": "nmarenol@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ PIZZINATO LILIANA ANGELICA",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PROBLEMAS RURALES Y URBANOS: CONSTRUCCION SOCIAL DEL ESPACIO Y EL TERRITORIO, PROBLEMAS MUNDIALES Y GLOBALIZACION",
+    "email": "larodriguezp@udistrital.edu.co"
+  },
+  {
+    "name": "HERNANDEZ CANO EDILBERTO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "ETNOGRAFIA DE AULA",
+    "email": "ehhernandezc@udistrital.edu.co"
+  },
+  {
+    "name": "MEDINA MAHECHA IRIS GARDENIA",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "ETNOGRAFIA DE AULA, PROBLEMAS DE LA EDUCACION COLOMBIANA Y POLITICAS EDUCATIVAS",
+    "email": "imgedinam@udistrital.edu.co"
+  },
+  {
+    "name": "CASTILLO ORDONEZ ELSY YANETH",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PRACTICAS DE EDUCACION COMUNITARIA, PROBLEMAS AMBIENTALES Y EDUCACION AMBIENTAL",
+    "email": "eycastilloo@udistrital.edu.co"
+  },
+  {
+    "name": "CASTILLO HERNANDEZ ADRIANA ESTHER",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PRACTICAS DE EDUCACION COMUNITARIA",
+    "email": "aecastilloh@udistrital.edu.co"
+  },
+  {
+    "name": "BRICENO CASTAÑEDA SERGIO RAMIRO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "MEDIOS Y NUEVAS TECNOLOGIAS",
+    "email": "srbricenoc@udistrital.edu.co"
+  },
+  {
+    "name": "BARON DUARTE JOSUE ALEXANDRO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "DERECHOS HUMANOS Y EDUCACION EN DERECHOS HUMANOS, PROPUESTAS CURRICULARES DEL AREA DE CIENCIAS SOCIALES",
+    "email": "jabarondu@udistrital.edu.co"
+  },
+  {
+    "name": "BLANCO SUAREZ JORGE ORLANDO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PROBLEMAS LATINOAMERICANOS: MODELOS DE DESARROLLO",
+    "email": "joblancos@udistrital.edu.co"
+  },
+  {
+    "name": "ARIAS GOMEZ DIEGO HERNAN",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PROBLEMAS DIDACTICOS DE LAS CIENCIAS SOCIALES EN IBEROAMERICA",
+    "email": "dhariasg@udistrital.edu.co"
+  },
+  {
+    "name": "NOVOA PATIÑO JOSE BENEDICTO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PROBLEMAS AMBIENTALES Y EDUCACION AMBIENTAL",
+    "email": "jbnovoap@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO LOPEZ OSCAR ARMANDO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PROYECTO PEDAGOGICO Y SISTEMATIZACION DE EXPERIENCIAS II",
+    "email": "ocastrol@udistrital.edu.co"
+  },
+  {
+    "name": "CONTRERAS TENJO LUIS FRANCISCO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PROYECTO PEDAGOGICO Y SISTEMATIZACION DE EXPERIENCIAS III, LA HISTORIA CON CINE ENTRA",
+    "email": "lcontrerast@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA DUSSAN EDER ALEXANDER",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "PEDAGOGIA DE LA MEMORIA Y CINE COLOMBIANO",
+    "email": "egarciad@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRILLON CASTRO CARLOS MARIO",
+    "faculty": "LICENCIATURA EN CIENCIAS SOCIALES",
+    "subject": "INTRODUCCION A LOS ESTUDIOS DE GENERO Y DE LAS DIVERSIDADES SEXUALES",
+    "email": "ccastrillonc@udistrital.edu.co"
+  },
+  {
+    "name": "AVENDAÑO PEÑA CAROLINA",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "GESTION CULTURAL, ENFOQUES CURRICULARES EN EDUCACION ARTISTICA",
+    "email": "cavendañop@udistrital.edu.co"
+  },
+  {
+    "name": "GUACANEME CARDOZO ANDRES MAURICIO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "GESTION CULTURAL, CIUDAD Y PATRIMONIO CULTURAL EN EL CONTEXTO DE LA EDUCACION ARTISTICA",
+    "email": "aguacanemec@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ URIBE GUILLERMO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "FORMACION DE MAESTROS PARA POBLACIONES CON NECESIDADES ESPECIALES (NEES)",
+    "email": "grodriguezu@udistrital.edu.co"
+  },
+  {
+    "name": "ROA CARDENAS FABIO LORENZO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "TALLER DE ARTE, MATERIALES Y MAQUINAS",
+    "email": "froac@udistrital.edu.co"
+  },
+  {
+    "name": "FERRER FRANCO YURY DE JESUS",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "CREACION LITERARIA, LECTURA Y ESCRITURA EN LA UNIVERSIDAD",
+    "email": "yferrerf@udistrital.edu.co"
+  },
+  {
+    "name": "SILVA FITATA LEIDY JOHANNA",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "MATEMATICAS Y EDUCACION ARTISTICA, CIUDAD Y PATRIMONIO CULTURAL EN EL CONTEXTO DE LA EDUCACION ARTISTICA, ENFOQUES CURRICULARES EN EDUCACION ARTISTICA",
+    "email": "lsilvaf@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ BENITEZ DEISY PATRICIA",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "CONCIENCIA CORPORAL, PRE-DANZA Y JUEGO PARA LA ESCUELA",
+    "email": "dlopezb@udistrital.edu.co"
+  },
+  {
+    "name": "CASTIBLANCO MORENO JOHANNA ASTRID",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "CONCIENCIA CORPORAL, PRE-DANZA Y JUEGO PARA LA ESCUELA",
+    "email": "jcastiblanco@udistrital.edu.co"
+  },
+  {
+    "name": "GARI MURIEL GARY",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "DIBUJO Y GRAMATICA VISUAL",
+    "email": "ggarim@udistrital.edu.co"
+  },
+  {
+    "name": "PULIDO NIÑO OMAR GIOVANNY",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "INTRODUCCION A LA LITERATURA, FORMACION DE MEDIADORES DE LECTURA Y ESCRITURA LITERARIA EN ESPACIOS NO ESCOLARE",
+    "email": "opulidon@udistrital.edu.co"
+  },
+  {
+    "name": "AREVALO TRUJILLO LUZ MYRIAM",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "GRAMATICA MUSICAL EN EDUCACION ARTISTICA, INVESTIGACION Y SISTEMATIZACION DE EXPERIENCIAS EN DIDACTICAS DE LA MUSICA",
+    "email": "larevalot@udistrital.edu.co"
+  },
+  {
+    "name": "PLATA MARTINEZ HANZ",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "ELECTIVA I",
+    "email": "hplatam@udistrital.edu.co"
+  },
+  {
+    "name": "AFRICANO WILLIAM CAMILO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "ELECTIVA I",
+    "email": "wafricanoc@udistrital.edu.co"
+  },
+  {
+    "name": "VASQUEZ CUBIDES GUILLERMO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "PEDAGOGIA Y POETICAS EN LA CONSTRUCCION DEL PERSONAJE TEATRAL",
+    "email": "gvasquezc@udistrital.edu.co"
+  },
+  {
+    "name": "VILLALBA MELENDES HENRY",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "PEDAGOGIA Y POETICAS EN LA CONSTRUCCION DEL PERSONAJE TEATRAL",
+    "email": "hvillalbam@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN LEAL GINNA MAGALY",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "DE LOS MEDIOS PICTORICOS AL COLOR",
+    "email": "gguzmanl@udistrital.edu.co"
+  },
+  {
+    "name": "GABANZO HOYOS OMAR",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "LENGUAJE RITMICO EN LA EDUCACION MUSICAL ESCOLAR",
+    "email": "ogabanzoh@udistrital.edu.co"
+  },
+  {
+    "name": "BOHORQUEZ MENDOZA LAURA GISELLA",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "INVESTIGACION Y SISTEMATIZACION DE EXPERIENCIAS EN DIDACTICAS DE LA MUSICA",
+    "email": "lbohorquezm@udistrital.edu.co"
+  },
+  {
+    "name": "BORJA ALARCON ISABEL",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "INVESTIGACION Y SISTEMATIZACION DE EXPERIENCIAS EN DIDACTICA DE LA LITERATURA, PRACTICA ARTISTICA PEDAGOGICA. UNIVERSIDAD Y ESCUELA",
+    "email": "iborjaa@udistrital.edu.co"
+  },
+  {
+    "name": "ORTIZ CARABALLO CARLOS DANIEL",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "INVESTIGACION Y SISTEMATIZACION DE EXPERIENCIAS EN DIDACTICA DE LA LITERATURA, LITERATURA LATINOAMERICANA",
+    "email": "cdortizc@udistrital.edu.co"
+  },
+  {
+    "name": "HIGUERA GONZALEZ JOSE MARIO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "COMPETENCIAS CIENTIFICAS, ENFOQUES METODOLOGICOS EN EDUCACION ARTISTICA",
+    "email": "jhhiguerag@udistrital.edu.co"
+  },
+  {
+    "name": "OVIEDO POVEDA IBON",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "COMPETENCIAS CIENTIFICAS, ENFOQUES METODOLOGICOS EN EDUCACION ARTISTICA",
+    "email": "iopovedap@udistrital.edu.co"
+  },
+  {
+    "name": "MORENO PEÑUELA CARLOS FERNANDO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "FORMACION DE MEDIADORES DE LECTURA Y ESCRITURA LITERARIA EN ESPACIOS ESCOLARES, SEMINARIO DE AUTOR, LITERATURA EXPERIMENTAL",
+    "email": "cfmorenop@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ UZETA CAROLINA",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "INVESTIGACION Y SISTEMATIZACION DE EXPERIENCIAS EN DIDACTICAS DE LAS ARTES PLAST, SEMINARIO ETICAS Y ESTETICAS DE LA IMAGEN",
+    "email": "cmartinezu@udistrital.edu.co"
+  },
+  {
+    "name": "SILVA ABRIL JOHANNA LIZETH",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "PEDAGOGIA EN LA CREACION COREOGRAFICA CONTEMPORANEA",
+    "email": "jsilvaa@udistrital.edu.co"
+  },
+  {
+    "name": "MANGA DONOSO JEFERSSON DAVID",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "FOTOGRAFIA E IMAGEN EN MOVIMIENTO",
+    "email": "jdmangad@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA ARIAS PABLO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "LITERATURA LATINOAMERICANA",
+    "email": "pgarciaa@udistrital.edu.co"
+  },
+  {
+    "name": "SANTOYO RENDON JULIO ERNESTO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "PRACTICA INSTRUMENTAL EN LA EDUCACION MUSICAL ESCOLAR, ENSAMBLE VOCAL INSTRUMENTAL EN LA ESCUELA",
+    "email": "jrsantoyor@udistrital.edu.co"
+  },
+  {
+    "name": "JARAMILLO MANTILLA MARIA DEL PILAR",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "PROCESOS COGNITIVOS DE NIÑOS, JOVENES Y ADULTOS",
+    "email": "mpjaramillom@udistrital.edu.co"
+  },
+  {
+    "name": "HURTADO RODRIGUEZ LAURA CAROLINA",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "LA GRAFICA Y SUS LENGUAJES",
+    "email": "lhhurtador@udistrital.edu.co"
+  },
+  {
+    "name": "RIVERA SORIANO ANGELA SOFIA",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "SEMINARIO DE AUTOR, LITERATURA EXPERIMENTAL",
+    "email": "asriveras@udistrital.edu.co"
+  },
+  {
+    "name": "BUITRAGO LIDI LORENA",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "PRACTICA ARTISTICA PEDAGOGICA. UNIVERSIDAD Y OTROS CONTEXTOS NO ESCOLARES",
+    "email": "llbuitragol@udistrital.edu.co"
+  },
+  {
+    "name": "RINCON MUÑOZ FLOR ANGELA",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "EDUCACION ARTISTICA Y GESTION CULTURAL, BIOETICA Y EDUCACION ARTISTICA",
+    "email": "farinconm@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ GUERRERO CARLOS ALBERTO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "PRACTICA ARTISTICO-PEDAGOGICA. EDUCACION ARTISTICA EN CONTEXTOS NO ESCOLARES",
+    "email": "cmartinezg@udistrital.edu.co"
+  },
+  {
+    "name": "CUESTA RUEDA JOSE ANDRES",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "PRACTICA ARTISTICO-PEDAGOGICA. EDUCACION ARTISTICA EN CONTEXTOS NO ESCOLARES, SEMINARIO ETICAS Y ESTETICAS DE LA IMAGEN",
+    "email": "jacuestar@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ VEGA SEGUNDO ALFONSO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "PRACTICA ARTISTICO-PEDAGOGICA. EDUCACION ARTISTICA EN LA INFANCIA",
+    "email": "sclopezv@udistrital.edu.co"
+  },
+  {
+    "name": "ARIAS ALBAÑIL MIGUEL ANGEL",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "ENFOQUES EVALUATIVOS EN EDUCACION ARTISTICA",
+    "email": "maariasa@udistrital.edu.co"
+  },
+  {
+    "name": "CASTIBLANCO ROLDAN ANDRES FERNANDO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "MODERNIDAD Y POSMODERNIDAD EN ARTE Y EDUCACION",
+    "email": "afcastiblancor@udistrital.edu.co"
+  },
+  {
+    "name": "BERNAL CASAS JOSE MAURICIO",
+    "faculty": "LICENCIATURA EN EDUCACION ARTISTICA",
+    "subject": "TECNOLOGIAS PARA LA INVESTIGACION EN EDUCACION ARTISTICA",
+    "email": "jmbernalc@udistrital.edu.co"
+  },
+  {
+    "name": "BENAVIDES FRANCO ALEXANDER",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "abenavidesf@udistrital.edu.co"
+  },
+  {
+    "name": "NICHOLLS ANZOLA MIGUEL ANGEL",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "manichollsa@udistrital.edu.co"
+  },
+  {
+    "name": "PIÑEROS PIÑEROS LISSED JHASBEIDY",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "lpinerosp@udistrital.edu.co"
+  },
+  {
+    "name": "QUINTANA VILLA LILIANA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "lquintanav@udistrital.edu.co"
+  },
+  {
+    "name": "QUINTANA RAMIREZ ANTONIO",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "EDUCACION EN TECNOLOGIA",
+    "email": "aquintanar@udistrital.edu.co"
+  },
+  {
+    "name": "MCNEIL FERNANDEZ ALEJANDRO",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "EDUCACION EN TECNOLOGIA",
+    "email": "amcneilf@udistrital.edu.co"
+  },
+  {
+    "name": "BELTRAN JIMENEZ HAROLD",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "CONSTRUCCION SOCIAL DE LA INFANCIA, CONSTITUCION INICIAL DEL SUJETO Y PERSPECTIVAS DEL DESARROLLO INFANTIL",
+    "email": "hbeltranj@udistrital.edu.co"
+  },
+  {
+    "name": "QUINTERO BOGOTA DIANA CAROLINA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "CONSTRUCCION SOCIAL DE LA INFANCIA, CIUDADANIA, CIUDAD E INFANCIAS, PROC. DE SOCIALIZ. Y DIVER. SUBJET. DE LAS INFANC., JUEGO Y OTRAS FORMAS DE COMUNICACION",
+    "email": "dcquinterob@udistrital.edu.co"
+  },
+  {
+    "name": "PEÑA PEÑA LAURA CATALINA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "COGNICIONES, PENSAMIENTO Y CULTURA, LENGUAJE Y COMUNICACION, PENSAMIENTO Y CONOCIMIENTO: LA ACTIVIDAD CIENTIFICA DE LOS NIÑOS Y LAS NIÑAS",
+    "email": "lpenap@udistrital.edu.co"
+  },
+  {
+    "name": "ESPITIA VILLA LLERIS VICENTE",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "COGNICIONES, PENSAMIENTO Y CULTURA, CIUDADANIA, CIUDAD E INFANCIAS, LENGUAJE Y COMUNICACION",
+    "email": "lespitiav@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ GONZALEZ JOSE ALEXANDER",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "COGNICIONES, PENSAMIENTO Y CULTURA, CORPORALIDAD Y AUTOBIOGRAFIA",
+    "email": "jddiazg@udistrital.edu.co"
+  },
+  {
+    "name": "PARDO QUEVEDO DIANA CAROLINA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "COGNICIONES, PENSAMIENTO Y CULTURA, LENGUAJE Y COMUNICACION, VIVENCIA: CONTEXTOS DE COMUNICACION NIÑOS, NIÑAS Y ADULTOS, VIVENCIA: CONST DEL CONC POR LOS NIÑOS, LAS NIÑAS Y LOS SABERES DEL MAESTRO",
+    "email": "dcparodoq@udistrital.edu.co"
+  },
+  {
+    "name": "DELGADILLO CELY INGRID SISSY",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PROC. DE SOCIALIZ. Y DIVER. SUBJET. DE LAS INFANC.",
+    "email": "idalgadilloc@udistrital.edu.co"
+  },
+  {
+    "name": "ARIZA HERNANDEZ NOHORA PATRICIA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "CORPORALIDAD Y AUTOBIOGRAFIA",
+    "email": "nparizah@udistrital.edu.co"
+  },
+  {
+    "name": "MENDOZA PUERTO LEIDY CONSTANZA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "CORPORALIDAD Y AUTOBIOGRAFIA",
+    "email": "lmendozap@udistrital.edu.co"
+  },
+  {
+    "name": "FRANCO VALENCIA CARLOS HERNAN",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "CORPORALIDAD Y AUTOBIOGRAFIA, JUEGO Y OTRAS FORMAS DE COMUNICACION",
+    "email": "cfrancov@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ PRECIADO ZULMA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "LENGUAJE Y COMUNICACION",
+    "email": "zmartinezp@udistrital.edu.co"
+  },
+  {
+    "name": "FAJARDO RUEDA SERGIO ANDRES",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "EL LENGUAJE PARA LA EDUCACION INFANTIL",
+    "email": "sfajardor@udistrital.edu.co"
+  },
+  {
+    "name": "ANGULO NOGUERA YAMILET",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "EL LENGUAJE PARA LA EDUCACION INFANTIL, VIVENCIA: CONTEXTOS DE COMUNICACION NIÑOS, NIÑAS Y ADULTOS",
+    "email": "yangulon@udistrital.edu.co"
+  },
+  {
+    "name": "ARGOTE PAVI XIMENA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "JUEGO Y OTRAS FORMAS DE COMUNICACION",
+    "email": "xargotep@udistrital.edu.co"
+  },
+  {
+    "name": "INFANTE ACEVEDO RAUL",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "EDUCACION Y PEDAGOGIA, EPISTEMOLOGIAS, EDUCACION Y PEDAGOGIA",
+    "email": "rinfantea@udistrital.edu.co"
+  },
+  {
+    "name": "CUESTA MONTAÑEZ JENNY CONSUELO",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "VIVENCIA: CONTEXTOS DE COMUNICACION NIÑOS, NIÑAS Y ADULTOS, VIVENCIA: CONST DEL CONC POR LOS NIÑOS, LAS NIÑAS Y LOS SABERES DEL MAESTRO",
+    "email": "jcuestam@udistrital.edu.co"
+  },
+  {
+    "name": "BENAVIDES CORTES ANGIE LINDA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "VIVENCIA: CONTEXTOS DE COMUNICACION NIÑOS, NIÑAS Y ADULTOS",
+    "email": "abenavidesc@udistrital.edu.co"
+  },
+  {
+    "name": "GUERRERO JUNCA ROGER STEVE",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "CONSTRUCCION DE SABERES, CONOCIMIENTOS Y EXPERIENCIAS SOBRE LA NATURALEZA, PENSAMIENTO Y CONOCIMIENTO: LA ACTIVIDAD CIENTIFICA DE LOS NIÑOS Y LAS NIÑAS, VIVENCIA: CONST DEL CONC POR LOS NIÑOS, LAS NIÑAS Y LOS SABERES DEL MAESTRO",
+    "email": "rguerreroj@udistrital.edu.co"
+  },
+  {
+    "name": "ORJUELA OSORIO CLAUDIA PATRICIA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "CONSTRUCCION DE SABERES, CONOCIMIENTOS Y EXPERIENCIAS SOBRE LA NATURALEZA",
+    "email": "corjuelao@udistrital.edu.co"
+  },
+  {
+    "name": "VERGARA AMORTEGUI PAOLA ANDREA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PENSAMIENTO Y CONOCIMIENTO: LA ACTIVIDAD CIENTIFICA DE LOS NIÑOS Y LAS NIÑAS",
+    "email": "pvergaraa@udistrital.edu.co"
+  },
+  {
+    "name": "MARULANDA HIDALGO LYNN",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PENSAMIENTO Y CONOCIMIENTO: LA ACTIVIDAD CIENTIFICA DE LOS NIÑOS Y LAS NIÑAS",
+    "email": "lmarulandah@udistrital.edu.co"
+  },
+  {
+    "name": "SOLANO VEGA LUIS ANDRES",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "VIVENCIA: CONST DEL CONC POR LOS NIÑOS, LAS NIÑAS Y LOS SABERES DEL MAESTRO",
+    "email": "lsolanov@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON LIZARAZO OSCAR DANIEL",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PENSAMIENTO TECNOLOGICO EN LA INTERACCION FORMATIVA, ADULTO, NIÑOS Y NIÑAS",
+    "email": "odpinzonl@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRILLON SANCHEZ HERMAN ALBERTO",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PENSAMIENTO TECNOLOGICO EN LA INTERACCION FORMATIVA, ADULTO, NIÑOS Y NIÑAS",
+    "email": "hacastrillons@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA JIMENEZ OLGA LUCIA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "EDUCACION, CULTURA Y PEDAGOGIAS DE LA DIFERENCIA",
+    "email": "olgj@udistrital.edu.co"
+  },
+  {
+    "name": "QUIROGA MENDEZ ANGIE JINETH",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "VIVENCIA: PENSAMIENTO TECNOLOGICO EN LOS NIÑOS, LAS NIÑAS Y EL ADULTO",
+    "email": "ajquirogam@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ ANA BRIZET",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "VIVENCIA: PENSAMIENTO TECNOLOGICO EN LOS NIÑOS, LAS NIÑAS Y EL ADULTO",
+    "email": "abramireza@udistrital.edu.co"
+  },
+  {
+    "name": "SANDOVAL GUZMAN BETTY",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PROBLEMAS PEDAGOGICOS CONTEMPORANEOS EN EL CONTEXTO LATINOAMERICANO",
+    "email": "bsandovalg@udistrital.edu.co"
+  },
+  {
+    "name": "LEON RODRIGUEZ ANA MARIA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "VIVENCIA: IMAGINACION, FANTASIA Y CREACION",
+    "email": "amleonr@udistrital.edu.co"
+  },
+  {
+    "name": "BERNAL CORTES ANDREA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "LOS DERECHOS DE LOS NIÑOS Y LAS NIÑAS EN COLOMBIA Y AMERICA LATINA",
+    "email": "abernalc@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ BECERRA ABSALON",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PENSAMIENTO PEDAGOGICO COLOMBIANO",
+    "email": "ajimenezb@udistrital.edu.co"
+  },
+  {
+    "name": "TAPIERO CELIS OMAIRA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "VIVENCIA: CULTURA, INFANCIAS Y SOCIEDAD, PROBLEMAS DIDACTICOS DE LA LENGUA Y LA LITERATURA INFANTIL",
+    "email": "otapieroc@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ SANCHEZ HAIDY JOHANNA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PRACTICA EDUCATIVA Y PEDAGOGICA I",
+    "email": "hjrodriguezs@udistrital.edu.co"
+  },
+  {
+    "name": "GARI MURIEL GARY",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "INVESTIGACION I",
+    "email": "gmurig@udistrital.edu.co"
+  },
+  {
+    "name": "PATIÑO CASTAÑEDA YAZMIN ANDREA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PRACTICA EDUCATIVA Y PEDAGOGICA II, PROBLEMAS DIDACTICOS DE LA EDUCACION CIENTIFICA PARA LA INFANCIA",
+    "email": "ypatiñoc@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES BAYONA PATRICIA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "INVESTIGACION II",
+    "email": "ptorresb@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES GAMEZ INGRID LORENA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "INVESTIGACION II",
+    "email": "iltorresg@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA MARROQUIN NADIA PAOLA",
+    "faculty": "LICENCIATURA EN EDUACION INFANTIL",
+    "subject": "PRACTICA EDUCATIVA Y PEDAGOGICA III",
+    "email": "npacostam@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRILLON SANCHEZ HERMAN ALBERTO",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "PRACTICA EDUCATIVA Y PEDAGOGICA III",
+    "email": "hacastrillons@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ ANA BRIZET",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "INVESTIGACION III",
+    "email": "abramireza@udistrital.edu.co"
+  },
+  {
+    "name": "NEIRA UNEME ANGELA VIRGINIA",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "INVESTIGACION III",
+    "email": "avneirau@udistrital.edu.co"
+  },
+  {
+    "name": "VERGARA AMORTEGUI PAOLA ANDREA",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "INVESTIGACION III",
+    "email": "pavergaraa@udistrital.edu.co"
+  },
+  {
+    "name": "FRANCO VALENCIA CARLOS HERNAN",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "PROBLEMAS DIDACTICOS DE LA EDUCACION ARTISTICA PARA LA INFANCIA",
+    "email": "chfrancov@udistrital.edu.co"
+  },
+  {
+    "name": "PINZON LIZARAZO OSCAR DANIEL",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "PROBLEMAS DIDACTICOS DE LA EDUCACION ARTISTICA PARA LA INFANCIA",
+    "email": "odpinzonl@udistrital.edu.co"
+  },
+  {
+    "name": "DELGADILLO CELY INGRID SISSY",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "PROBLEMAS DIDACTICOS DEL PENSAMIENTO SOCIAL EN LOS NIÑOS Y LAS NIÑAS",
+    "email": "isdelgadilloc@udistrital.edu.co"
+  },
+  {
+    "name": "ORJUELA OSORIO CLAUDIA PATRICIA",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "PROBLEMAS DIDACTICOS DE LA EDUCACION EN MATEMATICAS PARA LA INFANCIA",
+    "email": "cporjuelao@udistrital.edu.co"
+  },
+  {
+    "name": "SANDOVAL GUZMAN BETTY",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "CURRICULO Y EVALUACION EN LA EDUCACION INFANTIL",
+    "email": "bsandovalg@udistrital.edu.co"
+  },
+  {
+    "name": "BENAVIDES CORTES ANGIE LINDA",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "EDUCACION LITERARIA Y LITERATURA INFANTIL EN CONTEXTOS MULTICULTURALES",
+    "email": "albenavidesc@udistrital.edu.co"
+  },
+  {
+    "name": "ANGULO NOGUERA YAMILET",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "LENGUAJES ESTETICOS, PROCESOS DE SUBJETIVACION Y GENERO: UNA PERSPECTIVA DESDE L",
+    "email": "yanguloñ@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA MARROQUIN NADIA PAOLA",
+    "faculty": "LICENCIATURA EN EDUCACION INFANTIL",
+    "subject": "PRACTICAS DOCENTES Y APRENDIZAJE REFLEXIVO",
+    "email": "npacostam@udistrital.edu.co"
+  },
+  {
+    "name": "DORADO CARLOS ALBERTO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "CALCULO INTEGRAL",
+    "email": "cadoradoc@udistrital.edu.co"
+  },
+  {
+    "name": "CELIS MONTEALEGRE EDWIN RODRIGO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "CALCULO INTEGRAL, ALGEBRA LINEAL",
+    "email": "ercelism@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ URIBE GUILLERMO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "gurodriguezu@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ ORTEGON JHON ALEXANDER",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "jadiazo@udistrital.edu.co"
+  },
+  {
+    "name": "SALAS RODRIGUEZ JHON FREDY",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "ALGEBRA LINEAL",
+    "email": "jfsalasr@udistrital.edu.co"
+  },
+  {
+    "name": "ACEVEDO ROJAS JULIO EDUARDO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "FILOSOFIA, EPISTEMOLOGIA DE LA FISICA I",
+    "email": "jeacevedor@udistrital.edu.co"
+  },
+  {
+    "name": "GODOY MORALES OLGA LUCIA",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "MECANICA DE FLUIDOS",
+    "email": "olgodoys@udistrital.edu.co"
+  },
+  {
+    "name": "CRUZ BONILLA YESID JAVIER",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "ECUACIONES DIFERENCIALES",
+    "email": "yjcruzb@udistrital.edu.co"
+  },
+  {
+    "name": "PINILLA MARLON ALEJANDRO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "VIBRACIONES Y ONDAS",
+    "email": "mapinillam@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ BORREGO LUIS CAMILO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "INSTRUMENTACION",
+    "email": "lcjimenezb@udistrital.edu.co"
+  },
+  {
+    "name": "ARCOS MARTINEZ FABIO OMAR",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE I, PRACTICA DOCENTE II",
+    "email": "fmarcosm@udistrital.edu.co"
+  },
+  {
+    "name": "GUERRA GONZALEZ ALEJANDRO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE I",
+    "email": "agguerrog@udistrital.edu.co"
+  },
+  {
+    "name": "PARRA CASTAÑEDA JOSE HERIBERTO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE I",
+    "email": "jhparrac@udistrital.edu.co"
+  },
+  {
+    "name": "RAMOS CASTIBLANCO WILMAR FRANCISCO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE I",
+    "email": "wframosc@udistrital.edu.co"
+  },
+  {
+    "name": "CARDONA RODRIGUEZ GIOVANNI",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE II",
+    "email": "grcardonar@udistrital.edu.co"
+  },
+  {
+    "name": "DELGADO RODRIGUEZ INES",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE II",
+    "email": "irdelgador@udistrital.edu.co"
+  },
+  {
+    "name": "CERA HERNANDEZ JULIAN AURELIO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE II",
+    "email": "jacerañ@udistrital.edu.co"
+  },
+  {
+    "name": "CUDRIS GARCIA EDISON FRANCISCO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE II",
+    "email": "efcudrisg@udistrital.edu.co"
+  },
+  {
+    "name": "ORTIZ SALAMANCA HENRY MAURICIO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE II",
+    "email": "hmortizs@udistrital.edu.co"
+  },
+  {
+    "name": "ZULUAGA MARTINEZ MARGARITA MARIA",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE II, INTRODUCCION A LA DIDACTICA, MECANICA CLASICA I",
+    "email": "mmzuluagam@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ TORO JUAN MANUEL",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "INTRODUCCION A LA FISICA",
+    "email": "jmgonzalezt@udistrital.edu.co"
+  },
+  {
+    "name": "INFANTE LUNA ESPERANZA DEL PILAR",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "INTRODUCCION A LA FISICA",
+    "email": "einfantel@udistrital.edu.co"
+  },
+  {
+    "name": "SALAS SARMIENTO YECID JAVIER",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "INTRODUCCION A LA FISICA",
+    "email": "yjsalass@udistrital.edu.co"
+  },
+  {
+    "name": "QUIÑONES SERRANO JORGE ARTURO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "INTRODUCCION A LA FISICA",
+    "email": "jaquiñoness@udistrital.edu.co"
+  },
+  {
+    "name": "JACOME MUÑOZ CARLOS EFRAIN",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "MATEMATICAS BASICAS",
+    "email": "cejacomem@udistrital.edu.co"
+  },
+  {
+    "name": "GAITAN DE LOS RIOS KAREN PATRICIA",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "MATEMATICAS BASICAS, TIC PARA LA ENSEÑANZA DE LA FISICA I",
+    "email": "kpgaitanl@udistrital.edu.co"
+  },
+  {
+    "name": "LUGO LOPEZ NIDIA DANIGZA",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "INTRODUCCION A LA DIDACTICA",
+    "email": "ndlugol@udistrital.edu.co"
+  },
+  {
+    "name": "SALAMANCA JULIAN ANDRES",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "TIC PARA LA ENSEÑANZA DE LA FISICA I",
+    "email": "jasalamanc@udistrital.edu.co"
+  },
+  {
+    "name": "MENDOZA GOMEZ IVETH MARGENY",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "TIC PARA LA ENSEÑANZA DE LA FISICA I",
+    "email": "immendozag@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ GUZMAN WILLIAM ALBERTO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "MECANICA CLASICA I",
+    "email": "wagomezg@udistrital.edu.co"
+  },
+  {
+    "name": "MONROY CAÑON IGNACIO ALBERTO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "CALCULO DIFERENCIAL",
+    "email": "iamonroyc@udistrital.edu.co"
+  },
+  {
+    "name": "TALERO LOPEZ PACO HERNANDO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "DIDACTICA DE LA FISICA I, TIC PARA LA ENSEÑANZA DE LA FISICA II, CONTEXTOS EDUCATIVOS I, CONTEXTOS EDUCATIVOS II",
+    "email": "phtalerol@udistrital.edu.co"
+  },
+  {
+    "name": "VIZCAINO AREVALO DIEGO FABIAN",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "CONTEXTOS EDUCATIVOS I, DIDACTICA DE LA FISICA II, CONTEXTOS EDUCATIVOS II",
+    "email": "dfvizcainoa@udistrital.edu.co"
+  },
+  {
+    "name": "PULIDO GONZALEZ WALTER ALEXIS",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "MECANICA CLASICA II, PRINCIPIOS DE ELECTRODINAMICA CLASICA",
+    "email": "wapulidog@udistrital.edu.co"
+  },
+  {
+    "name": "CASTIBLANCO ABRIL OLGA LUCIA",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "DIDACTICA DE LA FISICA III, INVESTIGACION EN ENSEÑANZA DE LA FISICA",
+    "email": "olcastiblancoa@udistrital.edu.co"
+  },
+  {
+    "name": "GIRALDO ACUÑA JUAN CARLOS",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "TERMODINAMICA",
+    "email": "jcgiraldoa@udistrital.edu.co"
+  },
+  {
+    "name": "ORDUZ CARLOS ANDRES",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "MECANICA TEORICA",
+    "email": "caorduzc@udistrital.edu.co"
+  },
+  {
+    "name": "LEYVA ROJAS JOSE ALFONSO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "FISICA ESTADISTICA",
+    "email": "jlleyvar@udistrital.edu.co"
+  },
+  {
+    "name": "REYES RONCANCIO JAIME DUVAN",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRACTICA DOCENTE III",
+    "email": "jdreyesr@udistrital.edu.co"
+  },
+  {
+    "name": "HERREÑO FIERRO CESAR AURELIO",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "PRINCIPIOS DE ELIPSOMETRIA ESPECTRAL, TOPICOS DE OPTICA FISICA DE MATERIALES",
+    "email": "cherreñf@udistrital.edu.co"
+  },
+  {
+    "name": "LEON CASTILLO JHON ALEXANDER",
+    "faculty": "LICENCIATURA EN FISICA",
+    "subject": "METODOS GEOFISICOS",
+    "email": "jlleonc@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ ORTEGON JHON ALEXANDER",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "jadiazo@udistrital.edu.co"
+  },
+  {
+    "name": "QUINTANA RAMIREZ ANTONIO",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "EDUCACION EN TECNOLOGIA",
+    "email": "arramirezq@udistrital.edu.co"
+  },
+  {
+    "name": "VILLA AMAYA WILMER",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "FUNDAMENTOS DE PEDAGOGIA Y EDUCACION",
+    "email": "wvillaa@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ MELO HAMLET SANTIAGO",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "FUNDAMENTOS DE PEDAGOGIA Y EDUCACION",
+    "email": "hsagonzalezm@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS MANRIQUE PEDRO JOSE",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "TEORIA LITERARIA I, TEORIA LITERARIA II",
+    "email": "pjvargasm@udistrital.edu.co"
+  },
+  {
+    "name": "FERNANDEZ LUNA BIBIAN PAOLA",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "TEORIA LITERARIA I",
+    "email": "bpfernandezl@udistrital.edu.co"
+  },
+  {
+    "name": "FUENTES ALVAREZ MAYTEE CECILIA",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "TEORIA LITERARIA II",
+    "email": "mcafuentesa@udistrital.edu.co"
+  },
+  {
+    "name": "RUIZ HERNANDEZ LUIS IGNACIO",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "IDEAS Y MODELOS PEDAGOGICOS",
+    "email": "lirh@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ EDGAR ALFONSO",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "ESCUELA Y FORMACION CIUDADANA",
+    "email": "earamirez@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS ARBELAEZ ESTHER JULIANA",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "ESCUELA Y FORMACION CIUDADANA",
+    "email": "ejvargasa@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO BARBOSA SOL MERCEDES",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "ESTUDIOS Y ANALISIS DEL DISCURSO",
+    "email": "smcastrob@udistrital.edu.co"
+  },
+  {
+    "name": "MALAVER RODRIGUEZ RODRIGO",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "ESTUDIOS Y ANALISIS DEL DISCURSO, COMUNICACION Y MEDIACIONES SOCIOCULTURALES",
+    "email": "rmalaverr@udistrital.edu.co"
+  },
+  {
+    "name": "MUÑOZ FERNANDEZ RUBEN",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "SEMINARIO DE LITERATURA COLOMBIANA",
+    "email": "rmuñozf@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO GERMAN DIEGO",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "SEMINARIO DE LITERATURA COLOMBIANA, SEMINARIO DE LITERATURA LATINOAMERICANA, SEMINARIO DE LITERATURA ESPAÑOLA",
+    "email": "dgcastrog@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ RODRIGUEZ HUMBERTO ALEXIS",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "SEMINARIO DE LITERATURA UNIVERSAL, INTRODUCCION A LA LITERATURA",
+    "email": "hrodriguezr@udistrital.edu.co"
+  },
+  {
+    "name": "MONTOYA CASTILLO MARIO",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "PROBLEMAS FUNDAMENTALES DE ETICA",
+    "email": "mmontoyac@udistrital.edu.co"
+  },
+  {
+    "name": "CRISTANCHO ALTUZARRA JOSE GABRIEL",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "PROBLEMAS FUNDAMENTALES DE ETICA, PROBLEMAS FUNDAMENTALES DE POLITICA",
+    "email": "jgcristanchoa@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA DUSSAN EDER ALEXANDER",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "LINGÜISTICA II",
+    "email": "eagarciad@udistrital.edu.co"
+  },
+  {
+    "name": "SUAREZ REINA ADRIANA YAMILE",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "LINGÜISTICA II",
+    "email": "aysuarezr@udistrital.edu.co"
+  },
+  {
+    "name": "ELIZALDE GLORIA",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "HISTORIA DE LA LENGUA, FONETICA Y FONOLOGIA",
+    "email": "gelizalde@udistrital.edu.co"
+  },
+  {
+    "name": "MOLINA RIOS JULIANA ANGELICA",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "HISTORIA DE LA LENGUA, SOCIOLINGÜISTICA, FONETICA Y FONOLOGIA",
+    "email": "jmolinar@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ RIVERA SONIA LICED",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "TEORIAS DEL DESARROLLO: INFANCIA Y JUVENTUD",
+    "email": "slsanchezr@udistrital.edu.co"
+  },
+  {
+    "name": "COTE BALLESTEROS DIEGO ALEJANDRO",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "DIDACTICA DE LA LECTURA Y ESCRITURA, DIDACTICA DE LA LENGUA Y LA LITERATURA I",
+    "email": "dcoteb@udistrital.edu.co"
+  },
+  {
+    "name": "BELLO CUBIDES OSCAR HENYER",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "MORFOSINTAXIS, DIDACTICA DE LA LENGUA Y LA LITERATURA I, DIDACTICA DE LA LENGUA Y LITERATURA II",
+    "email": "obelloc@udistrital.edu.co"
+  },
+  {
+    "name": "GUZMAN MUNAR MARGOTH",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "INVESTIGACION EDUCATIVA",
+    "email": "mguzmanm@udistrital.edu.co"
+  },
+  {
+    "name": "AVILA MOLINA ANGELICA MARIA",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "SEMANTICA Y PRAGMATICA, TEXTOLINGÜISTICA",
+    "email": "aavilam@udistrital.edu.co"
+  },
+  {
+    "name": "CORREDOR CALDERON LUIS ALEJANDRO",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "ANTROPOLOGIA, SUBJETIVIDADES Y ESCUELA, DISEÑO CURRICULAR, INVESTIGACION Y PRACTICA PEDAGOGICA II",
+    "email": "lcorredorc@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO LESMES SANDRA LUZ",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "ANTROPOLOGIA, SUBJETIVIDADES Y ESCUELA, INTERCULTURALIDAD, MEMORIA Y PAZ, POLITICA Y LEGISLACION EDUCATIVA",
+    "email": "slcastrol@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ AMAYA TOMAS",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "EVALUACION",
+    "email": "tsancheza@udistrital.edu.co"
+  },
+  {
+    "name": "QUITIAN BERNAL SANDRA PATRICIA",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "INVESTIGACION Y PRACTICA PEDAGOGICA I",
+    "email": "spquitianb@udistrital.edu.co"
+  },
+  {
+    "name": "GOMEZ PEREZ NEMIAS",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "INVESTIGACION Y PRACTICA PEDAGOGICA I",
+    "email": "ngomezp@udistrital.edu.co"
+  },
+  {
+    "name": "ROJAS ALVAREZ GLORIA MARIELA",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "INVESTIGACION Y PRACTICA PEDAGOGICA II",
+    "email": "gmrojasa@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ HEDRYANY KATHERINE",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "INVESTIGACION Y PRACTICA PEDAGOGICA II",
+    "email": "klopezh@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO ROZO SANDRA PAOLA",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "INVESTIGACION Y PRACTICA PEDAGOGICA III",
+    "email": "spcastror@udistrital.edu.co"
+  },
+  {
+    "name": "BUSTAMANTE BOHORQUEZ BORYS RAFAEL",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "ETICA PROFESIONAL",
+    "email": "brbustamab@udistrital.edu.co"
+  },
+  {
+    "name": "PEREA ACEVEDO ADRIAN JOSE",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "ETICA PROFESIONAL",
+    "email": "ajpereaac@udistrital.edu.co"
+  },
+  {
+    "name": "GORDILLO ALFONSO ADRIANA",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "LITERACIDADES ACADEMICAS",
+    "email": "agordilloa@udistrital.edu.co"
+  },
+  {
+    "name": "SALGADO BOCANEGRA CAMILO",
+    "faculty": "LICENCIATURA EN HUMANIDADES Y LENGUA CASTELLANA",
+    "subject": "DIDACTICAS PARA LA FINITUD: VIDA Y MUERTE, GESTION EMOCIONAL Y OTRAS FORMAS DE COMUNICACION",
+    "email": "csalgadob@udistrital.edu.co"
+  },
+  {
+    "name": "MENDEZ JULIANA CATALINA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "jcmendez@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ CASTRO ANGELICA PATRICIA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "apsanchezc@udistrital.edu.co"
+  },
+  {
+    "name": "HERNANDEZ URREGO SANDRA CECILIA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "EDUCACION EN TECNOLOGIA",
+    "email": "schernandezu@udistrital.edu.co"
+  },
+  {
+    "name": "REYES OSCAR ORLANDO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "EDUCACION EN TECNOLOGIA",
+    "email": "oreyeso@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES GUERRERO MARTHA LILIANA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "DESARROLLO DEL PENSAMIENTO ANALITICO Y CREATIVO, PHONETICS AND PHONOLOGY",
+    "email": "mltorresg@udistrital.edu.co"
+  },
+  {
+    "name": "PEDRAZA C ROSA TATIANA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "DESARROLLO DEL PENSAMIENTO ANALITICO Y CREATIVO",
+    "email": "rtpedrazac@udistrital.edu.co"
+  },
+  {
+    "name": "MEDINA GONZALEZ YEIMY MARITZA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "PHONETICS AND PHONOLOGY",
+    "email": "ymmedinag@udistrital.edu.co"
+  },
+  {
+    "name": "MEZA RODRIGUEZ MARIA ANGELICA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "PHONETICS AND PHONOLOGY",
+    "email": "mmezaro@udistrital.edu.co"
+  },
+  {
+    "name": "MALAVER RODRIGUEZ JUAN ANTONIO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "NARRACION Y MUNDOS POSIBLES, ARGUMENTACION",
+    "email": "jmalavarr@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ QUINTERO DIANA CAROLINA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "NARRACION Y MUNDOS POSIBLES",
+    "email": "dcdiazq@udistrital.edu.co"
+  },
+  {
+    "name": "MARTINEZ GOMEZ JULIAN ANDRES",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "ARGUMENTACION",
+    "email": "jmartinezg@udistrital.edu.co"
+  },
+  {
+    "name": "CASTILLO RIGOBERTO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "FIRST AND SECOND LANGUAGE ACQUISITION",
+    "email": "rcastillo@udistrital.edu.co"
+  },
+  {
+    "name": "CANDIA HURTADO MARTHA CECILIA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "ADVANCED ENGLISH I",
+    "email": "mccandiah@udistrital.edu.co"
+  },
+  {
+    "name": "DUARTE GONZALEZ CAMILA ANDREA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "ADVANCED ENGLISH I",
+    "email": "caduarted@udistrital.edu.co"
+  },
+  {
+    "name": "CUEVAS ARIAS ADRIANA CONSTANZA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "ADVANCED ENGLISH I, INTRODUCCION A LA LINGUISTICA",
+    "email": "accuevasa@udistrital.edu.co"
+  },
+  {
+    "name": "RIAÑO TORRES CARLOS ALBERTO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "ADVANCED ENGLISH II",
+    "email": "cariñot@udistrital.edu.co"
+  },
+  {
+    "name": "PINEDA NOHORA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "ADVANCED ENGLISH II",
+    "email": "npineda@udistrital.edu.co"
+  },
+  {
+    "name": "MENDEZ LARA JEISSON STEVEN",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "ADVANCED ENGLISH II",
+    "email": "jsmendezl@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ DELGADO GLADYS",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "BASIC ENGLISH, PRE-INTERMEDIATE ENGLISH",
+    "email": "glopezd@udistrital.edu.co"
+  },
+  {
+    "name": "BONILLA RAMOS FABIO ALONSO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "BASIC ENGLISH, PRE-INTERMEDIATE ENGLISH",
+    "email": "fabonillar@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ CASTIBLANCO MAURA IMELDA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "BASIC ENGLISH",
+    "email": "midiazc@udistrital.edu.co"
+  },
+  {
+    "name": "LOPEZ BELTRAN ADRIANA CAROLINA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "BASIC ENGLISH",
+    "email": "aclopezb@udistrital.edu.co"
+  },
+  {
+    "name": "SIERRA GORDILLO JAVIER ARMANDO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "PRE-INTERMEDIATE ENGLISH",
+    "email": "jasierrag@udistrital.edu.co"
+  },
+  {
+    "name": "CABREJO RUIZ PEDRO ADOLFO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "PRE-INTERMEDIATE ENGLISH, ELECTIVA I",
+    "email": "pacabrejor@udistrital.edu.co"
+  },
+  {
+    "name": "ALDANA GUTIERREZ YERALDINE",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "PERSPECTIVAS PEDAGOGICAS EN LA FORMACION DOCENTE",
+    "email": "ygaldanag@udistrital.edu.co"
+  },
+  {
+    "name": "MOLINA HUERTAS ROSALBA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "PERSPECTIVAS PEDAGOGICAS EN LA FORMACION DOCENTE, EPISTEMOLOGIA Y PEDAGOGIA",
+    "email": "rmolinah@udistrital.edu.co"
+  },
+  {
+    "name": "CABRERA GOMEZ DIANA CAROLINA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "ELECTIVA I, DESARROLLO COMUNICATIVO EN LENGUA MATERNA, ELECTIVA II",
+    "email": "dccabrerag@udistrital.edu.co"
+  },
+  {
+    "name": "MENDEZ RIVERA PILAR ESTHER",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "EPISTEMOLOGIA Y PEDAGOGIA",
+    "email": "pmenr@udistrital.edu.co"
+  },
+  {
+    "name": "GONGORA JOSE HERNANDO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "EPISTEMOLOGIA Y PEDAGOGIA",
+    "email": "jhgongora@udistrital.edu.co"
+  },
+  {
+    "name": "GUTIERREZ CANIZALEZ JAIRO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "INTERMEDIATE ENGLISH",
+    "email": "jgutierrezc@udistrital.edu.co"
+  },
+  {
+    "name": "RUBIO CANCINO ELIANA MARIA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "ENGLISH LANGUAGE FORMS",
+    "email": "erubioc@udistrital.edu.co"
+  },
+  {
+    "name": "PACHON MEJIA AMALIA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "UPPER INTERMEDIATE ENGLISH",
+    "email": "apachonm@udistrital.edu.co"
+  },
+  {
+    "name": "ROMERO CORDOBA ANGELO ALFREDO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "UPPER INTERMEDIATE ENGLISH",
+    "email": "aromeroc@udistrital.edu.co"
+  },
+  {
+    "name": "SAMACA BOHORQUEZ YOLANDA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "EDUCATIONAL CONTEXT IN PRIMARY SCHOOL",
+    "email": "ysamacab@udistrital.edu.co"
+  },
+  {
+    "name": "REAL LABRADOR SANDRA XIMENA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "EDUCATIONAL CONTEXT IN PRIMARY SCHOOL",
+    "email": "srealr@udistrital.edu.co"
+  },
+  {
+    "name": "CELIS VARGAS DIANA MILENA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "EDUCATIONAL CONTEXT IN PRIMARY SCHOOL",
+    "email": "dcelisv@udistrital.edu.co"
+  },
+  {
+    "name": "VENEGAS AURORA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "EDUCATIONAL CONTEXT IN PRIMARY SCHOOL",
+    "email": "avenegas@udistrital.edu.co"
+  },
+  {
+    "name": "SAENZ BELTRAN BRAYAN ALEXIS",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "ELECTIVA III",
+    "email": "bsaenzb@udistrital.edu.co"
+  },
+  {
+    "name": "BARRAGAN ELIZABETH",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "EDUCATIONAL CONTEXT IN SECONDARY SCHOOL",
+    "email": "ebarragan@udistrital.edu.co"
+  },
+  {
+    "name": "MONTERO LONDOÑO JANNETH CRISTINA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "COURSE DESING & METHODOLOGY IN PRIMARY SCHOOL, TEACHING PRACTICUM IN PRIMARY SCHOOL",
+    "email": "jmonterol@udistrital.edu.co"
+  },
+  {
+    "name": "CELY BETANCOURT BLANCA LUCIA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "LEGISLACION Y LIDERAZGO DOCENTE, ETICA Y BIOETICA PROFESIONAL",
+    "email": "bcelyb@udistrital.edu.co"
+  },
+  {
+    "name": "RAMIREZ VALENCIA ASTRID",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "TEACHING PRACTICUM IN PRIMARY SCHOOL",
+    "email": "aramirezv@udistrital.edu.co"
+  },
+  {
+    "name": "POSADA ORTIZ JULIA ZORAIDA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "RESEARCH PARADIGMS AND METHODS, EDUCATIONAL RESEARCH PROJET",
+    "email": "jzposadao@udistrital.edu.co"
+  },
+  {
+    "name": "NIETO GOMEZ YULY ANDREA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "RESEARCH PARADIGMS AND METHODS",
+    "email": "ynietog@udistrital.edu.co"
+  },
+  {
+    "name": "BERNAL GONZALEZ CHRISTIAN CAMILO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "TEACHING PRACTICUM IN SECONDARY SCHOOL",
+    "email": "cbearnalg@udistrital.edu.co"
+  },
+  {
+    "name": "VARGAS TORRES MARGARITA ROSA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "TEACHING PRACTICUM IN SECONDARY SCHOOL",
+    "email": "mrvargast@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ PRADA JANETH CONSUELO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "EDUCATIONAL RESEARCH PROJET",
+    "email": "jsanchezp@udistrital.edu.co"
+  },
+  {
+    "name": "UBAQUE CASALLAS DIEGO FERNANDO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "PRACTICA PEDAGOGICA INTEGRAL, APPROACHING IDENTITY, RACE AND GENDER PERSPECTIVES INAND THROUGH LIFE HI-STORIES",
+    "email": "dubaquec@udistrital.edu.co"
+  },
+  {
+    "name": "DAVILA RUBIO ALEJANDRO MAURICIO",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "PRACTICA PEDAGOGICA INTEGRAL",
+    "email": "amdavilar@udistrital.edu.co"
+  },
+  {
+    "name": "GARZON DUARTE ELIANA",
+    "faculty": "LICENCIATURA EN LENGUAS EXTRANJERAS CON ENFASIS EN INGLES",
+    "subject": "PRACTICA PEDAGOGICA INTEGRAL",
+    "email": "egarzond@udistrital.edu.co"
+  },
+  {
+    "name": "MENDEZ JULIANA CATALINA",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "jcmendez@udistrital.edu.co"
+  },
+  {
+    "name": "RODRIGUEZ URIBE GUILLERMO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "grodriguezu@udistrital.edu.co"
+  },
+  {
+    "name": "CORTES NAVARRO LUISA FERNANDA",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "EDUCACION EN TECNOLOGIA, PRACTICA PEDAGOGICA: PROFESION DOCENTE Y EDUCACION MATEMATICAS",
+    "email": "lfcortesn@udistrital.edu.co"
+  },
+  {
+    "name": "FORERO POVEDA ALBERTO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "MODELACION MATEMATICA DE FENOMENOS ASTRONOMICOS",
+    "email": "aforerop@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO CORTES CLAUDIA CECILIA",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "DIDACTICA DE LA ARITMETICA I, PRACTICA PEDAGOGICA: PROFESION DOCENTE Y EDUCACION MATEMATICAS",
+    "email": "ccastroc@udistrital.edu.co"
+  },
+  {
+    "name": "INFANTE MEJIA JUAN FRANCISCO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "DIDACTICA DE LA ARITMETICA I, PROBLEMAS DE LA CONSTRUCCION DE NUMERO NATURAL",
+    "email": "jinfantem@udistrital.edu.co"
+  },
+  {
+    "name": "FONSECA GONZALEZ JAIME",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "DIDACTICA DE LA ARITMETICA I, DIDACTICA DE LA ARITMETICA II",
+    "email": "jfonsecag@udistrital.edu.co"
+  },
+  {
+    "name": "ROMERO CRUZ JAIME HUMBERTO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PROBLEMAS DE LA CONSTRUCCION DE NUMERO NATURAL",
+    "email": "jhromeroc@udistrital.edu.co"
+  },
+  {
+    "name": "TORRES DUARTE JOSE",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PRACTICA PEDAGOGICA: PROFESION DOCENTE Y EDUCACION MATEMATICAS",
+    "email": "jtorresd@udistrital.edu.co"
+  },
+  {
+    "name": "PEÑA ACUÑA FREDY",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "DIDACTICA DE LA ARITMETICA II",
+    "email": "fpeñaa@udistrital.edu.co"
+  },
+  {
+    "name": "MORALES ROZO NATALIA",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "INVESTIGACION EN EL AULA I, PRACTICA INTERMEDIA I: DISEÑO Y PLANEACION",
+    "email": "nmoralesr@udistrital.edu.co"
+  },
+  {
+    "name": "GUTIERREZ VARGAS MIGUEL ANDRES",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "INVESTIGACION EN EL AULA I",
+    "email": "mgutierrezv@udistrital.edu.co"
+  },
+  {
+    "name": "SALGADO BOCANEGRA CAMILO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "AMBIENTES Y MEDIACIONES. INFANCIA, ADOLESCENCIA Y JUVENTUD",
+    "email": "csalgadob@udistrital.edu.co"
+  },
+  {
+    "name": "POVEDA CRUZ CRISTIAN DAVID",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "TRANSICION ARITMETICA ALGEBRA",
+    "email": "cpovedac@udistrital.edu.co"
+  },
+  {
+    "name": "FUNEME MATEUS CRISTIAN CAMILO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PROBLEMAS DE DIVISIBILIDAD, DIDACTICA DE LA VARIACION I",
+    "email": "cfunemem@udistrital.edu.co"
+  },
+  {
+    "name": "SANCHEZ ROBAYO BRIGITTE JOHANNA",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "INVESTIGACION EN EL AULA II",
+    "email": "bsanchezr@udistrital.edu.co"
+  },
+  {
+    "name": "PERILLA TRIANA WILSON YESID",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "INVESTIGACION EN EL AULA II",
+    "email": "wperillat@udistrital.edu.co"
+  },
+  {
+    "name": "ESPINOSA RIVERA OSCAR EDUARDO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PRACTICA PEDAGOGICA. SOCIEDAD Y ESCUELA, EDUCACION, CULTURA Y POLITICA",
+    "email": "oespinosar@udistrital.edu.co"
+  },
+  {
+    "name": "ACOSTA GEMPELER MARTIN EDWARDO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "DIDACTICA DE LA GEOMETRIA",
+    "email": "macostag@udistrital.edu.co"
+  },
+  {
+    "name": "MANCERA ORTIZ GABRIEL",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PROBLEMAS DE ALGEBRA GEOMETRICA, DIDACTICA DEL ALGEBRA",
+    "email": "gmancerao@udistrital.edu.co"
+  },
+  {
+    "name": "GIL CHAVES DIANA",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PRACTICA PEDAGOGICA: AMBIENTES Y MEDIACIONES. EL AULA",
+    "email": "dglic@udistrital.edu.co"
+  },
+  {
+    "name": "CARRANZA VARGAS EDWIN ALFREDO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PROBLEMAS DEL CONTINUO, EXTENSIONES NUMERICAS",
+    "email": "ecarranzav@udistrital.edu.co"
+  },
+  {
+    "name": "COBOS CAICEDO JUAN CAMILO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PRACTICA INTERMEDIA II: RECURSOS DIDACTICOS",
+    "email": "jcobosc@udistrital.edu.co"
+  },
+  {
+    "name": "CASALLAS RODRIGUEZ LUZ ANGELA",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PRACTICA INTERMEDIA II: RECURSOS DIDACTICOS",
+    "email": "lcasallasr@udistrital.edu.co"
+  },
+  {
+    "name": "BELLO CHAVEZ JHON HELVER",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PROBLEMAS DE LA VARIACION",
+    "email": "jbelloch@udistrital.edu.co"
+  },
+  {
+    "name": "CAMELO BUSTOS FRANCISCO JAVIER",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PRACTICA INTERMEDIA III. GESTION",
+    "email": "fcobosc@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRO MIGUEZ LUIS ALEXANDER",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PRACTICA INTERMEDIA III. GESTION",
+    "email": "lcastrom@udistrital.edu.co"
+  },
+  {
+    "name": "ROCHA SALAMANCA PEDRO GERARDO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PROBLEMAS DE PROBABILIDAD Y ESTADISTICA, DIDACTICA DE LA PROBABILIDAD Y ESTADISTICA",
+    "email": "prochas@udistrital.edu.co"
+  },
+  {
+    "name": "GUERRERO RECALDE NESTOR FERNANDO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "PRACTICA INTERMEDIA IV. EVALUACION",
+    "email": "nguerreror@udistrital.edu.co"
+  },
+  {
+    "name": "GUERRERO GARAY DIEGO",
+    "faculty": "LICENCIATURA EN MATEMATICAS",
+    "subject": "EDUCACION MATEMATICA Y CURRICULO. PRACTICA",
+    "email": "dguerrerog@udistrital.edu.co"
+  },
+  {
+    "name": "SANABRIA PINEDA NESTOR JAVIER",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+    "email": "nsanabriap@udistrital.edu.co"
+  },
+  {
+    "name": "DIAZ ORTEGON JHON ALEXANDER",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "NECESIDADES EDUCATIVAS ESPECIALES (NEES)",
+    "email": "jediazo@udistrital.edu.co"
+  },
+  {
+    "name": "MONTENEGRO ALDANA JAIRO ALBERTO",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "QUIMICA INORGANICA II",
+    "email": "jmontenegrom@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA SANCHEZ LUIS CARLOS",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "QUIMICA ORGANICA II",
+    "email": "lgarcias@udistrital.edu.co"
+  },
+  {
+    "name": "ARGUELLO DIANA",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "POLITICAS PUBLICAS EDUCATIVAS",
+    "email": "darguello@udistrital.edu.co"
+  },
+  {
+    "name": "MORALES POSADA NELLY BIBIANA",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "PROCESAMIENTO DE ALIMENTOS",
+    "email": "nmoralesp@udistrital.edu.co"
+  },
+  {
+    "name": "BECERRA GALINDO LUIS FRANCISCO",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "BIOQUIMICA",
+    "email": "lbecerrag@udistrital.edu.co"
+  },
+  {
+    "name": "RAMOS RINCON JAIDITH MARIZOL",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "GESTION DE RESIDUOS",
+    "email": "jramosr@udistrital.edu.co"
+  },
+  {
+    "name": "DELGADO FAJARDO BERTA INES",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "SEMINARIO INVESTIGATIVO DE NANOTECNOLOGIA Y NANOCIENCIA",
+    "email": "bdelgadof@udistrital.edu.co"
+  },
+  {
+    "name": "PULIDO BORIS MAURICIO",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "MATEMATICAS I",
+    "email": "bpulido@udistrital.edu.co"
+  },
+  {
+    "name": "GARCIA ORTIZ JOSUE ANSELMO",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "QUIMICA BASICA I",
+    "email": "jgarciao@udistrital.edu.co"
+  },
+  {
+    "name": "HUERTAS MOYA OSCAR REYNED",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "BIOLOGIA",
+    "email": "ohuertasm@udistrital.edu.co"
+  },
+  {
+    "name": "MOSQUERA SUAREZ CARLOS JAVIER",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "HISTORIA DE LA QUIMICA, EPISTEMOLOGIA DE LA QUIMICA",
+    "email": "cmosqueras@udistrital.edu.co"
+  },
+  {
+    "name": "SEGURA DELGADO PAULA ANDREA",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "HISTORIA DE LA QUIMICA",
+    "email": "psegurad@udistrital.edu.co"
+  },
+  {
+    "name": "BUSTOS MONTENEGRO SEGUNDO SABATELLI",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "EDUCACION Y CULTURA",
+    "email": "sbustosm@udistrital.edu.co"
+  },
+  {
+    "name": "TARQUINO APARICIO JONATTAN MORRISON",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "MATEMATICAS II, ESTADISTICA DESCRIPTIVA",
+    "email": "jtarquinoa@udistrital.edu.co"
+  },
+  {
+    "name": "GONZALEZ TORO JUAN MANUEL",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "FISICA CLASICA",
+    "email": "jgonzalezt@udistrital.edu.co"
+  },
+  {
+    "name": "LANDAZABAL CUERVO DIANA PATRICIA",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "TEORIAS COGNITIVAS DE APRENDIZAJE",
+    "email": "dlandazabalc@udistrital.edu.co"
+  },
+  {
+    "name": "PABON GUEVARA TEO FABIAN",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "PPDI- LABORATORIO DE ACERCAMIENTO AL EJERCICIO DE LA PROFESION DOCENTE EN QUIMICA, PPDII: LABORATORIO DE DIAGNOSTICOS DE APRENDIZAJE DE LA QUIMICA EN LA ESCUELA",
+    "email": "tpabong@udistrital.edu.co"
+  },
+  {
+    "name": "ZAMBRANO GONZALEZ NESTOR ALEXANDER",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "MODELOS DIDACTICOS EN LA ENSEÑANZA DE LA QUIMICA",
+    "email": "nzambranog@udistrital.edu.co"
+  },
+  {
+    "name": "RINCON AVELLANEDA CLARA ELIANA",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "QUIMICA INORGANICA I",
+    "email": "crincona@udistrital.edu.co"
+  },
+  {
+    "name": "SANTANA GOMEZ LEIDY FERNANDA",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "FISICA MODERNA",
+    "email": "lsantanag@udistrital.edu.co"
+  },
+  {
+    "name": "ARAUJO OVIEDO MARIA LUISA",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "PPDII: LABORATORIO DE DIAGNOSTICOS DE APRENDIZAJE DE LA QUIMICA EN LA ESCUELA",
+    "email": "maraujoo@udistrital.edu.co"
+  },
+  {
+    "name": "DELGADO GOMEZ MIGUEL ANGEL",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "FISICOQUIMICA I: TERMODINAMICA, FISICOQUIMICA II: ESPONTANEIDAD Y EQUILIBRIO, TIC EN LA ENSEÑANZA DE LAS CIENCIAS EXPERIMENTALES",
+    "email": "mdelgadog@udistrital.edu.co"
+  },
+  {
+    "name": "JIMENEZ MONTOYA JESUS ALVARO",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "QUIMICA ANALITICA",
+    "email": "jjimenezm@udistrital.edu.co"
+  },
+  {
+    "name": "CAMACHO CALDERON ALEJANDRO",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "SOCIOLOGIA DE LA EDUCACION",
+    "email": "acamachoc@udistrital.edu.co"
+  },
+  {
+    "name": "DEVIA CASTILLO BEATRIZ OFELIA",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "QUIMICA ORGANICA",
+    "email": "bdeviac@udistrital.edu.co"
+  },
+  {
+    "name": "PEREZ CUBIDES JAVIER ALONSO",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "FISICOQUIMICA II: ESPONTANEIDAD Y EQUILIBRIO",
+    "email": "jperezc@udistrital.edu.co"
+  },
+  {
+    "name": "CASTRILLON CARDONA WILLIAM FERNANDO",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "ANALISIS QUIMICO INSTRUMENTAL",
+    "email": "wcastrillonc@udistrital.edu.co"
+  },
+  {
+    "name": "MUÑOZ ALBARRACIN LIZ MAYOLY",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "PPD V: APLICACION DE LINEAMIENTOS CURRICULARES EN LA ESCUELA, PPD. INMERSION A LOS AMBIENTES DE ENSEÑANZA Y APRENDIZAJE EN LA ESCUELA",
+    "email": "lmuñoza@udistrital.edu.co"
+  },
+  {
+    "name": "MANRIQUE LAGOS ADRY LILIANA",
+    "faculty": "LICENCIATURA EN QUIMICA",
+    "subject": "MODELOS CURRICULARES Y DISEÑO CURRICULAR, PPD VI: GESTION DE LA EVALUACION EDUCATIVA",
+    "email": "amanriquel@udistrital.edu.co"
+  }
+]

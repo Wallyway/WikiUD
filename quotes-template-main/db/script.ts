@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 // Cambia el nombre del archivo aquí si es necesario
-const INPUT_FILE = 'ciencias.json';
-const OUTPUT_FILE = 'profesores_ciencias_sin_duplicados.json';
+const INPUT_FILE = 'licenciatura.json';
+const OUTPUT_FILE = 'profesores_licenciatura_sin_duplicados.json';
 
 // Leer el archivo JSON
 const data = JSON.parse(fs.readFileSync(INPUT_FILE, 'utf8'));

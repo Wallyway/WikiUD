@@ -1,0 +1,3836 @@
+[
+    {
+        "name": "LUZ HELENA FONSECA DI GIORGI",
+        "faculty": "ARTE DANZARIO",
+        "subject": "CATEDRA DEMOCRACIA Y CIUDADANIA",
+        "email": "lhfonsecad@udistrital.edu.co"
+    },
+    {
+        "name": "MONICA LUCIA SUAREZ BELTRAN",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "mlsuarezb@udistrital.edu.co"
+    },
+    {
+        "name": "SANTIAGO NIÑO MORALES",
+        "faculty": "ARTE DANZARIO",
+        "subject": "CATEDRA DE CONTEXTO",
+        "email": "sninom@udistrital.edu.co"
+    },
+    {
+        "name": "JOHN MARIO CARDENAS GARZON",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA ELONGACION Y ALINEACION I",
+        "email": "jmcardenasg@udistrital.edu.co"
+    },
+    {
+        "name": "MAURET LIZBETH GAITAN CASTAÑEDA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA ELONGACION Y ALINEACION I, DANZA CLASICA ELONGACION Y ALINEACION II",
+        "email": "mlgaitanc@udistrital.edu.co"
+    },
+    {
+        "name": "HERNANDO ELJAIEK AVENDAÑO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA ELONGACION Y ALINEACION I, DANZA CLASICA ELONGACION Y ALINEACION II",
+        "email": "heljaieka@udistrital.edu.co"
+    },
+    {
+        "name": "CYNTHIA VANESSA BELTRAN MORENO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA ELONGACION Y ALINEACION I",
+        "email": "cvbeltranm@udistrital.edu.co"
+    },
+    {
+        "name": "FRANCISCO JAVIER MARTINEZ BERMUDEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA ELONGACION Y ALINEACION II",
+        "email": "fjmartinezb@udistrital.edu.co"
+    },
+    {
+        "name": "PAULA BOHORQUEZ GONZALEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA ELONGACION Y ALINEACION II",
+        "email": "pbohorquezg@udistrital.edu.co"
+    },
+    {
+        "name": "DAVID LEONARDO MONTES NIÑO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA GENERALIDADES I",
+        "email": "dlmontesn@udistrital.edu.co"
+    },
+    {
+        "name": "EDWIN ARMANDO GUZMAN",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA GENERALIDADES I, SEMINARIO DE HISTORIA Y TEORIA DE LA DANZA: CORPOREIDADES",
+        "email": "eaguzman@udistrital.edu.co"
+    },
+    {
+        "name": "ANDREA CAROLINA RODRIGUEZ MOLINA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "SENSIBILIZACION, COMPOSICION COREOGRAFICA APLICADA II",
+        "email": "acrodriguezm@udistrital.edu.co"
+    },
+    {
+        "name": "NUBIA TERESA BARON PARRA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "ACONDICIONAMIENTO FISICO I, DANZA TRADICIONAL COLOMBIANA GENERALIDADES II",
+        "email": "ntbaronp@udistrital.edu.co"
+    },
+    {
+        "name": "BRYAN NICOLAS SILVA BERMUDEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "ACONDICIONAMIENTO FISICO II",
+        "email": "bnsilvab@udistrital.edu.co"
+    },
+    {
+        "name": "FERNANDO INFANTE ARIAS",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA URBANA II",
+        "email": "finfantea@udistrital.edu.co"
+    },
+    {
+        "name": "MARTHA ESPERANZA OSPINA ESPITIA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "METODOLOGIAS DE LA ENSEÑANZA DE LAS TECNICAS DE LA DANZA TRADICIONAL I",
+        "email": "meospinae@udistrital.edu.co"
+    },
+    {
+        "name": "DIANA LUCIA LEON BOHORQUEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DRAMATURGIA DE LA IMAGEN II",
+        "email": "dileonb@udistrital.edu.co"
+    },
+    {
+        "name": "PALOMA SALGADO JIMENEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "ARTES CIRCENSES I, ARTES CIRCENSES II",
+        "email": "psalgadoj@udistrital.edu.co"
+    },
+    {
+        "name": "LAURENCIO PALACIOS HOLGUIN",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DISEÑO ESCENICO : SONIDO",
+        "email": "lpalaciosh@udistrital.edu.co"
+    },
+    {
+        "name": "GILBERTO MARTINEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA GENERALIDADES II",
+        "email": "gmartinez@udistrital.edu.co"
+    },
+    {
+        "name": "NAZZLY BERNAL SALINAS",
+        "faculty": "ARTE DANZARIO",
+        "subject": "STRETCHING",
+        "email": "nbernals@udistrital.edu.co"
+    },
+    {
+        "name": "EDGAR LAISECA RODRIGUEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "STRETCHING",
+        "email": "elaisecar@udistrital.edu.co"
+    },
+    {
+        "name": "MATEO OCTAVIO SALAZAR URIBE",
+        "faculty": "ARTE DANZARIO",
+        "subject": "STRETCHING, DANZA PARA LA ESCENA",
+        "email": "mosalazaru@udistrital.edu.co"
+    },
+    {
+        "name": "MARGARITA ROA VARGAS",
+        "faculty": "ARTE DANZARIO",
+        "subject": "RECONOCIMIENTO CORPORAL",
+        "email": "mroav@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA GIMENA FRANCO GAMEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "RECONOCIMIENTO CORPORAL",
+        "email": "lgfrancog@udistrital.edu.co"
+    },
+    {
+        "name": "ANA MANUELA JARA RAMIREZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "RECONOCIMIENTO CORPORAL",
+        "email": "amjarar@udistrital.edu.co"
+    },
+    {
+        "name": "ADRIANA ECHAVARRIA QUIROS",
+        "faculty": "ARTE DANZARIO",
+        "subject": "RECONOCIMIENTO CORPORAL",
+        "email": "aechavarriaq@udistrital.edu.co"
+    },
+    {
+        "name": "INGRID MARITZA SIERRA GONZALEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "RECONOCIMIENTO CORPORAL",
+        "email": "imsierrag@udistrital.edu.co"
+    },
+    {
+        "name": "JHON ALEXANDER DIEZ MARULANDA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "CUERPO Y TECNOLOGIA",
+        "email": "jadiezm@udistrital.edu.co"
+    },
+    {
+        "name": "DIEGO ARMANDO LOZANO CASTIBLANCO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "MUSICA, SONIDO Y CUERPO",
+        "email": "dalozanoc@udistrital.edu.co"
+    },
+    {
+        "name": "JULIANA LOPEZ LOPEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRINCIPIOS DE DANZA MODERNA I",
+        "email": "jlopezl@udistrital.edu.co"
+    },
+    {
+        "name": "ANA CECILIA VARGAS NUÑEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRINCIPIOS DE DANZA MODERNA I",
+        "email": "acvargasn@udistrital.edu.co"
+    },
+    {
+        "name": "LEIDY YAMILE RONDON CAMACHO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRINCIPIOS DEL ENTRENAMIENTO ACTORAL",
+        "email": "lyrondonc@udistrital.edu.co"
+    },
+    {
+        "name": "MANUEL FERNANDO GARCIA GARCIA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "SEMINARIO DE HISTORIA Y TEORIA DE LA DANZA: TRAYECTORIAS Y EXPERIENCIAS",
+        "email": "mfgarciag@udistrital.edu.co"
+    },
+    {
+        "name": "MANUEL FERNANDO GARCIA GARCIA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "SEMINARIO DE HISTORIA Y TEORIA DE LA DANZA: TRAYECTORIAS Y EXPERIENCIAS, INVESTIGACION EN ARTE",
+        "email": "mfgarciag@udistrital.edu.co"
+    },
+    {
+        "name": "LUZ HELENA DI GIORGI FONSECA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DISCURSO ARGUMENTATIVO, SEMIOTICA APLICADA",
+        "email": "lhdigiorgif@udistrital.edu.co"
+    },
+    {
+        "name": "MARGARITA ROA VARGAS",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRINCIPIOS DE DANZA MODERNA II",
+        "email": "mroav@udistrital.edu.co"
+    },
+    {
+        "name": "EDGAR LAISECA RODRIGUEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRINCIPIOS DE DANZA MODERNA II",
+        "email": "elaisecar@udistrital.edu.co"
+    },
+    {
+        "name": "DORA INES LOPEZ MOLINA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TEATRO: ORGANICIDAD, IMPULSO Y ACCION FISICA",
+        "email": "dilopezm@udistrital.edu.co"
+    },
+    {
+        "name": "MARYBEL ACEVEDO FANDIÑO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "IMPROVISACION, EXPERIENCIACION",
+        "email": "macevedof@udistrital.edu.co"
+    },
+    {
+        "name": "MARTHA ESPERANZA OSPINA ESPITIA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "SEMINARIO DE HISTORIA Y TEORIA DE LA DANZA: ESCENARIOS Y CONTEXTOS",
+        "email": "meospinae@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA GIMENA FRANCO GAMEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "ANATOMIA PARA EL MOVIMIENTO",
+        "email": "lgfrancog@udistrital.edu.co"
+    },
+    {
+        "name": "WILLIAM RICARDO ALMONACID GONZALEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION CARIBE I",
+        "email": "wralmonacidg@udistrital.edu.co"
+    },
+    {
+        "name": "VICENTE DEL CASTILLO CAIROZA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION CARIBE I, DANZA TRADICIONAL COLOMBIANA REGION CARIBE II",
+        "email": "vdcasilloc@udistrital.edu.co"
+    },
+    {
+        "name": "EDWIN ARMANDO GUZMAN",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION CARIBE I",
+        "email": "eaguzman@udistrital.edu.co"
+    },
+    {
+        "name": "HERNANDO ELJAIEK AVENDAÑO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: CUERPO Y ESPACIO I",
+        "email": "heljaieka@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL ENRIQUE AMEZQUITA PEREZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: CUERPO Y ESPACIO I",
+        "email": "deamezquitap@udistrital.edu.co"
+    },
+    {
+        "name": "MONICA ANDREA PEÑA SIERRA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: CUERPO Y ESPACIO I",
+        "email": "mapeñas@udistrital.edu.co"
+    },
+    {
+        "name": "NATALIA PAOLA REYES DUQUE",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TECNICA DE DANZA MODERNA I",
+        "email": "npreyesd@udistrital.edu.co"
+    },
+    {
+        "name": "DAVID LEONARDO MONTES NIÑO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TECNICA DE DANZA MODERNA I",
+        "email": "dlmontesn@udistrital.edu.co"
+    },
+    {
+        "name": "ANA MANUELA JARA RAMIREZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "IMPROVISACION APLICADA A LA DANZA, INVESTIGACION EN ARTE",
+        "email": "amjarar@udistrital.edu.co"
+    },
+    {
+        "name": "RAFAEL ANTONIO ACERO ARDILA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "IMPROVISACION APLICADA A LA DANZA",
+        "email": "raaceroa@udistrital.edu.co"
+    },
+    {
+        "name": "LEIDY YAMILE RONDON CAMACHO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "MAQUILLAJE Y CARACTERIZACION",
+        "email": "lyrondonc@udistrital.edu.co"
+    },
+    {
+        "name": "ALEXANDER RUBIO ALVAREZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "ANALISIS FUNCIONAL DEL MOVIMIENTO",
+        "email": "arubioa@udistrital.edu.co"
+    },
+    {
+        "name": "JENNY ANGELICA ANGULO SOLEDAD",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TALLER DE COMPOSICION COREOGRAFICA I",
+        "email": "jaangulos@udistrital.edu.co"
+    },
+    {
+        "name": "INGRID MARITZA SIERRA GONZALEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TALLER DE COMPOSICION COREOGRAFICA I",
+        "email": "imsierrag@udistrital.edu.co"
+    },
+    {
+        "name": "DIEGO HERNAN GARCIA BERNAL",
+        "faculty": "ARTE DANZARIO",
+        "subject": "FUNDAMENTOS DE DISEÑO ESCENICO",
+        "email": "dhgarciab@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS ALFONSO GUTIERREZ BERMUDEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION CARIBE II",
+        "email": "lagutierrezb@udistrital.edu.co"
+    },
+    {
+        "name": "YUDY DEL ROSARIO MORALES RODRIGUEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "INVESTIGACION EN ARTE",
+        "email": "ydmoralesr@udistrital.edu.co"
+    },
+    {
+        "name": "EDIS ALEIDA VILLA MARTINEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "INVESTIGACION EN ARTE",
+        "email": "eavillam@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS ALBERTO PINEDA PARRA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION ANDINA I",
+        "email": "capinedap@udistrital.edu.co"
+    },
+    {
+        "name": "BRYAN NICOLAS SILVA BERMUDEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION ANDINA I",
+        "email": "bnsilvab@udistrital.edu.co"
+    },
+    {
+        "name": "SILVA BERMUDEZ BRYAN NICOLAS",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION ANDINA I",
+        "email": "bnsilvab@udistrital.edu.co"
+    },
+    {
+        "name": "PINEDA PARRA CARLOS ALBERTO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION ANDINA I, DANZA TRADICIONAL COLOMBIANA REGION PACIFICA II",
+        "email": "capinedap@udistrital.edu.co"
+    },
+    {
+        "name": "BERNAL SALINAS NAZZLY",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION ANDINA I, SEMINARIO DE DANZA TRADICIONAL COLOMBIANA",
+        "email": "nbernals@udistrital.edu.co"
+    },
+    {
+        "name": "GUTIERREZ BERMUDEZ LUIS ALFONSO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION ANDINA I",
+        "email": "lagutierrezb@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ BARRERO INTI YURAY",
+        "faculty": "ARTE DANZARIO",
+        "subject": "MOVIMIENTO, CANTO E INSTRUMENTO, DANZA TRADICIONAL COLOMBIANA REGION ORINOQUIA, BAILES CANTAOS Y TOCAOS",
+        "email": "iygomezb@udistrital.edu.co"
+    },
+    {
+        "name": "ANGULO SOLEDAD JENNY ANGELICA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TALLER DE COMPOSICION COREOGRAFICA II, PRODUCCION DE ESPECTACULOS ESCENICOS",
+        "email": "jaangulos@udistrital.edu.co"
+    },
+    {
+        "name": "MORALES RODRIGUEZ YUDY DEL ROSARIO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TALLER DE COMPOSICION COREOGRAFICA II",
+        "email": "ydrmoralesr@udistrital.edu.co"
+    },
+    {
+        "name": "LOZANO CASTIBLANCO DIEGO ARMANDO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "REPERTORIO DE DANZA TRADICIONAL COLOMBIANA I, DANZA TRADICIONAL COLOMBIANA REGION PACIFICA I",
+        "email": "dalozanoc@udistrital.edu.co"
+    },
+    {
+        "name": "DIEZ MARULANDA JHON ALEXANDER",
+        "faculty": "ARTE DANZARIO",
+        "subject": "FOTOGRAFIA Y VIDEO DIGITAL",
+        "email": "jadiezm@udistrital.edu.co"
+    },
+    {
+        "name": "GARCIA GARCIA MANUEL FERNANDO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRACTICAS DANZARIAS INTERNACIONALES",
+        "email": "mfgarciag@udistrital.edu.co"
+    },
+    {
+        "name": "GARCES OCORO JULIAN",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRACTICAS DANZARIAS INTERNACIONALES",
+        "email": "jgarceso@udistrital.edu.co"
+    },
+    {
+        "name": "VILLA MARTINEZ EDIS ALEIDA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRACTICAS DANZARIAS INTERNACIONALES, PRACTICAS SOMATICAS",
+        "email": "eavillam@udistrital.edu.co"
+    },
+    {
+        "name": "LLANOS PARIAS RAFAEL ADOLFO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DRAMATURGIA MUSICAL I",
+        "email": "rallanosp@udistrital.edu.co"
+    },
+    {
+        "name": "ACERO ARDILA RAFAEL ANTONIO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DISEÑO ESCENICO: VESTUARIO, PRODUCCION DE ESPECTACULOS ESCENICOS",
+        "email": "raaceroa@udistrital.edu.co"
+    },
+    {
+        "name": "BARON PARRA NUBIA TERESA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "METODOLOGIAS DE LA ENSEÑANZA DE LAS TECNICAS DE DANZA TRADICIONAL II",
+        "email": "ntbaronp@udistrital.edu.co"
+    },
+    {
+        "name": "HINESTROZA VALENCIA JOSE FRANCISCO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION PACIFICA I, DANZA TRADICIONAL COLOMBIANA REGION PACIFICA II",
+        "email": "jfhinestrozav@udistrital.edu.co"
+    },
+    {
+        "name": "OSPINA ESPITIA MARTHA ESPERANZA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "INVESTIGACION APLICADA A LA DANZA TRADICIONAL COLOMBIANA",
+        "email": "meospinae@udistrital.edu.co"
+    },
+    {
+        "name": "FRANCO GAMEZ LAURA GIMENA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRACTICAS SOMATICAS",
+        "email": "lgfrancog@udistrital.edu.co"
+    },
+    {
+        "name": "MARTINEZ MEDINA CARLOS ANDRES",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DISEÑO ESCENICO: ILUMINACION",
+        "email": "camartinezm@udistrital.edu.co"
+    },
+    {
+        "name": "ECHAVARRIA QUIROS ADRIANA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "ENSAMBLE",
+        "email": "aechavarriaq@udistrital.edu.co"
+    },
+    {
+        "name": "INFANTE ARIAS FERNANDO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "ENSAMBLE",
+        "email": "finfantea@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ MARTINEZ GUSTAVO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TRADICIONAL COLOMBIANA REGION ORINOQUIA",
+        "email": "grodriguezm@udistrital.edu.co"
+    },
+    {
+        "name": "SUAREZ BELTRAN MONICA LUCIA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TALLER DE ESCRITURA CREATIVA",
+        "email": "mlsuarezb@udistrital.edu.co"
+    },
+    {
+        "name": "CARDENAS GARZON JOHN MARIO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: TEMPO Y MOVIMIENTO I",
+        "email": "jmcardenasg@udistrital.edu.co"
+    },
+    {
+        "name": "GUTIERREZ RUIZ SERGIO ANDRES",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: TEMPO Y MOVIMIENTO I",
+        "email": "sagutierrezr@udistrital.edu.co"
+    },
+    {
+        "name": "BELTRAN MORENO CYNTHIA VANESSA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TECNICA DE PUNTAS",
+        "email": "cvbeltranm@udistrital.edu.co"
+    },
+    {
+        "name": "ORJUELA PARRADO DORYS HELENA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TECNICA DE PUNTAS, METODOLOGIAS DE LA ENSEÑANZA DE LA TECNICA DE DANZA CLASICA",
+        "email": "dhorjuelap@udistrital.edu.co"
+    },
+    {
+        "name": "VERANO CHIQUIZA MYLLER",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: TEMPO Y MOVIMIENTO II",
+        "email": "mveranoc@udistrital.edu.co"
+    },
+    {
+        "name": "PEÑA SIERRA MONICA ANDREA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: TEMPO Y MOVIMIENTO II",
+        "email": "mapeñas@udistrital.edu.co"
+    },
+    {
+        "name": "ARIAS LIEVANO JHONATAN DAVID",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: FLUIDEZ DEL MOVIMIENTO I",
+        "email": "jdariasl@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR URIBE MATEO OCTAVIO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: FLUIDEZ DEL MOVIMIENTO I",
+        "email": "mosalazaru@udistrital.edu.co"
+    },
+    {
+        "name": "MATEO OCTAVIO SALAZAR URIBE",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: FLUIDEZ DEL MOVIMIENTO I, VARIACIONES FEMENINAS Y MASCULINAS EN EL BALLET",
+        "email": "mosalazaru@udistrital.edu.co"
+    },
+    {
+        "name": "JHONATAN DAVID ARIAS LIEVANO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: FLUIDEZ DEL MOVIMIENTO I",
+        "email": "jdarial@udistrital.edu.co"
+    },
+    {
+        "name": "JAIRO ALBERTO LASTRE",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: FLUIDEZ DEL MOVIMIENTO II, DANZA CLASICA: LABORATORIO DE CREACION CLASICA",
+        "email": "jalastre@udistrital.edu.co"
+    },
+    {
+        "name": "MYLLER VERANO CHIQUIZA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: FLUIDEZ DEL MOVIMIENTO II",
+        "email": "mvchiquiza@udistrital.edu.co"
+    },
+    {
+        "name": "DORYS HELENA ORJUELA PARRADO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "METODOLOGIAS DE LA ENSEÑANZA DE LA TECNICA DE LA DANZA CLASICA II",
+        "email": "dhorjuelap@udistrital.edu.co"
+    },
+    {
+        "name": "FRANCISCO JAVIER MARTINEZ BERMUDEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: LABORATORIO DE CREACION CLASICA",
+        "email": "fjmartinezb@udistrital.edu.co"
+    },
+    {
+        "name": "PAULA BOHORQUEZ GONZALEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: CUERPO Y ESPACIO II",
+        "email": "pabohorquezg@udistrital.edu.co"
+    },
+    {
+        "name": "SERGIO ANDRES GUTIERREZ RUIZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CLASICA: CUERPO Y ESPACIO II",
+        "email": "sagutierrezr@udistrital.edu.co"
+    },
+    {
+        "name": "EDIS ALEIDA VILLA MARTINEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PILATES MAT",
+        "email": "eavillam@udistrital.edu.co"
+    },
+    {
+        "name": "MAURET LIZBETH GAITAN CASTAÑEDA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "VARIACIONES FEMENINAS Y MASCULINAS EN EL BALLET",
+        "email": "mlgaitanc@udistrital.edu.co"
+    },
+    {
+        "name": "JULIANA LOPEZ LOPEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "SEMINARIO DE DANZA CONTEMPORANEA",
+        "email": "jlopezl@udistrital.edu.co"
+    },
+    {
+        "name": "YUDY DEL ROSARIO MORALES RODRIGUEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "APRECIACION DE LA DANZA, METODOLOGIAS DE LA ENSEÑANZA DE LAS TECNICAS DE DANZA MODERNA Y CONTEMPORANEA II",
+        "email": "ydmoralesr@udistrital.edu.co"
+    },
+    {
+        "name": "YENZER PINILLA GARCIA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CONTEMPORANEA. PLANTEAMIENTOS TECNICOS, DANZA CONTEMPORANEA TRANSITOS DINAMICOS",
+        "email": "ypinillag@udistrital.edu.co"
+    },
+    {
+        "name": "CYNTHIA VANESSA BELTRAN MORENO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TECNICA DE DANZA MODERNA II",
+        "email": "cvbeltranm@udistrital.edu.co"
+    },
+    {
+        "name": "MARGARITA ROA VARGAS",
+        "faculty": "ARTE DANZARIO",
+        "subject": "TECNICA DE DANZA MODERNA II",
+        "email": "mroav@udistrital.edu.co"
+    },
+    {
+        "name": "LAURENCIO PALACIOS HOLGUIN",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CONTEMPORANEA. CUERPO RELACIONAL",
+        "email": "lpalaciosh@udistrital.edu.co"
+    },
+    {
+        "name": "ANGEL OCTAVIO AVILA PERDOMO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA CONTEMPORANEA. CUERPO RELACIONAL, CONTACTO II, PRINCIPIOS DE DANZA CONTEMPORANEA",
+        "email": "aoavilap@udistrital.edu.co"
+    },
+    {
+        "name": "JULIAN GARCES OCORO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "CONTACTO I, DANZA CONTEMPORANEA ESCRITURAS DEL MOVIMIENTO",
+        "email": "jgarceso@udistrital.edu.co"
+    },
+    {
+        "name": "EDGAR LAISECA RODRIGUEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRACTICA INTERPRETATIVA DE DANZA MODERNA, PRINCIPIOS DE DANZA CONTEMPORANEA",
+        "email": "elaisecar@udistrital.edu.co"
+    },
+    {
+        "name": "INGRID MARITZA SIERRA GONZALEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "CUERPO, CREACION Y MOVIMIENTO EXPANDIDO, TALLER DE DIRECCION COREOGRAFICA II",
+        "email": "imsierrag@udistrital.edu.co"
+    },
+    {
+        "name": "DIANA LUCIA LEON BOHORQUEZ",
+        "faculty": "ARTE DANZARIO",
+        "subject": "SEMINARIO DE HISTORIA Y TEORIA DE LA DANZA - TEATRO, DANZA - TEATRO: CUERPO, MANIPULACION Y OBJETO, TEATRO FISICO: PLANTEAMIENTOS TECNICOS",
+        "email": "dileonb@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS EDUARDO SUAREZ CIFUENTES",
+        "faculty": "ARTE DANZARIO",
+        "subject": "LABORATORIO DE COMPOSICION DRAMATICA I, EL ROL EN DANZA A PARTIR DEL JUEGO TEATRAL, CUERPO Y VOZ PARA BAILARINES",
+        "email": "cesuarezc@udistrital.edu.co"
+    },
+    {
+        "name": "ANDREA CAROLINA RODRIGUEZ MOLINA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DANZA TEATRO: SITUACION, ACCION, PERSONAJE",
+        "email": "acrodriguezm@udistrital.edu.co"
+    },
+    {
+        "name": "MARYBEL ACEVEDO FANDIÑO",
+        "faculty": "ARTE DANZARIO",
+        "subject": "SEMINARIO DE HISTORIA Y TEORIA DE LA DIRECCION COREOGRAFICA, TALLER DE DIRECCION COREOGRAFICA II",
+        "email": "macevedof@udistrital.edu.co"
+    },
+    {
+        "name": "LAURENCIO PALACIOS HOLGUIN",
+        "faculty": "ARTE DANZARIO",
+        "subject": "DRAMATURGIA MUSICAL II",
+        "email": "lpalaciosh@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS ANDRES MARTINEZ MEDINA",
+        "faculty": "ARTE DANZARIO",
+        "subject": "NUEVAS TECNOLOGIAS",
+        "email": "camartinezm@udistrital.edu.co"
+    },
+    {
+        "name": "JENNY ANGELICA ANGULO SOLEDAD",
+        "faculty": "ARTE DANZARIO",
+        "subject": "PRODUCCION, GESTION Y DIFUSION DANZARIA",
+        "email": "jaangulos@udistrital.edu.co"
+    },
+    {
+        "name": "MARCO IGNACIO RODRIGUEZ BEJARANO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+        "email": "mirodriguezb@udistrital.edu.co"
+    },
+    {
+        "name": "DUBIAN GALLEGO HERNANDEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "CATEDRA FRANCISCO JOSE DE CALDAS",
+        "email": "dgallegohe@udistrital.edu.co"
+    },
+    {
+        "name": "MARIANA VELASCO ROJAS",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "mvelascor@udistrital.edu.co"
+    },
+    {
+        "name": "MAIRA SALAMANCA ROCHA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACTUACION PARA MEDIOS AUDIOVISUALES Y SONOROS",
+        "email": "msalamancar@udistrital.edu.co"
+    },
+    {
+        "name": "RUBEN DARIIO PARDO HERRERA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "CANTO SOLISTA",
+        "email": "rdpardoh@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES RODRIGUEZ FERREIRA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "CANTO SOLISTA",
+        "email": "arodriguezf@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS GALLEGO GIL",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "TEATRO FISICO",
+        "email": "jcgallegog@udistrital.edu.co"
+    },
+    {
+        "name": "ADRIAN EDGARDO GOMEZ GONZALEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "CUERPO Y PERFORMANCE",
+        "email": "aegomezg@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE LEONARDO RODRIGUEZ SUAREZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "TEATRO POSDRAMATICO, LABORATORIO DE LA IMAGEN ESCENICA",
+        "email": "jlrodriguezs@udistrital.edu.co"
+    },
+    {
+        "name": "GIANNI LARA CRUZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INVESTIGACION FORMATIVA",
+        "email": "glarañc@udistrital.edu.co"
+    },
+    {
+        "name": "MAIRA SALAMANCA ROCHA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ASIST. DE GEST. Y PRODUC. PARA MONTAJES ESCENICOS, ILUMINACION",
+        "email": "msalamancar@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES RODRIGUEZ FERREIRA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ANALISIS DEL TEATRO",
+        "email": "arodriguezf@udistrital.edu.co"
+    },
+    {
+        "name": "JOHN EDWIN VARGAS ROBALINO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "DEL ENTRENAMIENTO A LA CONSTRUCCION DEL PERSONAJE",
+        "email": "jevargasr@udistrital.edu.co"
+    },
+    {
+        "name": "CECILIA ISABEL GARCIA LARA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ESCRITURA DE ESCENARIO",
+        "email": "cigarcial@udistrital.edu.co"
+    },
+    {
+        "name": "DALADIER SABOYA RODRIGUEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "EDUCACION MUSICAL BASICA I, EDUCACION MUSICAL BASICA II",
+        "email": "dsaboyar@udistrital.edu.co"
+    },
+    {
+        "name": "SIRLEY YOLIMA MARTINEZ SANTOS",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "VOZ HABLADA I, VOZ HABLADA II",
+        "email": "symartinezs@udistrital.edu.co"
+    },
+    {
+        "name": "JANNETH PATRICIA GOMEZ ORTIGOZA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "VOZ HABLADA I",
+        "email": "jpgomezo@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL EDUARDO MALDONADO LIZARAZO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "VOZ HABLADA II",
+        "email": "demaldonadol@udistrital.edu.co"
+    },
+    {
+        "name": "RAFAEL ALFONSO SANCHEZ GUTIERREZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ESCENOGRAFIA",
+        "email": "rasanchezg@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE FELIX ASSAD CUELLAR",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ADAPTACION DRAMATICA",
+        "email": "jfassadc@udistrital.edu.co"
+    },
+    {
+        "name": "CATERINE GALINDO CAICEDO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "VOZ CANTADA I, VOZ CANTADA II, VOZ CANTADA III, VOZ CANTADA IV",
+        "email": "cgalindoc@udistrital.edu.co"
+    },
+    {
+        "name": "NANA NIKOLOVA PETKOVA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "EDUCACION MUSICAL I, EDUCACION MUSICAL II",
+        "email": "nnnikolovap@udistrital.edu.co"
+    },
+    {
+        "name": "CAMILO ANDRES RAMIREZ TRIANA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "VOZ HABLADA III",
+        "email": "caramirezt@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR LUIS MORALES FIGUEROA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "MONTAJE EN VERSO",
+        "email": "clmoralesf@udistrital.edu.co"
+    },
+    {
+        "name": "FERNANDO PAUTT VEGA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "VOZ HABLADA IV",
+        "email": "fpauttv@udistrital.edu.co"
+    },
+    {
+        "name": "ARLEY OSPINA NAVAS",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "MONTAJE",
+        "email": "aospinana@udistrital.edu.co"
+    },
+    {
+        "name": "FABIAN ANDRES MEJIA PATIÑO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "MONTAJE",
+        "email": "famejiap@udistrital.edu.co"
+    },
+    {
+        "name": "DUBIAN GALLEGO HERNANDEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "MASCARA NEUTRA",
+        "email": "dgallegohe@udistrital.edu.co"
+    },
+    {
+        "name": "MARCO IGNACIO RODRIGUEZ BEJARANO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "LA MUSICA Y LA ESCENA",
+        "email": "mirodriguezb@udistrital.edu.co"
+    },
+    {
+        "name": "SEBASTIAN ILLERA SARMIENTO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "DIRECCION DE ACTORES EN TEXTOS REALISTAS",
+        "email": "silleras@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS ARAQUE OSORIO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INDUCCION I",
+        "email": "caraqueo@udistrital.edu.co"
+    },
+    {
+        "name": "LUISA FERNANDA VARGAS TELLEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INDUCCION I",
+        "email": "lfvargast@udistrital.edu.co"
+    },
+    {
+        "name": "CARMIÑA MARTINEZ VALDEBLANQU",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACONDICIONAMIENTO PARA EL HABLA I",
+        "email": "cmartinezv@udistrital.edu.co"
+    },
+    {
+        "name": "JUANITA CETINA SEGURA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACONDICIONAMIENTO PARA EL HABLA I",
+        "email": "jcetinas@udistrital.edu.co"
+    },
+    {
+        "name": "SANTIAGO VALDERRAMA GALLEGO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACONDICIONAMIENTO PARA EL CANTO I",
+        "email": "svalderramag@udistrital.edu.co"
+    },
+    {
+        "name": "SANTIAGO VALDERRAMA GALLEGO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACONDICIONAMIENTO PARA EL CANTO I, ACONDICIONAMIENTO PARA EL CANTO II",
+        "email": "svalderramag@udistrital.edu.co"
+    },
+    {
+        "name": "GERALDINE WELLS LASCANO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "EL TEATRO EN LA HISTORIA, REFLEXIONES SOBRE EL ARTE PLASTICO Y VISUAL",
+        "email": "gwellsl@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS GALLEGO GIL",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "BASES DEL ENTRENAMIENTO PARA LA ESCENA",
+        "email": "jcgallegog@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN MANUEL COMBARIZA CASTAÑO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "BASES DEL ENTRENAMIENTO PARA LA ESCENA, INDUCCION II",
+        "email": "jmcombarizac@udistrital.edu.co"
+    },
+    {
+        "name": "CATHERINE LOZANO MOSKOWICTZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "FUNDAMENTOS DE DIRECCION, INTEGRAL I, DIRECCION I, POETICAS",
+        "email": "clozanom@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL EDUARDO MALDONADO LIZARAZO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACONDICIONAMIENTO PARA EL HABLA II",
+        "email": "demaldonadol@udistrital.edu.co"
+    },
+    {
+        "name": "JANNETH PATRICIA GOMEZ ORTIGOZA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACONDICIONAMIENTO PARA EL HABLA II",
+        "email": "jpgomezo@udistrital.edu.co"
+    },
+    {
+        "name": "JUANITA CETINA SEGURA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACONDICIONAMIENTO PARA EL HABLA II",
+        "email": "jcetinas@udistrital.edu.co"
+    },
+    {
+        "name": "DIEGO ALFREDO ZAMORA CRUZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "CUERPO INDIVIDUAL, CUERPO RELACIONAL",
+        "email": "dzamorac@udistrital.edu.co"
+    },
+    {
+        "name": "DUBIAN GALLEGO HERNANDEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "CUERPO INDIVIDUAL, CUERPO RELACIONAL",
+        "email": "dgallegohe@udistrital.edu.co"
+    },
+    {
+        "name": "ISIS EXSURY GONZALEZ SUAREZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INDUCCION II, INTEGRAL I",
+        "email": "iegonzalezs@udistrital.edu.co"
+    },
+    {
+        "name": "GIANNI LARA CRUZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ESTUDIOS LITERARIOS",
+        "email": "glarañc@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE PRADA PRADA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ANALISIS DEL ESPECTACULO, TEATRO COLOMBIANO",
+        "email": "jpradap@udistrital.edu.co"
+    },
+    {
+        "name": "LUSSETH MARIN BEJARANO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL I",
+        "email": "lmarinb@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE EDUARDO ACUÑA VASQUEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "RELACION CUERPO -ESPACIO",
+        "email": "jeacuñav@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES RODRIGUEZ FERREIRA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "APRECIACION MUSICAL",
+        "email": "arodriguezf@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE FERNANDO OSPINA SANCHEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL II",
+        "email": "jfospinas@udistrital.edu.co"
+    },
+    {
+        "name": "ALEXANDRA CATALINA BOTERO ANDRADE",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL II",
+        "email": "acboteroa@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE FELIX ASSAD CUELLAR",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL II, DIRECCION II",
+        "email": "jfassadc@udistrital.edu.co"
+    },
+    {
+        "name": "LUISA FERNANDA VARGAS TELLEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL III",
+        "email": "lfvargast@udistrital.edu.co"
+    },
+    {
+        "name": "MARCO IGNACIO RODRIGUEZ BEJARANO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL III",
+        "email": "mirodriguezb@udistrital.edu.co"
+    },
+    {
+        "name": "CECILIA ISABEL GARCIA LARA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL III, DIRECCION III",
+        "email": "cigarcial@udistrital.edu.co"
+    },
+    {
+        "name": "SANDRO ROMERO REY",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "TEORIA DE LA DIRECCION",
+        "email": "sromeror@udistrital.edu.co"
+    },
+    {
+        "name": "SEBASTIAN ILLERA SARMIENTO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "DIRECCION IV",
+        "email": "silleras@udistrital.edu.co"
+    },
+    {
+        "name": "SIRLEY YOLIMA MARTINEZ SANTOS",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "GESTION Y PRODUCCION EN ARTES ESCENICAS",
+        "email": "symartinezs@udistrital.edu.co"
+    },
+    {
+        "name": "RAFAEL ALFONSO SANCHEZ GUTIERREZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "COMPOSICION ESCENICA",
+        "email": "rasanchezg@udistrital.edu.co"
+    },
+    {
+        "name": "MIGUEL DIAGO MOJICA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "DIRECCION V",
+        "email": "mdiagom@udistrital.edu.co"
+    },
+    {
+        "name": "MIGUEL DIAGO MOJICA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "DRAMATURGIA, INTEGRAL V",
+        "email": "mdiagom@udistrital.edu.co"
+    },
+    {
+        "name": "RAFAEL ALFONSO SANCHEZ GUTIERREZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "LABORATORIO DE CREACION, INTEGRAL V",
+        "email": "rasanchezg@udistrital.edu.co"
+    },
+    {
+        "name": "JANNETH PATRICIA GOMEZ ORTIGOZA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "TEORIA DE LA ACTUACION",
+        "email": "jpgomezo@udistrital.edu.co"
+    },
+    {
+        "name": "ISIS EXSURY GONZALEZ SUAREZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACTUACION I",
+        "email": "iegonzalezs@udistrital.edu.co"
+    },
+    {
+        "name": "LUSSETH MARIN BEJARANO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACTUACION I",
+        "email": "lmarinb@udistrital.edu.co"
+    },
+    {
+        "name": "JOHN EDWIN VARGAS ROBALINO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "CUERPO RITMICO COREOGRAFICO, DRAMATURGIAS DEL CUERPO, INTEGRAL V",
+        "email": "jargvargash@udistrital.edu.co"
+    },
+    {
+        "name": "JUANA IBANAXCA SALGADO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "CUERPO RITMICO COREOGRAFICO, TECNICAS DICIPLINARES DEL ENTRENAMIENTO",
+        "email": "jsalgadoi@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE FERNANDO OSPINA SANCHEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACTUACION II",
+        "email": "jfospinas@udistrital.edu.co"
+    },
+    {
+        "name": "ALEXANDRA CATALINA BOTERO ANDRADE",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACTUACION II",
+        "email": "acboteroa@udistrital.edu.co"
+    },
+    {
+        "name": "MARCO IGNACIO RODRIGUEZ BEJARANO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACTUACION III",
+        "email": "mirodriguezb@udistrital.edu.co"
+    },
+    {
+        "name": "LUISA FERNANDA VARGAS TELLEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACTUACION III",
+        "email": "lfvargast@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS GALLEGO GIL",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "TECNICAS DICIPLINARES DEL ENTRENAMIENTO",
+        "email": "jcgallegog@udistrital.edu.co"
+    },
+    {
+        "name": "SEBASTIAN ILLERA SARMIENTO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL IV, INTEGRAL V",
+        "email": "silleras@udistrital.edu.co"
+    },
+    {
+        "name": "SIRLEY YOLIMA MARTINEZ SANTOS",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL IV",
+        "email": "symartinezs@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN SEBASTIAN CRUZ PRIETO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL IV, ACTUACION IV",
+        "email": "jscruzp@udistrital.edu.co"
+    },
+    {
+        "name": "SANDRA MARIA ORTEGA GARZON",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACTUACION IV",
+        "email": "smortegag@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN MANUEL COMBARIZA CASTAÑO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INVESTIGACION EN ARTE I, INVESTIGACION EN ARTE II",
+        "email": "jmcombarizac@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE EDUARDO ACUÑA VASQUEZ",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "DRAMATURGIAS DEL CUERPO",
+        "email": "jeacuñav@udistrital.edu.co"
+    },
+    {
+        "name": "ARLEY OSPINA NAVAS",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL V",
+        "email": "aospinana@udistrital.edu.co"
+    },
+    {
+        "name": "FABIAN ANDRES MEJIA PATIÑO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL V",
+        "email": "famejiap@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL EDUARDO MALDONADO LIZARAZO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INVESTIGACION EN ARTE II",
+        "email": "demaldonadol@udistrital.edu.co"
+    },
+    {
+        "name": "FRANCISCO JAVIER MENDEZ ESPITIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "fjmendeze@udistrital.edu.co"
+    },
+    {
+        "name": "GENOVEVA SALAZAR HAKIM",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA I",
+        "email": "gsalazarh@udistrital.edu.co"
+    },
+    {
+        "name": "MYRIAM DINNEY ARROYAVE MONTOYA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA I, FORMACION AUDITIVA II",
+        "email": "mdarroyavem@udistrital.edu.co"
+    },
+    {
+        "name": "FERNANDO ARIAS RONCANCIO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARMONIA I",
+        "email": "fariasr@udistrital.edu.co"
+    },
+    {
+        "name": "DARIO ALEXANDER CHITIVA RODRIGUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARMONIA I",
+        "email": "dachitivar@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES AUGUSTO CORREDOR BOHORQUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA II",
+        "email": "aacorredorb@udistrital.edu.co"
+    },
+    {
+        "name": "HERNAN DARIO GUZMAN CALDERON",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA II",
+        "email": "hdguzmanc@udistrital.edu.co"
+    },
+    {
+        "name": "AGUDELO VALENCIA MARIA DEL PILAR",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA III",
+        "email": "magudelov@udistrital.edu.co"
+    },
+    {
+        "name": "ALVARADO SILVA DAVID LEONARDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GRABACION DIGITAL DE AUDIO I, INSTRUMENTACION II, MEDIOS COMPLEMENTARIOS I, MEDIOS COMPLEMENTARIOS II, PROYECTO DE CREACION AUDIOVISUAL II",
+        "email": "dalvarados@udistrital.edu.co"
+    },
+    {
+        "name": "ALVAREZ YEPES ALEXANDRA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO Y MOVIMIENTO EN ESCENA",
+        "email": "aalvarezy@udistrital.edu.co"
+    },
+    {
+        "name": "ANZOLA CARO JUAN CAMILO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA III",
+        "email": "janzolac@udistrital.edu.co"
+    },
+    {
+        "name": "ARIAS RONCANCIO FERNANDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARMONIA II, TALLER ELECTIVA ARMONIA",
+        "email": "fariasr@udistrital.edu.co"
+    },
+    {
+        "name": "BAHAMON SERRATO DIEGO ARMANDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA II",
+        "email": "dbahamons@udistrital.edu.co"
+    },
+    {
+        "name": "BARRERA TACHA WILLIAM RICARDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA III",
+        "email": "wbarrerat@udistrital.edu.co"
+    },
+    {
+        "name": "BERNAL MARTINEZ MANUEL",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICAS REGIONALES EN COLOMBIA II",
+        "email": "mbernalm@udistrital.edu.co"
+    },
+    {
+        "name": "CHITIVA RODRIGUEZ DARIO ALEXANDER",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARMONIA II, ARMONIA III",
+        "email": "dchitivaf@udistrital.edu.co"
+    },
+    {
+        "name": "CORREDOR BOHORQUEZ ANDRES AUGUSTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TALLER ELECTIVA FORMACION AUDITIVA",
+        "email": "acorredorb@udistrital.edu.co"
+    },
+    {
+        "name": "FORERO PULIDO DANIEL ANDRES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I",
+        "email": "dforerop@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN CALDERON HERNAN DARIO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA II, MUSICA DE CAMARA I, MUSICA DE CAMARA III, TALLER ELECTIVA FORMACION AUDITIVA",
+        "email": "hguzmanc@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN MUÑOZ CARLOS GONZALO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA III, TALLER ELECTIVA ARMONIA",
+        "email": "cguzmanm@udistrital.edu.co"
+    },
+    {
+        "name": "LAMBULEY ALFEREZ EDGAR RICARDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICAS REGIONALES EN COLOMBIA I",
+        "email": "elambuleya@udistrital.edu.co"
+    },
+    {
+        "name": "LARA PAZ GUSTAVO ADOLFO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTACION I, INSTRUMENTACION II, INSTRUMENTACION III, INSTRUMENTACION IV",
+        "email": "glarap@udistrital.edu.co"
+    },
+    {
+        "name": "MENDEZ PINZON EDNA ROCIO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA II, FORMACION AUDITIVA III",
+        "email": "emendezp@udistrital.edu.co"
+    },
+    {
+        "name": "NARANJO CETINA ANGELA TATIANA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA II",
+        "email": "anaranjoc@udistrital.edu.co"
+    },
+    {
+        "name": "NOGUERA RAMIREZ JULIO ALBERTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA II",
+        "email": "jnoguerar@udistrital.edu.co"
+    },
+    {
+        "name": "QUEVEDO CESAR AUGUSTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA III",
+        "email": "cquevedo@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ MONTAÑO LUIS ALBERTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARTE Y CIENCIA, MUSICA DE CAMARA I, MUSICA DE CAMARA III",
+        "email": "lramirezm@udistrital.edu.co"
+    },
+    {
+        "name": "RIVEROS TABARES MARIO JOSE",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I",
+        "email": "mriverost@udistrital.edu.co"
+    },
+    {
+        "name": "RUBIO JUAN PABLO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TALLER ELECTIVA FORMACION AUDITIVA",
+        "email": "jrubio@udistrital.edu.co"
+    },
+    {
+        "name": "SEPULVEDA ORNEGO JUAN ERNEY",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA II, MUSICA DE CAMARA III",
+        "email": "jsepulvedao@udistrital.edu.co"
+    },
+    {
+        "name": "VALLEJO VELASQUEZ RAFAEL",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA III",
+        "email": "rvallejov@udistrital.edu.co"
+    },
+    {
+        "name": "VELASCO GUERRERO JULIANA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA II, MUSICA DE CAMARA III",
+        "email": "jvelascog@udistrital.edu.co"
+    },
+    {
+        "name": "VITTERI SONIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICOTERAPIA Y NIVELES DE ANSIEDAD",
+        "email": "svitteri@udistrital.edu.co"
+    },
+    {
+        "name": "ACOSTA RODOLFO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SISTEMAS MUSICALES V, TALLER SONORO II",
+        "email": "racosta@udistrital.edu.co"
+    },
+    {
+        "name": "AGUDELO VALENCIA MARIA DEL PILAR",
+        "faculty": "ARTES MUSICALES",
+        "subject": "AUDICION MUSICAL PARA NO MUSICOS, FORMACION AUDITIVA IV",
+        "email": "magudelov@udistrital.edu.co"
+    },
+    {
+        "name": "ALVAREZ YEPES ALEXANDRA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO Y MOVIMIENTO EN ESCENA",
+        "email": "aalvarezy@udistrital.edu.co"
+    },
+    {
+        "name": "ARROYAVE MONTOYA MYRIAM DINNEY",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ANTEPROYECTO DE GRADO, PROYECTO DE GRADO",
+        "email": "marroyavem@udistrital.edu.co"
+    },
+    {
+        "name": "BERNAL JIMENEZ JUAN MANUEL",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ESTILL VOICE TRAINING: ANATOMIA Y FISIOLOGIA DE LA VOZ EN MUSICAS POPULARES..., INSTRUMENTO COMPLEMENTARIO I",
+        "email": "jbernalj@udistrital.edu.co"
+    },
+    {
+        "name": "CARO GOMEZ AURELIO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FUNDAMENTOS DE DIRECCIÓN III, LECTURA DE PARTITURA I, PIANO POPULAR",
+        "email": "acarog@udistrital.edu.co"
+    },
+    {
+        "name": "CASTILLO GARCIA FRANCISCO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "HISTORIAS DE LAS MUSICAS PARA NO MUSICOS, MUSICA Y CONTEXTO, SISTEMAS MUSICALES I, SISTEMAS MUSICALES II",
+        "email": "fcastillog@udistrital.edu.co"
+    },
+    {
+        "name": "CONTRERAS JUAN CARLOS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TALLER LLANERO",
+        "email": "jcontreras@udistrital.edu.co"
+    },
+    {
+        "name": "DURAN SUAREZ WILLIAM GEOVANNI",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TALLER SONORO I",
+        "email": "wdurans@udistrital.edu.co"
+    },
+    {
+        "name": "FRANCO ARBELAEZ EFRAIN",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ANTEPROYECTO DE GRADO, FORMAS POETICAS EN ALGUNAS MUSICAS TRADICIONALES: ESTUDIO Y PRACTICA, PEDAGOGIA PARA LA INICIACION MUSICAL, PROYECTO DE GRADO",
+        "email": "efrancoa@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN MUÑOZ CARLOS GONZALO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TALLER SONORO I, TALLER SONORO II",
+        "email": "cguzmanm@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN ROMO JORGE ALBERTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "RITMO, PERCUSIONES Y ARTEFACTOS",
+        "email": "jguzmanr@udistrital.edu.co"
+    },
+    {
+        "name": "LEGUIZAMON ZAPATA DANIEL FELIPE",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SISTEMAS MUSICALES IV",
+        "email": "dleguizamoz@udistrital.edu.co"
+    },
+    {
+        "name": "MARCIAL DE CARO ARMINDA GISELA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FUNDAMENTOS DE DIRECCIÓN III",
+        "email": "acarod@udistrital.edu.co"
+    },
+    {
+        "name": "MENDEZ ESPITIA FRANCISCO JAVIER",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUION CINEMATOGRAFICO, LA CRITICA EN EL CINE",
+        "email": "fmendeze@udistrital.edu.co"
+    },
+    {
+        "name": "MORALES LUIS ALFONSO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TECLADO COMPLEMENTARIO I, TECLADO COMPLEMENTARIO IV",
+        "email": "lmorales@udistrital.edu.co"
+    },
+    {
+        "name": "PARAMO RIVERA LAURA CRISTINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO I, TECLADO COMPLEMENTARIO I",
+        "email": "lparamor@udistrital.edu.co"
+    },
+    {
+        "name": "RIVEROS TABARES MARIO JOSE",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARMONIA APLICADA A LA GUITARRA",
+        "email": "mriverost@udistrital.edu.co"
+    },
+    {
+        "name": "SEGURA HERRERA JEISSON GERMAN",
+        "faculty": "ARTES MUSICALES",
+        "subject": "DIRECCION II, FUNDAMENTOS DE DIRECCIÓN III, FUNDAMENTOS DE DIRECCION I, LITERATURA CORAL",
+        "email": "jsegurah@udistrital.edu.co"
+    },
+    {
+        "name": "TEJADA JIMENEZ JUAN CARLOS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLINICA DE METALES CON EXTENSION A VIENTOS EN GENERAL",
+        "email": "jtejadaj@udistrital.edu.co"
+    },
+    {
+        "name": "ULLOA REYES ANA MARIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "EL CLOWN DE LA MUSICA, TECNICA VOCAL PARA NO MUSICOS",
+        "email": "aulloar@udistrital.edu.co"
+    },
+    {
+        "name": "VASQUEZ OCAMPO JUAN CAMILO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INICIACION EN COMPOSICION Y ARREGLOS, INICIACION EN COMPOSICION Y ARREGLOS II",
+        "email": "jvasquezo@udistrital.edu.co"
+    },
+    {
+        "name": "VELASCO GUERRERO JULIANA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO I",
+        "email": "jvelascog@udistrital.edu.co"
+    },
+    {
+        "name": "SERGIO AUGUSTO COTE BARCO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INICIACION EN COMPOSICION Y ARREGLOS II, TALLER DE COMPOSICION MUSICAL I, COMPOSICION MUSICAL V",
+        "email": "sacoteb@udistrital.edu.co"
+    },
+    {
+        "name": "ORLANDO PAEZ RODRIGUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO II, INSTRUMENTO COMPLEMENTARIO IV",
+        "email": "opaezr@udistrital.edu.co"
+    },
+    {
+        "name": "PEDRO AUGUSTO ANGEL ORTEGA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO II, INSTRUMENTO COMPLEMENTARIO III, INSTRUMENTO COMPLEMENTARIO IV, GUITARRA ACUSTICA",
+        "email": "paangelo@udistrital.edu.co"
+    },
+    {
+        "name": "NESTOR IGNACIO RIVERA ROJAS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO II",
+        "email": "niriverar@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN GUILLERMO VILLARREAL SOLAR",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO II, INSTRUMENTO COMPLEMENTARIO III, COMPOSICION MUSICAL V, ARREGLOS MUSICALES I, ARREGLOS MUSICALES II, COMPOSICION MUSICAL III, ARREGLOS MUSICALES III, ARREGLOS MUSICALES IV, ARREGLOS MUSICALES V, COMPOSICION MUSICAL VI",
+        "email": "jvvillarreals@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN MANUEL BERNAL JIMENEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO II, INSTRUMENTO COMPLEMENTARIO III",
+        "email": "jmbernalj@udistrital.edu.co"
+    },
+    {
+        "name": "AURELIO CARO GOMEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO III",
+        "email": "acarog@udistrital.edu.co"
+    },
+    {
+        "name": "YUDY ROCIO BONILLA PATARROYO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO III",
+        "email": "yrbonillap@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS GONZALO GUZMAN MUÑOZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TALLER DE COMPOSICION MUSICAL I, COMPOSICION MUSICAL V",
+        "email": "cgguzmanm@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CAMILO VASQUEZ OCAMPO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TALLER DE COMPOSICION MUSICAL II, COMPOSICION MUSICAL V, ANALISIS MUSICAL I, COMPOSICION MUSICAL II, ANALISIS MUSICAL III, ANALISIS MUSICAL IV",
+        "email": "jcvasquezo@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS FERNANDO SANCHEZ GOODING",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TALLER DE COMPOSICION MUSICAL II, COMPOSICION MUSICAL V, ANALISIS MUSICAL II, MEDIOS COMPLEMENTARIOS III",
+        "email": "lfsanchezg@udistrital.edu.co"
+    },
+    {
+        "name": "JULIANA VELASCO GUERRERO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO IV",
+        "email": "jvelascog@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS TEJADA JIMENEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO IV, CORNO FRANCES",
+        "email": "jctejadaj@udistrital.edu.co"
+    },
+    {
+        "name": "RONALD GONZALEZ PINZON",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTO COMPLEMENTARIO IV",
+        "email": "rgonzalezp@udistrital.edu.co"
+    },
+    {
+        "name": "GUSTAVO ADOLFO LARA PAZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "COMPOSICION MUSICAL V, COMPOSICION MUSICAL III, COMPOSICION MUSICAL V, ARREGLOS MUSICALES VI",
+        "email": "galarap@udistrital.edu.co"
+    },
+    {
+        "name": "RODOLFO ACOSTA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "COMPOSICION MUSICAL V, COMPOSICION MUSICAL IV",
+        "email": "racosta@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL FELIPE LEGUIZAMON ZAPATA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "COMPOSICION MUSICAL V, COMPOSICION MUSICAL II",
+        "email": "dfleguizamonz@udistrital.edu.co"
+    },
+    {
+        "name": "DAVID LEONARDO ALVARADO SILVA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "COMPOSICION MUSICAL V, COMPOSICION MUSICAL II, COMPOSICION MUSICAL III, COMPOSICION MUSICAL IV, COMPOSICION MUSICAL V",
+        "email": "dlalvarados@udistrital.edu.co"
+    },
+    {
+        "name": "JEISSON GERMAN SEGURA HERRERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INICIACION A LA DIRECCION MUSICAL",
+        "email": "jgsegurah@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS ALFONSO GUEVARA JIMENEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BAJO ELECTRICO",
+        "email": "laguevaraj@udistrital.edu.co"
+    },
+    {
+        "name": "CLAUDIA PATRICIA ESCOBAR MOLINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO",
+        "email": "cpescobarm@udistrital.edu.co"
+    },
+    {
+        "name": "RUBEN DARIIO PARDO HERRERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO",
+        "email": "rdpardoh@udistrital.edu.co"
+    },
+    {
+        "name": "MONICA ASTRID ROCHA CRUZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO",
+        "email": "marochac@udistrital.edu.co"
+    },
+    {
+        "name": "DIEGO ALEXANDER CLAROS LOPEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE",
+        "email": "dclarosl@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE FERNANDO GOMEZ GARCIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE",
+        "email": "jfgomezg@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS ALFONSO MORALES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CONTRABAJO",
+        "email": "lamorales@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES ALBERTO ALMANZA RAMIREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CONTRABAJO",
+        "email": "aaalmanzar@udistrital.edu.co"
+    },
+    {
+        "name": "JESUS AUGUSTO CASTRO TURRIAGO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FLAUTA TRAVERSA",
+        "email": "jacastrot@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR AUGUSTO QUEVEDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA",
+        "email": "caquevedo@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN ANDRES CORTES LADINO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA",
+        "email": "jacortesl@udistrital.edu.co"
+    },
+    {
+        "name": "RAFAEL VALLEJO VELASQUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA",
+        "email": "rvallejov@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE ALBERTO GUZMAN ROMO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION",
+        "email": "jaguzmanr@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA CRISTINA PARAMO RIVERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO",
+        "email": "lcparamor@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES FERNAN LINERO BRANLY",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO",
+        "email": "aflinerob@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES FERNAN LINERO BRANLY",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO",
+        "email": "aflinerob@udistrital.edu.co"
+    },
+    {
+        "name": "ORLANDO PAEZ RODRIGUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO",
+        "email": "opaezr@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR AUGUSTO VILLAMIL MEDINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON",
+        "email": "cvillamilm@udistrital.edu.co"
+    },
+    {
+        "name": "SANDRA BIBIANA CACERES RUEDA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON",
+        "email": "scaceresr@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR DANIEL CAICEDO MELO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON, SAXOFON II",
+        "email": "ccaicedom@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA CRISTINA PARAMO RIVERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMBON, PIANO II",
+        "email": "lcparamor@udistrital.edu.co"
+    },
+    {
+        "name": "FRANCISCO JAVIER CORDOBA YELA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMBON",
+        "email": "fjcordobay@udistrital.edu.co"
+    },
+    {
+        "name": "FRANCIS DIAZ GARCIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMPETA, CLARINETE II, TROMPETA II",
+        "email": "fdiazg@udistrital.edu.co"
+    },
+    {
+        "name": "EDGAR FERNANDO RODRIGUEZ RUEDA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMPETA, TROMPETA II",
+        "email": "erodriguezr@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN ERNEY SEPULVEDA ORNEGO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TUBA",
+        "email": "jsepulvedao@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN JOSE PEREZ PEREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLA",
+        "email": "jperezp@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES ALBERTO COTTIER ARCE RODRI",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN",
+        "email": "acottiera@udistrital.edu.co"
+    },
+    {
+        "name": "JULIANA VELASCO GUERRERO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN",
+        "email": "jvelascog@udistrital.edu.co"
+    },
+    {
+        "name": "JUANA PINILLA PAEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN",
+        "email": "jpinillap@udistrital.edu.co"
+    },
+    {
+        "name": "VIVIANA ANDREA PINZON NIÑO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLONCHELO",
+        "email": "vpinzonn@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CAMILO VASQUEZ OCAMPO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I",
+        "email": "jcvasquezo@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS CONTRERAS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I, CUATRO II",
+        "email": "jcontreras@udistrital.edu.co"
+    },
+    {
+        "name": "WILLIAM CASTRO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I",
+        "email": "wcastro@udistrital.edu.co"
+    },
+    {
+        "name": "ELKIN DAVID ORTEGA ESTUPIÑAN",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I, PERCUSION II",
+        "email": "eortegae@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN PABLO RUBIO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I",
+        "email": "jrubio@udistrital.edu.co"
+    },
+    {
+        "name": "ANGELA TATIANA NARANJO CETINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I",
+        "email": "anaranjoc@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS CASTILLO BARRIOS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I, GUITARRA ELECTRICA II",
+        "email": "jccastillob@udistrital.edu.co"
+    },
+    {
+        "name": "JEISSON GERMAN SEGURA HERRERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I",
+        "email": "jgsegurah@udistrital.edu.co"
+    },
+    {
+        "name": "MONICA ASTRID ROCHA CRUZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I",
+        "email": "marochac@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE ALBERTO GUZMAN ROMO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I, PERCUSION II",
+        "email": "jaguzmanr@udistrital.edu.co"
+    },
+    {
+        "name": "MARCO VILLAREAL OTERO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE I, TIPLE II",
+        "email": "mvillarrealo@udistrital.edu.co"
+    },
+    {
+        "name": "ALEXANDRA ALVAREZ YEPES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO II",
+        "email": "aalvarezy@udistrital.edu.co"
+    },
+    {
+        "name": "CLAUDIA PATRICIA ESCOBAR MOLINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO II",
+        "email": "cpescobarm@udistrital.edu.co"
+    },
+    {
+        "name": "RUBEN DARIIO PARDO HERRERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO II, FLAUTA TRAVERSA II",
+        "email": "rdpardoh@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN MANUEL BERNAL JIMENEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO II",
+        "email": "jmbernalj@udistrital.edu.co"
+    },
+    {
+        "name": "MAURICIO MURCIA BEDOYA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE II",
+        "email": "mmurciab@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS ALFONSO MORALES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CONTRABAJO II",
+        "email": "lamorales@udistrital.edu.co"
+    },
+    {
+        "name": "EDGAR HERNAN ALARCON RODRIGUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CONTRABAJO II",
+        "email": "ealarconr@udistrital.edu.co"
+    },
+    {
+        "name": "JULIO ALBERTO NOGUERA RAMIREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FLAUTA TRAVERSA II",
+        "email": "janoguerar@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR AUGUSTO QUEVEDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA II",
+        "email": "caquevedo@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL ANDRES FORERO PULIDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA II",
+        "email": "daforerop@udistrital.edu.co"
+    },
+    {
+        "name": "MARIO JOSE RIVEROS TABARES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA II",
+        "email": "mjriverost@udistrital.edu.co"
+    },
+    {
+        "name": "PEDRO AUGUSTO ANGEL ORTEGA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA II",
+        "email": "paangelo@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN ANDRES CORTES LADINO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA II",
+        "email": "jacortesl@udistrital.edu.co"
+    },
+    {
+        "name": "YUDY ROCIO BONILLA PATARROYO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "OBOE II",
+        "email": "yrbonillap@udistrital.edu.co"
+    },
+    {
+        "name": "ADRIAN CASTELLAR POLANIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION II",
+        "email": "acastellarp@udistrital.edu.co"
+    },
+    {
+        "name": "BRIGITTE NATALIA ESCOBAR GUEVARA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION II",
+        "email": "bnescobarg@udistrital.edu.co"
+    },
+    {
+        "name": "ARMINDA GISELA MARCIAL DE CARO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO II",
+        "email": "agmarciald@udistrital.edu.co"
+    },
+    {
+        "name": "NESTOR IGNACIO RIVERA ROJAS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO II",
+        "email": "niriverar@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN FELIPE TARTABULL AGRAMONTE",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON II",
+        "email": "jftartabulla@udistrital.edu.co"
+    },
+    {
+        "name": "FREDDY ALEXANDER TIQUE RICO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMPETA II",
+        "email": "fatiquer@udistrital.edu.co"
+    },
+    {
+        "name": "PINILLA PAEZ JUANA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN II, VIOLIN III",
+        "email": "jpinillap@udistrital.edu.co"
+    },
+    {
+        "name": "VELASCO GUERRERO JULIANA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN II",
+        "email": "jvelascog@udistrital.edu.co"
+    },
+    {
+        "name": "COTTIER ARCE ANDRES ALBERTO RODRI",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN II",
+        "email": "aacottiera@udistrital.edu.co"
+    },
+    {
+        "name": "CASTRO WILLIAM",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE II",
+        "email": "wcastro@udistrital.edu.co"
+    },
+    {
+        "name": "ORTEGA ESTUPIÑAN ELKIN DAVID",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE II, PERCUSION IV",
+        "email": "eortegae@udistrital.edu.co"
+    },
+    {
+        "name": "NARANJO CETINA ANGELA TATIANA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE II",
+        "email": "anaranjoc@udistrital.edu.co"
+    },
+    {
+        "name": "CASTILLO BARRIOS JUAN CARLOS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE II",
+        "email": "jccastillob@udistrital.edu.co"
+    },
+    {
+        "name": "ROCHA CRUZ MONICA ASTRID",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE II, CANTO III",
+        "email": "marochac@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN ROMO JORGE ALBERTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ENSAMBLE II, PERCUSION III, PERCUSION IV",
+        "email": "jaguzmanr@udistrital.edu.co"
+    },
+    {
+        "name": "BARRERA TACHA WILLIAM RICARDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BAJO ELECTRICO III",
+        "email": "wbarrerat@udistrital.edu.co"
+    },
+    {
+        "name": "GUEVARA JIMENEZ LUIS ALFONSO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BAJO ELECTRICO III, BAJO ELECTRICO IV",
+        "email": "laguevaraj@udistrital.edu.co"
+    },
+    {
+        "name": "RAMIREZ MONTAÑO LUIS ALBERTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BAJO ELECTRICO III",
+        "email": "lramirezm@udistrital.edu.co"
+    },
+    {
+        "name": "ALVAREZ YEPES ALEXANDRA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO III",
+        "email": "aalvarezy@udistrital.edu.co"
+    },
+    {
+        "name": "ULLOA REYES ANA MARIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO III, CANTO IV",
+        "email": "aulloar@udistrital.edu.co"
+    },
+    {
+        "name": "ESCOBAR MOLINA CLAUDIA PATRICIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO III, CANTO IV",
+        "email": "cpescobarm@udistrital.edu.co"
+    },
+    {
+        "name": "ALARCON RODRIGUEZ EDGAR HERNAN",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CONTRABAJO III, CONTRABAJO IV",
+        "email": "ealarconr@udistrital.edu.co"
+    },
+    {
+        "name": "QUEVEDO CESAR AUGUSTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA III",
+        "email": "caquevedo@udistrital.edu.co"
+    },
+    {
+        "name": "CASTELBLANCO DAVID ALEXANDER",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA III, GUITARRA ELECTRICA IV",
+        "email": "dcastelblanc@udistrital.edu.co"
+    },
+    {
+        "name": "GONZALEZ PINZON RONALD",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA III, GUITARRA ELECTRICA IV",
+        "email": "rgonzalezp@udistrital.edu.co"
+    },
+    {
+        "name": "CASTELLAR POLANÍA ADRIAN",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSIÓN III, PERCUSION IV",
+        "email": "acastellarp@udistrital.edu.co"
+    },
+    {
+        "name": "CORTES MARTINEZ CARLOS ANDRES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSIÓN III",
+        "email": "ccortesm@udistrital.edu.co"
+    },
+    {
+        "name": "ANZOLA CARO JUAN CAMILO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSIÓN III",
+        "email": "janzolac@udistrital.edu.co"
+    },
+    {
+        "name": "DURAN SUAREZ WILLIAM GEOVANNI",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSIÓN III",
+        "email": "wdurans@udistrital.edu.co"
+    },
+    {
+        "name": "RIVERA ROJAS NESTOR IGNACIO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO III",
+        "email": "niriverar@udistrital.edu.co"
+    },
+    {
+        "name": "GAVIRIA RIVERA ADALBER",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON III, SAXOFON IV",
+        "email": "agaviriar@udistrital.edu.co"
+    },
+    {
+        "name": "MORALES LUIS ALFONSO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON III, VIOLONCHELO III",
+        "email": "lamorales@udistrital.edu.co"
+    },
+    {
+        "name": "VILLAMIL MEDINA CESAR AUGUSTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON III",
+        "email": "cvillamilm@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR SERRANO DANIEL",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLONCHELO III",
+        "email": "dsalazars@udistrital.edu.co"
+    },
+    {
+        "name": "PINZON NIÑO VIVIANA ANDREA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLONCHELO III",
+        "email": "vpinzonn@udistrital.edu.co"
+    },
+    {
+        "name": "DIAZ GARCIA FRANCIS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE IV",
+        "email": "fdiazg@udistrital.edu.co"
+    },
+    {
+        "name": "VELEZ OSPINA JORGE ANDRES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE IV",
+        "email": "jvelezo@udistrital.edu.co"
+    },
+    {
+        "name": "GOMEZ GARCIA JOSE FERNANDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE IV",
+        "email": "jfgomezg@udistrital.edu.co"
+    },
+    {
+        "name": "CLAROS LOPEZ DIEGO ALEXANDER",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE IV",
+        "email": "dclarosl@udistrital.edu.co"
+    },
+    {
+        "name": "NOGUERA RAMIREZ JULIO ALBERTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FLAUTA TRAVERSA IV",
+        "email": "janoguerar@udistrital.edu.co"
+    },
+    {
+        "name": "ANGEL ORTEGA PEDRO AUGUSTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA IV",
+        "email": "paangelo@udistrital.edu.co"
+    },
+    {
+        "name": "CORREDOR BOHORQUEZ ANDRES AUGUSTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA IV",
+        "email": "acorredorb@udistrital.edu.co"
+    },
+    {
+        "name": "MARCIAL DE CARO ARMINDA GISELA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO IV",
+        "email": "agmarciald@udistrital.edu.co"
+    },
+    {
+        "name": "CARO GOMEZ AURELIO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO IV",
+        "email": "acarog@udistrital.edu.co"
+    },
+    {
+        "name": "PAEZ RODRIGUEZ ORLANDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO IV",
+        "email": "opaezr@udistrital.edu.co"
+    },
+    {
+        "name": "TARTABULL AGRAMONTE JUAN FELIPE",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON IV",
+        "email": "jftartabulla@udistrital.edu.co"
+    },
+    {
+        "name": "VILLAREAL OTERO MARCO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TIPLE IV",
+        "email": "mvillarrealo@udistrital.edu.co"
+    },
+    {
+        "name": "CORDOBA YELA FRANCISCO JAVIER",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMBON IV",
+        "email": "fjcordobay@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ RUEDA EDGAR FERNANDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMPETA IV",
+        "email": "erodriguezr@udistrital.edu.co"
+    },
+    {
+        "name": "TIQUE RICO FREDDY ALEXANDER",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMPETA IV",
+        "email": "ftiquer@udistrital.edu.co"
+    },
+    {
+        "name": "PEREZ PEREZ JUAN JOSE",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLA IV",
+        "email": "jperezp@udistrital.edu.co"
+    },
+    {
+        "name": "RODRIGUEZ BEJARANO MARCO IGNACIO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "TECNICAS DISCIPLINAREAS DEL ENTRENAMIENTO",
+        "email": "mrodriguezb@udistrital.edu.co"
+    },
+    {
+        "name": "VARGAS TELLEZ LUISA FERNANDA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "TECNICAS DISCIPLINAREAS DEL ENTRENAMIENTO",
+        "email": "lvargast@udistrital.edu.co"
+    },
+    {
+        "name": "SALGADO JUANA IBANAXCA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "TECNICAS DISCIPLINAREAS DEL ENTRENAMIENTO",
+        "email": "jsalgadoi@udistrital.edu.co"
+    },
+    {
+        "name": "GALLEGO GIL JUAN CARLOS",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "TECNICAS DISCIPLINAREAS DEL ENTRENAMIENTO",
+        "email": "jgallegog@udistrital.edu.co"
+    },
+    {
+        "name": "CRUZ PRIETO JUAN SEBASTIAN",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACTUACION IV, INTEGRAL IV",
+        "email": "jcruzp@udistrital.edu.co"
+    },
+    {
+        "name": "ILLERA SARMIENTO SEBASTIAN",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL IV, INTEGRAL V",
+        "email": "silleras@udistrital.edu.co"
+    },
+    {
+        "name": "MARTINEZ SANTOS SIRLEY YOLIMA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL IV",
+        "email": "smartinezs@udistrital.edu.co"
+    },
+    {
+        "name": "ORTEGA GARZON SANDRA MARIA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "ACTUACION IV",
+        "email": "sortegag@udistrital.edu.co"
+    },
+    {
+        "name": "COMBARIZA CASTAÑO JUAN MANUEL",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INVESTIGACION EN ARTE I, INVESTIGACION EN ARTE II",
+        "email": "jcombarizac@udistrital.edu.co"
+    },
+    {
+        "name": "ACUÑA VASQUEZ JORGE EDUARDO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "DRAMATURGIAS DEL CUERPO",
+        "email": "jacuñav@udistrital.edu.co"
+    },
+    {
+        "name": "VALLDEPEREZ ROMERO DIEGO ALFREDO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "DRAMATURGIAS DEL CUERPO",
+        "email": "dvalldeperezr@udistrital.edu.co"
+    },
+    {
+        "name": "OSPINA NAVAS ARLEY",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL V",
+        "email": "aospinana@udistrital.edu.co"
+    },
+    {
+        "name": "MEJIA PATIÑO FABIAN ANDRES",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INTEGRAL V",
+        "email": "fmejiap@udistrital.edu.co"
+    },
+    {
+        "name": "MALDONADO LIZARAZO DANIEL EDUARDO",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INVESTIGACION EN ARTE II",
+        "email": "dmaldonadol@udistrital.edu.co"
+    },
+    {
+        "name": "MENDOZA CAÑON LEYLA ANDREA",
+        "faculty": "ARTES ESCENICAS",
+        "subject": "INVESTIGACION EN ARTE II",
+        "email": "lmendozac@udistrital.edu.co"
+    },
+    {
+        "name": "MENDEZ ESPITIA FRANCISCO JAVIER",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "fmendeze@udistrital.edu.co"
+    },
+    {
+        "name": "SALAZAR HAKIM GENOVEVA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA I",
+        "email": "gsalazarh@udistrital.edu.co"
+    },
+    {
+        "name": "ARROYAVE MONTOYA MYRIAM DINNEY",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA I, FORMACION AUDITIVA II",
+        "email": "marroyavem@udistrital.edu.co"
+    },
+    {
+        "name": "ARIAS RONCANCIO FERNANDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARMONIA I",
+        "email": "fariasr@udistrital.edu.co"
+    },
+    {
+        "name": "CHITIVA RODRIGUEZ DARIO ALEXANDER",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARMONIA I",
+        "email": "dchitivaf@udistrital.edu.co"
+    },
+    {
+        "name": "CORREDOR BOHORQUEZ ANDRES AUGUSTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA II",
+        "email": "acorredorb@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN CALDERON HERNAN DARIO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA II",
+        "email": "hguzmanc@udistrital.edu.co"
+    },
+    {
+        "name": "AGUDELO VALENCIA MARIA DEL PILAR",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA III",
+        "email": "magudelov@udistrital.edu.co"
+    },
+    {
+        "name": "ALVARADO SILVA DAVID LEONARDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GRABACION DIGITAL DE AUDIO I, INSTRUMENTACION II, MEDIOS COMPLEMENTARIOS I, MEDIOS COMPLEMENTARIOS II, PROYECTO DE CREACION AUDIOVISUAL II",
+        "email": "dalvarados@udistrital.edu.co"
+    },
+    {
+        "name": "ALVAREZ YEPES ALEXANDRA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO Y MOVIMIENTO EN ESCENA",
+        "email": "aalvarezy@udistrital.edu.co"
+    },
+    {
+        "name": "ANZOLA CARO JUAN CAMILO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA III",
+        "email": "janzolac@udistrital.edu.co"
+    },
+    {
+        "name": "ARIAS RONCANCIO FERNANDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARMONIA II, TALLER ELECTIVA ARMONIA",
+        "email": "fariasr@udistrital.edu.co"
+    },
+    {
+        "name": "BAHAMON SERRATO DIEGO ARMANDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA II",
+        "email": "dbahamons@udistrital.edu.co"
+    },
+    {
+        "name": "BARRERA TACHA WILLIAM RICARDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA III",
+        "email": "wbarrerat@udistrital.edu.co"
+    },
+    {
+        "name": "BERNAL MARTINEZ MANUEL",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICAS REGIONALES EN COLOMBIA II",
+        "email": "mbernalm@udistrital.edu.co"
+    },
+    {
+        "name": "CHITIVA RODRIGUEZ DARIO ALEXANDER",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARMONIA II, ARMONIA III",
+        "email": "dchitivaf@udistrital.edu.co"
+    },
+    {
+        "name": "CORREDOR BOHORQUEZ ANDRES AUGUSTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TALLER ELECTIVA FORMACION AUDITIVA",
+        "email": "acorredorb@udistrital.edu.co"
+    },
+    {
+        "name": "FORERO PULIDO DANIEL ANDRES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I",
+        "email": "dforerop@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN CALDERON HERNAN DARIO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA II, MUSICA DE CAMARA I, MUSICA DE CAMARA III, TALLER ELECTIVA FORMACION AUDITIVA",
+        "email": "hguzmanc@udistrital.edu.co"
+    },
+    {
+        "name": "GUZMAN MUÑOZ CARLOS GONZALO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA III, TALLER ELECTIVA ARMONIA",
+        "email": "cguzmanm@udistrital.edu.co"
+    },
+    {
+        "name": "LAMBULEY ALFEREZ EDGAR RICARDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICAS REGIONALES EN COLOMBIA I",
+        "email": "elambuleya@udistrital.edu.co"
+    },
+    {
+        "name": "LARA PAZ GUSTAVO ADOLFO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "INSTRUMENTACION I, INSTRUMENTACION II, INSTRUMENTACION III, INSTRUMENTACION IV",
+        "email": "glarap@udistrital.edu.co"
+    },
+    {
+        "name": "MENDEZ PINZON EDNA ROCIO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FORMACION AUDITIVA II, FORMACION AUDITIVA III",
+        "email": "emendezp@udistrital.edu.co"
+    },
+    {
+        "name": "NARANJO CETINA ANGELA TATIANA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA II",
+        "email": "anaranjoc@udistrital.edu.co"
+    },
+    {
+        "name": "NOGUERA RAMIREZ JULIO ALBERTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA I, MUSICA DE CAMARA II",
+        "email": "jnoguerar@udistrital.edu.co"
+    },
+    {
+        "name": "QUEVEDO CESAR AUGUSTO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "MUSICA DE CAMARA III",
+        "email": "cquevedo@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE ALBERTO GUZMAN ROMO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION V",
+        "email": "jaguzmanr@udistrital.edu.co"
+    },
+    {
+        "name": "BRIGITTE NATALIA ESCOBAR GUEVARA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION V, PERCUSION VI, PERCUSION VII",
+        "email": "bescobarg@udistrital.edu.co"
+    },
+    {
+        "name": "ELKIN DAVID ORTEGA ESTUPIÑAN",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION V, PERCUSION VI",
+        "email": "eortegae@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES FERNAN LINERO BRANLY",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO V",
+        "email": "alinero@udistrital.edu.co"
+    },
+    {
+        "name": "SANDRA BIBIANA CACERES RUEDA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO V, PIANO VII",
+        "email": "scaceresr@udistrital.edu.co"
+    },
+    {
+        "name": "ORLANDO PAEZ RODRIGUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO V",
+        "email": "opaezr@udistrital.edu.co"
+    },
+    {
+        "name": "ADALBER GAVIRIA RIVERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON V, SAXOFON VI",
+        "email": "agaviriar@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR AUGUSTO VILLAMIL MEDINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON V",
+        "email": "cvillamilm@udistrital.edu.co"
+    },
+    {
+        "name": "EDGAR FERNANDO RODRIGUEZ RUEDA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMPETA V, TROMPETA VI",
+        "email": "erodriguezr@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN JOSE PEREZ PEREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLA V, VIOLA VI",
+        "email": "jperezp@udistrital.edu.co"
+    },
+    {
+        "name": "JUANA PINILLA PAEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN V",
+        "email": "jpinillap@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS ALFONSO MORALES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN V",
+        "email": "lamorales@udistrital.edu.co"
+    },
+    {
+        "name": "JULIANA VELASCO GUERRERO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN V, VIOLIN VI",
+        "email": "jvelascog@udistrital.edu.co"
+    },
+    {
+        "name": "WILLIAM CASTRO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARPA LLANERA VI",
+        "email": "wcastro@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS ALFONSO GUEVARA JIMENEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BAJO ELECTRICO VI",
+        "email": "lguevaraj@udistrital.edu.co"
+    },
+    {
+        "name": "WILLIAM RICARDO BARRERA TACHA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BAJO ELECTRICO VI",
+        "email": "wbarrerat@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN MANUEL BERNAL JIMENEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO VI",
+        "email": "jbernalj@udistrital.edu.co"
+    },
+    {
+        "name": "RUBEN DARIIO PARDO HERRERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO VI, FLAUTA TRAVERSA VI",
+        "email": "rpardoh@udistrital.edu.co"
+    },
+    {
+        "name": "ANA MARIA ULLOA REYES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO VI",
+        "email": "aulloar@udistrital.edu.co"
+    },
+    {
+        "name": "MONICA ASTRID ROCHA CRUZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO VI",
+        "email": "mrochac@udistrital.edu.co"
+    },
+    {
+        "name": "CLAUDIA PATRICIA ESCOBAR MOLINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO VI",
+        "email": "cescobarm@udistrital.edu.co"
+    },
+    {
+        "name": "JULIO ALBERTO NOGUERA RAMIREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FLAUTA TRAVERSA VI, FLAUTA TRAVERSA VII",
+        "email": "jnoguerar@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA CRISTINA PARAMO RIVERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "EUFONIO VI",
+        "email": "lparamor@udistrital.edu.co"
+    },
+    {
+        "name": "LUCAS JOSE MANUEL FERNANDEZ CASTRO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "EUFONIO VI",
+        "email": "lfernandezc@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR AUGUSTO QUEVEDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA VI",
+        "email": "cquevedo@udistrital.edu.co"
+    },
+    {
+        "name": "SONIA VITTERI",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA VI",
+        "email": "svitteri@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS CASTILLO BARRIOS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA VI, GUITARRA ELECTRICA VII",
+        "email": "jcastillob@udistrital.edu.co"
+    },
+    {
+        "name": "NESTOR IGNACIO RIVERA ROJAS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO VI, PIANO VII",
+        "email": "nriverar@udistrital.edu.co"
+    },
+    {
+        "name": "MARCO VILLAREAL OTERO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TIPLE VI, TIPLE VII",
+        "email": "mvillarrealo@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL SALAZAR SERRANO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLONCHELO VI",
+        "email": "dsalazars@udistrital.edu.co"
+    },
+    {
+        "name": "VIVIANA ANDREA PINZON NIÑO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLONCHELO VI",
+        "email": "vpinzonn@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS ALBERTO RAMIREZ MONTAÑO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BAJO ELECTRICO VII",
+        "email": "lramirezm@udistrital.edu.co"
+    },
+    {
+        "name": "MANUEL BERNAL MARTINEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BANDOLA ANDINA VII",
+        "email": "mbernalm@udistrital.edu.co"
+    },
+    {
+        "name": "ANGELA TATIANA NARANJO CETINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CHARANGO VII",
+        "email": "anaranjoc@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE FERNANDO GOMEZ GARCIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETEVII",
+        "email": "jgomezg@udistrital.edu.co"
+    },
+    {
+        "name": "MAURICIO MURCIA BEDOYA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETEVII",
+        "email": "mmurciab@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL ANDRES FORERO PULIDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA VII",
+        "email": "dforerop@udistrital.edu.co"
+    },
+    {
+        "name": "MARIO JOSE RIVEROS TABARES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA VII",
+        "email": "mriverost@udistrital.edu.co"
+    },
+    {
+        "name": "DAVID ALEXANDER CASTELBLANCO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA VII",
+        "email": "dcastelblanc@udistrital.edu.co"
+    },
+    {
+        "name": "RAFAEL VALLEJO VELASQUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA VII",
+        "email": "rvallejov@udistrital.edu.co"
+    },
+    {
+        "name": "RONALD GONZALEZ PINZON",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA VII",
+        "email": "rgonzalezp@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CAMILO ANZOLA CARO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION VII",
+        "email": "janzolac@udistrital.edu.co"
+    },
+    {
+        "name": "WILLIAM GEOVANNI DURAN SUAREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION VII",
+        "email": "wdurans@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS ANDRES CORTES MARTINEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION VII",
+        "email": "ccortesm@udistrital.edu.co"
+    },
+    {
+        "name": "AURELIO CARO GOMEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO VII",
+        "email": "acarog@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR DANIEL CAICEDO MELO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON VII",
+        "email": "ccaicedom@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN ERNEY SEPULVEDA ORNEGO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TUBA VII",
+        "email": "jsepulvedao@udistrital.edu.co"
+    },
+    {
+        "name": "JUANA PINILLA PAEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN VII",
+        "email": "jpinillap@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS ALFONSO MORALES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN VII",
+        "email": "lamorales@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL SALAZAR SERRANO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLONCHELO VII",
+        "email": "dsalazars@udistrital.edu.co"
+    },
+    {
+        "name": "WILLIAM CASTRO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "ARPA LLANERA VIII",
+        "email": "wcastro@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS ALBERTO RAMIREZ MONTAÑO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BAJO ELÉCTRICO VIII",
+        "email": "lramirezm@udistrital.edu.co"
+    },
+    {
+        "name": "WILLIAM RICARDO BARRERA TACHA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BAJO ELÉCTRICO VIII",
+        "email": "wbarrerat@udistrital.edu.co"
+    },
+    {
+        "name": "RUBEN DARIIO PARDO HERRERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO VIII",
+        "email": "rpardoh@udistrital.edu.co"
+    },
+    {
+        "name": "CLAUDIA PATRICIA ESCOBAR MOLINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO VIII",
+        "email": "cescobarm@udistrital.edu.co"
+    },
+    {
+        "name": "ANA MARIA ULLOA REYES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO VIII",
+        "email": "aulloar@udistrital.edu.co"
+    },
+    {
+        "name": "MONICA ASTRID ROCHA CRUZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO VIII",
+        "email": "mrochac@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN MANUEL BERNAL JIMENEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO VIII",
+        "email": "jbernalj@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE ANDRES VELEZ OSPINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE VIII",
+        "email": "jvelezo@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE FERNANDO GOMEZ GARCIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE VIII",
+        "email": "jfgomezg@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES ALBERTO ALMANZA RAMIREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CONTRABAJO VIII",
+        "email": "aalmanzar@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS CONTRERAS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CUATRO VIII",
+        "email": "jcontreras@udistrital.edu.co"
+    },
+    {
+        "name": "JULIO ALBERTO NOGUERA RAMIREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FLAUTA TRAVERSA VIII",
+        "email": "jnoguerar@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL ANDRES FORERO PULIDO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACÚSTICA VIII",
+        "email": "dforerop@udistrital.edu.co"
+    },
+    {
+        "name": "MARIO JOSE RIVEROS TABARES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACÚSTICA VIII",
+        "email": "mriverost@udistrital.edu.co"
+    },
+    {
+        "name": "SONIA VITTERI",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACÚSTICA VIII",
+        "email": "svitteri@udistrital.edu.co"
+    },
+    {
+        "name": "PEDRO AUGUSTO ANGEL ORTEGA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACÚSTICA VIII",
+        "email": "pangelo@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN ANDRES CORTES LADINO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELÉCTRICA VIII",
+        "email": "jcortesl@udistrital.edu.co"
+    },
+    {
+        "name": "RAFAEL VALLEJO VELASQUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELÉCTRICA VIII",
+        "email": "rvallejov@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS CASTILLO BARRIOS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELÉCTRICA VIII",
+        "email": "jcastillob@udistrital.edu.co"
+    },
+    {
+        "name": "YUDY ROCIO BONILLA PATARROYO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "OBOE VIII",
+        "email": "ybonillap@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CAMILO ANZOLA CARO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSIÓN VIII",
+        "email": "janzolac@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS ANDRES CORTES MARTINEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSIÓN VIII",
+        "email": "ccortesm@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES FERNAN LINERO BRANLY",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO VIII",
+        "email": "alinero@udistrital.edu.co"
+    },
+    {
+        "name": "ORLANDO PAEZ RODRIGUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO VIII",
+        "email": "opaezr@udistrital.edu.co"
+    },
+    {
+        "name": "ADALBER GAVIRIA RIVERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFÓN VIII",
+        "email": "agaviriar@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN FELIPE TARTABULL AGRAMONTE",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFÓN VIII",
+        "email": "jtartabulla@udistrital.edu.co"
+    },
+    {
+        "name": "BRIGITTE NATALIA ESCOBAR GUEVARA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION IX",
+        "email": "bnescobarg@udistrital.edu.co"
+    },
+    {
+        "name": "NESTOR IGNACIO RIVERA ROJAS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO IX",
+        "email": "niriverar@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR AUGUSTO VILLAMIL MEDINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON IX",
+        "email": "cavillamilm@udistrital.edu.co"
+    },
+    {
+        "name": "RUBEN DARIIO PARDO HERRERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON IX",
+        "email": "rdpardoh@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN FELIPE TARTABULL AGRAMONTE",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON IX",
+        "email": "jftartabulla@udistrital.edu.co"
+    },
+    {
+        "name": "DIEGO ARMANDO BAHAMON SERRATO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TIPLE IX",
+        "email": "dabahamons@udistrital.edu.co"
+    },
+    {
+        "name": "MARCO VILLAREAL OTERO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TIPLE IX",
+        "email": "mvillarrealo@udistrital.edu.co"
+    },
+    {
+        "name": "FRANCISCO JAVIER CORDOBA YELA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMBON IX, TROMBON X",
+        "email": "fjcordobay@udistrital.edu.co"
+    },
+    {
+        "name": "FREDDY ALEXANDER TIQUE RICO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMPETA IX",
+        "email": "fatiquer@udistrital.edu.co"
+    },
+    {
+        "name": "FRANCIS DIAZ GARCIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMPETA IX",
+        "email": "fdiazg@udistrital.edu.co"
+    },
+    {
+        "name": "EDGAR FERNANDO RODRIGUEZ RUEDA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TROMPETA IX",
+        "email": "efrodriguezr@udistrital.edu.co"
+    },
+    {
+        "name": "JUANA PINILLA PAEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN IX",
+        "email": "jpinillap@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES ALBERTO RODRI COTTIER ARCE",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLIN IX",
+        "email": "aacottiera@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL SALAZAR SERRANO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "VIOLONCHELO IX",
+        "email": "dsalazars@udistrital.edu.co"
+    },
+    {
+        "name": "WILLIAM RICARDO BARRERA TACHA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "BAJO ELECTRICO X",
+        "email": "wbarrerat@udistrital.edu.co"
+    },
+    {
+        "name": "ANA MARIA ULLOA REYES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO X",
+        "email": "aulloar@udistrital.edu.co"
+    },
+    {
+        "name": "ALEXANDRA ALVAREZ YEPES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO X",
+        "email": "aalvarezy@udistrital.edu.co"
+    },
+    {
+        "name": "MONICA ASTRID ROCHA CRUZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO X",
+        "email": "marochac@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN MANUEL BERNAL JIMENEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CANTO X",
+        "email": "jmbernalj@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE ANDRES VELEZ OSPINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE X",
+        "email": "javelezo@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE FERNANDO GOMEZ GARCIA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CLARINETE X",
+        "email": "jfgomezg@udistrital.edu.co"
+    },
+    {
+        "name": "ANDRES ALBERTO ALMANZA RAMIREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CONTRABAJO X",
+        "email": "aaalmanzar@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS TEJADA JIMENEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "CORNO FRANCES X",
+        "email": "jctejadaj@udistrital.edu.co"
+    },
+    {
+        "name": "JESUS AUGUSTO CASTRO TURRIAGO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FLAUTA TRAVERSA X",
+        "email": "jacastrot@udistrital.edu.co"
+    },
+    {
+        "name": "JULIO ALBERTO NOGUERA RAMIREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "FLAUTA TRAVERSA X",
+        "email": "janoguerar@udistrital.edu.co"
+    },
+    {
+        "name": "MARIO JOSE RIVEROS TABARES",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ACUSTICA X, I. P. GUITARRA VIII",
+        "email": "mjriverost@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CARLOS CASTILLO BARRIOS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA X",
+        "email": "jccastillob@udistrital.edu.co"
+    },
+    {
+        "name": "RAFAEL VALLEJO VELASQUEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA X",
+        "email": "rvallejov@udistrital.edu.co"
+    },
+    {
+        "name": "RONALD GONZALEZ PINZON",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA X",
+        "email": "rgonzalezp@udistrital.edu.co"
+    },
+    {
+        "name": "DAVID ALEXANDER CASTELBLANCO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "GUITARRA ELECTRICA X",
+        "email": "dacastelblanc@udistrital.edu.co"
+    },
+    {
+        "name": "ARMINDA GISELA MARCIAL DE CARO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "OBOE X",
+        "email": "agmarciald@udistrital.edu.co"
+    },
+    {
+        "name": "YUDY ROCIO BONILLA PATARROYO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "OBOE X",
+        "email": "yrbonillap@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS ANDRES CORTES MARTINEZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION X",
+        "email": "cacortesm@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN CAMILO ANZOLA CARO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION X",
+        "email": "jcanzolac@udistrital.edu.co"
+    },
+    {
+        "name": "WILLIAM GEOVANNI DURAN SUAREZ",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION X",
+        "email": "wgduras@udistrital.edu.co"
+    },
+    {
+        "name": "BRIGITTE NATALIA ESCOBAR GUEVARA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PERCUSION X",
+        "email": "bnescobarg@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA CRISTINA PARAMO RIVERA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO X",
+        "email": "lcparamor@udistrital.edu.co"
+    },
+    {
+        "name": "NESTOR IGNACIO RIVERA ROJAS",
+        "faculty": "ARTES MUSICALES",
+        "subject": "PIANO X",
+        "email": "niriverar@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR AUGUSTO VILLAMIL MEDINA",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON X",
+        "email": "cavillamilm@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR DANIEL CAICEDO MELO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "SAXOFON X",
+        "email": "cdcaicedom@udistrital.edu.co"
+    },
+    {
+        "name": "DIEGO ARMANDO BAHAMON SERRATO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TIPLE X",
+        "email": "dabahamons@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN ERNEY SEPULVEDA ORNEGO",
+        "faculty": "ARTES MUSICALES",
+        "subject": "TUBA X",
+        "email": "jesepulvedao@udistrital.edu.co"
+    },
+    {
+        "name": "FREDY ALEXANDER AYALA HERRERA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "PRODUCCION Y COMPRENSION DE TEXTOS",
+        "email": "faayalah@udistrital.edu.co"
+    },
+    {
+        "name": "CAMILO ANDRES ORDOÑEZ ROBAYO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "GESTION Y PRODUCCION ARTISTICA Y CULTURAL",
+        "email": "caordoezr@udistrital.edu.co"
+    },
+    {
+        "name": "GUILLERMO ALEXANDER VANEGAS FLOREZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "GESTION Y PRODUCCION ARTISTICA Y CULTURAL",
+        "email": "gavf@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA ALEJANDRA RUBIO LEON",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "GESTION Y PRODUCCION ARTISTICA Y CULTURAL",
+        "email": "larubiol@udistrital.edu.co"
+    },
+    {
+        "name": "RICARDO LEON RODRIGUEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "GESTION Y PRODUCCION ARTISTICA Y CULTURAL",
+        "email": "rleonr@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE EDUARDO ACUÑA VASQUEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "jeacuv@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA CAROLINA WIESNER CORREA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "lcwiesnerc@udistrital.edu.co"
+    },
+    {
+        "name": "SONIA VITTERI",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "svitteri@udistrital.edu.co"
+    },
+    {
+        "name": "FERNANDO INFANTE ARIAS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "finfantea@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA CAROLINA WIESNER CORREA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "lcwiesnerc@udistrital.edu.co"
+    },
+    {
+        "name": "FERNANDO INFANTE ARIAS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "finfantea@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE EDUARDO ACUÑA VASQUEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "jeacuv@udistrital.edu.co"
+    },
+    {
+        "name": "SONIA VITTERI",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "svitteri@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR LUIS MORALES FIGUEROA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "clmoralesf@udistrital.edu.co"
+    },
+    {
+        "name": "ADRIANA ECHAVARRIA QUIROS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "aechavarriaq@udistrital.edu.co"
+    },
+    {
+        "name": "ADRIAN EDGARDO GOMEZ GONZALEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "aegomezg@udistrital.edu.co"
+    },
+    {
+        "name": "DANIEL FELIPE LEGUIZAMON ZAPATA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "dfleguizamonz@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE LEONARDO RODRIGUEZ SUAREZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "jlrodriguezs@udistrital.edu.co"
+    },
+    {
+        "name": "GUSTAVO LARA RODRIGUEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "glarar@udistrital.edu.co"
+    },
+    {
+        "name": "RICARDO HERNANDEZ FORERO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ENSAMBLE DE FACULTAD",
+        "email": "rhernandezf@udistrital.edu.co"
+    },
+    {
+        "name": "FERNANDO GUEVARA PARDO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "PINTURA Y COLOR ( INTRODUCCION A LOS CONCEPTOS BIDIMENSIONALES)",
+        "email": "fguevarap@udistrital.edu.co"
+    },
+    {
+        "name": "FERNEY SHAMBO GONZALEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTEGRAL II, HIBRIDACION ENTRE FOTOGRAFIA Y GRABADO",
+        "email": "fshambog@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS JAVIER BARBOSA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTEGRAL II, GRAMATICAS PLASTICAS Y VISUALES 1",
+        "email": "ljbarbosa@udistrital.edu.co"
+    },
+    {
+        "name": "GUILLERMO ALEXANDER VANEGAS FLOREZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTEGRAL II, CURADURIA",
+        "email": "gavf@udistrital.edu.co"
+    },
+    {
+        "name": "VICENTA VICTORIA GOMEZ VICENTA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTEGRAL II",
+        "email": "vvgomezv@udistrital.edu.co"
+    },
+    {
+        "name": "SARA GABRIELA PINILLA ZULETA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TEORIA E HISTORIA DEL ARTE VIII, ARTE Y REVOLUCION",
+        "email": "sgpinillaz@udistrital.edu.co"
+    },
+    {
+        "name": "UMBERTO GIANGRANDI",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "FOTOGRABADO, ELECTIVA DE COMPLEMENTACION PROFESIONAL III",
+        "email": "ugian@udistrital.edu.co"
+    },
+    {
+        "name": "RICARDO ALFONSO FORERO CARDENAS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "APOYOS DIGITALES",
+        "email": "raforeroc@udistrital.edu.co"
+    },
+    {
+        "name": "ANGEL BASILIO ALFARO ECHEVARRIA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "COLOGRAFIA",
+        "email": "abalfaroe@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE SEBASTIAN SANDOVAL QUIMBAYO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "PLASTICA SONORA, GRAMATICAS DEL DIBUJO 1",
+        "email": "jssandovalq@udistrital.edu.co"
+    },
+    {
+        "name": "ARMANDO CHICANGANA LOPEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER DE PAPEL",
+        "email": "achicanganal@udistrital.edu.co"
+    },
+    {
+        "name": "JAINER LEON BUITRAGO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER DE VIDRIO, CONFIGURACION ESPACIAL 1: CUERPO, ESPACIO Y ACCION",
+        "email": "jleonb@udistrital.edu.co"
+    },
+    {
+        "name": "RICARDO LEON RODRIGUEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "PRACTICAS INSTALATIVAS",
+        "email": "rleonr@udistrital.edu.co"
+    },
+    {
+        "name": "OSCAR GIOVANNI MONROY PIEDRA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "INICIATIVAS EXPERIMENTALES EN LA CIUDAD, LA IMAGEN SUCESO SOCIAL",
+        "email": "ogmonroyp@udistrital.edu.co"
+    },
+    {
+        "name": "MARIA JOSE ARBELAEZ GRUNNDMAN",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "CIRCULO DE MUJERES",
+        "email": "mjarbelaezg@udistrital.edu.co"
+    },
+    {
+        "name": "GERMAN ALFONSO PEREZ RINCON",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "LECTURA",
+        "email": "gaperezr@udistrital.edu.co"
+    },
+    {
+        "name": "CARMEN CECILIA RODRIGUEZ ROJAS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER DE GRAFICA EXPERIMENTAL, GRAMATICAS PLASTICAS Y VISUALES 2",
+        "email": "ccrodriguezr@udistrital.edu.co"
+    },
+    {
+        "name": "LUCIANO ANIBAL LOPEZ TORRES",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ILUSTRACION DIGITAL",
+        "email": "lalopezt@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS FERNANDO RIVAS NIÑO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ELECTIVA DE COMPLEMENTACION PROFESIONAL I, GRAMATICAS DEL DIBUJO 1",
+        "email": "cfrn@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE OMAR VALBUENA RIVEROS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ELECTIVA DE COMPLEMENTACION PROFESIONAL I, CONFIGURACION ESPACIAL 2: ESPACIO, TERRITORIO E INTERVENCION",
+        "email": "jovalbuenar@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR OCAMPO VILLAMIZAR",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ELECTIVA DE COMPLEMENTACION PROFESIONAL II, GRAMATICAS PLASTICAS Y VISUALES 1",
+        "email": "cocampov@udistrital.edu.co"
+    },
+    {
+        "name": "JORGE EDILBERTO PEÑUELA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ESTETICAS DRAG, TRANS Y QUEER PARA UNA SOCIEDAD IGUALITARIA",
+        "email": "jep@udistrital.edu.co"
+    },
+    {
+        "name": "SANTIAGO RUEDA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "INTRODUCCION A LA HISTORIA DEL ARTE",
+        "email": "srueda@udistrital.edu.co"
+    },
+    {
+        "name": "HUMBERTO ROJAS CASAS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "GRAMATICAS PLASTICAS Y VISUALES 2",
+        "email": "hrojasc@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE OMAR VALBUENA RIVEROS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "CONFIGURACION ESPACIAL 2: ESPACIO, TERRITORIO E INTERVENCION",
+        "email": "jovalbuenar@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE SEBASTIAN SANDOVAL QUIMBAYO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "CONFIGURACION ESPACIAL 2: ESPACIO, TERRITORIO E INTERVENCION, TALLER INTRODUCTORIO DE EXPLORACION TECNICA TRIDIMENSIONAL",
+        "email": "jssandovalq@udistrital.edu.co"
+    },
+    {
+        "name": "RICARDO LEON RODRIGUEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "GRAMATICAS DEL DIBUJO 2, TALLER INTRODUCTORIO DE EXPLORACION TECNICA BIDIMENSIONAL, TALLER INVESTIGACION-CREACION EN LA EXPERIENCIA EXISTENCIAL CIUDADANA",
+        "email": "rleonr@udistrital.edu.co"
+    },
+    {
+        "name": "VICENTA VICTORIA GOMEZ VICENTA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "GRAMATICAS DEL DIBUJO 2",
+        "email": "vvgomezv@udistrital.edu.co"
+    },
+    {
+        "name": "GUILLERMO ALEXANDER VANEGAS FLOREZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "HISTORIA DEL ARTE DE COLOMBIA: LOCALISMOS Y CONTEXTOS, HISTORIA DEL ARTE Y REVOLUCIONES",
+        "email": "gavf@udistrital.edu.co"
+    },
+    {
+        "name": "FREDY ALEXANDER AYALA HERRERA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ARTE, TECNOLOGIAS Y MEDIOS, ARTE, CONSUMO Y SOSTENIBILIDAD",
+        "email": "faayalah@udistrital.edu.co"
+    },
+    {
+        "name": "ARMANDO CHICANGANA LOPEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTRODUCTORIO DE EXPLORACION TECNICA BIDIMENSIONAL",
+        "email": "achicanganal@udistrital.edu.co"
+    },
+    {
+        "name": "ANGEL BASILIO ALFARO ECHEVARRIA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTRODUCTORIO DE EXPLORACION TECNICA BIDIMENSIONAL",
+        "email": "abalfaroe@udistrital.edu.co"
+    },
+    {
+        "name": "DILMA JULIA VALDERRAMA GIL",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTRODUCTORIO DE EXPLORACION TECNICA TRIDIMENSIONAL",
+        "email": "djvalderramag@udistrital.edu.co"
+    },
+    {
+        "name": "DEISY JOHANA HERNANDEZ CASTAÑO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTRODUCTORIO DE EXPLORACION TECNICA TRIDIMENSIONAL",
+        "email": "djhernandezc@udistrital.edu.co"
+    },
+    {
+        "name": "FABIAN CANO BARRAGAN",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTRODUCTORIO DE EXPLORACION TECNICA MEDIACIONES",
+        "email": "fcanob@udistrital.edu.co"
+    },
+    {
+        "name": "JOYCE RIVAS MEDINA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTRODUCTORIO DE EXPLORACION TECNICA MEDIACIONES, TALLER DE INVESTIGACION-CREACION EN LA EXPERIENCIA EXISTENCIAL INTIMA",
+        "email": "jrivasm@udistrital.edu.co"
+    },
+    {
+        "name": "RICARDO HERNANDEZ FORERO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INTRODUCTORIO DE EXPLORACION TECNICA MEDIACIONES",
+        "email": "rhernandezf@udistrital.edu.co"
+    },
+    {
+        "name": "CAMILO ANDRES ORDOÑEZ ROBAYO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "HISTORIA DEL ARTE EN AMERICA LATINA Y MIRADAS DECOLONIALES",
+        "email": "caordoezr@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA ALEJANDRA RUBIO LEON",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "IMPUGNACIONES: POST-COLONIALIDAD Y DE-COLONIALIDAD, HISTORIA DEL ARTE, NACION Y ESTADO",
+        "email": "larubiol@udistrital.edu.co"
+    },
+    {
+        "name": "ADRIAN EDGARDO GOMEZ GONZALEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "PROPEDEUTICA DE LA INVESTIGACION-CREACION, TALLER DE INVESTIGACION-CREACION EN LA EXPERIENCIA EXISTENCIAL INTIMA",
+        "email": "aegomezg@udistrital.edu.co"
+    },
+    {
+        "name": "FAVIO HUMBERTO RINCON PACHON",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "PROPEDEUTICA DE LA INVESTIGACION-CREACION, TALLER INVESTIGACION-CREACION EN LA EXISTENCIALIDAD Y GLOBALIZACION",
+        "email": "fhrinconp@udistrital.edu.co"
+    },
+    {
+        "name": "SANTIAGO RUEDA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "HISTORIA DEL ARTE Y MANIFESTACIONES DE LO SAGRADO, PODER Y HEGEMONIAS CULTURALES, HISTORIA DEL ARTE Y GLOBALIZACION",
+        "email": "srueda@udistrital.edu.co"
+    },
+    {
+        "name": "GERMAN ALFONSO PEREZ RINCON",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "CORPOREIDADES Y ADMINISTRACION DE LA MIRADA",
+        "email": "gaperezr@udistrital.edu.co"
+    },
+    {
+        "name": "HUMBERTO ROJAS CASAS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INVESTIGACION-CREACION EN LA EXPERIENCIA EXISTENCIAL DE LA PROXIMIDAD SOCIAL, TALLER INVESTIGACION-CREACION EN LA EXISTENCIALIDAD Y GLOBALIZACION",
+        "email": "hrojasc@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA CAROLINA WIESNER CORREA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INVESTIGACION-CREACION EN LA EXPERIENCIA EXISTENCIAL DE LA PROXIMIDAD SOCIAL, IMAGEN, COMUNICACION Y SOCIEDAD",
+        "email": "lcwiesnerc@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS JAVIER BARBOSA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INVESTIGACION-CREACION EN LA EXPERIENCIA EXISTENCIAL CIUDADANA",
+        "email": "ljbarbosa@udistrital.edu.co"
+    },
+    {
+        "name": "MARIA JOSE ARBELAEZ GRUNNDMAN",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INVESTIGACION-CREACION EN LA EXISTENCIALIDAD Y GLOBALIZACION",
+        "email": "mjarbelaezg@udistrital.edu.co"
+    },
+    {
+        "name": "MARIA JOSE ARBELAEZ GRUNNDMAN",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INVESTIGACION-CREACION EN LA EXISTENCIALIDAD Y GLOBALIZACION, HECHO CINEMATOGRAFICO / AUDIOVISUAL",
+        "email": "mjarbelaezg@udistrital.edu.co"
+    },
+    {
+        "name": "JUAN FERNANDO CACERES JARAMILLO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TALLER INVESTIGACION-CREACION EN LA EXISTENCIALIDAD Y GLOBALIZACION",
+        "email": "jfcaceresj@udistrital.edu.co"
+    },
+    {
+        "name": "VICENTA VICTORIA GOMEZ VICENTA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "LIBRO Y ARTE",
+        "email": "vvgomezv@udistrital.edu.co"
+    },
+    {
+        "name": "LUIS JAVIER BARBOSA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "DIBUJO Y MIMESIS",
+        "email": "ljbarbosa@udistrital.edu.co"
+    },
+    {
+        "name": "FAVIO HUMBERTO RINCON PACHON",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "REPRESENTACIONES PICTORICAS DE LO SAGRADO, SERIGRAFIA",
+        "email": "fhrinconp@udistrital.edu.co"
+    },
+    {
+        "name": "FERNEY SHAMBO GONZALEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "GRABADO EN RELIEVE",
+        "email": "fshambog@udistrital.edu.co"
+    },
+    {
+        "name": "JOSE SEBASTIAN SANDOVAL QUIMBAYO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "CONTENIDOS Y PROCESOS ESCULTORICOS",
+        "email": "jssandovalq@udistrital.edu.co"
+    },
+    {
+        "name": "FERNANDO GUEVARA PARDO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "DIBUJO Y PENSAMIENTO",
+        "email": "fguevarap@udistrital.edu.co"
+    },
+    {
+        "name": "SARA GABRIELA PINILLA ZULETA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "REPRESENTACIONES DE LAS SUBJETIVIDADES",
+        "email": "sgpinillaz@udistrital.edu.co"
+    },
+    {
+        "name": "ANGEL BASILIO ALFARO ECHEVARRIA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "GRABADO CALCOGRAFICO",
+        "email": "abalfaroe@udistrital.edu.co"
+    },
+    {
+        "name": "HUMBERTO ROJAS CASAS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "EL OBJETO Y SUS ESTETICAS",
+        "email": "hrojasc@udistrital.edu.co"
+    },
+    {
+        "name": "DEISY JOHANA HERNANDEZ CASTAÑO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ACABADOS CERAMICOS, TORNO",
+        "email": "djhernandezc@udistrital.edu.co"
+    },
+    {
+        "name": "LAURA CAROLINA WIESNER CORREA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ESPACIOS SONOROS",
+        "email": "lcwiesnerc@udistrital.edu.co"
+    },
+    {
+        "name": "RICARDO HERNANDEZ FORERO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "MANIPULACION DE LA IMAGEN",
+        "email": "rhernandezf@udistrital.edu.co"
+    },
+    {
+        "name": "PAUL SEBASTIAN MESA VACCA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "NARRACIONES AUDIOVISUALES, EL USO DE LA FOTOGRAFIA EN PRACTICAS ARTISTICAS CONTEMPORANEAS",
+        "email": "psm@udistrital.edu.co"
+    },
+    {
+        "name": "DILMA JULIA VALDERRAMA GIL",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "CERAMICA ESCULTORICA, REPRODUCCION DE PIEZAS CERAMICAS",
+        "email": "djvalderramag@udistrital.edu.co"
+    },
+    {
+        "name": "FERNANDO ENRIQUE FRANCO LIZARAZO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "MATERIAL SONORO, ESPACIOS ARTISTICOS PARA VER Y OIR",
+        "email": "fefrancol@udistrital.edu.co"
+    },
+    {
+        "name": "LUCIANO ANIBAL LOPEZ TORRES",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "EXPERIMENTACION FOTOGRAFICA, IMAGEN DINAMICA",
+        "email": "lalopezt@udistrital.edu.co"
+    },
+    {
+        "name": "OSCAR GIOVANNI MONROY PIEDRA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "DIBUJO Y SOCIALIDADES, ESPACIOS COMUNES",
+        "email": "ogmonroyp@udistrital.edu.co"
+    },
+    {
+        "name": "CARLOS FERNANDO RIVAS NIÑO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "REPRESENTACIONES DE LA NATURALEZA",
+        "email": "cfrn@udistrital.edu.co"
+    },
+    {
+        "name": "CARMEN CECILIA RODRIGUEZ ROJAS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "LITOGRAFIA",
+        "email": "ccrodriguezr@udistrital.edu.co"
+    },
+    {
+        "name": "JOYCE RIVAS MEDINA",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "EL RETRATO, IMAGENES DE LOS OTROS, ARTE EN EL UMBRAL",
+        "email": "jrivasm@udistrital.edu.co"
+    },
+    {
+        "name": "ARMANDO CHICANGANA LOPEZ",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "DIBUJO E INTERMEDIALIDADES",
+        "email": "achicanganal@udistrital.edu.co"
+    },
+    {
+        "name": "CESAR OCAMPO VILLAMIZAR",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "ALTERNATIVAS NO REPRESENTATIVAS",
+        "email": "cocampov@udistrital.edu.co"
+    },
+    {
+        "name": "JAINER LEON BUITRAGO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "CORRELACION ENTRE EL SER HUMANO Y EL MEDIO AMBIENTE",
+        "email": "jleonb@udistrital.edu.co"
+    },
+    {
+        "name": "CAMILO ANDRES ORDOÑEZ ROBAYO",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "LA CURADURIA COMO ARTE",
+        "email": "caordoezr@udistrital.edu.co"
+    },
+    {
+        "name": "FABIAN CANO BARRAGAN",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "TECNOLOGIAS DEL SONIDO, MEDIA LAB",
+        "email": "fcanob@udistrital.edu.co"
+    },
+    {
+        "name": "RICARDO ALFONSO FORERO CARDENAS",
+        "faculty": "ARTES PLASTICAS Y VISUALES",
+        "subject": "PROCESOS REACTIVOS",
+        "email": "raforeroc@udistrital.edu.co"
+    }
+]
