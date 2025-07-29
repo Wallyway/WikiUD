@@ -11,6 +11,7 @@ import { AuroraText } from "@/components/magicui/aurora-text";
 import { ChevronUp } from "lucide-react";
 import { TeacherCardSkeleton } from "@/components/ui/teacher-card-skeleton";
 import { AnimatePresence, motion } from "framer-motion";
+import FeedbackBubble from "@/components/ui/feedback-bubble";
 
 interface Teacher {
   _id: string;
@@ -299,6 +300,7 @@ function DashboardPage() {
       >
         <ChevronUp className="h-6 w-6" />
       </button>
+      <FeedbackBubble />
     </div>
   );
 }
